@@ -1,0 +1,1193 @@
+{
+  "generated_at": "2026-06-24",
+  "conflicts": [
+    {
+      "visible_bridge_no": "B548",
+      "visible_name": "Rwizi Bridge",
+      "visible_link": "A002_Link08",
+      "visible_km": 264,
+      "same_number_historical_name": "Kabobo - MPCs",
+      "same_number_historical_link": "C419_Link01",
+      "same_number_historical_km": 0.001,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B005",
+      "resolved_bridge_name": "Rwizi Bridge",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B132",
+      "visible_name": "Kajjansi Interchange Kee B11",
+      "visible_link": "M3_Link01",
+      "visible_km": 0,
+      "same_number_historical_name": "Amua",
+      "same_number_historical_link": "B250_Link01",
+      "same_number_historical_km": 14.317,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B133",
+      "visible_name": "Nambigirwa Bridge 1",
+      "visible_link": "M3_Link01",
+      "visible_km": 0,
+      "same_number_historical_name": "Ebikwa Bridge",
+      "same_number_historical_link": "B250_Link01",
+      "same_number_historical_km": 22.922001,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B721",
+      "visible_name": "Kajjansi Overbridge 2 Kee B12",
+      "visible_link": "M3_Link01",
+      "visible_km": 13.025,
+      "same_number_historical_name": "Nakironget Irish Crossing",
+      "same_number_historical_link": "C960_Link01",
+      "same_number_historical_km": 2.095,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B722",
+      "visible_name": "Mpalla 1",
+      "visible_link": "C677_Link02",
+      "visible_km": 45.533,
+      "same_number_historical_name": "Lolachat Irish Crossing/Splash",
+      "same_number_historical_link": "C960_Link01",
+      "same_number_historical_km": 10.196,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B723",
+      "visible_name": "Kajjansi Overbridge 3 Kee 13",
+      "visible_link": "M3_Link01",
+      "visible_km": 13.934,
+      "same_number_historical_name": "Nabilatuk Irish Crossing",
+      "same_number_historical_link": "C960_Link01",
+      "same_number_historical_km": 25.989,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B017",
+      "visible_name": "Mpalla 2",
+      "visible_link": "C963_Link02",
+      "visible_km": 46.1,
+      "same_number_historical_name": "Nsonja",
+      "same_number_historical_link": "C547_Link01",
+      "same_number_historical_km": 46.439999,
+      "same_number_score": 26,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.340"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B767",
+      "visible_name": "Mubuku Bridge",
+      "visible_link": "A005_Link13",
+      "visible_km": 346.19,
+      "same_number_historical_name": "Manafwa",
+      "same_number_historical_link": "A007_Link02",
+      "same_number_historical_km": 9.191,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B018",
+      "resolved_bridge_name": "Mubuku Bridge",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B768",
+      "visible_name": "Mpalla 3",
+      "visible_link": "M3Int4_S1",
+      "visible_km": 47.849,
+      "same_number_historical_name": "Bunamubi Bridge",
+      "same_number_historical_link": "C86801",
+      "same_number_historical_km": 0.396,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B019",
+      "visible_name": "Lopei Irish Crossing",
+      "visible_link": "B301_Link01",
+      "visible_km": 28.51,
+      "same_number_historical_name": "MUBUKU",
+      "same_number_historical_link": "A005_Link13",
+      "same_number_historical_km": 347.778015,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B724",
+      "resolved_bridge_name": "Lopei Irish Crossing",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B544",
+      "visible_name": "Nyamwamba Bridge",
+      "visible_link": "A005_Link13",
+      "visible_km": 354.33,
+      "same_number_historical_name": "Kitekena",
+      "same_number_historical_link": "C510_Link01",
+      "same_number_historical_km": 7.422,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B020",
+      "resolved_bridge_name": "NYAMWAMBA BRIDGE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B020",
+      "visible_name": "Lopei Irish Crossing",
+      "visible_link": "B301_Link01",
+      "visible_km": 27.344,
+      "same_number_historical_name": "NYAMWAMBA BRIDGE",
+      "same_number_historical_link": "A005_Link13",
+      "same_number_historical_km": 354.328003,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B725",
+      "resolved_bridge_name": "Lopei Irish Crossing",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B387",
+      "visible_name": "Old Railway Bridge",
+      "visible_link": "C023_Link01",
+      "visible_km": 101.552,
+      "same_number_historical_name": "KIIRA",
+      "same_number_historical_link": "A001_Link04",
+      "same_number_historical_km": 0.898,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B021",
+      "visible_name": "Iriri Mpcs",
+      "visible_link": "B303_Link03",
+      "visible_km": 92.893,
+      "same_number_historical_name": "Kaseiga",
+      "same_number_historical_link": "A005_Link13",
+      "same_number_historical_km": 357.627991,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B726",
+      "resolved_bridge_name": "Iriri MPCs",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B388",
+      "visible_name": "Bunamubi Bridge",
+      "visible_link": "C867_Link02",
+      "visible_km": 43.266,
+      "same_number_historical_name": "Sezibwa Bridge",
+      "same_number_historical_link": "B101_Link02",
+      "same_number_historical_km": 43.265999,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B389",
+      "visible_name": "Nalubaale Dam / Owen Falls",
+      "visible_link": "C023_Link01",
+      "visible_km": 0.338,
+      "same_number_historical_name": "NALUBAALE",
+      "same_number_historical_link": "A001_Link04",
+      "same_number_historical_km": 0.338,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B557",
+      "visible_name": "Kitekena",
+      "visible_link": "C510_Link01",
+      "visible_km": 10.125,
+      "same_number_historical_name": "Nyabisheke - MPCS",
+      "same_number_historical_link": "C357_Link01",
+      "same_number_historical_km": 20.584999,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B544",
+      "resolved_bridge_name": "Kitekena",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B875",
+      "visible_name": "Kabobo - Mpcs",
+      "visible_link": "C419_Link01",
+      "visible_km": 18.218,
+      "same_number_historical_name": "NANGIPA",
+      "same_number_historical_link": "C837_Link02",
+      "same_number_historical_km": 18.218,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolved_bridge_no": "B548",
+      "resolved_bridge_name": "Kabobo - MPCs",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B879",
+      "visible_name": "Nyabisheke - Mpcs",
+      "visible_link": "C357_Link01",
+      "visible_km": 48,
+      "same_number_historical_name": "LONENE",
+      "same_number_historical_link": "C968_Link01",
+      "same_number_historical_km": 29.827,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B557",
+      "resolved_bridge_name": "Nyabisheke - MPCS",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B399",
+      "visible_name": "Ekyambu - Mpcc",
+      "visible_link": "C356_Link01",
+      "visible_km": 13.4,
+      "same_number_historical_name": "Bwaise flyover",
+      "same_number_historical_link": "M20",
+      "same_number_historical_km": 13.4,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolved_bridge_no": "B558",
+      "resolved_bridge_name": "Ekyambu - MPCC",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B401",
+      "visible_name": "Nakironget Irish Crossing",
+      "visible_link": "C960_Link01",
+      "visible_km": 13.4,
+      "same_number_historical_name": "Bwaise flyover",
+      "same_number_historical_link": "M20",
+      "same_number_historical_km": 13.4,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolved_bridge_no": "B721",
+      "resolved_bridge_name": "Nakironget Irish Crossing",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B402",
+      "visible_name": "Lolachat Irish Crossing/Splash",
+      "visible_link": "C960_Link01",
+      "visible_km": 10.253,
+      "same_number_historical_name": "Kawaala flyover",
+      "same_number_historical_link": "M20",
+      "same_number_historical_km": 0,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B722",
+      "resolved_bridge_name": "Lolachat Irish Crossing/Splash",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B044",
+      "visible_name": "Mpanga - Bridge",
+      "visible_link": "B150_Link03",
+      "visible_km": 97.499,
+      "same_number_historical_name": "Mpanga - Bridge",
+      "same_number_historical_link": "B150_Link03",
+      "same_number_historical_km": 15.656,
+      "same_number_score": 120,
+      "same_number_reasons": [
+        "same-number",
+        "name-exact",
+        "link",
+        "coord-0.0003"
+      ],
+      "resolved_bridge_no": "B546",
+      "resolved_bridge_name": "MPANGA BRIDGE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B048",
+      "visible_name": "Muzizi",
+      "visible_link": "B202_Link01",
+      "visible_km": 20.07,
+      "same_number_historical_name": "Muziza",
+      "same_number_historical_link": "B202_Link02",
+      "same_number_historical_km": 44.568001,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B100",
+      "visible_name": "Budumbba",
+      "visible_link": "C833_Link02",
+      "visible_km": 36,
+      "same_number_historical_name": "BUDUMBA",
+      "same_number_historical_link": "C833_Link02",
+      "same_number_historical_km": 34.588001,
+      "same_number_score": 46,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "km-1.412"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B120",
+      "visible_name": "Enve Bridge",
+      "visible_link": "A008_Link07",
+      "visible_km": 306.372,
+      "same_number_historical_name": "ENVE",
+      "same_number_historical_link": "A008_Link06",
+      "same_number_historical_km": 253.800003,
+      "same_number_score": 32,
+      "same_number_reasons": [
+        "same-number",
+        "name-jaccard-0.50"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B724",
+      "visible_name": "Enve",
+      "visible_link": "A008_Link06",
+      "visible_km": 253.8,
+      "same_number_historical_name": "Lopei Irish Crossing",
+      "same_number_historical_link": "B301_Link01",
+      "same_number_historical_km": 28.459999,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B120",
+      "resolved_bridge_name": "ENVE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B725",
+      "visible_name": "Yii",
+      "visible_link": "B250_Link02",
+      "visible_km": 111.779,
+      "same_number_historical_name": "Lopei Irish Crossing",
+      "same_number_historical_link": "B301_Link01",
+      "same_number_historical_km": 27.254999,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolved_bridge_no": "B134",
+      "resolved_bridge_name": "YII",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B726",
+      "visible_name": "Nyawa Bridge",
+      "visible_link": "B250_Link02",
+      "visible_km": 117.8,
+      "same_number_historical_name": "Iriri MPCs",
+      "same_number_historical_link": "B303_Link03",
+      "same_number_historical_km": 3.047,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B161",
+      "visible_name": "Muyembe-Angutum",
+      "visible_link": "B300_Link03",
+      "visible_km": 32.5,
+      "same_number_historical_name": "KAPUTOKOI",
+      "same_number_historical_link": "B300_Link05",
+      "same_number_historical_km": 72.178001,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B162",
+      "visible_name": "Road Over River",
+      "visible_link": "B300_Link03",
+      "visible_km": 32.5,
+      "same_number_historical_name": "ATARI BRIDGE",
+      "same_number_historical_link": "B300_Link06",
+      "same_number_historical_km": 57,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B171",
+      "visible_name": "Kotido- Kailong",
+      "visible_link": "B302_Link01",
+      "visible_km": 63.5,
+      "same_number_historical_name": "LONGIRO",
+      "same_number_historical_link": "B301_Link02",
+      "same_number_historical_km": 63.820999,
+      "same_number_score": 26,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.321"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B184",
+      "visible_name": "Akangole",
+      "visible_link": "B303_Link02",
+      "visible_km": 54.1,
+      "same_number_historical_name": "Omanima Bridge",
+      "same_number_historical_link": "B303_Link02",
+      "same_number_historical_km": 89.861,
+      "same_number_score": 40,
+      "same_number_reasons": [
+        "same-number",
+        "link"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B243",
+      "visible_name": "Rwamuganga Bridge",
+      "visible_link": "C447_Link01",
+      "visible_km": 50.5,
+      "same_number_historical_name": "Rwamuganga 01",
+      "same_number_historical_link": "C447_Link01",
+      "same_number_historical_km": 11.4,
+      "same_number_score": 40,
+      "same_number_reasons": [
+        "same-number",
+        "link"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B727",
+      "visible_name": "Odyaka Bridge",
+      "visible_link": "C677_Link02",
+      "visible_km": 65,
+      "same_number_historical_name": "Dopeth Irish Crossing",
+      "same_number_historical_link": "B302_Link01",
+      "same_number_historical_km": 6.232,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B312",
+      "visible_name": "Apaa Bridge",
+      "visible_link": "C686_Link03",
+      "visible_km": 78.945,
+      "same_number_historical_name": "APA",
+      "same_number_historical_link": "C686_Link02",
+      "same_number_historical_km": 63.869999,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B326",
+      "visible_name": "Okwora Bridge",
+      "visible_link": "C705_Link02",
+      "visible_km": 19.832,
+      "same_number_historical_name": "OKWORA",
+      "same_number_historical_link": "C705_Link01",
+      "same_number_historical_km": 3,
+      "same_number_score": 32,
+      "same_number_reasons": [
+        "same-number",
+        "name-jaccard-0.50"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B382",
+      "visible_name": "Dingidinga",
+      "visible_link": "C963_Link03",
+      "visible_km": 90.933,
+      "same_number_historical_name": "KANYANGAREN",
+      "same_number_historical_link": "C963_Link02",
+      "same_number_historical_km": 62.855,
+      "same_number_score": 34,
+      "same_number_reasons": [
+        "same-number",
+        "coord-0.0049"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B410",
+      "visible_name": "Nakaloke-Kabwangasi-Butebo",
+      "visible_link": "C878_Link01",
+      "visible_km": 28.988,
+      "same_number_historical_name": "Palisa - Kadoto Bridge",
+      "same_number_historical_link": "C878_Link02",
+      "same_number_historical_km": 28.988001,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B558",
+      "visible_name": "Nyamashekye Bridge",
+      "visible_link": "C356_Link01",
+      "visible_km": 32.4,
+      "same_number_historical_name": "Ekyambu - MPCC",
+      "same_number_historical_link": "C356_Link01",
+      "same_number_historical_km": 3.604,
+      "same_number_score": 40,
+      "same_number_reasons": [
+        "same-number",
+        "link"
+      ],
+      "resolved_bridge_no": "B545",
+      "resolved_bridge_name": "NYAMASHEKYE BRIDGE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B606",
+      "visible_name": "Kaserem-Kapchorwa-Suam",
+      "visible_link": "B304_Link02",
+      "visible_km": 49.649,
+      "same_number_historical_name": 0,
+      "same_number_historical_link": "B304_Link02",
+      "same_number_historical_km": 7,
+      "same_number_score": 75,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "coord-0.0004"
+      ],
+      "resolved_bridge_no": "B609",
+      "resolved_bridge_name": "KAPCHORWA- SUAM",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B608",
+      "visible_name": "Mbale-Bufumbo",
+      "visible_link": "C880_Link01",
+      "visible_km": 16,
+      "same_number_historical_name": 0,
+      "same_number_historical_link": "C880_Link01",
+      "same_number_historical_km": 16,
+      "same_number_score": 74,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "km-0.000",
+        "coord-0.0430"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B631",
+      "visible_name": "Rutoha Bridge",
+      "visible_link": "C596_Link01",
+      "visible_km": 5.01,
+      "same_number_historical_name": "Rutooha",
+      "same_number_historical_link": "C596_Link02",
+      "same_number_historical_km": 30.201,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B738",
+      "visible_name": "Ora Bridge",
+      "visible_link": "C763_Link02",
+      "visible_km": 51.175,
+      "same_number_historical_name": "ORAA",
+      "same_number_historical_link": "C747_Link01",
+      "same_number_historical_km": 51.174999,
+      "same_number_score": 36,
+      "same_number_reasons": [
+        "same-number",
+        "km-0.000"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B752",
+      "visible_name": "Tochi Bridge",
+      "visible_link": "C693_Link01",
+      "visible_km": 23.087,
+      "same_number_historical_name": "Okole Bridge 3",
+      "same_number_historical_link": "C662_Link01",
+      "same_number_historical_km": 28.360001,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B762",
+      "visible_name": "Namukora",
+      "visible_link": "C678_Link01",
+      "visible_km": 13.859,
+      "same_number_historical_name": "NAMUKORA BRIDGE",
+      "same_number_historical_link": "C678_Link01",
+      "same_number_historical_km": 13.859,
+      "same_number_score": 84,
+      "same_number_reasons": [
+        "same-number",
+        "name-jaccard-0.50",
+        "link",
+        "km-0.000"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B862",
+      "visible_name": "Road Over Sugarcane Plantation",
+      "visible_link": "A001_Link06",
+      "visible_km": 86.144,
+      "same_number_historical_name": 0,
+      "same_number_historical_link": "A001_Link06",
+      "same_number_historical_km": 85.599998,
+      "same_number_score": 64,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "km-0.544",
+        "coord-0.0388"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B871",
+      "visible_name": "Road Over River",
+      "visible_link": "B304_Link02",
+      "visible_km": 44.157,
+      "same_number_historical_name": "LWANJUSI BRIDGE",
+      "same_number_historical_link": "C865_Link01",
+      "same_number_historical_km": 1.917,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B880",
+      "visible_name": "Kotido-Kailong",
+      "visible_link": "B302_Link01",
+      "visible_km": 5.3,
+      "same_number_historical_name": "DOHO-MALIK BRIDGE",
+      "same_number_historical_link": "C833_Link01",
+      "same_number_historical_km": 33,
+      "same_number_score": 12,
+      "same_number_reasons": [
+        "same-number"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    },
+    {
+      "visible_bridge_no": "B883",
+      "visible_name": "Okame",
+      "visible_link": "B306_Link01",
+      "visible_km": 23,
+      "same_number_historical_name": "ANGOLO BRIDGE",
+      "same_number_historical_link": "B306_Link01",
+      "same_number_historical_km": 23,
+      "same_number_score": 64,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "km-0.000"
+      ],
+      "resolved_bridge_no": "B885",
+      "resolved_bridge_name": "OKAME BRIDGE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B885",
+      "visible_name": "Angolo",
+      "visible_link": "B306_Link01",
+      "visible_km": 24,
+      "same_number_historical_name": "OKAME BRIDGE",
+      "same_number_historical_link": "B306_Link01",
+      "same_number_historical_km": 23,
+      "same_number_score": 54,
+      "same_number_reasons": [
+        "same-number",
+        "link",
+        "km-1.000"
+      ],
+      "resolved_bridge_no": "B883",
+      "resolved_bridge_name": "ANGOLO BRIDGE",
+      "resolution": "condition history matched to structure identity, not same-number row"
+    },
+    {
+      "visible_bridge_no": "B886",
+      "visible_name": "Kwakiteza",
+      "visible_link": "C306_Link01",
+      "visible_km": 28.5,
+      "same_number_historical_name": "KWAKITEZA BRIDGE",
+      "same_number_historical_link": "B306_Link01",
+      "same_number_historical_km": 23,
+      "same_number_score": 32,
+      "same_number_reasons": [
+        "same-number",
+        "name-jaccard-0.50"
+      ],
+      "resolution": "same-number historical row rejected; identity did not match safely"
+    }
+  ],
+  "alias_resolutions": [
+    {
+      "visible_bridge_no": "B548",
+      "visible_name": "Rwizi Bridge",
+      "resolved_bridge_no": "B005",
+      "resolved_name": "Rwizi Bridge",
+      "condition": "Good",
+      "score": 97,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.000"
+      ]
+    },
+    {
+      "visible_bridge_no": "B644",
+      "visible_name": "Nsonja",
+      "resolved_bridge_no": "B017",
+      "resolved_name": "Nsonja",
+      "condition": "Fair",
+      "score": 87,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.340"
+      ]
+    },
+    {
+      "visible_bridge_no": "B767",
+      "visible_name": "Mubuku Bridge",
+      "resolved_bridge_no": "B018",
+      "resolved_name": "Mubuku Bridge",
+      "condition": "Poor",
+      "score": 87,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.298"
+      ]
+    },
+    {
+      "visible_bridge_no": "B769",
+      "visible_name": "Mubuku",
+      "resolved_bridge_no": "B019",
+      "resolved_name": "MUBUKU",
+      "condition": "Poor",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B019",
+      "visible_name": "Lopei Irish Crossing",
+      "resolved_bridge_no": "B724",
+      "resolved_name": "Lopei Irish Crossing",
+      "condition": "No Data",
+      "score": 132,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.050",
+        "coord-0.0000"
+      ]
+    },
+    {
+      "visible_bridge_no": "B544",
+      "visible_name": "Nyamwamba Bridge",
+      "resolved_bridge_no": "B020",
+      "resolved_name": "NYAMWAMBA BRIDGE",
+      "condition": "Good",
+      "score": 97,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.002"
+      ]
+    },
+    {
+      "visible_bridge_no": "B020",
+      "visible_name": "Lopei Irish Crossing",
+      "resolved_bridge_no": "B725",
+      "resolved_name": "Lopei Irish Crossing",
+      "condition": "No Data",
+      "score": 132,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.089",
+        "coord-0.0002"
+      ]
+    },
+    {
+      "visible_bridge_no": "B021",
+      "visible_name": "Iriri Mpcs",
+      "resolved_bridge_no": "B726",
+      "resolved_name": "Iriri MPCs",
+      "condition": "Poor",
+      "score": 108,
+      "reasons": [
+        "name-exact",
+        "link",
+        "coord-0.0002"
+      ]
+    },
+    {
+      "visible_bridge_no": "B890",
+      "visible_name": "Agago Irish Crossing",
+      "resolved_bridge_no": "B728",
+      "resolved_name": "Agago Irish Crossing",
+      "condition": "No Data",
+      "score": 108,
+      "reasons": [
+        "name-exact",
+        "link",
+        "coord-0.0004"
+      ]
+    },
+    {
+      "visible_bridge_no": "B557",
+      "visible_name": "Kitekena",
+      "resolved_bridge_no": "B544",
+      "resolved_name": "Kitekena",
+      "condition": "No Data",
+      "score": 114,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-2.703",
+        "coord-0.0007"
+      ]
+    },
+    {
+      "visible_bridge_no": "B770",
+      "visible_name": "Manafwa",
+      "resolved_bridge_no": "B767",
+      "resolved_name": "Manafwa",
+      "condition": "Critical",
+      "score": 108,
+      "reasons": [
+        "name-exact",
+        "link",
+        "coord-0.0002"
+      ]
+    },
+    {
+      "visible_bridge_no": "B875",
+      "visible_name": "Kabobo - Mpcs",
+      "resolved_bridge_no": "B548",
+      "resolved_name": "Kabobo - MPCs",
+      "condition": "Poor",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B879",
+      "visible_name": "Nyabisheke - Mpcs",
+      "resolved_bridge_no": "B557",
+      "resolved_name": "Nyabisheke - MPCS",
+      "condition": "Critical",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B399",
+      "visible_name": "Ekyambu - Mpcc",
+      "resolved_bridge_no": "B558",
+      "resolved_name": "Ekyambu - MPCC",
+      "condition": "Critical",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B401",
+      "visible_name": "Nakironget Irish Crossing",
+      "resolved_bridge_no": "B721",
+      "resolved_name": "Nakironget Irish Crossing",
+      "condition": "No Data",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B402",
+      "visible_name": "Lolachat Irish Crossing/Splash",
+      "resolved_bridge_no": "B722",
+      "resolved_name": "Lolachat Irish Crossing/Splash",
+      "condition": "No Data",
+      "score": 132,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.057",
+        "coord-0.0003"
+      ]
+    },
+    {
+      "visible_bridge_no": "B888",
+      "visible_name": "Nabilatuk Irish Crossing",
+      "resolved_bridge_no": "B721",
+      "resolved_name": "Nakironget Irish Crossing",
+      "condition": "No Data",
+      "score": 107,
+      "reasons": [
+        "name-jaccard-0.50",
+        "link",
+        "km-0.025",
+        "coord-0.0007"
+      ]
+    },
+    {
+      "visible_bridge_no": "B044",
+      "visible_name": "Mpanga - Bridge",
+      "resolved_bridge_no": "B546",
+      "resolved_name": "MPANGA BRIDGE",
+      "condition": "Good",
+      "score": 122,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.501",
+        "coord-0.0006"
+      ]
+    },
+    {
+      "visible_bridge_no": "B724",
+      "visible_name": "Enve",
+      "resolved_bridge_no": "B120",
+      "resolved_name": "ENVE",
+      "condition": "Good",
+      "score": 119,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.000",
+        "coord-0.0031"
+      ]
+    },
+    {
+      "visible_bridge_no": "B725",
+      "visible_name": "Yii",
+      "resolved_bridge_no": "B134",
+      "resolved_name": "YII",
+      "condition": "Critical",
+      "score": 107,
+      "reasons": [
+        "name-exact",
+        "link",
+        "km-0.001",
+        "coord-0.0487"
+      ]
+    },
+    {
+      "visible_bridge_no": "B558",
+      "visible_name": "Nyamashekye Bridge",
+      "resolved_bridge_no": "B545",
+      "resolved_name": "NYAMASHEKYE BRIDGE",
+      "condition": "Good",
+      "score": 73,
+      "reasons": [
+        "name-exact",
+        "link"
+      ]
+    },
+    {
+      "visible_bridge_no": "B606",
+      "visible_name": "Kaserem-Kapchorwa-Suam",
+      "resolved_bridge_no": "B609",
+      "resolved_name": "KAPCHORWA- SUAM",
+      "condition": "Good",
+      "score": 83,
+      "reasons": [
+        "name-jaccard-0.67",
+        "link",
+        "coord-0.0005"
+      ]
+    },
+    {
+      "visible_bridge_no": "B883",
+      "visible_name": "Okame",
+      "resolved_bridge_no": "B885",
+      "resolved_name": "OKAME BRIDGE",
+      "condition": "Good",
+      "score": 82,
+      "reasons": [
+        "name-jaccard-0.50",
+        "link",
+        "km-0.000",
+        "coord-0.0497"
+      ]
+    },
+    {
+      "visible_bridge_no": "B885",
+      "visible_name": "Angolo",
+      "resolved_bridge_no": "B883",
+      "resolved_name": "ANGOLO BRIDGE",
+      "condition": "Fair",
+      "score": 62,
+      "reasons": [
+        "name-jaccard-0.50",
+        "link",
+        "km-1.000"
+      ]
+    },
+    {
+      "visible_bridge_no": "B562",
+      "visible_name": "Nyamashekye Bridge",
+      "resolved_bridge_no": "B545",
+      "resolved_name": "NYAMASHEKYE BRIDGE",
+      "condition": "Good",
+      "score": 81,
+      "reasons": [
+        "name-exact",
+        "km-0.539",
+        "coord-0.0072"
+      ]
+    }
+  ],
+  "possible_duplicates": [
+    {
+      "bridge_no": "B005",
+      "name": "Rwizi Bridge",
+      "possible_duplicate_of": "B548",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B018",
+      "name": "Mubuku Bridge",
+      "possible_duplicate_of": "B767",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B186",
+      "name": "Apak Bridge",
+      "possible_duplicate_of": "B185",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B391",
+      "name": "Namboole Flyover",
+      "possible_duplicate_of": "B390",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B462",
+      "name": "Katonga Bridge",
+      "possible_duplicate_of": "B004",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B545",
+      "name": "Nyamashekye Bridge",
+      "possible_duplicate_of": "B558",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B765",
+      "name": "Amuru Junction - Awee",
+      "possible_duplicate_of": "B764",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B862",
+      "name": "Road Over Sugarcane Plantation",
+      "possible_duplicate_of": "B861",
+      "reason": "same normalized name/link/km/coordinates"
+    },
+    {
+      "bridge_no": "B350",
+      "name": "Busega",
+      "possible_duplicate_of": "B343",
+      "reason": "same normalized name/link/km/coordinates"
+    }
+  ]
+}

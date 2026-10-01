@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-06-24",
+  "publishable_images": 7794,
+  "publishable_records": 7794,
+  "web_available_records": 7438,
+  "full_available_records": 7438,
+  "thumbnail_available_records": 7438,
+  "web_missing_sources": 356,
+  "source_repository_images": 9749,
+  "local_gallery_images": 7438,
+  "web_images_generated": 7438,
+  "thumbnails_generated": 7437,
+  "structures_covered": 527,
+  "source_folder_confirmed": 7365,
+  "assigned_evidence": 7473,
+  "duplicate_records": 30,
+  "notes": [
+    "Optimized web images generated for GitHub Pages deployment.",
+    "Counts are derived from gallery/index.json and deployed gallery folders."
+  ]
+}

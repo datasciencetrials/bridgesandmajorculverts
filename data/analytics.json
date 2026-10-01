@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-24",
+  "source": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook_v3_FINAL.xlsx",
+  "condition_overall": {
+    "Good": 254,
+    "Critical": 102,
+    "Satisfactory": 18,
+    "Marginal": 10,
+    "Fair": 88,
+    "Poor": 61,
+    "No Data": 11,
+    "Very Poor": 1,
+    "Beyond Repair": 1
+  },
+  "bridges_by_region": {
+    "Southern": 80,
+    "Eastern": 96,
+    "Central": 105,
+    "Western": 44,
+    "Northern": 174,
+    "North Eastern": 47
+  },
+  "culverts_by_region": {
+    "Central": 27,
+    "Southern": 75,
+    "Western": 105,
+    "Northern": 76,
+    "Eastern": 82,
+    "North Eastern": 69,
+    "Unknown": 18
+  },
+  "bridge_condition_status": {
+    "Verified identity match": 427,
+    "Possible duplicate record - review before using condition": 9,
+    "Inventory-source condition; historical identity review required": 99,
+    "Verified identity match - No Data condition band": 7,
+    "No verified historical condition match": 4
+  },
+  "identity_resolution": {
+    "verified_same_number": 416,
+    "verified_alias": 25,
+    "fallback_identity_review": 105,
+    "identity_conflicts": 52,
+    "possible_duplicates": 9
+  },
+  "totals": {
+    "bridges": 546,
+    "culverts": 452,
+    "critical_queue": 231,
+    "bridge_condition_analysis_matches": 441,
+    "bridge_condition_alias_matches": 25
+  }
+}
