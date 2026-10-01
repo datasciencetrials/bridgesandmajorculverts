@@ -1,0 +1,36 @@
+{
+    "title": "Sys_B Road_Agency Field Inspection Sheets Aug",
+    "type": "object",
+    "properties": {
+        "Road_Agency": {
+            "type": "string",
+            "title": "Road_Agency",
+            "description": "Enter the specified Road_Agency."
+        },
+        "field_inspection_sheet": {
+            "type": "string",
+            "title": "FIELD INSPECTION SHEET",
+            "description": "Enter the specified FIELD INSPECTION SHEET."
+        },
+        "bridge_number__": {
+            "type": "string",
+            "title": "BRIDGE NUMBER :",
+            "description": "Enter the specified BRIDGE NUMBER :."
+        },
+        "uganda_national_roads_authority": {
+            "type": "string",
+            "title": "Uganda National Roads Authority",
+            "description": "Enter the specified Uganda National Roads Authority."
+        },
+        "revised_29_august_2012": {
+            "type": "string",
+            "title": "Revised 29 August 2012",
+            "description": "Enter the specified Revised 29 August 2012."
+        },
+        "bridge_management_system": {
+            "type": "string",
+            "title": "BRIDGE MANAGEMENT SYSTEM",
+            "description": "Enter the specified BRIDGE MANAGEMENT SYSTEM."
+        }
+    }
+}

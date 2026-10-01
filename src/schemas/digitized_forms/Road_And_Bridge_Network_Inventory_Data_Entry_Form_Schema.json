@@ -1,0 +1,166 @@
+{
+    "title": "Road And Bridge Network Inventory Data Entry Form",
+    "type": "object",
+    "properties": {
+        "12_conveyor_belt_over_road": {
+            "type": "string",
+            "title": "12 Conveyor Belt Over Road",
+            "description": "Enter the specified 12 Conveyor Belt Over Road."
+        },
+        "16_bowstring": {
+            "type": "string",
+            "title": "16 Bowstring",
+            "description": "Enter the specified 16 Bowstring."
+        },
+        "09_strut_frame": {
+            "type": "string",
+            "title": "09 Strut Frame",
+            "description": "Enter the specified 09 Strut Frame."
+        },
+        "98_other": {
+            "type": "string",
+            "title": "98 Other",
+            "description": "Enter the specified 98 Other."
+        },
+        "type_of_crossing": {
+            "type": "string",
+            "title": "Type Of Crossing",
+            "description": "Enter the specified Type Of Crossing."
+        },
+        "13_other": {
+            "type": "string",
+            "title": "13 Other",
+            "description": "Enter the specified 13 Other."
+        },
+        "04_single_cantilevered_span": {
+            "type": "string",
+            "title": "04 Single Cantilevered Span",
+            "description": "Enter the specified 04 Single Cantilevered Span."
+        },
+        "23_cable_stayed_bridge": {
+            "type": "string",
+            "title": "23 Cable Stayed Bridge",
+            "description": "Enter the specified 23 Cable Stayed Bridge."
+        },
+        "11_suspension_bridge": {
+            "type": "string",
+            "title": "11 Suspension Bridge",
+            "description": "Enter the specified 11 Suspension Bridge."
+        },
+        "_unknown": {
+            "type": "string",
+            "title": "? Unknown",
+            "description": "Select Yes or No.",
+            "enum": [
+                "Yes",
+                "No",
+                "N/A"
+            ]
+        },
+        "19_fixed_arch_-_deck_at_intermediate_level": {
+            "type": "string",
+            "title": "19 Fixed Arch Deck At Intermediate Level",
+            "description": "Enter the specified 19 Fixed Arch Deck At Intermediate Level."
+        },
+        "03_double_cantilevered_span": {
+            "type": "string",
+            "title": "03 Double Cantilevered Span",
+            "description": "Enter the specified 03 Double Cantilevered Span."
+        },
+        "22_girded_frame": {
+            "type": "string",
+            "title": "22 Girded Frame",
+            "description": "Enter the specified 22 Girded Frame."
+        },
+        "10_supported_cantilevered_construction": {
+            "type": "string",
+            "title": "10 Supported Cantilevered Construction",
+            "description": "Enter the specified 10 Supported Cantilevered Construction."
+        },
+        "01_road_over_river": {
+            "type": "string",
+            "title": "01 Road Over River",
+            "description": "Enter the specified 01 Road Over River."
+        },
+        "03_road_over_road": {
+            "type": "string",
+            "title": "03 Road Over Road",
+            "description": "Enter the specified 03 Road Over Road."
+        },
+        "bridge_type": {
+            "type": "string",
+            "title": "Bridge Type",
+            "description": "Enter the specified Bridge Type."
+        },
+        "02_road_over_rail": {
+            "type": "string",
+            "title": "02 Road Over Rail",
+            "description": "Enter the specified 02 Road Over Rail."
+        },
+        "12_three_hinged_arch_rib": {
+            "type": "string",
+            "title": "12 Three Hinged Arch Rib",
+            "description": "Enter the specified 12 Three Hinged Arch Rib."
+        },
+        "05_single_suspended_simply_supported_span": {
+            "type": "string",
+            "title": "05 Single Suspended Simply Supported Span",
+            "description": "Enter the specified 05 Single Suspended Simply Supported Span."
+        },
+        "18_fixed_arch_-_deck_at_crown": {
+            "type": "string",
+            "title": "18 Fixed Arch Deck At Crown",
+            "description": "Enter the specified 18 Fixed Arch Deck At Crown."
+        },
+        "10_road_over_water_pipes": {
+            "type": "string",
+            "title": "10 Road Over Water Pipes",
+            "description": "Enter the specified 10 Road Over Water Pipes."
+        },
+        "08_cantilevered_construction": {
+            "type": "string",
+            "title": "08 Cantilevered Construction",
+            "description": "Enter the specified 08 Cantilevered Construction."
+        },
+        "01_simply_supported_span": {
+            "type": "string",
+            "title": "01 Simply Supported Span",
+            "description": "Enter the specified 01 Simply Supported Span."
+        },
+        "11_road_over_conveyor_belt": {
+            "type": "string",
+            "title": "11 Road Over Conveyor Belt",
+            "description": "Enter the specified 11 Road Over Conveyor Belt."
+        },
+        "14_two_hinged_arch_rib_15_two_hinged_arch_slab": {
+            "type": "string",
+            "title": "14 Two Hinged Arch Rib 15 Two Hinged Arch Slab",
+            "description": "Enter the specified 14 Two Hinged Arch Rib 15 Two Hinged Arch Slab."
+        },
+        "17_fixed_arch_slab": {
+            "type": "string",
+            "title": "17 Fixed Arch Slab",
+            "description": "Enter the specified 17 Fixed Arch Slab."
+        },
+        "09_agricultural_underpass": {
+            "type": "string",
+            "title": "09 Agricultural Underpass",
+            "description": "Enter the specified 09 Agricultural Underpass."
+        },
+        "05_rail_over_road": {
+            "type": "string",
+            "title": "05 Rail Over Road",
+            "description": "Enter the specified 05 Rail Over Road."
+        },
+        "02_continuous_span": {
+            "type": "string",
+            "title": "02 Continuous Span",
+            "description": "Enter the specified 02 Continuous Span."
+        },
+        "04_road_over_canal": {
+            "type": "string",
+            "title": "04 Road Over Canal",
+            "description": "Enter the specified 04 Road Over Canal."
+        }
+    }
+}
