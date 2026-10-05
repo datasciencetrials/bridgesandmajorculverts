@@ -1,4 +1,4 @@
-import{c as C}from"./camera-Dqp1nqYP.js";import{r as y}from"./index.nbms-BpSYapCP.js";/**
+import{c as C}from"./camera-Dqp1nqYP.js";import{r as y}from"./index-bridges-BpSYapCP.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.

@@ -1,4 +1,4 @@
-import{r as n}from"./index.nbms-BpSYapCP.js";/**
+import{r as n}from"./index-bridges-BpSYapCP.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.

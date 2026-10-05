@@ -20,7 +20,7 @@ function i(t,a){const o=URL.createObjectURL(t),n=document.createElement("a");n.h
 <kml xmlns="http://www.opengis.net/kml/2.2">
 <Document>
   <name>Uganda National Road Structures</name>
-  <description>Data Division Bridge and Major Culvert Inventory — ${t.length} structures</description>
+  <description>Data Division Bridge and Major Culvert Inventory - ${t.length} structures</description>
 ${o}
 </Document>
 </kml>`;i(new Blob([n],{type:"application/vnd.google-earth.kml+xml"}),a)}function l(t){return t.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")}function g(t="all"){const o={all:"/downloads/structures_all.zip",bridges:"/downloads/structures_bridges.zip",culverts:"/downloads/structures_culverts.zip"}[t],n=document.createElement("a");n.href=o,n.download=`structures_${t}.zip`,document.body.appendChild(n),n.click(),n.remove()}export{f as a,g as b,m as c,u as d};
