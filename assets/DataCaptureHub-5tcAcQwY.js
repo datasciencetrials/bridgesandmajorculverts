@@ -1,4 +1,4 @@
-import{u as j,r as g,j as e,l as A,L as N}from"./index-bridges-BpSYapCP.js";import{P as L,h as O}from"./ProtectedRoute-s3vU2-KD.js";import{s as P,H as T}from"./supabase-CKj_ejW4.js";import{c as S}from"./camera-Dqp1nqYP.js";import{A as B}from"./activity-mQFyg6_C.js";import{C as W}from"./FieldShell-BxY67Ptl.js";/**
+import{u as j,r as g,j as e,l as A,L as N}from"./index-bridges-fixed-c9759e2.js";import{P as L,h as O}from"./ProtectedRoute-s3vU2-KD.js";import{s as P,H as T}from"./supabase-CKj_ejW4.js";import{c as S}from"./camera-Dqp1nqYP.js";import{A as B}from"./activity-mQFyg6_C.js";import{C as W}from"./FieldShell-BxY67Ptl.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.

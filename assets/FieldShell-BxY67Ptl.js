@@ -1,5 +1,5 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/DataCaptureHub-5tcAcQwY.js","assets/index-bridges-BpSYapCP.js","assets/index-B6GNPccJ.css","assets/ProtectedRoute-s3vU2-KD.js","assets/supabase-CKj_ejW4.js","assets/camera-Dqp1nqYP.js","assets/activity-mQFyg6_C.js","assets/PendingSubmissions-CUcEARhQ.js"])))=>i.map(i=>d[i]);
-import{u as c,r,j as e,l as p,_ as a}from"./index-bridges-BpSYapCP.js";import{c as s,C as g}from"./camera-Dqp1nqYP.js";/**
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/DataCaptureHub-5tcAcQwY.js","assets/index-bridges-fixed-c9759e2.js","assets/index-B6GNPccJ.css","assets/ProtectedRoute-s3vU2-KD.js","assets/supabase-CKj_ejW4.js","assets/camera-Dqp1nqYP.js","assets/activity-mQFyg6_C.js","assets/PendingSubmissions-CUcEARhQ.js"])))=>i.map(i=>d[i]);
+import{u as c,r,j as e,l as p,_ as a}from"./index-bridges-fixed-c9759e2.js";import{c as s,C as g}from"./camera-Dqp1nqYP.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.

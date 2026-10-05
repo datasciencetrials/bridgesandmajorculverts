@@ -1,4 +1,4 @@
-import{r as n}from"./index-bridges-BpSYapCP.js";/**
+import{r as n}from"./index-bridges-fixed-c9759e2.js";/**
  * @license lucide-react v0.469.0 - ISC
  *
  * This source code is licensed under the ISC license.
