@@ -1,0 +1,4750 @@
+{
+  "summary": {
+    "source_rows_scanned": 6011,
+    "source_rows_matched": 5501,
+    "ambiguous_rows_skipped": 87,
+    "old_number_name_rejections": 121,
+    "bridge_records_with_updates": 192,
+    "field_values_to_backfill": 869,
+    "sources": [
+      "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge",
+      "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec",
+      "Bridges and Culverts 2026.xlsx::BMS (2)",
+      "Bridges and Culverts 2026.xlsx::Bridges per-station",
+      "tblB_Bridge2-new.xlsx::tblB-Bridge2",
+      "tblB_Bridge2-new.xlsx::BMS (2)",
+      "Bridges 18062025.xlsx::Bridges",
+      "Bridges 18062025.xlsx::Bridges - central",
+      "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis",
+      "Bridge condition rating 2022.xlsx::Bridges",
+      "Additional critical structures 2023.xlsx::Concept note",
+      "Additional critical structures 2023.xlsx::Concept note 2",
+      "Additional critical structures 2023.xlsx::Critical Structures (Photos)",
+      "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges",
+      "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges per station",
+      "List of Bridges - hosea kahigwa.xlsx::all bridges",
+      "List of Bridges - hosea kahigwa.xlsx::bridges_hosea"
+    ]
+  },
+  "records": [
+    {
+      "bridge_id": "bridge-4",
+      "bridge_no": "B003",
+      "bridge_name": "Busega",
+      "fields": {
+        "year_compl": 1958
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 4 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-5",
+      "bridge_no": "B004",
+      "bridge_name": "Katonga Bridge",
+      "fields": {
+        "year_compl": 1958
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 5 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-6",
+      "bridge_no": "B005",
+      "bridge_name": "Rwizi Bridge",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 6 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-7",
+      "bridge_no": "B006",
+      "bridge_name": "Kamira Bridge",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 7 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-8",
+      "bridge_no": "B007",
+      "bridge_name": "Rubanga Bridge",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 8 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-9",
+      "bridge_no": "B008",
+      "bridge_name": "Katinada Bridge",
+      "fields": {
+        "year_compl": 1985
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 9 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 95
+      }
+    },
+    {
+      "bridge_id": "bridge-10",
+      "bridge_no": "B009",
+      "bridge_name": "Rubaale - Muhanga - Kabale",
+      "fields": {
+        "year_compl": 1985
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 10 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-11",
+      "bridge_no": "B045",
+      "bridge_name": "Bumuli Overbridge 2",
+      "fields": {
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_para_rail": "02",
+        "type_piers": "97",
+        "type_wearing_surface": "01",
+        "year_compl": 1960
+      },
+      "sources": {
+        "type_abutment_l": "Bridges and Culverts 2026.xlsx::Bridges per-station row 2 field TypeAbutmentL",
+        "type_abutment_r": "Bridges and Culverts 2026.xlsx::Bridges per-station row 2 field TypeAbutmentR",
+        "type_para_rail": "Bridges and Culverts 2026.xlsx::Bridges per-station row 2 field TypeParaOrRail",
+        "type_piers": "Bridges and Culverts 2026.xlsx::Bridges per-station row 2 field TypePiers",
+        "type_wearing_surface": "Bridges and Culverts 2026.xlsx::Bridges per-station row 2 field TypeWearingSurface",
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 12 field Completion_Year"
+      },
+      "confidence": {
+        "type_abutment_l": 102,
+        "type_abutment_r": 102,
+        "type_para_rail": 102,
+        "type_piers": 102,
+        "type_wearing_surface": 102,
+        "year_compl": 100
+      }
+    },
+    {
+      "bridge_id": "bridge-12",
+      "bridge_no": "B046",
+      "bridge_name": "Source of the Nile Bridge (New Nile Bridge)",
+      "fields": {
+        "abutment_gallery": "01",
+        "approach_roadway_width": 14.0,
+        "approach_slab": "02",
+        "bridge_len": 525.0,
+        "bridge_wid": 22.73,
+        "min_bridge_roadway_width": 14.0,
+        "no_of_exp_joints": 1,
+        "no_of_lane": 4,
+        "no_of_pier": 2,
+        "no_of_span": 3,
+        "river": "NILE",
+        "scour_risk": "N",
+        "superload_route": "03",
+        "type_bearings": "01",
+        "type_exp_joints": "16",
+        "weight_load_restr": "02",
+        "width_between_para_rail": 17.629999
+      },
+      "sources": {
+        "abutment_gallery": "Bridges 18062025.xlsx::Bridges - central row 3 field AbutmentGallery",
+        "approach_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 3 field ApproachRoadwayWidth",
+        "approach_slab": "Bridges 18062025.xlsx::Bridges - central row 3 field ApproachSlab",
+        "bridge_len": "Bridges 18062025.xlsx::Bridges - central row 3 field OverallBridgeLength",
+        "bridge_wid": "Bridges 18062025.xlsx::Bridges - central row 3 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 3 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges - central row 3 field NumberOfExpJoints",
+        "no_of_lane": "Bridges 18062025.xlsx::Bridges - central row 3 field NumberOfLanes",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges - central row 3 field NumberOfPiers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges - central row 3 field NumberOfSpans",
+        "river": "Bridges 18062025.xlsx::Bridges - central row 3 field River",
+        "scour_risk": "Bridges 18062025.xlsx::Bridges - central row 3 field ScourRisk",
+        "superload_route": "Bridges 18062025.xlsx::Bridges - central row 3 field SuperLoadRoute",
+        "type_bearings": "Bridges 18062025.xlsx::Bridges - central row 3 field TypeBearings",
+        "type_exp_joints": "Bridges 18062025.xlsx::Bridges - central row 3 field TypeExpJoints",
+        "weight_load_restr": "Bridges 18062025.xlsx::Bridges - central row 3 field WeightOrLoadRestr",
+        "width_between_para_rail": "Bridges 18062025.xlsx::Bridges - central row 3 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 117,
+        "approach_roadway_width": 117,
+        "approach_slab": 117,
+        "bridge_len": 117,
+        "bridge_wid": 117,
+        "min_bridge_roadway_width": 117,
+        "no_of_exp_joints": 117,
+        "no_of_lane": 117,
+        "no_of_pier": 117,
+        "no_of_span": 117,
+        "river": 117,
+        "scour_risk": 117,
+        "superload_route": 117,
+        "type_bearings": 117,
+        "type_exp_joints": 117,
+        "weight_load_restr": 117,
+        "width_between_para_rail": 117
+      }
+    },
+    {
+      "bridge_id": "bridge-15",
+      "bridge_no": "B010",
+      "bridge_name": "Mwanyare",
+      "fields": {
+        "year_compl": 1957
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 15 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-18",
+      "bridge_no": "B011",
+      "bridge_name": "Bukoola",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 18 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-21",
+      "bridge_no": "B012",
+      "bridge_name": "Buyala",
+      "fields": {
+        "year_compl": 2012
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 21 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-24",
+      "bridge_no": "B013",
+      "bridge_name": "Mpanga",
+      "fields": {
+        "year_compl": 1989
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 22 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-27",
+      "bridge_no": "B014",
+      "bridge_name": "Mpanga",
+      "fields": {
+        "roadway_rating": 0,
+        "substructure_rating": 0,
+        "superstructure_rating": 0,
+        "waterway_rating": 0
+      },
+      "sources": {
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 14 field Roadway 2022",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 14 field SubStructure 2022",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 14 field SuperStructure 2022",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 14 field Waterway 2022"
+      },
+      "confidence": {
+        "roadway_rating": 110,
+        "substructure_rating": 110,
+        "superstructure_rating": 110,
+        "waterway_rating": 110
+      }
+    },
+    {
+      "bridge_id": "bridge-30",
+      "bridge_no": "B015",
+      "bridge_name": "Mpanga",
+      "fields": {
+        "year_compl": 1989
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 28 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-33",
+      "bridge_no": "B016",
+      "bridge_name": "Rwimi",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 31 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-40",
+      "bridge_no": "B769",
+      "bridge_name": "Mubuku",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 40 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-42",
+      "bridge_no": "B544",
+      "bridge_name": "Nyamwamba Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 42 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-44",
+      "bridge_no": "B387",
+      "bridge_name": "Kaseiga",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 44 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 95
+      }
+    },
+    {
+      "bridge_id": "bridge-45",
+      "bridge_no": "B021",
+      "bridge_name": "Iriri Mpcs",
+      "fields": {
+        "year_compl": 2019
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 45 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-48",
+      "bridge_no": "B023",
+      "bridge_name": "Kafu Bridge",
+      "fields": {
+        "year_compl": 1962
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 48 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-49",
+      "bridge_no": "B389",
+      "bridge_name": "Dopeth Irish Crossing",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 6.0,
+        "approach_slab": "02",
+        "bridge_len": 30.6,
+        "bridge_wid": 6.0,
+        "min_bridge_roadway_width": 6.0,
+        "scour_protection": "10",
+        "scour_risk": "U",
+        "superload_route": "03",
+        "type_abutment_l": "97",
+        "type_abutment_r": "97",
+        "type_bearings": "08",
+        "type_exp_joints": "97",
+        "type_para_rail": "97",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "weight_load_restr": "03",
+        "width_between_para_rail": 9.03
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field ApproachSlab",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field MinBridgeRoadwayWidth",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field ScourRisk",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field SuperLoadRoute",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypeAbutmentR",
+        "type_bearings": "Bridges 18062025.xlsx::Bridges - central row 15 field TypeBearings",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field TypeWearingSurface",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 326 field WeightOrLoadRestr",
+        "width_between_para_rail": "Bridges 18062025.xlsx::Bridges - central row 15 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 113,
+        "approach_roadway_width": 113,
+        "approach_slab": 113,
+        "bridge_len": 113,
+        "bridge_wid": 113,
+        "min_bridge_roadway_width": 113,
+        "scour_protection": 113,
+        "scour_risk": 113,
+        "superload_route": 113,
+        "type_abutment_l": 113,
+        "type_abutment_r": 113,
+        "type_bearings": 82,
+        "type_exp_joints": 113,
+        "type_para_rail": 113,
+        "type_piers": 113,
+        "type_wearing_surface": 113,
+        "weight_load_restr": 113,
+        "width_between_para_rail": 82
+      }
+    },
+    {
+      "bridge_id": "bridge-50",
+      "bridge_no": "B024",
+      "bridge_name": "Titi",
+      "fields": {
+        "year_compl": 1996
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 50 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-52",
+      "bridge_no": "B025",
+      "bridge_name": "Karuma Bridge",
+      "fields": {
+        "year_compl": 1996
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 52 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-53",
+      "bridge_no": "B557",
+      "bridge_name": "Kitekena",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 4.0,
+        "approach_slab": "02",
+        "bridge_len": 6.7,
+        "bridge_wid": 4.0,
+        "comment": "The point requires a modern secure conventional bridge with all bridge features built anew. Otherwise it is a risk for the class of road since heavier traffic do use the road. See photos",
+        "min_bridge_roadway_width": 4.0,
+        "no_of_exp_joints": 2,
+        "no_of_lane": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "scour_risk": "U",
+        "superload_route": "03",
+        "type_abutment_l": "97",
+        "type_abutment_r": "97",
+        "type_bearings": "97",
+        "type_exp_joints": "97",
+        "type_para_rail": "97",
+        "type_piers": "97",
+        "type_wearing_surface": "04",
+        "weight_load_restr": "03"
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field ApproachSlab",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field OverallBridgeWidth",
+        "comment": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field Remarks",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field NumberOfExpJoints",
+        "no_of_lane": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field NumberOfLanes",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field NumberOfSpans",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field ScourRisk",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field SuperLoadRoute",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeBearings",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field TypeWearingSurface",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 328 field WeightOrLoadRestr"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "comment": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_lane": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "scour_risk": 128,
+        "superload_route": 128,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "weight_load_restr": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-54",
+      "bridge_no": "B026",
+      "bridge_name": "Magodes",
+      "fields": {
+        "year_compl": 1969
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 54 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-55",
+      "bridge_no": "B770",
+      "bridge_name": "Manafwa",
+      "fields": {
+        "abutment_gallery": "03",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "03",
+        "bridge_len": 7.45,
+        "bridge_wid": 4.55,
+        "comment": "there is need to raise the bridge",
+        "min_bridge_roadway_width": 4.55,
+        "no_of_exp_joints": 0,
+        "no_of_lane": 2,
+        "no_of_pier": 0,
+        "river": "River Manafwa",
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "superload_route": "03",
+        "type_abutment_l": "97",
+        "type_abutment_r": "97",
+        "type_piers": "97",
+        "weight_load_restr": "03",
+        "width_between_para_rail": 5.25
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field ApproachSlab",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field OverallBridgeWidth",
+        "comment": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field Remarks",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field NumberOfExpJoints",
+        "no_of_lane": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field NumberOfLanes",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field NumberOfPiers",
+        "river": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field River",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field ScourRisk",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field SuperLoadRoute",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field TypeAbutmentR",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field TypePiers",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 329 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "comment": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_lane": 128,
+        "no_of_pier": 128,
+        "river": 128,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "superload_route": 128,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_piers": 128,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-56",
+      "bridge_no": "B028",
+      "bridge_name": "Namatala",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 56 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-60",
+      "bridge_no": "B030",
+      "bridge_name": "Awoja",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 60 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-62",
+      "bridge_no": "B031",
+      "bridge_name": "Tochi Bridge",
+      "fields": {
+        "year_compl": 1968
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 62 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-63",
+      "bridge_no": "B401",
+      "bridge_name": "Nakironget Irish Crossing",
+      "fields": {
+        "comment": "The river is wide and shallow not a good site for the bridge Construction The drift is the convinient crossing but with more funding a bridge is possible and recommended",
+        "river": "River Nakironget"
+      },
+      "sources": {
+        "comment": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 333 field Remarks",
+        "river": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 333 field River"
+      },
+      "confidence": {
+        "comment": 138,
+        "river": 138
+      }
+    },
+    {
+      "bridge_id": "bridge-64",
+      "bridge_no": "B032",
+      "bridge_name": "Albert Nile Bridge",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 64 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-65",
+      "bridge_no": "B402",
+      "bridge_name": "Lolachat Irish Crossing/Splash",
+      "fields": {
+        "comment": "There is Scouring of the wearing surface concrete on the water course Attention for repair is required",
+        "river": "Lolachat River"
+      },
+      "sources": {
+        "comment": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 334 field Remarks",
+        "river": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 334 field River"
+      },
+      "confidence": {
+        "comment": 138,
+        "river": 138
+      }
+    },
+    {
+      "bridge_id": "bridge-66",
+      "bridge_no": "B033",
+      "bridge_name": "Achwera Bridge",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 66 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-68",
+      "bridge_no": "B034",
+      "bridge_name": "Akaba Bridge",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 68 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-69",
+      "bridge_no": "B035",
+      "bridge_name": "Nyarwodho Bridge",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 69 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-70",
+      "bridge_no": "B036",
+      "bridge_name": "Namthin Bridge",
+      "fields": {
+        "year_compl": 2003
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 70 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-71",
+      "bridge_no": "B037",
+      "bridge_name": "Ora Bridge",
+      "fields": {
+        "year_compl": 2003
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 71 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-72",
+      "bridge_no": "B038",
+      "bridge_name": "Aguyi Bridge",
+      "fields": {
+        "year_compl": 2003
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 72 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-73",
+      "bridge_no": "B039",
+      "bridge_name": "Ozuva Bridge",
+      "fields": {
+        "year_compl": 2003
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 73 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-74",
+      "bridge_no": "B040",
+      "bridge_name": "Wiki Bridge",
+      "fields": {
+        "year_compl": 2003
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 74 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-75",
+      "bridge_no": "B041",
+      "bridge_name": "Kayirila Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 75 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-76",
+      "bridge_no": "B042",
+      "bridge_name": "Mpologoma",
+      "fields": {
+        "year_compl": 1996
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 76 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-77",
+      "bridge_no": "B043",
+      "bridge_name": "Rushango-Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 77 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-78",
+      "bridge_no": "B044",
+      "bridge_name": "Mpanga - Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 78 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-80",
+      "bridge_no": "B048",
+      "bridge_name": "Muzizi",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 80 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-81",
+      "bridge_no": "B049",
+      "bridge_name": "Nkusi",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 81 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-82",
+      "bridge_no": "B050",
+      "bridge_name": "Rwere",
+      "fields": {
+        "year_compl": 1961
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 82 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-83",
+      "bridge_no": "B051",
+      "bridge_name": "Sironko",
+      "fields": {
+        "year_compl": 1961
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 83 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-84",
+      "bridge_no": "B052",
+      "bridge_name": "Nalugugu",
+      "fields": {
+        "year_compl": 1961
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 84 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-85",
+      "bridge_no": "B053",
+      "bridge_name": "Simu",
+      "fields": {
+        "year_compl": 1961
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 85 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-87",
+      "bridge_no": "B055",
+      "bridge_name": "Atari",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 87 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-88",
+      "bridge_no": "B056",
+      "bridge_name": "Ngenge",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 88 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-89",
+      "bridge_no": "B057",
+      "bridge_name": "Emjong",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 89 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-91",
+      "bridge_no": "B060",
+      "bridge_name": "Kanyago",
+      "fields": {
+        "year_compl": 2021
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 91 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-105",
+      "bridge_no": "B078",
+      "bridge_name": "Mirama 01",
+      "fields": {
+        "year_compl": 2017
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 105 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-108",
+      "bridge_no": "B081",
+      "bridge_name": "Kilembe Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 108 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-113",
+      "bridge_no": "B089",
+      "bridge_name": "Waiga",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 113 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-114",
+      "bridge_no": "B090",
+      "bridge_name": "Waiga",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 114 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-115",
+      "bridge_no": "B091",
+      "bridge_name": "Waringo",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 115 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-116",
+      "bridge_no": "B092",
+      "bridge_name": "Zoleya",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 116 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-117",
+      "bridge_no": "B093",
+      "bridge_name": "Sambiya",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 117 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-131",
+      "bridge_no": "B107",
+      "bridge_name": "Namikhoma",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 131 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-136",
+      "bridge_no": "B112",
+      "bridge_name": "Manafa",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 136 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-137",
+      "bridge_no": "B113",
+      "bridge_name": "Namunyiri",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 137 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-141",
+      "bridge_no": "B117",
+      "bridge_name": "Tochi Bridge",
+      "fields": {
+        "year_compl": 1996
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 141 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-142",
+      "bridge_no": "B118",
+      "bridge_name": "Unyama",
+      "fields": {
+        "year_compl": 2016
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 142 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-143",
+      "bridge_no": "B119",
+      "bridge_name": "Enyau Bridge",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 143 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-145",
+      "bridge_no": "B724",
+      "bridge_name": "Enve",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 144 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-146",
+      "bridge_no": "B121",
+      "bridge_name": "Oluffe",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 146 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-147",
+      "bridge_no": "B122",
+      "bridge_name": "Ayi Bridge",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 147 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-148",
+      "bridge_no": "B123",
+      "bridge_name": "Yoo",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 148 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-149",
+      "bridge_no": "B124",
+      "bridge_name": "Oru Bridge",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 149 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-150",
+      "bridge_no": "B125",
+      "bridge_name": "Apa Bridge",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 150 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-151",
+      "bridge_no": "B126",
+      "bridge_name": "Kochi Bridge",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 151 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-152",
+      "bridge_no": "B127",
+      "bridge_name": "Ayugi Bridge",
+      "fields": {
+        "year_compl": 2025
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 152 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-153",
+      "bridge_no": "B129",
+      "bridge_name": "Eria Bridge",
+      "fields": {
+        "year_compl": 2025
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 153 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-164",
+      "bridge_no": "B144",
+      "bridge_name": "Ayago Bridge",
+      "fields": {
+        "year_compl": 2019
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 164 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-165",
+      "bridge_no": "B145",
+      "bridge_name": "Ayago Bridge",
+      "fields": {
+        "year_compl": 2006
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 165 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-166",
+      "bridge_no": "B146",
+      "bridge_name": "Akaku",
+      "fields": {
+        "year_compl": 2019
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 166 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-181",
+      "bridge_no": "B165",
+      "bridge_name": "Lorengedwat",
+      "fields": {
+        "year_compl": 2016
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 181 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-182",
+      "bridge_no": "B166",
+      "bridge_name": "Namalera",
+      "fields": {
+        "year_compl": 2016
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 182 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-183",
+      "bridge_no": "B167",
+      "bridge_name": "Lokali",
+      "fields": {
+        "year_compl": 2016
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 183 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-184",
+      "bridge_no": "B168",
+      "bridge_name": "Nadunget",
+      "fields": {
+        "year_compl": 2016
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 184 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-197",
+      "bridge_no": "B182",
+      "bridge_name": "Komolo",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 197 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-198",
+      "bridge_no": "B183",
+      "bridge_name": "Getom",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 198 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-199",
+      "bridge_no": "B184",
+      "bridge_name": "Akangole",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 199 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-201",
+      "bridge_no": "B186",
+      "bridge_name": "Apak Bridge",
+      "fields": {
+        "year_compl": 2019
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 201 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-205",
+      "bridge_no": "B192",
+      "bridge_name": "Ajan Bridge",
+      "fields": {
+        "year_compl": 2018
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 205 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-206",
+      "bridge_no": "B195",
+      "bridge_name": "Aswa Bridge",
+      "fields": {
+        "year_compl": 2018
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 206 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-228",
+      "bridge_no": "B220",
+      "bridge_name": "Kigungu Bridge",
+      "fields": {
+        "width_between_para_rail": 4.3
+      },
+      "sources": {
+        "width_between_para_rail": "Bridges 18062025.xlsx::Bridges - central row 10 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "width_between_para_rail": 112
+      }
+    },
+    {
+      "bridge_id": "bridge-246",
+      "bridge_no": "B241",
+      "bridge_name": "Mitano 02 Bridge",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 246 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-267",
+      "bridge_no": "B270",
+      "bridge_name": "Wambabya",
+      "fields": {
+        "year_compl": 2015
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 267 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-352",
+      "bridge_no": "B382",
+      "bridge_name": "Dingidinga",
+      "fields": {
+        "river": "KANYANGAREN"
+      },
+      "sources": {
+        "river": "Bridges 18062025.xlsx::Bridges row 315 field River"
+      },
+      "confidence": {
+        "river": 84
+      }
+    },
+    {
+      "bridge_id": "bridge-355",
+      "bridge_no": "B390",
+      "bridge_name": "Namboole Flyover",
+      "fields": {
+        "year_compl": 1957
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 355 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-356",
+      "bridge_no": "B391",
+      "bridge_name": "Namboole Flyover",
+      "fields": {
+        "year_compl": 1957
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 356 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-357",
+      "bridge_no": "B392",
+      "bridge_name": "Kyaliwajjala Bridge",
+      "fields": {
+        "year_compl": 2010
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 357 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-365",
+      "bridge_no": "B430",
+      "bridge_name": "Murongo Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 365 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-366",
+      "bridge_no": "B450",
+      "bridge_name": "Busunju Bridge",
+      "fields": {
+        "year_compl": 2004
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 366 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-367",
+      "bridge_no": "B451",
+      "bridge_name": "Mate Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 367 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-368",
+      "bridge_no": "B452",
+      "bridge_name": "Nana Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 368 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-371",
+      "bridge_no": "B455",
+      "bridge_name": "Lugazi",
+      "fields": {
+        "year_compl": 1957
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 371 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-373",
+      "bridge_no": "B457",
+      "bridge_name": "Scoul Underpass",
+      "fields": {
+        "year_compl": 1957
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 373 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-374",
+      "bridge_no": "B458",
+      "bridge_name": "Matagi",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 374 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-376",
+      "bridge_no": "B460",
+      "bridge_name": "Mityana-Naama-Myanzi",
+      "fields": {
+        "year_compl": 2020
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 376 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 115
+      }
+    },
+    {
+      "bridge_id": "bridge-378",
+      "bridge_no": "B462",
+      "bridge_name": "Katonga Bridge",
+      "fields": {
+        "year_compl": 1958
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 378 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-380",
+      "bridge_no": "B541",
+      "bridge_name": "Murongo Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 380 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-381",
+      "bridge_no": "B542",
+      "bridge_name": "Mirama Border 02",
+      "fields": {
+        "year_compl": 2017
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 381 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-382",
+      "bridge_no": "B543",
+      "bridge_name": "Kyambu Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 382 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-385",
+      "bridge_no": "B546",
+      "bridge_name": "Mpanga Bridge",
+      "fields": {
+        "year_compl": 2014
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 385 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-386",
+      "bridge_no": "B547",
+      "bridge_name": "Ibanda",
+      "fields": {
+        "year_compl": 2002
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 386 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-389",
+      "bridge_no": "B551",
+      "bridge_name": "Kyanjuki",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 389 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-390",
+      "bridge_no": "B552",
+      "bridge_name": "Delta Bridge",
+      "fields": {
+        "year_compl": 2007
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 390 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-392",
+      "bridge_no": "B554",
+      "bridge_name": "Rukiri Bridge",
+      "fields": {
+        "year_compl": 1985
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 392 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-400",
+      "bridge_no": "B603",
+      "bridge_name": "Kaserem-Kapchorwa-Suam",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 400 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-402",
+      "bridge_no": "B606",
+      "bridge_name": "Kaserem-Kapchorwa-Suam",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 402 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-404",
+      "bridge_no": "B609",
+      "bridge_name": "Kapchorwa- Suam",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 404 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-405",
+      "bridge_no": "B610",
+      "bridge_name": "Kanyango Bridge - Kumi",
+      "fields": {
+        "year_compl": 2021
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 405 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-406",
+      "bridge_no": "B611",
+      "bridge_name": "Kaserem-Kapchorwa-Suam",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 406 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-407",
+      "bridge_no": "B612",
+      "bridge_name": "Kaserem-Kapchorwa-Suam",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 407 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-409",
+      "bridge_no": "B631",
+      "bridge_name": "Rutoha Bridge",
+      "fields": {
+        "year_compl": 2024
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 409 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-412",
+      "bridge_no": "B635",
+      "bridge_name": "Waaki Bridge",
+      "fields": {
+        "year_compl": 2022
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 412 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-413",
+      "bridge_no": "B637",
+      "bridge_name": "Kafu",
+      "fields": {
+        "year_compl": 1962
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 413 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-432",
+      "bridge_no": "B761",
+      "bridge_name": "Aloi Bridge",
+      "fields": {
+        "year_compl": 2019
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 433 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-438",
+      "bridge_no": "B861",
+      "bridge_name": "Road Over Sugarcane Plantation",
+      "fields": {
+        "year_compl": 1960
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 439 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-439",
+      "bridge_no": "B862",
+      "bridge_name": "Road Over Sugarcane Plantation",
+      "fields": {
+        "year_compl": 1960
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 440 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-440",
+      "bridge_no": "B863",
+      "bridge_name": "Malawa",
+      "fields": {
+        "year_compl": 1970
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 441 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-443",
+      "bridge_no": "B866",
+      "bridge_name": "Manafa",
+      "fields": {
+        "year_compl": 1969
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 444 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-448",
+      "bridge_no": "B871",
+      "bridge_name": "Road Over River",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 449 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 115
+      }
+    },
+    {
+      "bridge_id": "bridge-449",
+      "bridge_no": "B872",
+      "bridge_name": "Siti",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 450 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-451",
+      "bridge_no": "B874",
+      "bridge_name": "Bukwo",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 452 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-452",
+      "bridge_no": "B877",
+      "bridge_name": "Suam Bridge",
+      "fields": {
+        "year_compl": 2023
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 453 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-462",
+      "bridge_no": "B376",
+      "bridge_name": "Namboole B1",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 463 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-463",
+      "bridge_no": "B385",
+      "bridge_name": "Old Kira Road Over Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 464 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-464",
+      "bridge_no": "B386",
+      "bridge_name": "Ntinda Foot Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 465 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-465",
+      "bridge_no": "B398",
+      "bridge_name": "Ntinda B1",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 466 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-466",
+      "bridge_no": "B400",
+      "bridge_name": "Ntinda B2",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 467 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-467",
+      "bridge_no": "B403",
+      "bridge_name": "Bukoto-Kisasi Over Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 468 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-468",
+      "bridge_no": "B404",
+      "bridge_name": "Bukoto-Kyebando B1 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 469 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-469",
+      "bridge_no": "B405",
+      "bridge_name": "Bukoto-Kyebando B1 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 470 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-470",
+      "bridge_no": "B409",
+      "bridge_name": "Bukoto-Kyebando B2 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 471 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-471",
+      "bridge_no": "B412",
+      "bridge_name": "Bukoto-Kyebando B2 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 472 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-472",
+      "bridge_no": "B242",
+      "bridge_name": "Kyebando Foot Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 473 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-473",
+      "bridge_no": "B416",
+      "bridge_name": "Namboole B2",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 474 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-474",
+      "bridge_no": "B204",
+      "bridge_name": "Kyebando Over Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 475 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-475",
+      "bridge_no": "B417",
+      "bridge_name": "Kalerwe B1 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 476 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-476",
+      "bridge_no": "B418",
+      "bridge_name": "Kalerwe B2 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 477 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-477",
+      "bridge_no": "B219",
+      "bridge_name": "Kalerwe B2 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 478 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-478",
+      "bridge_no": "B221",
+      "bridge_name": "Kalerwe B1 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 479 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-479",
+      "bridge_no": "B224",
+      "bridge_name": "Kalerwe Foot Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 480 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-480",
+      "bridge_no": "B244",
+      "bridge_name": "Bwayise B1 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 481 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-481",
+      "bridge_no": "B245",
+      "bridge_name": "Bwayise B2 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 482 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-482",
+      "bridge_no": "B247",
+      "bridge_name": "Bwayise B1 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 483 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-483",
+      "bridge_no": "B250",
+      "bridge_name": "Bwayise B2 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 484 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-484",
+      "bridge_no": "B254",
+      "bridge_name": "Namugongo Overbridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 485 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-485",
+      "bridge_no": "B257",
+      "bridge_name": "Kawaala Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 486 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-486",
+      "bridge_no": "B262",
+      "bridge_name": "Namungoona B2",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 487 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-487",
+      "bridge_no": "B419",
+      "bridge_name": "Namungoona B22",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 488 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-488",
+      "bridge_no": "B280",
+      "bridge_name": "Namungoona B1",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 489 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-489",
+      "bridge_no": "B304",
+      "bridge_name": "Namungoona B12",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 490 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-490",
+      "bridge_no": "B305",
+      "bridge_name": "Sentema B2",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 491 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-491",
+      "bridge_no": "B306",
+      "bridge_name": "Sentema B22",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 492 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-492",
+      "bridge_no": "B307",
+      "bridge_name": "Sentema B1",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 493 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 120
+      }
+    },
+    {
+      "bridge_id": "bridge-493",
+      "bridge_no": "B309",
+      "bridge_name": "Sentema B12",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 494 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-494",
+      "bridge_no": "B310",
+      "bridge_name": "Nalya-Kamuli Flyover Foot Bridge",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 495 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-495",
+      "bridge_no": "B311",
+      "bridge_name": "Nalya B1 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 496 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-496",
+      "bridge_no": "B322",
+      "bridge_name": "Nalya B2 Lhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 497 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-497",
+      "bridge_no": "B329",
+      "bridge_name": "Nalya B1 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 498 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-498",
+      "bridge_no": "B341",
+      "bridge_name": "Nalya B2 Rhs",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 499 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 125
+      }
+    },
+    {
+      "bridge_id": "bridge-499",
+      "bridge_no": "B342",
+      "bridge_name": "Kiwatule Under-Pass",
+      "fields": {
+        "year_compl": 2008
+      },
+      "sources": {
+        "year_compl": "tblB_Bridge2-new.xlsx::tblB-Bridge2 row 500 field Completion_Year"
+      },
+      "confidence": {
+        "year_compl": 130
+      }
+    },
+    {
+      "bridge_id": "bridge-516",
+      "bridge_no": "B027",
+      "bridge_name": "Nabuyonga Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 11.2,
+        "approach_slab": "02",
+        "approaches_rating": 5,
+        "bridge_len": 17.15,
+        "bridge_wid": 18.3,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 2,
+        "no_of_span": 3,
+        "overall_rating": 6,
+        "roadway_rating": 5,
+        "scour_protection": "10",
+        "substructure_rating": 7,
+        "superstructure_rating": 7,
+        "type_abutment_l": "03",
+        "type_abutment_r": "02",
+        "type_bearings": "97",
+        "type_bridge": "07",
+        "type_deck": "01",
+        "type_deck_material": "03",
+        "type_exp_joints": "97",
+        "type_para_rail": "02",
+        "type_piers": "20",
+        "type_wearing_surface": "02",
+        "waterway_rating": 4,
+        "weight_load_restr": "02"
+      },
+      "sources": {
+        "abutment_gallery": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field AbutmentGallery",
+        "approach_roadway_width": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Approach roadway width (m)",
+        "approach_slab": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field Approach 2022",
+        "bridge_len": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Overall bridge length (m)",
+        "bridge_wid": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Overall bridge width (m)",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 26 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 26 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 26 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field Roadway 2022",
+        "scour_protection": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Scour protection",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field SubStructure 2022",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field SuperStructure 2022",
+        "type_abutment_l": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type abutment (left)",
+        "type_abutment_r": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type abutment (right)",
+        "type_bearings": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type bearings",
+        "type_bridge": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type bridge",
+        "type_deck": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type deck",
+        "type_deck_material": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type deck material",
+        "type_exp_joints": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type expansion joints",
+        "type_para_rail": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type parapet/railing",
+        "type_piers": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type piers",
+        "type_wearing_surface": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Type wearing surface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 27 field Waterway 2022",
+        "weight_load_restr": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 20 field Weight/load restriction"
+      },
+      "confidence": {
+        "abutment_gallery": 94,
+        "approach_roadway_width": 94,
+        "approach_slab": 94,
+        "approaches_rating": 110,
+        "bridge_len": 94,
+        "bridge_wid": 94,
+        "no_of_exp_joints": 114,
+        "no_of_pier": 114,
+        "no_of_span": 114,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 94,
+        "substructure_rating": 110,
+        "superstructure_rating": 110,
+        "type_abutment_l": 94,
+        "type_abutment_r": 94,
+        "type_bearings": 94,
+        "type_bridge": 94,
+        "type_deck": 94,
+        "type_deck_material": 94,
+        "type_exp_joints": 94,
+        "type_para_rail": 94,
+        "type_piers": 94,
+        "type_wearing_surface": 94,
+        "waterway_rating": 110,
+        "weight_load_restr": 94
+      }
+    },
+    {
+      "bridge_id": "bridge-517",
+      "bridge_no": "B128",
+      "bridge_name": "Eyiagwea",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "02",
+        "approaches_rating": 7,
+        "bridge_len": 7.5,
+        "bridge_wid": 3.65,
+        "min_bridge_roadway_width": 3.2,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 3.6,
+        "roadway_rating": 6,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 6,
+        "superload_route": "03",
+        "superstructure_rating": 6,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bridge": "01",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "04",
+        "waterway_rating": 6,
+        "weight_load_restr": "03"
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 13 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 119 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 13 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 14 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 14 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeDeckMaterial",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 14 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 120 field WeightOrLoadRestr"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-518",
+      "bridge_no": "B130",
+      "bridge_name": "Surumu",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "02",
+        "approaches_rating": 0,
+        "bridge_len": 6.85,
+        "bridge_wid": 3.45,
+        "min_bridge_roadway_width": 3.15,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 0,
+        "roadway_rating": 0,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 0,
+        "superload_route": "03",
+        "superstructure_rating": 0,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bridge": "01",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_para_rail": "97",
+        "type_piers": "97",
+        "type_wearing_surface": "04",
+        "waterway_rating": 0,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.45
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeDeckMaterial",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 121 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 121 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-519",
+      "bridge_no": "B131",
+      "bridge_name": "Cala",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "02",
+        "approaches_rating": 7,
+        "bridge_len": 14.0,
+        "bridge_wid": 3.45,
+        "min_bridge_roadway_width": 3.0,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 1,
+        "no_of_span": 2,
+        "overall_rating": 4.9,
+        "roadway_rating": 6,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "07",
+        "type_abutment_r": "07",
+        "type_bridge": "02",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_para_rail": "97",
+        "type_piers": "25",
+        "type_wearing_surface": "98",
+        "waterway_rating": 7,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.0
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 16 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 122 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 16 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 16 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 16 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeDeckMaterial",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 16 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 122 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-520",
+      "bridge_no": "B140",
+      "bridge_name": "Ozoro",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "02",
+        "approaches_rating": 7,
+        "bridge_len": 3.4,
+        "bridge_wid": 3.4,
+        "min_bridge_roadway_width": 3.0,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 2.5,
+        "roadway_rating": 6,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 6,
+        "superload_route": "03",
+        "superstructure_rating": 6,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bridge": "01",
+        "type_deck": "20",
+        "type_deck_material": "07",
+        "type_para_rail": "97",
+        "type_piers": "97",
+        "waterway_rating": 6,
+        "weight_load_restr": "03"
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 22 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 131 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 22 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 22 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 22 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeDeckMaterial",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field TypePiers",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 22 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 125 field WeightOrLoadRestr"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-521",
+      "bridge_no": "B141",
+      "bridge_name": "Nvetre",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.0,
+        "approach_slab": "02",
+        "approaches_rating": 7,
+        "bridge_len": 3.2,
+        "bridge_wid": 3.2,
+        "min_bridge_roadway_width": 3.0,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 2.5,
+        "roadway_rating": 6,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 6,
+        "superload_route": "03",
+        "superstructure_rating": 6,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bridge": "01",
+        "type_deck": "20",
+        "type_deck_material": "07",
+        "type_para_rail": "97",
+        "type_piers": "97",
+        "waterway_rating": 7,
+        "weight_load_restr": "03"
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 23 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 132 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 23 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 23 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 23 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeDeckMaterial",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field TypePiers",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 23 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 126 field WeightOrLoadRestr"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-522",
+      "bridge_no": "B152",
+      "bridge_name": "Acholibur Bridge",
+      "fields": {
+        "abutment_gallery": "03",
+        "approach_roadway_width": 7.5,
+        "approach_slab": "03",
+        "approaches_rating": 8,
+        "bridge_len": 4.4,
+        "bridge_wid": 7.9,
+        "min_bridge_roadway_width": 6.6,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 5.8,
+        "roadway_rating": 8,
+        "scour_protection": "10",
+        "scour_risk": "U",
+        "substructure_rating": 7,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bridge": "01",
+        "type_deck": "01",
+        "type_deck_material": "03",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 7.2
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 28 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 143 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 28 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 28 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 28 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeAbutmentR",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 28 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 131 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-523",
+      "bridge_no": "B153",
+      "bridge_name": "Dure Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 6.6,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 5.4,
+        "bridge_wid": 7.9,
+        "min_bridge_roadway_width": 6.6,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 5.9,
+        "roadway_rating": 8,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "98",
+        "type_bridge": "01",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 7.3
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 29 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 144 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 29 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 29 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 29 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 29 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 132 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-524",
+      "bridge_no": "B155",
+      "bridge_name": "Lanyang Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 4.4,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 14.2,
+        "bridge_wid": 4.65,
+        "min_bridge_roadway_width": 4.0,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 1,
+        "no_of_span": 2,
+        "overall_rating": 6.8,
+        "roadway_rating": 7,
+        "scour_protection": "98",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 7,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "98",
+        "type_bridge": "02",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "20",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 4.4
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 30 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 146 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 30 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 30 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 30 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 30 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 133 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-526",
+      "bridge_no": "B180",
+      "bridge_name": "Agago Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.8,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 14.7,
+        "bridge_wid": 3.45,
+        "min_bridge_roadway_width": 2.97,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 1,
+        "no_of_span": 2,
+        "overall_rating": 7.5,
+        "roadway_rating": 7,
+        "scour_protection": "98",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 6,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "98",
+        "type_bridge": "02",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "20",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.1
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 31 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 170 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 31 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 31 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 31 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 31 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 15 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-527",
+      "bridge_no": "B190",
+      "bridge_name": "Atika Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 5.2,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 5.5,
+        "bridge_wid": 5.13,
+        "min_bridge_roadway_width": 4.5,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 7.4,
+        "roadway_rating": 7,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "98",
+        "type_bridge": "01",
+        "type_deck": "18",
+        "type_deck_material": "06",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 4.7
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 33 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 180 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 33 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 33 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 33 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 33 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 105 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-531",
+      "bridge_no": "B205",
+      "bridge_name": "Lakaye Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 4.2,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 4.1,
+        "bridge_wid": 4.2,
+        "min_bridge_roadway_width": 3.6,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 6.9,
+        "roadway_rating": 8,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 4,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "98",
+        "type_bridge": "01",
+        "type_deck": "06",
+        "type_deck_material": "03",
+        "type_exp_joints": "98",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.6
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field ApproachSlab",
+        "approaches_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 39 field SubHeadingApproachRating",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 191 field Adopted Condition Rating",
+        "roadway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 39 field SubHeadingRoadwayRating",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field ScourRisk",
+        "substructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 39 field SubHeadingSubstructureRating",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field SuperLoadRoute",
+        "superstructure_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 39 field SubHeadingSuperStructureRating",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field TypeWearingSurface",
+        "waterway_rating": "BMS_Data2015_UNRA_Capture111.mdb::tblI_Inspec row 39 field SubHeadingWaterwayRating",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 145 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 96,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 96,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 96,
+        "superload_route": 128,
+        "superstructure_rating": 96,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 96,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-532",
+      "bridge_no": "B357",
+      "bridge_name": "Kapisa Bridge",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 5.0,
+        "approach_slab": "03",
+        "approaches_rating": 8,
+        "bridge_len": 6.67,
+        "bridge_wid": 4.85,
+        "min_bridge_roadway_width": 4.9,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 4,
+        "roadway_rating": 1,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "03",
+        "type_abutment_r": "03",
+        "type_bearings": "97",
+        "type_bridge": "01",
+        "type_deck": "19",
+        "type_deck_material": "06",
+        "type_exp_joints": "97",
+        "type_para_rail": "02",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "02",
+        "width_between_para_rail": 4.9
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 313 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 269 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-533",
+      "bridge_no": "B372",
+      "bridge_name": "Methi",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.2,
+        "approach_slab": "02",
+        "approaches_rating": 7,
+        "bridge_len": 6.4,
+        "bridge_wid": 4.4,
+        "min_bridge_roadway_width": 2.68,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 4,
+        "roadway_rating": 7,
+        "scour_protection": "03",
+        "scour_risk": "Y",
+        "substructure_rating": 4,
+        "superload_route": "03",
+        "superstructure_rating": 4,
+        "type_abutment_l": "01",
+        "type_abutment_r": "01",
+        "type_bearings": "97",
+        "type_bridge": "01",
+        "type_deck": "20",
+        "type_deck_material": "05",
+        "type_exp_joints": "97",
+        "type_para_rail": "98",
+        "type_piers": "97",
+        "type_wearing_surface": "98",
+        "waterway_rating": 6,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.3
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 326 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 274 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-534",
+      "bridge_no": "B378",
+      "bridge_name": "Atoot",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 4.5,
+        "approach_slab": "01",
+        "approaches_rating": 5,
+        "bridge_len": 9.0,
+        "bridge_wid": 4.82,
+        "min_bridge_roadway_width": 3.7,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 7,
+        "roadway_rating": 7,
+        "scour_protection": "10",
+        "scour_risk": "Y",
+        "substructure_rating": 7,
+        "superload_route": "03",
+        "superstructure_rating": 7,
+        "type_abutment_l": "03",
+        "type_abutment_r": "03",
+        "type_bearings": "97",
+        "type_bridge": "01",
+        "type_deck": "19",
+        "type_deck_material": "06",
+        "type_exp_joints": "97",
+        "type_para_rail": "04",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 7,
+        "weight_load_restr": "02",
+        "width_between_para_rail": 4.2
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 328 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 281 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-535",
+      "bridge_no": "B379",
+      "bridge_name": "Opot",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 3.2,
+        "approach_slab": "01",
+        "approaches_rating": 7,
+        "bridge_len": 7.0,
+        "bridge_wid": 5.0,
+        "min_bridge_roadway_width": 4.58,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 8,
+        "roadway_rating": 8,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 7,
+        "type_abutment_l": "01",
+        "type_abutment_r": "01",
+        "type_bearings": "08",
+        "type_bridge": "01",
+        "type_deck": "19",
+        "type_deck_material": "06",
+        "type_exp_joints": "97",
+        "type_para_rail": "06",
+        "type_piers": "97",
+        "type_wearing_surface": "03",
+        "waterway_rating": 8,
+        "weight_load_restr": "02",
+        "width_between_para_rail": 4.58
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 329 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 282 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    },
+    {
+      "bridge_id": "bridge-536",
+      "bridge_no": "B393",
+      "bridge_name": "Kiwatule Flyover",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 8.12,
+        "approach_slab": "02",
+        "approaches_rating": 6,
+        "bridge_len": 28.700001,
+        "bridge_wid": 9.72,
+        "min_bridge_roadway_width": 8.12,
+        "no_of_exp_joints": 2,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 7,
+        "roadway_rating": 7,
+        "scour_protection": "01",
+        "scour_risk": "U",
+        "substructure_rating": 6,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "06",
+        "type_abutment_r": "06",
+        "type_bearings": "97",
+        "type_bridge": "07",
+        "type_deck": "01",
+        "type_deck_material": "03",
+        "type_exp_joints": "97",
+        "type_para_rail": "07",
+        "type_piers": "98",
+        "type_wearing_surface": "01",
+        "waterway_rating": 0,
+        "weight_load_restr": "02"
+      },
+      "sources": {
+        "abutment_gallery": "Bridges 18062025.xlsx::Bridges - central row 19 field AbutmentGallery",
+        "approach_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 19 field ApproachRoadwayWidth",
+        "approach_slab": "Bridges 18062025.xlsx::Bridges - central row 19 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field Approach 2022",
+        "bridge_len": "Bridges 18062025.xlsx::Bridges - central row 19 field OverallBridgeLength",
+        "bridge_wid": "Bridges 18062025.xlsx::Bridges - central row 19 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 19 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 325 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 325 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 325 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field Roadway 2022",
+        "scour_protection": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 291 field Scour protection",
+        "scour_risk": "Bridges 18062025.xlsx::Bridges - central row 19 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field SubStructure 2022",
+        "superload_route": "Bridges 18062025.xlsx::Bridges - central row 19 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field SuperStructure 2022",
+        "type_abutment_l": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeAbutmentL",
+        "type_abutment_r": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeAbutmentR",
+        "type_bearings": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeBearings",
+        "type_bridge": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeBridge",
+        "type_deck": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeDeck",
+        "type_deck_material": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeDeckMaterial",
+        "type_exp_joints": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeExpJoints",
+        "type_para_rail": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeParaOrRail",
+        "type_piers": "Bridges 18062025.xlsx::Bridges - central row 19 field TypePiers",
+        "type_wearing_surface": "Bridges 18062025.xlsx::Bridges - central row 19 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 341 field Waterway 2022",
+        "weight_load_restr": "Bridges 18062025.xlsx::Bridges - central row 19 field WeightOrLoadRestr"
+      },
+      "confidence": {
+        "abutment_gallery": 92,
+        "approach_roadway_width": 92,
+        "approach_slab": 92,
+        "approaches_rating": 115,
+        "bridge_len": 92,
+        "bridge_wid": 92,
+        "min_bridge_roadway_width": 92,
+        "no_of_exp_joints": 119,
+        "no_of_pier": 119,
+        "no_of_span": 119,
+        "overall_rating": 115,
+        "roadway_rating": 115,
+        "scour_protection": 64,
+        "scour_risk": 92,
+        "substructure_rating": 115,
+        "superload_route": 92,
+        "superstructure_rating": 115,
+        "type_abutment_l": 92,
+        "type_abutment_r": 92,
+        "type_bearings": 92,
+        "type_bridge": 92,
+        "type_deck": 92,
+        "type_deck_material": 92,
+        "type_exp_joints": 92,
+        "type_para_rail": 92,
+        "type_piers": 92,
+        "type_wearing_surface": 92,
+        "waterway_rating": 115,
+        "weight_load_restr": 92
+      }
+    },
+    {
+      "bridge_id": "bridge-537",
+      "bridge_no": "B394",
+      "bridge_name": "Najeera Flyover",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 11.6,
+        "approach_slab": "03",
+        "approaches_rating": 8,
+        "bridge_len": 54.799999,
+        "bridge_wid": 9.97,
+        "min_bridge_roadway_width": 7.52,
+        "no_of_exp_joints": 5,
+        "no_of_pier": 3,
+        "no_of_span": 4,
+        "overall_rating": 8,
+        "roadway_rating": 7,
+        "scour_protection": "98",
+        "scour_risk": "U",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bearings": "02",
+        "type_bridge": "01",
+        "type_deck": "04",
+        "type_deck_material": "04",
+        "type_exp_joints": "20",
+        "type_para_rail": "08",
+        "type_piers": "20",
+        "type_wearing_surface": "01",
+        "waterway_rating": 0,
+        "weight_load_restr": "02",
+        "width_between_para_rail": 9.22
+      },
+      "sources": {
+        "abutment_gallery": "Bridges 18062025.xlsx::Bridges - central row 20 field AbutmentGallery",
+        "approach_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 20 field ApproachRoadwayWidth",
+        "approach_slab": "Bridges 18062025.xlsx::Bridges - central row 20 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field Approach 2022",
+        "bridge_len": "Bridges 18062025.xlsx::Bridges - central row 20 field OverallBridgeLength",
+        "bridge_wid": "Bridges 18062025.xlsx::Bridges - central row 20 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 20 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 326 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 326 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 326 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field Roadway 2022",
+        "scour_protection": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 292 field Scour protection",
+        "scour_risk": "Bridges 18062025.xlsx::Bridges - central row 20 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field SubStructure 2022",
+        "superload_route": "Bridges 18062025.xlsx::Bridges - central row 20 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field SuperStructure 2022",
+        "type_abutment_l": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeAbutmentL",
+        "type_abutment_r": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeAbutmentR",
+        "type_bearings": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeBearings",
+        "type_bridge": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeBridge",
+        "type_deck": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeDeck",
+        "type_deck_material": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeDeckMaterial",
+        "type_exp_joints": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeExpJoints",
+        "type_para_rail": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeParaOrRail",
+        "type_piers": "Bridges 18062025.xlsx::Bridges - central row 20 field TypePiers",
+        "type_wearing_surface": "Bridges 18062025.xlsx::Bridges - central row 20 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 342 field Waterway 2022",
+        "weight_load_restr": "Bridges 18062025.xlsx::Bridges - central row 20 field WeightOrLoadRestr",
+        "width_between_para_rail": "Bridges 18062025.xlsx::Bridges - central row 20 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 92,
+        "approach_roadway_width": 92,
+        "approach_slab": 92,
+        "approaches_rating": 115,
+        "bridge_len": 92,
+        "bridge_wid": 92,
+        "min_bridge_roadway_width": 92,
+        "no_of_exp_joints": 119,
+        "no_of_pier": 119,
+        "no_of_span": 119,
+        "overall_rating": 115,
+        "roadway_rating": 115,
+        "scour_protection": 64,
+        "scour_risk": 92,
+        "substructure_rating": 115,
+        "superload_route": 92,
+        "superstructure_rating": 115,
+        "type_abutment_l": 92,
+        "type_abutment_r": 92,
+        "type_bearings": 92,
+        "type_bridge": 92,
+        "type_deck": 92,
+        "type_deck_material": 92,
+        "type_exp_joints": 92,
+        "type_para_rail": 92,
+        "type_piers": 92,
+        "type_wearing_surface": 92,
+        "waterway_rating": 115,
+        "weight_load_restr": 92,
+        "width_between_para_rail": 92
+      }
+    },
+    {
+      "bridge_id": "bridge-538",
+      "bridge_no": "B396",
+      "bridge_name": "Kyebando Flyover",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 9.3,
+        "approach_slab": "03",
+        "approaches_rating": 8,
+        "bridge_len": 33.200001,
+        "bridge_wid": 9.97,
+        "min_bridge_roadway_width": 7.62,
+        "no_of_exp_joints": 3,
+        "no_of_pier": 1,
+        "no_of_span": 2,
+        "overall_rating": 8,
+        "roadway_rating": 8,
+        "scour_protection": "10",
+        "scour_risk": "U",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "02",
+        "type_abutment_r": "02",
+        "type_bearings": "02",
+        "type_bridge": "01",
+        "type_deck": "04",
+        "type_deck_material": "04",
+        "type_exp_joints": "02",
+        "type_para_rail": "08",
+        "type_piers": "20",
+        "type_wearing_surface": "01",
+        "waterway_rating": 0,
+        "weight_load_restr": "02",
+        "width_between_para_rail": 9.22
+      },
+      "sources": {
+        "abutment_gallery": "Bridges 18062025.xlsx::Bridges - central row 22 field AbutmentGallery",
+        "approach_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 22 field ApproachRoadwayWidth",
+        "approach_slab": "Bridges 18062025.xlsx::Bridges - central row 22 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field Approach 2022",
+        "bridge_len": "Bridges 18062025.xlsx::Bridges - central row 22 field OverallBridgeLength",
+        "bridge_wid": "Bridges 18062025.xlsx::Bridges - central row 22 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 22 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 328 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 328 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 328 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field Roadway 2022",
+        "scour_protection": "List of bridges and culverts from BMS database 2019-20.xlsx::Bridges row 294 field Scour protection",
+        "scour_risk": "Bridges 18062025.xlsx::Bridges - central row 22 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field SubStructure 2022",
+        "superload_route": "Bridges 18062025.xlsx::Bridges - central row 22 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field SuperStructure 2022",
+        "type_abutment_l": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeAbutmentL",
+        "type_abutment_r": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeAbutmentR",
+        "type_bearings": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeBearings",
+        "type_bridge": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeBridge",
+        "type_deck": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeDeck",
+        "type_deck_material": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeDeckMaterial",
+        "type_exp_joints": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeExpJoints",
+        "type_para_rail": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeParaOrRail",
+        "type_piers": "Bridges 18062025.xlsx::Bridges - central row 22 field TypePiers",
+        "type_wearing_surface": "Bridges 18062025.xlsx::Bridges - central row 22 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 344 field Waterway 2022",
+        "weight_load_restr": "Bridges 18062025.xlsx::Bridges - central row 22 field WeightOrLoadRestr",
+        "width_between_para_rail": "Bridges 18062025.xlsx::Bridges - central row 22 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 92,
+        "approach_roadway_width": 92,
+        "approach_slab": 92,
+        "approaches_rating": 115,
+        "bridge_len": 92,
+        "bridge_wid": 92,
+        "min_bridge_roadway_width": 92,
+        "no_of_exp_joints": 119,
+        "no_of_pier": 119,
+        "no_of_span": 119,
+        "overall_rating": 115,
+        "roadway_rating": 115,
+        "scour_protection": 64,
+        "scour_risk": 92,
+        "substructure_rating": 115,
+        "superload_route": 92,
+        "superstructure_rating": 115,
+        "type_abutment_l": 92,
+        "type_abutment_r": 92,
+        "type_bearings": 92,
+        "type_bridge": 92,
+        "type_deck": 92,
+        "type_deck_material": 92,
+        "type_exp_joints": 92,
+        "type_para_rail": 92,
+        "type_piers": 92,
+        "type_wearing_surface": 92,
+        "waterway_rating": 115,
+        "weight_load_restr": 92,
+        "width_between_para_rail": 92
+      }
+    },
+    {
+      "bridge_id": "bridge-539",
+      "bridge_no": "B397",
+      "bridge_name": "Pedestrian Bridge at Kalerwe",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 1.75,
+        "approach_slab": "01",
+        "approaches_rating": 8,
+        "bridge_len": 212.0,
+        "bridge_wid": 2.0,
+        "min_bridge_roadway_width": 1.75,
+        "no_of_exp_joints": 5,
+        "no_of_pier": 3,
+        "no_of_span": 4,
+        "overall_rating": 8,
+        "roadway_rating": 7,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 8,
+        "superload_route": "03",
+        "superstructure_rating": 8,
+        "type_abutment_l": "98",
+        "type_abutment_r": "98",
+        "type_bearings": "02",
+        "type_bridge": "01",
+        "type_deck": "07",
+        "type_deck_material": "03",
+        "type_exp_joints": "20",
+        "type_para_rail": "03",
+        "type_piers": "22",
+        "type_wearing_surface": "03",
+        "waterway_rating": 0,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 2.0
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field AbutmentGallery",
+        "approach_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 23 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Approach 2022",
+        "bridge_len": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Bridge Length (m)",
+        "bridge_wid": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Bridge Width (m)",
+        "min_bridge_roadway_width": "Bridges 18062025.xlsx::Bridges - central row 23 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 329 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 329 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 329 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field ScourProtection",
+        "scour_risk": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Scour Risk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 345 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 304 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 98,
+        "approach_roadway_width": 92,
+        "approach_slab": 98,
+        "approaches_rating": 115,
+        "bridge_len": 115,
+        "bridge_wid": 115,
+        "min_bridge_roadway_width": 92,
+        "no_of_exp_joints": 119,
+        "no_of_pier": 119,
+        "no_of_span": 119,
+        "overall_rating": 115,
+        "roadway_rating": 115,
+        "scour_protection": 98,
+        "scour_risk": 115,
+        "substructure_rating": 115,
+        "superload_route": 98,
+        "superstructure_rating": 115,
+        "type_abutment_l": 98,
+        "type_abutment_r": 98,
+        "type_bearings": 98,
+        "type_bridge": 98,
+        "type_deck": 98,
+        "type_deck_material": 98,
+        "type_exp_joints": 98,
+        "type_para_rail": 98,
+        "type_piers": 98,
+        "type_wearing_surface": 98,
+        "waterway_rating": 115,
+        "weight_load_restr": 98,
+        "width_between_para_rail": 98
+      }
+    },
+    {
+      "bridge_id": "bridge-540",
+      "bridge_no": "B408",
+      "bridge_name": "Kufu",
+      "fields": {
+        "approaches_rating": 7,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 7,
+        "roadway_rating": 7,
+        "substructure_rating": 7,
+        "superstructure_rating": 8,
+        "waterway_rating": 7
+      },
+      "sources": {
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field Approach 2022",
+        "no_of_exp_joints": "Bridges 18062025.xlsx::Bridges row 335 field No of Expansion Joints",
+        "no_of_pier": "Bridges 18062025.xlsx::Bridges row 335 field No of Piers",
+        "no_of_span": "Bridges 18062025.xlsx::Bridges row 335 field No of Spans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field Roadway 2022",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field SubStructure 2022",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field SuperStructure 2022",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 351 field Waterway 2022"
+      },
+      "confidence": {
+        "approaches_rating": 110,
+        "no_of_exp_joints": 114,
+        "no_of_pier": 114,
+        "no_of_span": 114,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "substructure_rating": 110,
+        "superstructure_rating": 110,
+        "waterway_rating": 110
+      }
+    },
+    {
+      "bridge_id": "bridge-541",
+      "bridge_no": "B876",
+      "bridge_name": "Lukha",
+      "fields": {
+        "abutment_gallery": "02",
+        "approach_roadway_width": 4.5,
+        "approach_slab": "02",
+        "approaches_rating": 8,
+        "bridge_len": 5.5,
+        "bridge_wid": 4.6,
+        "min_bridge_roadway_width": 3.97,
+        "no_of_exp_joints": 0,
+        "no_of_pier": 0,
+        "no_of_span": 1,
+        "overall_rating": 3,
+        "roadway_rating": 1,
+        "scour_protection": "10",
+        "scour_risk": "N",
+        "substructure_rating": 6,
+        "superload_route": "03",
+        "superstructure_rating": 4,
+        "type_abutment_l": "01",
+        "type_abutment_r": "01",
+        "type_bearings": "97",
+        "type_bridge": "01",
+        "type_deck": "20",
+        "type_deck_material": "07",
+        "type_exp_joints": "97",
+        "type_para_rail": "01",
+        "type_piers": "97",
+        "type_wearing_surface": "98",
+        "waterway_rating": 7,
+        "weight_load_restr": "03",
+        "width_between_para_rail": 3.97
+      },
+      "sources": {
+        "abutment_gallery": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field AbutmentGallery",
+        "approach_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field ApproachRoadwayWidth",
+        "approach_slab": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field ApproachSlab",
+        "approaches_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field Approach 2022",
+        "bridge_len": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field OverallBridgeLength",
+        "bridge_wid": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field OverallBridgeWidth",
+        "min_bridge_roadway_width": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field MinBridgeRoadwayWidth",
+        "no_of_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field NumberOfExpJoints",
+        "no_of_pier": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field NumberOfPiers",
+        "no_of_span": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field NumberOfSpans",
+        "overall_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field Overall Rating 2022",
+        "roadway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field Roadway 2022",
+        "scour_protection": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field ScourProtection",
+        "scour_risk": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field ScourRisk",
+        "substructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field SubStructure 2022",
+        "superload_route": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field SuperLoadRoute",
+        "superstructure_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field SuperStructure 2022",
+        "type_abutment_l": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeAbutmentL",
+        "type_abutment_r": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeAbutmentR",
+        "type_bearings": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeBearings",
+        "type_bridge": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeBridge",
+        "type_deck": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeDeck",
+        "type_deck_material": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeDeckMaterial",
+        "type_exp_joints": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeExpJoints",
+        "type_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeParaOrRail",
+        "type_piers": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypePiers",
+        "type_wearing_surface": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field TypeWearingSurface",
+        "waterway_rating": "UNRA_Bridge_Major_Culverts_Inventory_Condition_Workbook.xlsx::Bridge_Analysis row 444 field Waterway 2022",
+        "weight_load_restr": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field WeightOrLoadRestr",
+        "width_between_para_rail": "BMS_Data2015_UNRA_Capture111.mdb::tblB_Bridge row 337 field WidthBetwParaOrRail"
+      },
+      "confidence": {
+        "abutment_gallery": 128,
+        "approach_roadway_width": 128,
+        "approach_slab": 128,
+        "approaches_rating": 110,
+        "bridge_len": 128,
+        "bridge_wid": 128,
+        "min_bridge_roadway_width": 128,
+        "no_of_exp_joints": 128,
+        "no_of_pier": 128,
+        "no_of_span": 128,
+        "overall_rating": 110,
+        "roadway_rating": 110,
+        "scour_protection": 128,
+        "scour_risk": 128,
+        "substructure_rating": 110,
+        "superload_route": 128,
+        "superstructure_rating": 110,
+        "type_abutment_l": 128,
+        "type_abutment_r": 128,
+        "type_bearings": 128,
+        "type_bridge": 128,
+        "type_deck": 128,
+        "type_deck_material": 128,
+        "type_exp_joints": 128,
+        "type_para_rail": 128,
+        "type_piers": 128,
+        "type_wearing_surface": 128,
+        "waterway_rating": 110,
+        "weight_load_restr": 128,
+        "width_between_para_rail": 128
+      }
+    }
+  ]
+}

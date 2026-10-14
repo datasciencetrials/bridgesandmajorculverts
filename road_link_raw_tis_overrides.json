@@ -1,0 +1,2800 @@
+{
+  "source": "D:\\OneDrive\\Uganda National Road Network Repository\\3.Traffic\\TIS 2025_AADT analysis.xlsx",
+  "generated_from_sheet": "TIS 2024",
+  "override_rule": "audit_flag != ok (duplicate slots or raw-to-embedded ratio outside 0.75-1.33)",
+  "overrides": [
+    {
+      "link_id": "A002_Link03",
+      "link_name": "Mpigi - Buwama",
+      "latest_year": 2024,
+      "latest_aadt": 12608.86,
+      "latest_raw_adt": 12608.86,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 13769.19,
+      "adt_excl_motorcycles": 8733.0,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 12608.86,
+          "raw_adt": 12608.86,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.005483673608121275,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.36575763069044437,
+        "Saloon Cars": 0.16283904738165916,
+        "Light Goods (Pickups, Vans, 4WD)": 0.175658833926265,
+        "Minibuses (Matatus)": 0.13015793886383722,
+        "Medium Buses": 0.007149169518025878,
+        "Large Buses": 0.012185311912261222,
+        "Light Trucks (Dynas, Tractors)": 0.038374385352699915,
+        "Medium Trucks (Fusos, Lorries)": 0.05772019668713603,
+        "Heavy Trucks & Semi-Trailers": 0.044673812059549976
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.991,
+      "raw_to_embedded_ratio_before_reconciliation": 0.95,
+      "audit_flag": "duplicate slots",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A002_Link04",
+      "link_name": "Buwama - Lukaya",
+      "latest_year": 2024,
+      "latest_aadt": 8235.38,
+      "latest_raw_adt": 8235.38,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 8993.24,
+      "adt_excl_motorcycles": 5981.02,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 8235.38,
+          "raw_adt": 8235.38,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.009865974530607289,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.33494224610294004,
+        "Saloon Cars": 0.20768635308046082,
+        "Light Goods (Pickups, Vans, 4WD)": 0.13935309563923926,
+        "Minibuses (Matatus)": 0.12224701364540169,
+        "Medium Buses": 0.010533825114217629,
+        "Large Buses": 0.019610521682376335,
+        "Light Trucks (Dynas, Tractors)": 0.020414978067179696,
+        "Medium Trucks (Fusos, Lorries)": 0.0793983273378565,
+        "Heavy Trucks & Semi-Trailers": 0.055947664799720714
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.418,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A002_Link06",
+      "link_name": "Masaka  - Lyantonde",
+      "latest_year": 2024,
+      "latest_aadt": 4644.11,
+      "latest_raw_adt": 4644.11,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 5071.49,
+      "adt_excl_motorcycles": 3236.16,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 9,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 4644.11,
+          "raw_adt": 4644.11,
+          "seasonal_factor": 1,
+          "observations": 9,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.014761825011364452,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.3618920018183123,
+        "Saloon Cars": 0.1722611670694069,
+        "Light Goods (Pickups, Vans, 4WD)": 0.17364882647079935,
+        "Minibuses (Matatus)": 0.08514965188889155,
+        "Medium Buses": 0.003062420747900567,
+        "Large Buses": 0.025288896332272652,
+        "Light Trucks (Dynas, Tractors)": 0.029380099050171065,
+        "Medium Trucks (Fusos, Lorries)": 0.0744790295954255,
+        "Heavy Trucks & Semi-Trailers": 0.060076082015455654
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.401,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A003N2_Link01",
+      "link_name": "Entebbe Airport (Dual)",
+      "latest_year": 2024,
+      "latest_aadt": 10673.43,
+      "latest_raw_adt": 10673.43,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 11655.65,
+      "adt_excl_motorcycles": 9040.09,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 10673.43,
+          "raw_adt": 10673.43,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.004604224107931579,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.22440238777203736,
+        "Saloon Cars": 0.3549535562277485,
+        "Light Goods (Pickups, Vans, 4WD)": 0.3380624782503948,
+        "Minibuses (Matatus)": 0.0418663168884011,
+        "Medium Buses": 0.008833685788473378,
+        "Large Buses": 0.0055143614315924724,
+        "Light Trucks (Dynas, Tractors)": 0.014575581550981074,
+        "Medium Trucks (Fusos, Lorries)": 0.00385469925315202,
+        "Heavy Trucks & Semi-Trailers": 0.003332708729287684
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.264,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A003_Link02",
+      "link_name": "Zana - Entebbe Airport",
+      "latest_year": 2024,
+      "latest_aadt": 18966.0,
+      "latest_raw_adt": 18966.0,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 20711.35,
+      "adt_excl_motorcycles": 12075.61,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 18966.0,
+          "raw_adt": 18966.0,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.009400280200659828,
+        "Carts": 7.532275801810759e-06,
+        "Motorcycles & Scooters": 0.4169566592850364,
+        "Saloon Cars": 0.19047619047619047,
+        "Light Goods (Pickups, Vans, 4WD)": 0.20639942152121843,
+        "Minibuses (Matatus)": 0.12179689971527997,
+        "Medium Buses": 0.003088233078742411,
+        "Large Buses": 0.001905665777858122,
+        "Light Trucks (Dynas, Tractors)": 0.021173227278890042,
+        "Medium Trucks (Fusos, Lorries)": 0.02172308341242223,
+        "Heavy Trucks & Semi-Trailers": 0.0070728069779003025
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.469,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A004_Link01",
+      "link_name": "Masaka round about - Kyotera",
+      "latest_year": 2024,
+      "latest_aadt": 17808.62,
+      "latest_raw_adt": 17808.62,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 19447.46,
+      "adt_excl_motorcycles": 4376.7,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 17808.62,
+          "raw_adt": 17808.62,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0,
+        "Carts": 0.008338656128701683,
+        "Motorcycles & Scooters": 0.7749475324456548,
+        "Saloon Cars": 0.118341533947736,
+        "Light Goods (Pickups, Vans, 4WD)": 0.03829605036885217,
+        "Minibuses (Matatus)": 0.026504011398971003,
+        "Medium Buses": 0.002168892881960286,
+        "Large Buses": 0.0005264303111554092,
+        "Light Trucks (Dynas, Tractors)": 0.011869248748850628,
+        "Medium Trucks (Fusos, Lorries)": 0.013322196407639557,
+        "Heavy Trucks & Semi-Trailers": 0.00568544736047842
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.483,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A004_Link02",
+      "link_name": "Kyotera - Mutukula",
+      "latest_year": 2024,
+      "latest_aadt": 3339.75,
+      "latest_raw_adt": 3339.75,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 3647.09,
+      "adt_excl_motorcycles": 1045.61,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 3339.75,
+          "raw_adt": 3339.75,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.04656037128527584,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7133018938543304,
+        "Saloon Cars": 0.06639718541807021,
+        "Light Goods (Pickups, Vans, 4WD)": 0.037053671682012124,
+        "Minibuses (Matatus)": 0.026948124859645182,
+        "Medium Buses": 0.0008608428774608878,
+        "Large Buses": 0.0009356987798487911,
+        "Light Trucks (Dynas, Tractors)": 0.04453926192080246,
+        "Medium Trucks (Fusos, Lorries)": 0.023504753349801632,
+        "Heavy Trucks & Semi-Trailers": 0.03989819597275245
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.278,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A005_Link01",
+      "link_name": "Busega - Bujuuko",
+      "latest_year": 2024,
+      "latest_aadt": 7627.14,
+      "latest_raw_adt": 7627.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 8329.03,
+      "adt_excl_motorcycles": 5248.12,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 7627.14,
+          "raw_adt": 7627.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.004476493725416745,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.3699007304738715,
+        "Saloon Cars": 0.2002809514890429,
+        "Light Goods (Pickups, Vans, 4WD)": 0.12938752575388648,
+        "Minibuses (Matatus)": 0.1327027533245926,
+        "Medium Buses": 0.004420303427608166,
+        "Large Buses": 0.0065929949428731975,
+        "Light Trucks (Dynas, Tractors)": 0.06664169320097396,
+        "Medium Trucks (Fusos, Lorries)": 0.05862521071361678,
+        "Heavy Trucks & Semi-Trailers": 0.026971342948117625
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.677,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A005_Link02",
+      "link_name": "Bujuuko - Mityana",
+      "latest_year": 2024,
+      "latest_aadt": 6076.86,
+      "latest_raw_adt": 6076.86,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 6636.08,
+      "adt_excl_motorcycles": 4102.11,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 6076.86,
+          "raw_adt": 6076.86,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0037613427993793786,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.38184681931449527,
+        "Saloon Cars": 0.124806055761907,
+        "Light Goods (Pickups, Vans, 4WD)": 0.1738210541163195,
+        "Minibuses (Matatus)": 0.16072687949598005,
+        "Medium Buses": 0.0035732756594104094,
+        "Large Buses": 0.00820442898114627,
+        "Light Trucks (Dynas, Tractors)": 0.04306737505289388,
+        "Medium Trucks (Fusos, Lorries)": 0.061827072264798534,
+        "Heavy Trucks & Semi-Trailers": 0.03836569655366966
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.336,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A005_Link05",
+      "link_name": "Kiganda-Kitenga",
+      "latest_year": 2024,
+      "latest_aadt": 2890.5,
+      "latest_raw_adt": 2890.5,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 3156.5,
+      "adt_excl_motorcycles": 1867.23,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 2890.5,
+          "raw_adt": 2890.5,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.014184397163120567,
+        "Carts": 8.64902266043937e-05,
+        "Motorcycles & Scooters": 0.4084500951392493,
+        "Saloon Cars": 0.11862134578792596,
+        "Light Goods (Pickups, Vans, 4WD)": 0.1235512887043764,
+        "Minibuses (Matatus)": 0.1277893098079917,
+        "Medium Buses": 0.002637951911434008,
+        "Large Buses": 0.01483307386265352,
+        "Light Trucks (Dynas, Tractors)": 0.023914547656114858,
+        "Medium Trucks (Fusos, Lorries)": 0.11658882546272271,
+        "Heavy Trucks & Semi-Trailers": 0.04934267427780661
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.371,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A006_Link02",
+      "link_name": "Kawempe - Matuga",
+      "latest_year": 2024,
+      "latest_aadt": 29083.14,
+      "latest_raw_adt": 29083.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 31759.52,
+      "adt_excl_motorcycles": 11589.97,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 29083.14,
+          "raw_adt": 29083.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.007176469432464559,
+        "Carts": 1.473607686337692e-05,
+        "Motorcycles & Scooters": 0.6350708805297128,
+        "Saloon Cars": 0.10664498826025877,
+        "Light Goods (Pickups, Vans, 4WD)": 0.09079879360650746,
+        "Minibuses (Matatus)": 0.08406931850556533,
+        "Medium Buses": 0.005668477566778988,
+        "Large Buses": 0.0037282274464343606,
+        "Light Trucks (Dynas, Tractors)": 0.0259011111001955,
+        "Medium Trucks (Fusos, Lorries)": 0.028892534703461013,
+        "Heavy Trucks & Semi-Trailers": 0.012034462771757818
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.545,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A006_Link04",
+      "link_name": "Wobulenzi - Kasana - Luweero",
+      "latest_year": 2024,
+      "latest_aadt": 9163.29,
+      "latest_raw_adt": 9163.29,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 10006.54,
+      "adt_excl_motorcycles": 6450.9,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 9163.29,
+          "raw_adt": 9163.29,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.01919149400558128,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.3553310571691377,
+        "Saloon Cars": 0.17934926648270272,
+        "Light Goods (Pickups, Vans, 4WD)": 0.13579034345135088,
+        "Minibuses (Matatus)": 0.14943173845937982,
+        "Medium Buses": 0.005721590820510422,
+        "Large Buses": 0.010289509377484683,
+        "Light Trucks (Dynas, Tractors)": 0.052788301139641114,
+        "Medium Trucks (Fusos, Lorries)": 0.06505776156400543,
+        "Heavy Trucks & Semi-Trailers": 0.027048937530205947
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.602,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A009_Link01",
+      "link_name": "Kampala - Nansana",
+      "latest_year": 2024,
+      "latest_aadt": 57363.64,
+      "latest_raw_adt": 57363.64,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 62642.53,
+      "adt_excl_motorcycles": 20517.98,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 57363.64,
+          "raw_adt": 57363.64,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.007022865403796083,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6724592854358971,
+        "Saloon Cars": 0.14025558747389774,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07878061141265436,
+        "Minibuses (Matatus)": 0.0711376419359699,
+        "Medium Buses": 0.0012165495566504917,
+        "Large Buses": 0.0004881140493418554,
+        "Light Trucks (Dynas, Tractors)": 0.01530212640908689,
+        "Medium Trucks (Fusos, Lorries)": 0.010345029392684018,
+        "Heavy Trucks & Semi-Trailers": 0.002992188930021629
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.005,
+      "raw_to_embedded_ratio_before_reconciliation": 4.327,
+      "audit_flag": "duplicate slots and embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A009_Link02",
+      "link_name": "Nansana - Busunju",
+      "latest_year": 2024,
+      "latest_aadt": 22743.79,
+      "latest_raw_adt": 22743.79,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 24836.78,
+      "adt_excl_motorcycles": 11089.98,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 22743.79,
+          "raw_adt": 22743.79,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.007050591527355981,
+        "Carts": 0.002757425105130758,
+        "Motorcycles & Scooters": 0.5534855674862521,
+        "Saloon Cars": 0.1620034357893679,
+        "Light Goods (Pickups, Vans, 4WD)": 0.09518769648224162,
+        "Minibuses (Matatus)": 0.11183274552232478,
+        "Medium Buses": 0.0019126103519642727,
+        "Large Buses": 0.0009484537377556821,
+        "Light Trucks (Dynas, Tractors)": 0.0427997600600478,
+        "Medium Trucks (Fusos, Lorries)": 0.017960950086836906,
+        "Heavy Trucks & Semi-Trailers": 0.004060763850722175
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.005,
+      "raw_to_embedded_ratio_before_reconciliation": 1.818,
+      "audit_flag": "duplicate slots and embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "A010_Link01",
+      "link_name": "Nsambya-Kabalagala-Gaba",
+      "latest_year": 2024,
+      "latest_aadt": 56118.86,
+      "latest_raw_adt": 56118.86,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 61283.19,
+      "adt_excl_motorcycles": 12227.4,
+      "growth_rate": 0.045,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 56118.86,
+          "raw_adt": 56118.86,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.005032685728250244,
+        "Carts": 0.001374633431085044,
+        "Motorcycles & Scooters": 0.8004770487129358,
+        "Saloon Cars": 0.07966509856630824,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07282757005539263,
+        "Minibuses (Matatus)": 0.028192713424568264,
+        "Medium Buses": 0.000829871293580971,
+        "Large Buses": 0.0001247352557836429,
+        "Light Trucks (Dynas, Tractors)": 0.005994929130009775,
+        "Medium Trucks (Fusos, Lorries)": 0.0050810524600847186,
+        "Heavy Trucks & Semi-Trailers": 0.0003996619420006517
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 4.234,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "B100_Link01",
+      "link_name": "Kubiri round about - Gayaza",
+      "latest_year": 2024,
+      "latest_aadt": 40961.0,
+      "latest_raw_adt": 40961.0,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 44133.18,
+      "adt_excl_motorcycles": 15888.3,
+      "growth_rate": 0.038,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 40961.0,
+          "raw_adt": 40961.0,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.015390946789106014,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6399920481852075,
+        "Saloon Cars": 0.1545232921908296,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07675942621378525,
+        "Minibuses (Matatus)": 0.08413578072521946,
+        "Medium Buses": 0.0014857338164874603,
+        "Large Buses": 0.00037317727315530104,
+        "Light Trucks (Dynas, Tractors)": 0.019286638509802008,
+        "Medium Trucks (Fusos, Lorries)": 0.007048516533148256,
+        "Heavy Trucks & Semi-Trailers": 0.001004439763259128
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.638,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "B103_Link01",
+      "link_name": "Nyendo - Villa Maria",
+      "latest_year": 2024,
+      "latest_aadt": 6288.25,
+      "latest_raw_adt": 6288.25,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 6775.24,
+      "adt_excl_motorcycles": 2132.94,
+      "growth_rate": 0.038,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 6288.25,
+          "raw_adt": 6288.25,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.020136763010376497,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6851866576551505,
+        "Saloon Cars": 0.14050013914841172,
+        "Light Goods (Pickups, Vans, 4WD)": 0.08480101777124001,
+        "Minibuses (Matatus)": 0.017751361666600407,
+        "Medium Buses": 0.0038166421500417445,
+        "Large Buses": 0.00013914841172027193,
+        "Light Trucks (Dynas, Tractors)": 0.020991531825229594,
+        "Medium Trucks (Fusos, Lorries)": 0.023039001311970737,
+        "Heavy Trucks & Semi-Trailers": 0.0036377370492585376
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 2.527,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "B103_Link02",
+      "link_name": "Villa Maria - Sembabule",
+      "latest_year": 2024,
+      "latest_aadt": 2627.29,
+      "latest_raw_adt": 2627.29,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 2830.75,
+      "adt_excl_motorcycles": 917.52,
+      "growth_rate": 0.038,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 2627.29,
+          "raw_adt": 2627.29,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.002827469958131695,
+        "Carts": 0.07770104942634984,
+        "Motorcycles & Scooters": 0.6758740688380186,
+        "Saloon Cars": 0.10396389538361155,
+        "Light Goods (Pickups, Vans, 4WD)": 0.06258496003479963,
+        "Minibuses (Matatus)": 0.007340547006688054,
+        "Medium Buses": 0.004567451470828122,
+        "Large Buses": 0.0038062095590234352,
+        "Light Trucks (Dynas, Tractors)": 0.0465988798869012,
+        "Medium Trucks (Fusos, Lorries)": 0.01375672883475613,
+        "Heavy Trucks & Semi-Trailers": 0.0009787396008917406
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.434,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "B203_Link01",
+      "link_name": "Mubende-Kiboyo-Kakumiro",
+      "latest_year": 2024,
+      "latest_aadt": 1851.62,
+      "latest_raw_adt": 1851.62,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1995.02,
+      "adt_excl_motorcycles": 622.36,
+      "growth_rate": 0.038,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1851.62,
+          "raw_adt": 1851.62,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.010531290083035171,
+        "Carts": 0.002565314250995747,
+        "Motorcycles & Scooters": 0.6880442854249645,
+        "Saloon Cars": 0.13771687031661378,
+        "Light Goods (Pickups, Vans, 4WD)": 0.05738202929858908,
+        "Minibuses (Matatus)": 0.0010801323162087356,
+        "Medium Buses": 0.0011476405859717816,
+        "Large Buses": 0.002362789441706609,
+        "Light Trucks (Dynas, Tractors)": 0.0461081482481604,
+        "Medium Trucks (Fusos, Lorries)": 0.04428542496455816,
+        "Heavy Trucks & Semi-Trailers": 0.008776075069195977
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.571,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C024_Link01",
+      "link_name": "Mukono-Kyetume-Kisoga-Katosi",
+      "latest_year": 2024,
+      "latest_aadt": 6082.14,
+      "latest_raw_adt": 6082.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 6477.63,
+      "adt_excl_motorcycles": 2096.04,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 6082.14,
+          "raw_adt": 6082.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.014586024662360541,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6764180857310629,
+        "Saloon Cars": 0.09766294773928362,
+        "Light Goods (Pickups, Vans, 4WD)": 0.08750440399295362,
+        "Minibuses (Matatus)": 0.059401056958308864,
+        "Medium Buses": 0.0021021726365237814,
+        "Large Buses": 0.0027715795654726953,
+        "Light Trucks (Dynas, Tractors)": 0.03706400469759248,
+        "Medium Trucks (Fusos, Lorries)": 0.021503229594832647,
+        "Heavy Trucks & Semi-Trailers": 0.0009864944216089254
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 2.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.301,
+      "audit_flag": "duplicate slots",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C027_Link01",
+      "link_name": "Lugazi - Buikwe",
+      "latest_year": 2024,
+      "latest_aadt": 3212.86,
+      "latest_raw_adt": 3212.86,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 3421.77,
+      "adt_excl_motorcycles": 852.63,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 3212.86,
+          "raw_adt": 3212.86,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.02054246331702979,
+        "Carts": 4.44642063139173e-05,
+        "Motorcycles & Scooters": 0.7508225878168074,
+        "Saloon Cars": 0.07541129390840373,
+        "Light Goods (Pickups, Vans, 4WD)": 0.040017785682525564,
+        "Minibuses (Matatus)": 0.05455758114717652,
+        "Medium Buses": 0.00213428190306803,
+        "Large Buses": 0.00044464206313917296,
+        "Light Trucks (Dynas, Tractors)": 0.03352601156069364,
+        "Medium Trucks (Fusos, Lorries)": 0.022276567363272565,
+        "Heavy Trucks & Semi-Trailers": 0.00022232103156958648
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.608,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C036_Link01",
+      "link_name": "Nambole - Kampala Industrial Park - Mukono",
+      "latest_year": 2024,
+      "latest_aadt": 5864.43,
+      "latest_raw_adt": 5864.43,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 6245.76,
+      "adt_excl_motorcycles": 3419.18,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 5864.43,
+          "raw_adt": 5864.43,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.024116343085430317,
+        "Carts": 0.00034103919514749946,
+        "Motorcycles & Scooters": 0.4525590119607318,
+        "Saloon Cars": 0.12806021777788604,
+        "Light Goods (Pickups, Vans, 4WD)": 0.17434410854790383,
+        "Minibuses (Matatus)": 0.032203843998928165,
+        "Medium Buses": 0.005651506662444276,
+        "Large Buses": 0.002119314998416604,
+        "Light Trucks (Dynas, Tractors)": 0.04942632335387689,
+        "Medium Trucks (Fusos, Lorries)": 0.05490731041874741,
+        "Heavy Trucks & Semi-Trailers": 0.0762709800004872
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 5.304,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C150_Link01",
+      "link_name": "Najjanankumbi - Busabala",
+      "latest_year": 2024,
+      "latest_aadt": 7680.57,
+      "latest_raw_adt": 7680.57,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 8179.99,
+      "adt_excl_motorcycles": 3049.16,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 7680.57,
+          "raw_adt": 7680.57,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.019678595342608438,
+        "Carts": 7.439922624804702e-05,
+        "Motorcycles & Scooters": 0.6272412766907224,
+        "Saloon Cars": 0.11598839372070531,
+        "Light Goods (Pickups, Vans, 4WD)": 0.0428725541254371,
+        "Minibuses (Matatus)": 0.14690127222676885,
+        "Medium Buses": 0.0021575775611933634,
+        "Large Buses": 0.000911390521538576,
+        "Light Trucks (Dynas, Tractors)": 0.034353842720035714,
+        "Medium Trucks (Fusos, Lorries)": 0.007756119336358902,
+        "Heavy Trucks & Semi-Trailers": 0.0020645785283833046
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.837,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C152_Link01",
+      "link_name": "Kireka-Namugongo-Misindye-Seeta",
+      "latest_year": 2024,
+      "latest_aadt": 27177.81,
+      "latest_raw_adt": 27177.81,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 28945.02,
+      "adt_excl_motorcycles": 10395.04,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 27177.81,
+          "raw_adt": 27177.81,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.006666853560502792,
+        "Carts": 0.0015085836834672548,
+        "Motorcycles & Scooters": 0.64086947684911,
+        "Saloon Cars": 0.18882001072303387,
+        "Light Goods (Pickups, Vans, 4WD)": 0.09664922713558331,
+        "Minibuses (Matatus)": 0.03171529994708568,
+        "Medium Buses": 0.0018625138856279808,
+        "Large Buses": 0.00036619511015639506,
+        "Light Trucks (Dynas, Tractors)": 0.017582621676647966,
+        "Medium Trucks (Fusos, Lorries)": 0.011511492218791943,
+        "Heavy Trucks & Semi-Trailers": 0.0024477252099927463
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 3.0,
+      "raw_to_embedded_ratio_before_reconciliation": 3.934,
+      "audit_flag": "duplicate slots and embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C154_Link01",
+      "link_name": "Matugga - Semuto - Kapeka",
+      "latest_year": 2024,
+      "latest_aadt": 6445.14,
+      "latest_raw_adt": 6445.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 6864.23,
+      "adt_excl_motorcycles": 2078.17,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 6445.14,
+          "raw_adt": 6445.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.010173774270768685,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.697247096373792,
+        "Saloon Cars": 0.08296391524071282,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07622572923131483,
+        "Minibuses (Matatus)": 0.05627715222980761,
+        "Medium Buses": 0.0010195939356325916,
+        "Large Buses": 0.0002216508555723025,
+        "Light Trucks (Dynas, Tractors)": 0.03216153914354109,
+        "Medium Trucks (Fusos, Lorries)": 0.022652717439489316,
+        "Heavy Trucks & Semi-Trailers": 0.021056831279368738
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 2.033,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C154_Link02",
+      "link_name": "Kapeka-Butalangwa",
+      "latest_year": 2024,
+      "latest_aadt": 735.43,
+      "latest_raw_adt": 735.43,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 783.25,
+      "adt_excl_motorcycles": 208.9,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 735.43,
+          "raw_adt": 735.43,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.025446775446775448,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7332944832944833,
+        "Saloon Cars": 0.038461538461538464,
+        "Light Goods (Pickups, Vans, 4WD)": 0.040986790986790984,
+        "Minibuses (Matatus)": 0.0019425019425019425,
+        "Medium Buses": 0.00019425019425019425,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.06254856254856254,
+        "Medium Trucks (Fusos, Lorries)": 0.09557109557109557,
+        "Heavy Trucks & Semi-Trailers": 0.001554001554001554
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.153,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C162_Link02",
+      "link_name": "Kanoni-Kabulasoke",
+      "latest_year": 2024,
+      "latest_aadt": 4067.0,
+      "latest_raw_adt": 4067.0,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 4331.45,
+      "adt_excl_motorcycles": 1059.39,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 4067.0,
+          "raw_adt": 4067.0,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.023464118866135093,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7554181741543433,
+        "Saloon Cars": 0.055955600828971865,
+        "Light Goods (Pickups, Vans, 4WD)": 0.042923882117390844,
+        "Minibuses (Matatus)": 0.05177561558186097,
+        "Medium Buses": 0.0006322666760335804,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.039095156134743056,
+        "Medium Trucks (Fusos, Lorries)": 0.029576030067793038,
+        "Heavy Trucks & Semi-Trailers": 0.0011591555727282308
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.91,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C162_Link03",
+      "link_name": "Kabulasoke-Madu",
+      "latest_year": 2024,
+      "latest_aadt": 1217.71,
+      "latest_raw_adt": 1217.71,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1296.89,
+      "adt_excl_motorcycles": 379.3,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1217.71,
+          "raw_adt": 1217.71,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0165415297982168,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7075316752698264,
+        "Saloon Cars": 0.05654622243078367,
+        "Light Goods (Pickups, Vans, 4WD)": 0.05595964335992492,
+        "Minibuses (Matatus)": 0.07754575316752699,
+        "Medium Buses": 0.001290473955889254,
+        "Large Buses": 0.0004692632566870014,
+        "Light Trucks (Dynas, Tractors)": 0.03249648052557485,
+        "Medium Trucks (Fusos, Lorries)": 0.03660253402158611,
+        "Heavy Trucks & Semi-Trailers": 0.015016424213984044
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.602,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C162_Link04",
+      "link_name": "Madu-Kasambya",
+      "latest_year": 2024,
+      "latest_aadt": 662.57,
+      "latest_raw_adt": 662.57,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 705.65,
+      "adt_excl_motorcycles": 134.19,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 662.57,
+          "raw_adt": 662.57,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.03773178094006037,
+        "Carts": 0.00021561017680034498,
+        "Motorcycles & Scooters": 0.8098318240620958,
+        "Saloon Cars": 0.026735661923242778,
+        "Light Goods (Pickups, Vans, 4WD)": 0.02199223803363519,
+        "Minibuses (Matatus)": 0.010564898663216905,
+        "Medium Buses": 0.0,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.059508408796895215,
+        "Medium Trucks (Fusos, Lorries)": 0.03341957740405347,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.151,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C166_Link01",
+      "link_name": "Madu-Kisozi-R.Katonga",
+      "latest_year": 2024,
+      "latest_aadt": 1407.57,
+      "latest_raw_adt": 1407.57,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1499.1,
+      "adt_excl_motorcycles": 797.86,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1407.57,
+          "raw_adt": 1407.57,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.045772861057545924,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.4677763117832132,
+        "Saloon Cars": 0.11671572110017253,
+        "Light Goods (Pickups, Vans, 4WD)": 0.14899015528265502,
+        "Minibuses (Matatus)": 0.05551608647112555,
+        "Medium Buses": 0.0005074596569572719,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.09976656855779965,
+        "Medium Trucks (Fusos, Lorries)": 0.062417537805744445,
+        "Heavy Trucks & Semi-Trailers": 0.0025372982847863593
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.348,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C166_Link02",
+      "link_name": "R. Katonga - Sembabule",
+      "latest_year": 2024,
+      "latest_aadt": 1889.64,
+      "latest_raw_adt": 1889.64,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 2012.51,
+      "adt_excl_motorcycles": 630.19,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1889.64,
+          "raw_adt": 1889.64,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.06108486108486109,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6868644868644869,
+        "Saloon Cars": 0.06286146286146287,
+        "Light Goods (Pickups, Vans, 4WD)": 0.08508788508788509,
+        "Minibuses (Matatus)": 0.020147420147420148,
+        "Medium Buses": 0.0004536004536004536,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.04982044982044982,
+        "Medium Trucks (Fusos, Lorries)": 0.03284823284823285,
+        "Heavy Trucks & Semi-Trailers": 0.0008316008316008316
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.005,
+      "raw_to_embedded_ratio_before_reconciliation": 1.152,
+      "audit_flag": "duplicate slots",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C179_Link01",
+      "link_name": "Old Masaka Road (Kyengera -Kabojja Secondary)",
+      "latest_year": 2024,
+      "latest_aadt": 8314.14,
+      "latest_raw_adt": 8314.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 8854.76,
+      "adt_excl_motorcycles": 3838.35,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 8314.14,
+          "raw_adt": 8314.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.016271757246688088,
+        "Carts": 0.0001546418323338889,
+        "Motorcycles & Scooters": 0.5665217615422945,
+        "Saloon Cars": 0.13670337978315777,
+        "Light Goods (Pickups, Vans, 4WD)": 0.13261396243921716,
+        "Minibuses (Matatus)": 0.0750872008110105,
+        "Medium Buses": 0.002079073523600062,
+        "Large Buses": 0.002749188130380247,
+        "Light Trucks (Dynas, Tractors)": 0.03585972267564735,
+        "Medium Trucks (Fusos, Lorries)": 0.030223887008367843,
+        "Heavy Trucks & Semi-Trailers": 0.001735425007302531
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.517,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C180_Link01",
+      "link_name": "Nakawuka-Namutamala-Katende-Bujuuko",
+      "latest_year": 2024,
+      "latest_aadt": 1472.86,
+      "latest_raw_adt": 1472.86,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1568.63,
+      "adt_excl_motorcycles": 509.28,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1472.86,
+          "raw_adt": 1472.86,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.018525703200775945,
+        "Carts": 6.466214031684449e-05,
+        "Motorcycles & Scooters": 0.6753313934691239,
+        "Saloon Cars": 0.06844487552537988,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07843517620433237,
+        "Minibuses (Matatus)": 0.013902360168121563,
+        "Medium Buses": 0.002812803103782735,
+        "Large Buses": 0.00045263498221791143,
+        "Light Trucks (Dynas, Tractors)": 0.04481086323957323,
+        "Medium Trucks (Fusos, Lorries)": 0.09327513740704818,
+        "Heavy Trucks & Semi-Trailers": 0.003944390559327514
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 3.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.75,
+      "audit_flag": "duplicate slots and embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C187_Link01",
+      "link_name": "Namayumba - Kitalya Prison - Kamuli",
+      "latest_year": 2024,
+      "latest_aadt": 407.0,
+      "latest_raw_adt": 407.0,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 433.46,
+      "adt_excl_motorcycles": 44.12,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 407.0,
+          "raw_adt": 407.0,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8982098982098982,
+        "Saloon Cars": 0.02702702702702703,
+        "Light Goods (Pickups, Vans, 4WD)": 0.03896103896103896,
+        "Minibuses (Matatus)": 0.004212004212004212,
+        "Medium Buses": 0.000351000351000351,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.022464022464022463,
+        "Medium Trucks (Fusos, Lorries)": 0.008775008775008775,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.475,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C188_Link01",
+      "link_name": "Kyabadaza-Kibibi",
+      "latest_year": 2024,
+      "latest_aadt": 863.14,
+      "latest_raw_adt": 863.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 919.27,
+      "adt_excl_motorcycles": 153.21,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 863.14,
+          "raw_adt": 863.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.033432638199271766,
+        "Carts": 0.00016550810989738498,
+        "Motorcycles & Scooters": 0.8333333333333334,
+        "Saloon Cars": 0.03955643826547501,
+        "Light Goods (Pickups, Vans, 4WD)": 0.018867924528301886,
+        "Minibuses (Matatus)": 0.006454816285998014,
+        "Medium Buses": 0.0011585567692816948,
+        "Large Buses": 0.00016550810989738498,
+        "Light Trucks (Dynas, Tractors)": 0.0451837140019861,
+        "Medium Trucks (Fusos, Lorries)": 0.018205892088712348,
+        "Heavy Trucks & Semi-Trailers": 0.003475670307845084
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.714,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C190_Link01",
+      "link_name": "Kayabwe-Nkozi-Kinyika-Ngando-Wab",
+      "latest_year": 2024,
+      "latest_aadt": 690.57,
+      "latest_raw_adt": 690.57,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 735.48,
+      "adt_excl_motorcycles": 72.73,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 690.57,
+          "raw_adt": 690.57,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0215142738932561,
+        "Carts": 0.0018618121638394704,
+        "Motorcycles & Scooters": 0.9011170872983036,
+        "Saloon Cars": 0.027513446421183287,
+        "Light Goods (Pickups, Vans, 4WD)": 0.01034340091021928,
+        "Minibuses (Matatus)": 0.005792304509722797,
+        "Medium Buses": 0.001034340091021928,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.026685974348365744,
+        "Medium Trucks (Fusos, Lorries)": 0.004137360364087712,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.505,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C211_Link01",
+      "link_name": "Nyendo - Lambu port Junction",
+      "latest_year": 2024,
+      "latest_aadt": 2283.25,
+      "latest_raw_adt": 2283.25,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 2431.72,
+      "adt_excl_motorcycles": 662.05,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 2283.25,
+          "raw_adt": 2283.25,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.05682689149239023,
+        "Carts": 0.00032847914157451,
+        "Motorcycles & Scooters": 0.727745538158327,
+        "Saloon Cars": 0.0704587758677324,
+        "Light Goods (Pickups, Vans, 4WD)": 0.055020256213730426,
+        "Minibuses (Matatus)": 0.01740939450344903,
+        "Medium Buses": 0.004105989269681375,
+        "Large Buses": 0.000164239570787255,
+        "Light Trucks (Dynas, Tractors)": 0.044016204970984345,
+        "Medium Trucks (Fusos, Lorries)": 0.02293879338661995,
+        "Heavy Trucks & Semi-Trailers": 0.00098543742472353
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.889,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C214_Link01",
+      "link_name": "Lyantonde - Lumbugu",
+      "latest_year": 2024,
+      "latest_aadt": 632.62,
+      "latest_raw_adt": 632.62,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 673.76,
+      "adt_excl_motorcycles": 260.4,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 632.62,
+          "raw_adt": 632.62,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.06935388263189093,
+        "Carts": 0.0015807152736613318,
+        "Motorcycles & Scooters": 0.6135151155898044,
+        "Saloon Cars": 0.08911282355265758,
+        "Light Goods (Pickups, Vans, 4WD)": 0.10472238688006323,
+        "Minibuses (Matatus)": 0.027267338470657973,
+        "Medium Buses": 0.002568662319699664,
+        "Large Buses": 0.0021734835012843312,
+        "Light Trucks (Dynas, Tractors)": 0.03773957715866429,
+        "Medium Trucks (Fusos, Lorries)": 0.0353685042481723,
+        "Heavy Trucks & Semi-Trailers": 0.016597510373443983
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.169,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C216_Link01",
+      "link_name": "Lukaya-Miwula",
+      "latest_year": 2024,
+      "latest_aadt": 2790.71,
+      "latest_raw_adt": 2790.71,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 2972.18,
+      "adt_excl_motorcycles": 492.5,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 2790.71,
+          "raw_adt": 2790.71,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.03583312004095214,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8342974148963399,
+        "Saloon Cars": 0.050678269772203736,
+        "Light Goods (Pickups, Vans, 4WD)": 0.03465574609674942,
+        "Minibuses (Matatus)": 0.00491425646275915,
+        "Medium Buses": 0.0005630918863578193,
+        "Large Buses": 0.00035833120040952137,
+        "Light Trucks (Dynas, Tractors)": 0.028461735346813413,
+        "Medium Trucks (Fusos, Lorries)": 0.00947018172510878,
+        "Heavy Trucks & Semi-Trailers": 0.0007678525723061172
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.821,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C218_Link01",
+      "link_name": "Masaka - Kidda - Buwunga - Nkuke - Kyana",
+      "latest_year": 2024,
+      "latest_aadt": 399.12,
+      "latest_raw_adt": 399.12,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 425.08,
+      "adt_excl_motorcycles": 98.91,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 399.12,
+          "raw_adt": 399.12,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.041966802380206704,
+        "Carts": 0.001252740369558409,
+        "Motorcycles & Scooters": 0.7673034763545256,
+        "Saloon Cars": 0.07860945818979016,
+        "Light Goods (Pickups, Vans, 4WD)": 0.03946132164108988,
+        "Minibuses (Matatus)": 0.00031318509238960227,
+        "Medium Buses": 0.0006263701847792045,
+        "Large Buses": 0.00031318509238960227,
+        "Light Trucks (Dynas, Tractors)": 0.05261509552145318,
+        "Medium Trucks (Fusos, Lorries)": 0.01691199498903852,
+        "Heavy Trucks & Semi-Trailers": 0.0006263701847792045
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.103,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C221_Link02",
+      "link_name": "Lusakalwamese - Bikira",
+      "latest_year": 2024,
+      "latest_aadt": 991.88,
+      "latest_raw_adt": 991.88,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1056.37,
+      "adt_excl_motorcycles": 186.38,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 991.88,
+          "raw_adt": 991.88,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.038185255198487714,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8235664776307499,
+        "Saloon Cars": 0.0410838059231254,
+        "Light Goods (Pickups, Vans, 4WD)": 0.025582860743541273,
+        "Minibuses (Matatus)": 0.00831758034026465,
+        "Medium Buses": 0.0003780718336483932,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.0516698172652804,
+        "Medium Trucks (Fusos, Lorries)": 0.009325771896660366,
+        "Heavy Trucks & Semi-Trailers": 0.001890359168241966
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.4,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C223_Link01",
+      "link_name": "Taba -Kyeesiga-Ddimo Landing site",
+      "latest_year": 2024,
+      "latest_aadt": 1164.12,
+      "latest_raw_adt": 1164.12,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1239.82,
+      "adt_excl_motorcycles": 150.43,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1164.12,
+          "raw_adt": 1164.12,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.03597122302158273,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8786642327928702,
+        "Saloon Cars": 0.030495006979491035,
+        "Light Goods (Pickups, Vans, 4WD)": 0.012563083861269194,
+        "Minibuses (Matatus)": 0.0034360571244496938,
+        "Medium Buses": 0.0008590142811124234,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.026199935573928915,
+        "Medium Trucks (Fusos, Lorries)": 0.011811446365295823,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.746,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C224_Link01",
+      "link_name": "Kyapa - Kasensero",
+      "latest_year": 2024,
+      "latest_aadt": 1234.25,
+      "latest_raw_adt": 1234.25,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1314.51,
+      "adt_excl_motorcycles": 279.57,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1234.25,
+          "raw_adt": 1234.25,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.023698602390115453,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7873202349605023,
+        "Saloon Cars": 0.07079197893457566,
+        "Light Goods (Pickups, Vans, 4WD)": 0.036459388292485316,
+        "Minibuses (Matatus)": 0.0073931537370873,
+        "Medium Buses": 0.00040510431436094796,
+        "Large Buses": 0.00030382823577071097,
+        "Light Trucks (Dynas, Tractors)": 0.05003038282357707,
+        "Medium Trucks (Fusos, Lorries)": 0.022280737289852137,
+        "Heavy Trucks & Semi-Trailers": 0.0013165890216730808
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.497,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C226_Link01",
+      "link_name": "Kyabakuza - Kyogya - Matete",
+      "latest_year": 2024,
+      "latest_aadt": 1661.38,
+      "latest_raw_adt": 1661.38,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1769.4,
+      "adt_excl_motorcycles": 444.38,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1661.38,
+          "raw_adt": 1661.38,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.03965089158076894,
+        "Carts": 0.00015047776690993905,
+        "Motorcycles & Scooters": 0.7488526070273117,
+        "Saloon Cars": 0.07621698893988413,
+        "Light Goods (Pickups, Vans, 4WD)": 0.07546460010533444,
+        "Minibuses (Matatus)": 0.014822060040628996,
+        "Medium Buses": 0.0013542999021894516,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.02859077571288842,
+        "Medium Trucks (Fusos, Lorries)": 0.013919193439169362,
+        "Heavy Trucks & Semi-Trailers": 0.0009781054849146039
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.451,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C227_Link01",
+      "link_name": "Lyantonde - Kaliro - Nabitanga - Ntusi",
+      "latest_year": 2024,
+      "latest_aadt": 1336.14,
+      "latest_raw_adt": 1336.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1423.02,
+      "adt_excl_motorcycles": 529.62,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1336.14,
+          "raw_adt": 1336.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.030257671335400405,
+        "Carts": 0.00010691756655618518,
+        "Motorcycles & Scooters": 0.6278199508179194,
+        "Saloon Cars": 0.1631562065647386,
+        "Light Goods (Pickups, Vans, 4WD)": 0.08211269111515022,
+        "Minibuses (Matatus)": 0.005238960761253074,
+        "Medium Buses": 0.00010691756655618518,
+        "Large Buses": 0.00021383513311237036,
+        "Light Trucks (Dynas, Tractors)": 0.04811290495028333,
+        "Medium Trucks (Fusos, Lorries)": 0.04266010905591789,
+        "Heavy Trucks & Semi-Trailers": 0.00021383513311237036
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.438,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C230_Link01",
+      "link_name": "Kalangala HQ - Mulabana",
+      "latest_year": 2024,
+      "latest_aadt": 716.14,
+      "latest_raw_adt": 716.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 762.71,
+      "adt_excl_motorcycles": 274.78,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 716.14,
+          "raw_adt": 716.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.002194294833433074,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.639736684619988,
+        "Saloon Cars": 0.08019150209455415,
+        "Light Goods (Pickups, Vans, 4WD)": 0.06323558747257131,
+        "Minibuses (Matatus)": 0.019349690803909834,
+        "Medium Buses": 0.0011968880909634949,
+        "Large Buses": 0.00019948134849391582,
+        "Light Trucks (Dynas, Tractors)": 0.0819868342309994,
+        "Medium Trucks (Fusos, Lorries)": 0.09056453221623778,
+        "Heavy Trucks & Semi-Trailers": 0.021344504288848994
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.569,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C262_Link01",
+      "link_name": "Mityana-Misigi-Kanoni",
+      "latest_year": 2024,
+      "latest_aadt": 1802.14,
+      "latest_raw_adt": 1802.14,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1919.33,
+      "adt_excl_motorcycles": 339.59,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1802.14,
+          "raw_adt": 1802.14,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.029488703923900118,
+        "Carts": 7.927070947284978e-05,
+        "Motorcycles & Scooters": 0.8230677764565992,
+        "Saloon Cars": 0.05644074514466905,
+        "Light Goods (Pickups, Vans, 4WD)": 0.024256837098692034,
+        "Minibuses (Matatus)": 0.013793103448275862,
+        "Medium Buses": 0.0004756242568370987,
+        "Large Buses": 0.0003170828378913991,
+        "Light Trucks (Dynas, Tractors)": 0.030994847403884265,
+        "Medium Trucks (Fusos, Lorries)": 0.019738406658739594,
+        "Heavy Trucks & Semi-Trailers": 0.0013476020610384463
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.514,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C272_Link01",
+      "link_name": "Hoima road-Kituuma-Kiryoka-Mutetema",
+      "latest_year": 2024,
+      "latest_aadt": 612.29,
+      "latest_raw_adt": 612.29,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 652.1,
+      "adt_excl_motorcycles": 151.08,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 612.29,
+          "raw_adt": 612.29,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.04456369575361643,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7683154456369575,
+        "Saloon Cars": 0.017498833411105925,
+        "Light Goods (Pickups, Vans, 4WD)": 0.02543163789080728,
+        "Minibuses (Matatus)": 0.014932337844143724,
+        "Medium Buses": 0.0006999533364442371,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.11945870275314979,
+        "Medium Trucks (Fusos, Lorries)": 0.009099393373775081,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.713,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C274_Link01",
+      "link_name": "KASANDA-MADUDU",
+      "latest_year": 2024,
+      "latest_aadt": 1224.38,
+      "latest_raw_adt": 1224.38,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1303.99,
+      "adt_excl_motorcycles": 189.31,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1224.38,
+          "raw_adt": 1224.38,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.014599285349668197,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8548238897396631,
+        "Saloon Cars": 0.03226135783563042,
+        "Light Goods (Pickups, Vans, 4WD)": 0.016436957631444614,
+        "Minibuses (Matatus)": 0.007248596222562532,
+        "Medium Buses": 0.00010209290454313425,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.033690658499234305,
+        "Medium Trucks (Fusos, Lorries)": 0.025421133231240428,
+        "Heavy Trucks & Semi-Trailers": 0.015416028586013273
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.348,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C307_Link01",
+      "link_name": "Butalangwa - Ngoma - Bulyamusenyu",
+      "latest_year": 2024,
+      "latest_aadt": 589.71,
+      "latest_raw_adt": 589.71,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 628.06,
+      "adt_excl_motorcycles": 136.93,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 589.71,
+          "raw_adt": 589.71,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.09060077519379844,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.7819767441860465,
+        "Saloon Cars": 0.023013565891472867,
+        "Light Goods (Pickups, Vans, 4WD)": 0.031492248062015504,
+        "Minibuses (Matatus)": 0.024709302325581394,
+        "Medium Buses": 0.00024224806201550387,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.024709302325581394,
+        "Medium Trucks (Fusos, Lorries)": 0.023013565891472867,
+        "Heavy Trucks & Semi-Trailers": 0.00024224806201550387
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.39,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C311_Link01",
+      "link_name": "Bombo - Ndejje - Kalasa",
+      "latest_year": 2024,
+      "latest_aadt": 1752.43,
+      "latest_raw_adt": 1752.43,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1866.38,
+      "adt_excl_motorcycles": 313.42,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1752.43,
+          "raw_adt": 1752.43,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.06260699437515285,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8320697807124806,
+        "Saloon Cars": 0.041085840058694055,
+        "Light Goods (Pickups, Vans, 4WD)": 0.027472079563055352,
+        "Minibuses (Matatus)": 0.0074182766772642045,
+        "Medium Buses": 0.0010597538110377436,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.024537376701720064,
+        "Medium Trucks (Fusos, Lorries)": 0.003586859052743132,
+        "Heavy Trucks & Semi-Trailers": 0.00016303904785196053
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.684,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C312_Link02",
+      "link_name": "Nakaseke - Kiwoko",
+      "latest_year": 2024,
+      "latest_aadt": 1340.29,
+      "latest_raw_adt": 1340.29,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1427.44,
+      "adt_excl_motorcycles": 255.45,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1340.29,
+          "raw_adt": 1340.29,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.0752504796418674,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.8210402899168621,
+        "Saloon Cars": 0.024834790023449158,
+        "Light Goods (Pickups, Vans, 4WD)": 0.021530590492432316,
+        "Minibuses (Matatus)": 0.006395224898742272,
+        "Medium Buses": 0.0003197612449371136,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.03613302067789384,
+        "Medium Trucks (Fusos, Lorries)": 0.013749733532295886,
+        "Heavy Trucks & Semi-Trailers": 0.0007461095715199318
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.531,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C325_Link01",
+      "link_name": "Kikyusa- Bamugolode - Kazwama - Nakasongola",
+      "latest_year": 2024,
+      "latest_aadt": 733.71,
+      "latest_raw_adt": 733.71,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 781.42,
+      "adt_excl_motorcycles": 280.25,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 733.71,
+          "raw_adt": 733.71,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.1573208722741433,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6413551401869159,
+        "Saloon Cars": 0.05179127725856698,
+        "Light Goods (Pickups, Vans, 4WD)": 0.040498442367601244,
+        "Minibuses (Matatus)": 0.03290498442367601,
+        "Medium Buses": 0.00019470404984423675,
+        "Large Buses": 0.0,
+        "Light Trucks (Dynas, Tractors)": 0.04614485981308411,
+        "Medium Trucks (Fusos, Lorries)": 0.029789719626168224,
+        "Heavy Trucks & Semi-Trailers": 0.0
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.398,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C550_Link01",
+      "link_name": "Kakumiro-Kibale",
+      "latest_year": 2024,
+      "latest_aadt": 1392.25,
+      "latest_raw_adt": 1392.25,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1482.78,
+      "adt_excl_motorcycles": 544.09,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1392.25,
+          "raw_adt": 1392.25,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.022535464176692405,
+        "Carts": 0.0,
+        "Motorcycles & Scooters": 0.6330579996408691,
+        "Saloon Cars": 0.11743580535105046,
+        "Light Goods (Pickups, Vans, 4WD)": 0.061501167175435446,
+        "Minibuses (Matatus)": 0.02846112407972706,
+        "Medium Buses": 0.003142395403124439,
+        "Large Buses": 0.002513916322499551,
+        "Light Trucks (Dynas, Tractors)": 0.05431854911115101,
+        "Medium Trucks (Fusos, Lorries)": 0.05297180822409769,
+        "Heavy Trucks & Semi-Trailers": 0.024061770515352847
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.735,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "C567_Link01",
+      "link_name": "Kakumiro-Nkooko",
+      "latest_year": 2024,
+      "latest_aadt": 1003.62,
+      "latest_raw_adt": 1003.62,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 1068.88,
+      "adt_excl_motorcycles": 201.82,
+      "growth_rate": 0.032,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 8,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 1003.62,
+          "raw_adt": 1003.62,
+          "seasonal_factor": 1,
+          "observations": 8,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.007597459210362436,
+        "Carts": 0.0018682276746792876,
+        "Motorcycles & Scooters": 0.8111844563457467,
+        "Saloon Cars": 0.062149707310997636,
+        "Light Goods (Pickups, Vans, 4WD)": 0.05679412131025034,
+        "Minibuses (Matatus)": 0.00149458213974343,
+        "Medium Buses": 0.0008718395815170009,
+        "Large Buses": 0.00012454851164528583,
+        "Light Trucks (Dynas, Tractors)": 0.0022418732096151452,
+        "Medium Trucks (Fusos, Lorries)": 0.052559471914310624,
+        "Heavy Trucks & Semi-Trailers": 0.003113712791132146
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 3.771,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "M20",
+      "link_name": "Kampala NorthernBypass",
+      "latest_year": 2024,
+      "latest_aadt": 41733.62,
+      "latest_raw_adt": 41733.62,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 46450.56,
+      "adt_excl_motorcycles": 18834.66,
+      "growth_rate": 0.055,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 41733.62,
+          "raw_adt": 41733.62,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.00033317891479519766,
+        "Carts": 1.8256378892887543e-05,
+        "Motorcycles & Scooters": 0.5945224017179253,
+        "Saloon Cars": 0.1711957699970105,
+        "Light Goods (Pickups, Vans, 4WD)": 0.11408639374901587,
+        "Minibuses (Matatus)": 0.05548569955020847,
+        "Medium Buses": 0.0023778933507986027,
+        "Large Buses": 0.0011752543912296359,
+        "Light Trucks (Dynas, Tractors)": 0.018102340695978807,
+        "Medium Trucks (Fusos, Lorries)": 0.02519950799058884,
+        "Heavy Trucks & Semi-Trailers": 0.017503303263555935
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 3.0,
+      "raw_to_embedded_ratio_before_reconciliation": 0.998,
+      "audit_flag": "duplicate slots",
+      "rejected_outlier_years": []
+    },
+    {
+      "link_id": "M20N1",
+      "link_name": "Kampala NorthernBypass (dual)",
+      "latest_year": 2024,
+      "latest_aadt": 58237.57,
+      "latest_raw_adt": 58237.57,
+      "latest_seasonal_factor": 1,
+      "aadt_2026": 64819.87,
+      "adt_excl_motorcycles": 24891.85,
+      "growth_rate": 0.055,
+      "observed_years": [
+        2024
+      ],
+      "observation_count": 7,
+      "annual": [
+        {
+          "year": 2024,
+          "aadt": 58237.57,
+          "raw_adt": 58237.57,
+          "seasonal_factor": 1,
+          "observations": 7,
+          "sources": [
+            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
+          ]
+        }
+      ],
+      "class_shares": {
+        "Bicycles": 0.007719611541886313,
+        "Carts": 0.00023058261358033474,
+        "Motorcycles & Scooters": 0.6159842811341721,
+        "Saloon Cars": 0.12840507968591705,
+        "Light Goods (Pickups, Vans, 4WD)": 0.12769861380601133,
+        "Minibuses (Matatus)": 0.04572649467820234,
+        "Medium Buses": 0.0030760701854227633,
+        "Large Buses": 0.001341794570515352,
+        "Light Trucks (Dynas, Tractors)": 0.026600402783671807,
+        "Medium Trucks (Fusos, Lorries)": 0.022864473842364893,
+        "Heavy Trucks & Semi-Trailers": 0.020352595158255715
+      },
+      "sources": [
+        "TIS 2025_AADT analysis.xlsx"
+      ],
+      "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
+      "match_type": "exact-link-raw-tis-reconciled",
+      "duplicate_slot_factor": 1.0,
+      "raw_to_embedded_ratio_before_reconciliation": 1.441,
+      "audit_flag": "embedded mismatch",
+      "rejected_outlier_years": []
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-07",
+  "repo": "bridge_mculverts",
+  "url": "https://datasciencetrials.github.io/bridgesandmajorculverts/",
+  "technical": {
+    "httpStatus": 200,
+    "loadFailed": false,
+    "pageRendered": true,
+    "bodyTextLength": 17675,
+    "consoleErrors": [
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined",
+      "ReferenceError: NATIONAL_ROAD_NETWORK is not defined"
+    ],
+    "brokenImages": [
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "data:image/svg+xml;utf8,<svg xmlns=",
+      "https://datasciencetrials.github.io/bridgesandmajorculverts/"
+    ],
+    "hashLinksFound": [],
+    "chartElementCount": 24
+  },
+  "accuracy": {
+    "extractedFigures": [],
+    "discrepancies": []
+  },
+  "consistency": {
+    "districtList": null,
+    "notes": []
+  }
+}
