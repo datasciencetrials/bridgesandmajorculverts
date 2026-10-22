@@ -7805,7 +7805,7 @@ function drawMap() {
       for (const c of candidates) {
         if (linkBridgeMap[c]) { matchedBridges = linkBridgeMap[c]; break; }
       }
-      // Also partial match — origin or dest appears in any link name
+      // Also partial match: origin or destination appears in any link name
       if (!matchedBridges.length) {
         const oLow = o.toLowerCase();
         const dLow = d.toLowerCase();
@@ -8411,7 +8411,7 @@ function initPhotosTab() {
     const photos = PHOTOS_DATA[id] || [];
     const name = photoStructureName(id);
     galleryEl.innerHTML =
-      `<div style="grid-column:1/-1;font-weight:700;font-size:14px;margin-bottom:4px">${id}${name ? ' · ' + name : ''} — ${photos.length} photo(s)</div>`
+      `<div style="grid-column:1/-1;font-weight:700;font-size:14px;margin-bottom:4px">${id}${name ? ' · ' + name : ''} - ${photos.length} photo(s)</div>`
       + photos.map(src =>
         `<a href="${src}" target="_blank" rel="noopener" style="display:block;aspect-ratio:4/3;border-radius:8px;overflow:hidden;border:1px solid var(--border,rgba(99,130,255,0.2))">
            <img src="${src}" loading="lazy" alt="${id}" style="width:100%;height:100%;object-fit:cover">
