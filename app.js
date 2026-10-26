@@ -1,12 +1,9 @@
 // ===========================================
 //  EMBEDDED DATASETS
 // ===========================================
-const AUTHORITATIVE_BRIDGE_COUNT = 546;
+const AUTHORITATIVE_BRIDGE_COUNT = 552;
 
-// The governed public baseline contains 546 authoritative bridges. The source
-// bundle currently carries six additional reconciliation candidates at the end
-// of the array. Retain those candidates for source-key review, but do not mix
-// them into public filters, analytics or exports.
+// The governed public baseline contains 552 authoritative bridges from the 1 Oct 2026 register.
 if (Array.isArray(BRIDGES) && BRIDGES.length > AUTHORITATIVE_BRIDGE_COUNT) {
   window.BRIDGE_RECONCILIATION_CANDIDATES = BRIDGES.slice(AUTHORITATIVE_BRIDGE_COUNT);
   BRIDGES.length = AUTHORITATIVE_BRIDGE_COUNT;
