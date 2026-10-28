@@ -1290,7 +1290,7 @@ const BMS_CODE_LOOKUPS = {
     '09': 'Agricultural underpass', '10': 'Road over water pipes', '11': 'Road over conveyer belt',
     '12': 'Conveyer belt over road', '13': 'Other', '?': 'Unknown'
   },
-  owner: { '01': 'Ministry of Works and Transport - Department of National Roads', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
+  owner: { '01': 'National roads authority', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
   type_bridge: {
     '01': 'Simply supported span', '02': 'Continuous span', '03': 'Double cantilevered span', '04': 'Single cantilevered span',
     '05': 'Single suspended simply supported span', '06': 'Suspended span', '07': 'Portal frame', '08': 'Cantilevered construction',
@@ -5795,7 +5795,7 @@ function selectedBridgeCsvText(bridge) {
   const lines = [];
   lines.push('Section,Record Type,ID,Name,Source,Link ID,Road Name,Road Class,Region,Station,Latitude,Longitude,Distance km,ADT incl Motorcycles,ADT excl Motorcycles,Seasonal Factor,Annual Weighted Growth Rate,Annual Weighted Growth Source,Weight,Role,Notes');
   lines.push([
-    'Bridge Summary', 'Selected Bridge', row.bridge_no, row.bridge_nam, row.source_workbook, row.link_no, row.link_name, canonicalRoadClass(row.road_class), row.region, row.station,
+    'Bridge Summary', 'Selected Bridge', row.bridge_no, row.bridge_nam, '', row.link_no, row.link_name, canonicalRoadClass(row.road_class), row.region, row.station,
     bridgeMapLat(row) ?? row.y_new ?? '', bridgeMapLon(row) ?? row.x_new ?? '', '', row.assigned_adt_incl_motorcycles ?? '', row.assigned_adt_excl_motorcycles ?? '', row.seasonal_factor ?? '',
     row.annual_traffic_growth_rate ?? '', row.annual_traffic_growth_source || '', '', 'Bridge crossing',
     `Current assigned ADT is the single traffic value shown in the dashboard; Evidence: ${fmt(row.count_evidence_score, 0)}/100; Priority: ${row.priority || 'N/A'}`
