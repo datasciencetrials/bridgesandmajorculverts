@@ -4389,7 +4389,6 @@ function openBridgeModal(bridgeId) {
   ].map(([label, value, scope]) => {
     return `<span title="${htmlEscape(bridgeConditionRatingTooltip(value, scope))}">${htmlEscape(label)}: ${modalRatingBadge(value, scope)}</span>`;
   }).join(' <span style="color:var(--border)">|</span> ');
-  document.getElementById('mReferenceSource').textContent = `${b.source_workbook || 'Bridges and Culverts 2026.xlsx'} / ${b.source_sheet || 'tblB-Bridge2'} / row ${b.source_row || 'N/A'}`;
   document.getElementById('mReferenceNumbers').textContent = refText(`Original: ${b.original_bridge_no || 'N/A'}`, `New: ${b.new_bridge_no || 'N/A'}`);
   document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${b.type_bridge || 'N/A'}`, `Deck: ${b.type_deck || 'N/A'}`, `Crossing: ${b.type_crossing || 'N/A'}`);
   document.getElementById('mDeckMaterial').textContent = refText(`Material: ${b.type_deck_material || 'N/A'}`, `Wearing: ${b.type_wearing_surface || 'N/A'}`, `Surface: ${b.surface_link || 'N/A'}`);
