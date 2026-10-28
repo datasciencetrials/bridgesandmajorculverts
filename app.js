@@ -5953,7 +5953,7 @@ function updateBridgeAnalyticsPane(bridge) {
       </div>
       <div class="pane-section-title" style="margin-top: 20px; color: var(--accent-cyan); font-weight: 800; letter-spacing: 1.1px;">BRIDGES NETWORK SUMMARY</div>
       <div class="pane-metrics">
-        <div class="pane-metric"><strong>${fmt(activeBridges.length)}</strong><span>BRIDGE CROSSINGS</span></div>
+        <div class="pane-metric"><strong>${fmt(activeBridges.length)}</strong><span>BRIDGE CROSSINGS, FY 2026/27</span></div>
         <div class="pane-metric"><strong>${fmt(bridgeLinks.size)}</strong><span>HOST ROAD LINKS</span></div>
         <div class="pane-metric"><strong>${fmt(totalLength, 0)} m</strong><span>TOTAL BRIDGE LENGTH</span></div>
         <div class="pane-metric"><strong>${fmt(avgAadt, 0)}</strong><span>AVG ASSIGNED ADT</span></div>
