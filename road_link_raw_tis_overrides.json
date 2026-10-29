@@ -1,6 +1,4 @@
 {
-  "source": "D:\\OneDrive\\Uganda National Road Network Repository\\3.Traffic\\TIS 2025_AADT analysis.xlsx",
-  "generated_from_sheet": "TIS 2024",
   "override_rule": "audit_flag != ok (duplicate slots or raw-to-embedded ratio outside 0.75-1.33)",
   "overrides": [
     {
@@ -23,10 +21,7 @@
           "aadt": 12608.86,
           "raw_adt": 12608.86,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -42,9 +37,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.05772019668713603,
         "Heavy Trucks & Semi-Trailers": 0.044673812059549976
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.991,
@@ -72,10 +64,7 @@
           "aadt": 8235.38,
           "raw_adt": 8235.38,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -91,9 +80,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.0793983273378565,
         "Heavy Trucks & Semi-Trailers": 0.055947664799720714
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -121,10 +107,7 @@
           "aadt": 4644.11,
           "raw_adt": 4644.11,
           "seasonal_factor": 1,
-          "observations": 9,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 9
         }
       ],
       "class_shares": {
@@ -140,9 +123,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.0744790295954255,
         "Heavy Trucks & Semi-Trailers": 0.060076082015455654
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -170,10 +150,7 @@
           "aadt": 10673.43,
           "raw_adt": 10673.43,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -189,9 +166,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.00385469925315202,
         "Heavy Trucks & Semi-Trailers": 0.003332708729287684
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -219,10 +193,7 @@
           "aadt": 18966.0,
           "raw_adt": 18966.0,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -238,9 +209,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.02172308341242223,
         "Heavy Trucks & Semi-Trailers": 0.0070728069779003025
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -268,10 +236,7 @@
           "aadt": 17808.62,
           "raw_adt": 17808.62,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -287,9 +252,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.013322196407639557,
         "Heavy Trucks & Semi-Trailers": 0.00568544736047842
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -317,10 +279,7 @@
           "aadt": 3339.75,
           "raw_adt": 3339.75,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -336,9 +295,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.023504753349801632,
         "Heavy Trucks & Semi-Trailers": 0.03989819597275245
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -366,10 +322,7 @@
           "aadt": 7627.14,
           "raw_adt": 7627.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -385,9 +338,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.05862521071361678,
         "Heavy Trucks & Semi-Trailers": 0.026971342948117625
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -415,10 +365,7 @@
           "aadt": 6076.86,
           "raw_adt": 6076.86,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -434,9 +381,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.061827072264798534,
         "Heavy Trucks & Semi-Trailers": 0.03836569655366966
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -464,10 +408,7 @@
           "aadt": 2890.5,
           "raw_adt": 2890.5,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -483,9 +424,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.11658882546272271,
         "Heavy Trucks & Semi-Trailers": 0.04934267427780661
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -513,10 +451,7 @@
           "aadt": 29083.14,
           "raw_adt": 29083.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -532,9 +467,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.028892534703461013,
         "Heavy Trucks & Semi-Trailers": 0.012034462771757818
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -562,10 +494,7 @@
           "aadt": 9163.29,
           "raw_adt": 9163.29,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -581,9 +510,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.06505776156400543,
         "Heavy Trucks & Semi-Trailers": 0.027048937530205947
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -611,10 +537,7 @@
           "aadt": 57363.64,
           "raw_adt": 57363.64,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -630,9 +553,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.010345029392684018,
         "Heavy Trucks & Semi-Trailers": 0.002992188930021629
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.005,
@@ -660,10 +580,7 @@
           "aadt": 22743.79,
           "raw_adt": 22743.79,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -679,9 +596,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.017960950086836906,
         "Heavy Trucks & Semi-Trailers": 0.004060763850722175
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.005,
@@ -709,10 +623,7 @@
           "aadt": 56118.86,
           "raw_adt": 56118.86,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -728,9 +639,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.0050810524600847186,
         "Heavy Trucks & Semi-Trailers": 0.0003996619420006517
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -758,10 +666,7 @@
           "aadt": 40961.0,
           "raw_adt": 40961.0,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -777,9 +682,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.007048516533148256,
         "Heavy Trucks & Semi-Trailers": 0.001004439763259128
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -807,10 +709,7 @@
           "aadt": 6288.25,
           "raw_adt": 6288.25,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -826,9 +725,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.023039001311970737,
         "Heavy Trucks & Semi-Trailers": 0.0036377370492585376
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -856,10 +752,7 @@
           "aadt": 2627.29,
           "raw_adt": 2627.29,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -875,9 +768,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.01375672883475613,
         "Heavy Trucks & Semi-Trailers": 0.0009787396008917406
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -905,10 +795,7 @@
           "aadt": 1851.62,
           "raw_adt": 1851.62,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -924,9 +811,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.04428542496455816,
         "Heavy Trucks & Semi-Trailers": 0.008776075069195977
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -954,10 +838,7 @@
           "aadt": 6082.14,
           "raw_adt": 6082.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -973,9 +854,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.021503229594832647,
         "Heavy Trucks & Semi-Trailers": 0.0009864944216089254
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 2.0,
@@ -1003,10 +881,7 @@
           "aadt": 3212.86,
           "raw_adt": 3212.86,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1022,9 +897,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.022276567363272565,
         "Heavy Trucks & Semi-Trailers": 0.00022232103156958648
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1052,10 +924,7 @@
           "aadt": 5864.43,
           "raw_adt": 5864.43,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1071,9 +940,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.05490731041874741,
         "Heavy Trucks & Semi-Trailers": 0.0762709800004872
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1101,10 +967,7 @@
           "aadt": 7680.57,
           "raw_adt": 7680.57,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1120,9 +983,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.007756119336358902,
         "Heavy Trucks & Semi-Trailers": 0.0020645785283833046
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1150,10 +1010,7 @@
           "aadt": 27177.81,
           "raw_adt": 27177.81,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1169,9 +1026,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.011511492218791943,
         "Heavy Trucks & Semi-Trailers": 0.0024477252099927463
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 3.0,
@@ -1199,10 +1053,7 @@
           "aadt": 6445.14,
           "raw_adt": 6445.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1218,9 +1069,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.022652717439489316,
         "Heavy Trucks & Semi-Trailers": 0.021056831279368738
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1248,10 +1096,7 @@
           "aadt": 735.43,
           "raw_adt": 735.43,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1267,9 +1112,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.09557109557109557,
         "Heavy Trucks & Semi-Trailers": 0.001554001554001554
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1297,10 +1139,7 @@
           "aadt": 4067.0,
           "raw_adt": 4067.0,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1316,9 +1155,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.029576030067793038,
         "Heavy Trucks & Semi-Trailers": 0.0011591555727282308
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1346,10 +1182,7 @@
           "aadt": 1217.71,
           "raw_adt": 1217.71,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1365,9 +1198,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.03660253402158611,
         "Heavy Trucks & Semi-Trailers": 0.015016424213984044
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1395,10 +1225,7 @@
           "aadt": 662.57,
           "raw_adt": 662.57,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1414,9 +1241,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.03341957740405347,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1444,10 +1268,7 @@
           "aadt": 1407.57,
           "raw_adt": 1407.57,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1463,9 +1284,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.062417537805744445,
         "Heavy Trucks & Semi-Trailers": 0.0025372982847863593
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1493,10 +1311,7 @@
           "aadt": 1889.64,
           "raw_adt": 1889.64,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1512,9 +1327,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.03284823284823285,
         "Heavy Trucks & Semi-Trailers": 0.0008316008316008316
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.005,
@@ -1542,10 +1354,7 @@
           "aadt": 8314.14,
           "raw_adt": 8314.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1561,9 +1370,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.030223887008367843,
         "Heavy Trucks & Semi-Trailers": 0.001735425007302531
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1591,10 +1397,7 @@
           "aadt": 1472.86,
           "raw_adt": 1472.86,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1610,9 +1413,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.09327513740704818,
         "Heavy Trucks & Semi-Trailers": 0.003944390559327514
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 3.0,
@@ -1640,10 +1440,7 @@
           "aadt": 407.0,
           "raw_adt": 407.0,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1659,9 +1456,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.008775008775008775,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1689,10 +1483,7 @@
           "aadt": 863.14,
           "raw_adt": 863.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1708,9 +1499,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.018205892088712348,
         "Heavy Trucks & Semi-Trailers": 0.003475670307845084
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1738,10 +1526,7 @@
           "aadt": 690.57,
           "raw_adt": 690.57,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1757,9 +1542,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.004137360364087712,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1787,10 +1569,7 @@
           "aadt": 2283.25,
           "raw_adt": 2283.25,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -1806,9 +1585,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.02293879338661995,
         "Heavy Trucks & Semi-Trailers": 0.00098543742472353
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1836,10 +1612,7 @@
           "aadt": 632.62,
           "raw_adt": 632.62,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -1855,9 +1628,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.0353685042481723,
         "Heavy Trucks & Semi-Trailers": 0.016597510373443983
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1885,10 +1655,7 @@
           "aadt": 2790.71,
           "raw_adt": 2790.71,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -1904,9 +1671,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.00947018172510878,
         "Heavy Trucks & Semi-Trailers": 0.0007678525723061172
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1934,10 +1698,7 @@
           "aadt": 399.12,
           "raw_adt": 399.12,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -1953,9 +1714,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.01691199498903852,
         "Heavy Trucks & Semi-Trailers": 0.0006263701847792045
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -1983,10 +1741,7 @@
           "aadt": 991.88,
           "raw_adt": 991.88,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2002,9 +1757,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.009325771896660366,
         "Heavy Trucks & Semi-Trailers": 0.001890359168241966
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2032,10 +1784,7 @@
           "aadt": 1164.12,
           "raw_adt": 1164.12,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2051,9 +1800,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.011811446365295823,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2081,10 +1827,7 @@
           "aadt": 1234.25,
           "raw_adt": 1234.25,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2100,9 +1843,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.022280737289852137,
         "Heavy Trucks & Semi-Trailers": 0.0013165890216730808
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2130,10 +1870,7 @@
           "aadt": 1661.38,
           "raw_adt": 1661.38,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2149,9 +1886,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.013919193439169362,
         "Heavy Trucks & Semi-Trailers": 0.0009781054849146039
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2179,10 +1913,7 @@
           "aadt": 1336.14,
           "raw_adt": 1336.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2198,9 +1929,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.04266010905591789,
         "Heavy Trucks & Semi-Trailers": 0.00021383513311237036
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2228,10 +1956,7 @@
           "aadt": 716.14,
           "raw_adt": 716.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2247,9 +1972,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.09056453221623778,
         "Heavy Trucks & Semi-Trailers": 0.021344504288848994
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2277,10 +1999,7 @@
           "aadt": 1802.14,
           "raw_adt": 1802.14,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2296,9 +2015,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.019738406658739594,
         "Heavy Trucks & Semi-Trailers": 0.0013476020610384463
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2326,10 +2042,7 @@
           "aadt": 612.29,
           "raw_adt": 612.29,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2345,9 +2058,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.009099393373775081,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2375,10 +2085,7 @@
           "aadt": 1224.38,
           "raw_adt": 1224.38,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2394,9 +2101,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.025421133231240428,
         "Heavy Trucks & Semi-Trailers": 0.015416028586013273
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2424,10 +2128,7 @@
           "aadt": 589.71,
           "raw_adt": 589.71,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2443,9 +2144,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.023013565891472867,
         "Heavy Trucks & Semi-Trailers": 0.00024224806201550387
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2473,10 +2171,7 @@
           "aadt": 1752.43,
           "raw_adt": 1752.43,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2492,9 +2187,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.003586859052743132,
         "Heavy Trucks & Semi-Trailers": 0.00016303904785196053
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2522,10 +2214,7 @@
           "aadt": 1340.29,
           "raw_adt": 1340.29,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2541,9 +2230,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.013749733532295886,
         "Heavy Trucks & Semi-Trailers": 0.0007461095715199318
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2571,10 +2257,7 @@
           "aadt": 733.71,
           "raw_adt": 733.71,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2590,9 +2273,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.029789719626168224,
         "Heavy Trucks & Semi-Trailers": 0.0
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2620,10 +2300,7 @@
           "aadt": 1392.25,
           "raw_adt": 1392.25,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2639,9 +2316,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.05297180822409769,
         "Heavy Trucks & Semi-Trailers": 0.024061770515352847
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2669,10 +2343,7 @@
           "aadt": 1003.62,
           "raw_adt": 1003.62,
           "seasonal_factor": 1,
-          "observations": 8,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 8
         }
       ],
       "class_shares": {
@@ -2688,9 +2359,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.052559471914310624,
         "Heavy Trucks & Semi-Trailers": 0.003113712791132146
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
@@ -2718,10 +2386,7 @@
           "aadt": 41733.62,
           "raw_adt": 41733.62,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2737,9 +2402,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.02519950799058884,
         "Heavy Trucks & Semi-Trailers": 0.017503303263555935
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 3.0,
@@ -2767,10 +2429,7 @@
           "aadt": 58237.57,
           "raw_adt": 58237.57,
           "seasonal_factor": 1,
-          "observations": 7,
-          "sources": [
-            "TIS 2025_AADT analysis.xlsx::TIS 2024 duplicate-normalized raw count"
-          ]
+          "observations": 7
         }
       ],
       "class_shares": {
@@ -2786,9 +2445,6 @@
         "Medium Trucks (Fusos, Lorries)": 0.022864473842364893,
         "Heavy Trucks & Semi-Trailers": 0.020352595158255715
       },
-      "sources": [
-        "TIS 2025_AADT analysis.xlsx"
-      ],
       "basis": "Reconciled from TIS 2024 raw classified hourly counts by grouping date-hour-direction slots and averaging duplicate rows before daily ADT aggregation; applied because the embedded estimate was duplicated or materially inconsistent with the raw link count",
       "match_type": "exact-link-raw-tis-reconciled",
       "duplicate_slot_factor": 1.0,
