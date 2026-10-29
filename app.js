@@ -4402,7 +4402,6 @@ function openBridgeModal(bridgeId) {
   document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk || 'N/A'}`, `Protection: ${b.scour_protection || 'N/A'}`);
   document.getElementById('mComponentRatings').innerHTML = componentRatings;
   document.getElementById('mTownEndpoints').textContent = refText(b.town_left, b.town_right);
-  document.getElementById('mInspectionReference').textContent = refText(b.inspector, b.firm, b.date_modified);
   document.getElementById('mReferenceComment').textContent = b.comment || b.remarks || 'N/A';
 
   document.getElementById('bridgeModal').classList.add('active');
