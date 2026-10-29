@@ -5793,31 +5793,31 @@ function selectedBridgeCsvText(bridge) {
   const evidence = bridgeTrafficEvidence(bridge);
   const roads = roadInfluenceRowsForBridge(bridge, 12);
   const lines = [];
-  lines.push('Section,Record Type,ID,Name,Source,Link ID,Road Name,Road Class,Region,Station,Latitude,Longitude,Distance km,ADT incl Motorcycles,ADT excl Motorcycles,Seasonal Factor,Annual Weighted Growth Rate,Annual Weighted Growth Source,Weight,Role,Notes');
+  lines.push('Section,Record Type,ID,Name,Link ID,Road Name,Road Class,Region,Station,Latitude,Longitude,Distance km,ADT incl Motorcycles,ADT excl Motorcycles,Seasonal Factor,Annual Weighted Growth Rate,Annual Weighted Growth Method,Weight,Role,Notes');
   lines.push([
     'Bridge Summary', 'Selected Bridge', row.bridge_no, row.bridge_nam, '', row.link_no, row.link_name, canonicalRoadClass(row.road_class), row.region, row.station,
     bridgeMapLat(row) ?? row.y_new ?? '', bridgeMapLon(row) ?? row.x_new ?? '', '', row.assigned_adt_incl_motorcycles ?? '', row.assigned_adt_excl_motorcycles ?? '', row.seasonal_factor ?? '',
     row.annual_traffic_growth_rate ?? '', row.annual_traffic_growth_source || '', '', 'Bridge crossing',
     `Current assigned ADT is the single traffic value shown in the dashboard; Evidence: ${fmt(row.count_evidence_score, 0)}/100; Priority: ${row.priority || 'N/A'}`
-  ].map(escapeCSV).join(','));
+  ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   roads.forEach(r => {
     lines.push([
       'Influencing Roads', 'Road Link', r.id, r.name, '2026 national road network', r.id, r.name, r.cls, r.region, r.station,
       r.latitude ?? '', r.longitude ?? '', '', '', '', '', '', '', r.role, `Length km: ${r.length ?? '-'}; Surface: ${r.surface || 'N/A'}`
-    ].map(escapeCSV).join(','));
+    ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   evidence.manualStations.forEach(s => {
     lines.push([
       'Influencing Count Stations', 'Manual Count', s.id, s.name, 'Manual traffic count station', s.link_id, s.link_name, canonicalRoadClass(s.link_id || s.link_name), s.region, s.station,
       s.lat ?? '', s.lng ?? '', s.distanceKm != null ? s.distanceKm.toFixed(3) : '', '', '', '', '', '', s.sameLink ? 1 : '', s.sameLink ? 'Same host link' : 'Nearby wider-network station', ''
-    ].map(escapeCSV).join(','));
+    ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   Object.entries(row.class_volumes || {}).forEach(([label, value]) => {
     lines.push([
       'Vehicle Class ADT', 'Assigned class volume', label, label, 'Assigned bridge traffic model', row.link_no, row.link_name, canonicalRoadClass(row.road_class), row.region, row.station,
       bridgeMapLat(row) ?? row.y_new ?? '', bridgeMapLon(row) ?? row.x_new ?? '', '', value, '', row.seasonal_factor ?? '',
       row.annual_traffic_growth_rate ?? '', row.annual_traffic_growth_source || '', '', 'Assigned to selected bridge', majorVehicleBucket(label)
-    ].map(escapeCSV).join(','));
+    ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   bridgeOdFlowRows([row]).forEach(od => {
     lines.push([
@@ -5828,7 +5828,7 @@ function selectedBridgeCsvText(bridge) {
       row.seasonal_factor ?? '', row.annual_traffic_growth_rate ?? '', row.annual_traffic_growth_source || '', od.od_match_score || '',
       od.od_direction || 'Road-link direction',
       `OD year: ${od.od_year || 'N/A'}; OD evidence ADT: ${od.od_estimated_adt != null ? Number(od.od_estimated_adt).toFixed(2) : 'N/A'}; Current assigned ADT: ${od.current_assigned_adt != null ? Number(od.current_assigned_adt).toFixed(2) : 'N/A'}`
-    ].map(escapeCSV).join(','));
+    ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   return lines.join('\n');
 }
