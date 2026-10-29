@@ -3,6 +3,13 @@
 // ===========================================
 const AUTHORITATIVE_BRIDGE_COUNT = 552;
 
+function canonicalSurfaceType(value) {
+  const surface = String(value ?? '').trim().toLowerCase();
+  if (/unpaved|unsealed|gravel|earth|murram|dirt/.test(surface)) return 'Unpaved';
+  if (/paved|bituminous|asphalt|concrete/.test(surface)) return 'Paved';
+  return 'Not supplied';
+}
+
 // The governed public baseline contains 552 authoritative bridges from the 1 Oct 2026 register.
 if (Array.isArray(BRIDGES) && BRIDGES.length > AUTHORITATIVE_BRIDGE_COUNT) {
   window.BRIDGE_RECONCILIATION_CANDIDATES = BRIDGES.slice(AUTHORITATIVE_BRIDGE_COUNT);
@@ -1494,7 +1501,7 @@ const BMS_BRIDGE_INVENTORY_COLUMNS = [
   { key: 'link_no', label: 'Link ID', value: b => b.link_no },
   { key: 'link_name', label: 'Road Link Name', value: b => b.link_name },
   { key: 'road_class', label: 'Road Class', value: b => canonicalRoadClass(b.road_class), render: b => `<span class="pill pill-${canonicalRoadClass(b.road_class).toLowerCase()}">${canonicalRoadClass(b.road_class)}</span>` },
-  { key: 'surface_link', label: 'Surface Type', value: b => b.surface_link || b.surface_ty },
+  { key: 'surface_link', label: 'Surface Type', value: b => canonicalSurfaceType(b.surface_link || b.surface_ty) },
   { key: 'station', label: 'Maintenance Station', value: b => b.station || b.maintenanc },
   { key: 'region', label: 'Maintenance Region', value: b => b.region },
   { key: 'km', label: 'Bridge Chainage From Start of Road km', value: b => bridgeValidatedChainageKm(b) },
@@ -4354,7 +4361,7 @@ function openBridgeModal(bridgeId) {
   document.getElementById('mLinkNo').textContent = b.link_no || 'N/A';
   document.getElementById('mLinkName').textContent = b.link_name || 'N/A';
   document.getElementById('mLinkLengthClass').textContent = `Length: ${b.link_len_km ? fmt(b.link_len_km, 1) + ' km' : 'N/A'} | Class: ${canonicalRoadClass(b.road_class)}`;
-  document.getElementById('mLinkSurface').textContent = b.surface_link || b.surface_ty || 'N/A';
+  document.getElementById('mLinkSurface').textContent = canonicalSurfaceType(b.surface_link || b.surface_ty);
 
   const paveAgeText = b.pave_age != null
     ? `${b.pave_year} (${b.pave_age} years old)`
@@ -4391,7 +4398,7 @@ function openBridgeModal(bridgeId) {
   }).join(' <span style="color:var(--border)">|</span> ');
   document.getElementById('mReferenceNumbers').textContent = refText(`Original: ${b.original_bridge_no || 'N/A'}`, `New: ${b.new_bridge_no || 'N/A'}`);
   document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${b.type_bridge || 'N/A'}`, `Deck: ${b.type_deck || 'N/A'}`, `Crossing: ${b.type_crossing || 'N/A'}`);
-  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${b.type_deck_material || 'N/A'}`, `Wearing: ${b.type_wearing_surface || 'N/A'}`, `Surface: ${b.surface_link || 'N/A'}`);
+  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${b.type_deck_material || 'N/A'}`, `Wearing: ${b.type_wearing_surface || 'N/A'}`, `Surface: ${canonicalSurfaceType(b.surface_link || b.surface_ty)}`);
   document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk || 'N/A'}`, `Protection: ${b.scour_protection || 'N/A'}`);
   document.getElementById('mComponentRatings').innerHTML = componentRatings;
   document.getElementById('mTownEndpoints').textContent = refText(b.town_left, b.town_right);
@@ -5803,7 +5810,7 @@ function selectedBridgeCsvText(bridge) {
   roads.forEach(r => {
     lines.push([
       'Influencing Roads', 'Road Link', r.id, r.name, '2026 national road network', r.id, r.name, r.cls, r.region, r.station,
-      r.latitude ?? '', r.longitude ?? '', '', '', '', '', '', '', '', r.role, `Length km: ${r.length ?? '-'}; Surface: ${r.surface || 'N/A'}`
+      r.latitude ?? '', r.longitude ?? '', '', '', '', '', '', '', '', r.role, `Length km: ${r.length ?? '-'}; Surface: ${canonicalSurfaceType(r.surface)}`
     ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   evidence.manualStations.forEach(s => {
@@ -8572,7 +8579,7 @@ function initStatisticsTab() {
   const bApproachesCond = {}; bridges.forEach(b => { const v = b.approaches_rating != null ? String(b.approaches_rating) : 'Unknown'; bApproachesCond[v] = (bApproachesCond[v] || 0) + 1; });
   const bRoadwayCond = {}; bridges.forEach(b => { const v = b.roadway_rating != null ? String(b.roadway_rating) : 'Unknown'; bRoadwayCond[v] = (bRoadwayCond[v] || 0) + 1; });
   const bWaterwayCond = {}; bridges.forEach(b => { const v = b.waterway_rating != null ? String(b.waterway_rating) : 'Unknown'; bWaterwayCond[v] = (bWaterwayCond[v] || 0) + 1; });
-  const bSurface = {}; bridges.forEach(b => { const v = b.surface_link || b.surface_ty || 'Unknown'; bSurface[v] = (bSurface[v] || 0) + 1; });
+  const bSurface = {}; bridges.forEach(b => { const v = canonicalSurfaceType(b.surface_link || b.surface_ty); bSurface[v] = (bSurface[v] || 0) + 1; });
   const bCrossingType = {}; bridges.forEach(b => { const v = bmsCodeDescription('type_crossing', b.type_crossing); bCrossingType[v] = (bCrossingType[v] || 0) + 1; });
   
   // Additional Culvert Aggregations
