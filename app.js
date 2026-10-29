@@ -5803,7 +5803,7 @@ function selectedBridgeCsvText(bridge) {
   roads.forEach(r => {
     lines.push([
       'Influencing Roads', 'Road Link', r.id, r.name, '2026 national road network', r.id, r.name, r.cls, r.region, r.station,
-      r.latitude ?? '', r.longitude ?? '', '', '', '', '', '', '', r.role, `Length km: ${r.length ?? '-'}; Surface: ${r.surface || 'N/A'}`
+      r.latitude ?? '', r.longitude ?? '', '', '', '', '', '', '', '', r.role, `Length km: ${r.length ?? '-'}; Surface: ${r.surface || 'N/A'}`
     ].filter((_, i) => i !== 4).map(escapeCSV).join(','));
   });
   evidence.manualStations.forEach(s => {
