@@ -4376,12 +4376,9 @@ function openBridgeModal(bridgeId) {
   document.getElementById('mRegion').textContent = b.region || 'N/A';
 
   if (b.x_new && b.y_new) {
-    const sourceText = b.location_source_lat != null && b.location_source_lon != null
-      ? `Source: ${Number(b.location_source_lat).toFixed(6)}, ${Number(b.location_source_lon).toFixed(6)}`
-      : 'Source: -';
     const correctedText = `Corrected: ${Number(b.y_new).toFixed(6)}, ${Number(b.x_new).toFixed(6)}`;
     const moveText = b.location_correction_distance_km != null ? `Moved: ${fmt(b.location_correction_distance_km, 3)} km` : 'Moved: -';
-    document.getElementById('mCoordinates').textContent = `${correctedText} | ${sourceText} | ${moveText} | ${b.location_correction_method || 'N/A'}`;
+    document.getElementById('mCoordinates').textContent = `${correctedText} | ${moveText} | ${b.location_correction_method || 'N/A'}`;
   } else {
     document.getElementById('mCoordinates').textContent = '-';
   }
@@ -4812,8 +4809,7 @@ function correctedBridgeRows() {
       region: b.region || '',
       station: b.station || '',
       river: bridgeRiverName(b),
-      source_lon: b.location_source_lon ?? b.source_x_new ?? '',
-      source_lat: b.location_source_lat ?? b.source_y_new ?? '',
+      condition: b.overall_cond || b.condition_category || '',
       lon: b.location_corrected_lon ?? b.x_new ?? '',
       lat: b.location_corrected_lat ?? b.y_new ?? '',
       correction_km: b.location_correction_distance_km ?? '',
@@ -4844,16 +4840,16 @@ function correctedBridgeCsvText() {
     return str;
   };
   const headers = [
-    'Record ID', 'Bridge No', 'Bridge Name', 'Link ID', 'Link Name', 'Road Class', 'Region', 'Station', 'River',
-    'AADT', 'Annual Weighted Growth Rate', 'Annual Weighted Growth Method', 'Original Longitude', 'Original Latitude', 'Corrected Longitude', 'Corrected Latitude',
+    'Record ID', 'Bridge No', 'Bridge Name', 'Link ID', 'Link Name', 'Road Class', 'Region', 'Station', 'River', 'Condition',
+    'AADT', 'Annual Weighted Growth Rate', 'Annual Weighted Growth Method', 'Corrected Longitude', 'Corrected Latitude',
     'Correction Distance km', 'Correction Method', 'Audit Status', 'National Network Status', 'Network Match Scope',
     'Requires Review', 'Corrected Link ID', 'Corrected Road Name', 'Corrected Road Class'
   ];
   const lines = [headers.join(',')];
   correctedBridgeRows().forEach(r => {
     lines.push([
-      r.id, r.bridge_no, r.bridge_nam, r.link_no, r.link_name, r.road_class, r.region, r.station, r.river,
-      r.aadt, r.annual_growth_rate, r.annual_growth_source, r.source_lon, r.source_lat, r.lon, r.lat, r.correction_km, r.correction_method,
+      r.id, r.bridge_no, r.bridge_nam, r.link_no, r.link_name, r.road_class, r.region, r.station, r.river, r.condition,
+      r.aadt, r.annual_growth_rate, r.annual_growth_source, r.lon, r.lat, r.correction_km, r.correction_method,
       r.audit_status, r.national_network_status, r.network_match_scope, r.requires_review, r.corrected_link_id,
       r.corrected_road_name, r.corrected_road_class
     ].map(escapeCSV).join(','));
@@ -4867,7 +4863,7 @@ function exportCorrectedBridgeKML() {
     <Placemark>
       <name>${xmlEscape(`${r.bridge_no} ${r.bridge_nam}`.trim())}</name>
       <styleUrl>#bridgePoint</styleUrl>
-      <description>${xmlEscape(`Link: ${r.link_no} | ${r.link_name}\nClass: ${r.road_class}\nRegion: ${r.region}\nAADT: ${r.aadt}\nAnnual weighted growth: ${formatGrowthPercent(r.annual_growth_rate)}\nSource coordinate: ${r.source_lat}, ${r.source_lon}\nCorrected coordinate: ${r.lat}, ${r.lon}\nCorrection: ${r.correction_method}\nDistance moved km: ${r.correction_km}`)}</description>
+      <description>${xmlEscape(`Link: ${r.link_no} | ${r.link_name}\nClass: ${r.road_class}\nRegion: ${r.region}\nAADT: ${r.aadt}\nAnnual weighted growth: ${formatGrowthPercent(r.annual_growth_rate)}\nCorrected coordinate: ${r.lat}, ${r.lon}\nCorrection: ${r.correction_method}\nDistance moved km: ${r.correction_km}`)}</description>
       <ExtendedData>
         ${Object.entries(r).filter(([k]) => !['annual_growth_rate', 'annual_growth_source'].includes(k)).map(([k, v]) => `<Data name="${xmlEscape(k)}"><value>${xmlEscape(v)}</value></Data>`).join('')}
       </ExtendedData>
@@ -4877,7 +4873,7 @@ function exportCorrectedBridgeKML() {
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>Corrected Uganda Bridge Database</name>
-    <description>Bridge locations corrected to Uganda national road network geometry and audited for source/corrected coordinates.</description>
+    <description>Bridge locations corrected to Uganda national road network geometry.</description>
     <Style id="bridgePoint"><IconStyle><color>ff00e5ff</color><scale>0.9</scale></IconStyle></Style>
     ${placemarks}
   </Document>
@@ -4894,7 +4890,7 @@ function makeDbf(rows) {
   const fields = [
     ['BRIDGE_NO', 'C', 20, 0], ['NAME', 'C', 60, 0], ['LINK_ID', 'C', 24, 0], ['ROAD_CLASS', 'C', 8, 0],
     ['REGION', 'C', 24, 0], ['STATION', 'C', 24, 0], ['COND', 'C', 24, 0], ['AADT', 'N', 12, 0], ['GROWTH_RT', 'N', 10, 5], ['GROWTH_SRC', 'C', 80, 0],
-    ['SRC_LON', 'N', 14, 6], ['SRC_LAT', 'N', 14, 6], ['CORR_LON', 'N', 14, 6], ['CORR_LAT', 'N', 14, 6],
+    ['CORR_LON', 'N', 14, 6], ['CORR_LAT', 'N', 14, 6],
     ['MOVE_KM', 'N', 12, 3], ['NETWORK', 'C', 28, 0], ['SCOPE', 'C', 32, 0], ['REVIEW', 'C', 8, 0], ['AUDIT', 'C', 28, 0], ['METHOD', 'C', 80, 0]
   ];
   const headerLen = 32 + fields.length * 32 + 1;
@@ -4916,7 +4912,7 @@ function makeDbf(rows) {
     off += 32;
   });
   bytes[off++] = 0x0D;
-  const values = r => [r.bridge_no, r.bridge_nam, r.link_no, r.road_class, r.region, r.station, r.condition, r.aadt, r.annual_growth_rate, r.annual_growth_source, r.source_lon, r.source_lat, r.lon, r.lat, r.correction_km, r.national_network_status, r.network_match_scope, r.requires_review, r.audit_status, r.correction_method];
+  const values = r => [r.bridge_no, r.bridge_nam, r.link_no, r.road_class, r.region, r.station, r.condition, r.aadt, r.annual_growth_rate, r.annual_growth_source, r.lon, r.lat, r.correction_km, r.national_network_status, r.network_match_scope, r.requires_review, r.audit_status, r.correction_method];
   rows.forEach(r => {
     bytes[off++] = 0x20;
     values(r).forEach((v, i) => {
