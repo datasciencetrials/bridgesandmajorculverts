@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join('d:/OneDrive/Bridge stuff/bridge_traffic_deploy', 'app.js');
+const filePath = path.join(__dirname, 'app.js');
 let content = fs.readFileSync(filePath, 'utf8');
 
 // Find and extract BMS_CODE_LOOKUPS

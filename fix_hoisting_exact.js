@@ -1,6 +1,7 @@
 const fs = require('fs');
+const path = require('path');
 
-const file = 'd:/OneDrive/Bridge stuff/bridge_traffic_deploy/app.js';
+const file = path.join(__dirname, 'app.js');
 const lines = fs.readFileSync(file, 'utf8').split('\n');
 
 // Map variables: lines 5155 to 5173 (0-indexed: 5156 to 5174 in 1-indexed)

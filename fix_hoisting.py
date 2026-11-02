@@ -1,7 +1,7 @@
-import os
+from pathlib import Path
 import re
 
-file_path = 'd:/OneDrive/Bridge stuff/bridge_traffic_deploy/app.js'
+file_path = Path(__file__).resolve().with_name('app.js')
 with open(file_path, 'r', encoding='utf-8') as f:
     content = f.read()
 
