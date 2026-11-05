@@ -4634,7 +4634,7 @@ function exportPNG() {
   if (!canvas) { alert('No chart currently visible to export on this tab.'); return; }
 
   const link = document.createElement('a');
-  link.download = 'uganda_bridge_network_chart_' + new Date().toISOString().slice(0, 10) + '.png';
+  link.download = readableDownloadName('uganda_bridge_network_chart_' + new Date().toISOString().slice(0, 10) + '.png');
 
   const expCanvas = document.getElementById('exportCanvas');
   expCanvas.width = canvas.width * 2;
@@ -4768,15 +4768,19 @@ function exportCSV() {
   const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = filename;
+  link.download = readableDownloadName(filename);
   link.click();
   URL.revokeObjectURL(link.href);
+}
+
+function readableDownloadName(filename) {
+  return String(filename).replaceAll('_', '-');
 }
 
 function downloadBlob(filename, blob) {
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = filename;
+  link.download = readableDownloadName(filename);
   link.click();
   URL.revokeObjectURL(link.href);
 }
@@ -4784,7 +4788,7 @@ function downloadBlob(filename, blob) {
 function downloadFormulaWorkbook() {
   const link = document.createElement('a');
   link.href = 'bridge_traffic_formula_workbook.xlsx';
-  link.download = 'bridge_traffic_formula_workbook.xlsx';
+  link.download = readableDownloadName('bridge_traffic_formula_workbook.xlsx');
   link.click();
 }
 
@@ -5845,7 +5849,7 @@ function downloadSelectedBridgeCsv(bridge = selectedMapBridge) {
   const blob = new Blob(['\ufeff' + csv], { type: 'text/csv;charset=utf-8;' });
   const link = document.createElement('a');
   link.href = URL.createObjectURL(blob);
-  link.download = `uganda_bridge_selected_details_${safeName || 'bridge'}.csv`;
+  link.download = readableDownloadName(`uganda_bridge_selected_details_${safeName || 'bridge'}.csv`);
   link.click();
   URL.revokeObjectURL(link.href);
 }
