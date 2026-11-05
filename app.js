@@ -7952,7 +7952,7 @@ function drawMap() {
         } else if (col.key === 'estimated_adt' || col.key === 'total_count') {
           td.textContent = fmt(r[col.key]);
         } else if (col.key === 'origin' || col.key === 'destination') {
-          td.textContent = toTitleCase(r[col.key]) || 'N/A';
+          td.textContent = tableDisplayText(r[col.key], col.key);
         } else {
           td.textContent = r[col.key] || 'N/A';
         }
