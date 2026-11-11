@@ -7143,13 +7143,15 @@ function roadColor(road) {
 }
 
 function roadWidth(road) {
-  const base = 1.8;
-  return base / Math.sqrt(Math.max(1, mapScale));
+  // Roads are the primary visual focus of the map
+  const base = 3.6;
+  return base / Math.pow(Math.max(1, mapScale), 0.42);
 }
 
 function networkRoadWidth(road) {
-  const base = 1.8;
-  return base / Math.sqrt(Math.max(1, mapScale));
+  // National road network lines prominent across all zoom levels
+  const base = 3.2;
+  return base / Math.pow(Math.max(1, mapScale), 0.42);
 }
 
 function drawLineGeometry(ctx, canvas, road) {
@@ -7178,11 +7180,11 @@ function drawNationalRoadNetwork(ctx, canvas) {
       cls === 'C' ? 'rgba(34,197,94,0.85)' :
       isPaved ? 'rgba(226,232,240,0.58)' :
       'rgba(203,213,225,0.42)';
-    ctx.globalAlpha = 0.38;
+    ctx.globalAlpha = 0.85;
     ctx.strokeStyle = 'rgba(2,6,23,0.9)';
-    ctx.lineWidth = width + (0.55 / Math.sqrt(Math.max(1, mapScale)));
+    ctx.lineWidth = width + (1.2 / Math.pow(Math.max(1, mapScale), 0.42));
     drawLineGeometry(ctx, canvas, road);
-    ctx.globalAlpha = 0.82;
+    ctx.globalAlpha = 0.95;
     ctx.strokeStyle = topColor;
     ctx.lineWidth = width;
     drawLineGeometry(ctx, canvas, road);
@@ -7200,11 +7202,11 @@ function drawRoadLayer(ctx, canvas, activeLinkSet) {
   ROAD_GEOMETRY.forEach(road => {
     const active = !searchHasFilter || activeLinkSet.has(road.id);
     const width = roadWidth(road);
-    ctx.globalAlpha = active ? 0.55 : 0.16;
+    ctx.globalAlpha = active ? 0.75 : 0.25;
     ctx.strokeStyle = 'rgba(2,6,23,0.96)';
-    ctx.lineWidth = width + (0.65 / Math.sqrt(Math.max(1, mapScale)));
+    ctx.lineWidth = width + (1.2 / Math.pow(Math.max(1, mapScale), 0.42));
     drawLineGeometry(ctx, canvas, road);
-    ctx.globalAlpha = active ? 0.92 : 0.28;
+    ctx.globalAlpha = active ? 0.98 : 0.40;
     ctx.strokeStyle = roadColor(road);
     ctx.lineWidth = width;
     drawLineGeometry(ctx, canvas, road);
@@ -7558,13 +7560,18 @@ function drawMapLabels(ctx, canvas) {
 }
 
 function drawBridgeSymbol(ctx, x, y, size, options = {}) {
-  const scaleSize = size / mapScale;
+  // Zoom-responsive point feature sizing:
+  // Really small at national overview, smoothly growing as the user zooms in
+  const zoomFactor = Math.pow(Math.max(1, mapScale), 0.65);
+  const baseScreenSize = (options.active === false ? 1.5 : (size ? size * 0.52 : 2.5));
+  const dynamicScreenSize = Math.max(1.8, Math.min(14.0, baseScreenSize * zoomFactor));
+  const scaleSize = dynamicScreenSize / mapScale;
   const isSelected = !!options.selected;
   const isHovered = !!options.hovered;
   const isActive = options.active !== false;
   const fill = options.fill || BRIDGE_SYMBOL.fill;
-  const haloSize = scaleSize * (isSelected ? 2.35 : isHovered ? 2.05 : 1.65);
-  const diamond = scaleSize * (isSelected ? 1.32 : isHovered ? 1.18 : 1);
+  const haloSize = scaleSize * (isSelected ? 2.2 : isHovered ? 1.8 : (mapScale > 2.0 ? 1.5 : 1.1));
+  const diamond = scaleSize * (isSelected ? 1.3 : isHovered ? 1.15 : 1);
 
   ctx.save();
   ctx.globalAlpha = isActive ? (options.alpha ?? 1) : 0.16;
@@ -7723,8 +7730,8 @@ function drawMap() {
       const lat = c.map_y || c.y_new;
       if (lon == null || lat == null) return;
       const pt = getProjection(Number(lon), Number(lat), canvas.width, canvas.height);
-      const baseSize = 4.4;
-      const size = baseSize / mapScale;
+      const culvertScreenSize = Math.max(1.6, Math.min(11.0, 1.8 * Math.pow(Math.max(1, mapScale), 0.65)));
+      const size = culvertScreenSize / mapScale;
       ctx.save();
       ctx.fillStyle = '#f59e0b';
       ctx.strokeStyle = '#78350f';
