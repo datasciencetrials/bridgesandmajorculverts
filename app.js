@@ -5160,8 +5160,8 @@ function writeSimplePdf(lines, filename) {
   pages.forEach((pageCommands, index) => {
     const footer = [
       `0.74 0.78 0.86 RG 0.4 w ${margin} 34 m ${margin + contentWidth} 34 l S`,
-      `0.32 0.36 0.48 rg BT /F1 7 Tf ${margin} 23 Td (MINISTRY OF WORKS AND TRANSPORT | DEPARTMENT OF NATIONAL ROADS) Tj ET`,
-      `0.32 0.36 0.48 rg BT /F1 7 Tf ${margin} 14 Td (DIVISION OF DESIGN AND NETWORK ENGINEERING) Tj ET`,
+      `0.32 0.36 0.48 rg BT /F1 7 Tf ${margin} 23 Td (DATA SCIENCE TRIALS | NATIONAL STRUCTURES INTELLIGENCE) Tj ET`,
+      `0.32 0.36 0.48 rg BT /F1 7 Tf ${margin} 14 Td (NATIONAL ROAD NETWORK INVENTORY) Tj ET`,
       `0.32 0.36 0.48 rg BT /F2 7 Tf ${pageWidth - margin - 72} 14 Td (Page ${index + 1} of ${pages.length}) Tj ET`
     ];
     const text = [...pageCommands, ...footer].join('\n');
@@ -5206,9 +5206,9 @@ function allBridgeTrafficReportLines(rows, trafficRows, periodRows, annualFactor
 
   return [
     'Uganda Bridge and Traffic Statistics Report',
-    'MINISTRY OF WORKS AND TRANSPORT',
-    'DEPARTMENT OF NATIONAL ROADS',
-    'DIVISION OF DESIGN AND NETWORK ENGINEERING',
+    'DATA SCIENCE TRIALS',
+    'NATIONAL STRUCTURES INTELLIGENCE',
+    'NATIONAL ROAD NETWORK INVENTORY',
     `Bridge records: ${rows.length}`,
     `Traffic records in current filters: ${trafficRows.length}`,
     `Total ADT incl. motorcycles: ${fmt(totalIncl, 0)}`,
@@ -5257,9 +5257,9 @@ function selectedBridgeTrafficReportLines(bridge) {
   const manualPool = evidence.manualStations.slice(0, 8);
   return [
     'Selected Bridge Traffic Report',
-    'MINISTRY OF WORKS AND TRANSPORT',
-    'DEPARTMENT OF NATIONAL ROADS',
-    'DIVISION OF DESIGN AND NETWORK ENGINEERING',
+    'DATA SCIENCE TRIALS',
+    'NATIONAL STRUCTURES INTELLIGENCE',
+    'NATIONAL ROAD NETWORK INVENTORY',
     `Generated: ${new Date().toISOString().slice(0, 10)}`,
     '',
     `Bridge: ${row.bridge_nam || 'N/A'} (${row.bridge_no || 'N/A'})`,
