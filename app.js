@@ -480,7 +480,7 @@ const TABLE_CASE_ACRONYMS = {
   'kml': 'KML',
   'lhs': 'LHS',
   'mc': 'MC',
-  'mowt': 'MoWT',
+  'mowt': 'National Roads Directorate',
   'ndp': 'NDP',
   'pdf': 'PDF',
   'png': 'PNG',
@@ -488,7 +488,7 @@ const TABLE_CASE_ACRONYMS = {
   'rc': 'RC',
   'rhs': 'RHS',
   'sqlbot': 'SQLBot',
-  'unra': 'UNRA',
+  'unra': 'National Roads Authority',
   '4wd': '4WD'
 };
 
