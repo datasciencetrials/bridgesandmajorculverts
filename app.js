@@ -480,7 +480,7 @@ const TABLE_CASE_ACRONYMS = {
   'kml': 'KML',
   'lhs': 'LHS',
   'mc': 'MC',
-  'mowt': 'National Roads Directorate',
+  'directorate': 'National Roads Directorate',
   'ndp': 'NDP',
   'pdf': 'PDF',
   'png': 'PNG',
@@ -488,7 +488,7 @@ const TABLE_CASE_ACRONYMS = {
   'rc': 'RC',
   'rhs': 'RHS',
   'sqlbot': 'SQLBot',
-  'unra': 'National Roads Authority',
+  'authority': 'National Roads Authority',
   '4wd': '4WD'
 };
 
@@ -4367,7 +4367,7 @@ function openBridgeModal(bridgeId) {
     ? `${b.pave_year} (${b.pave_age} years old)`
     : b.pave_year ? `${b.pave_year}` : 'N/A';
   document.getElementById('mLinkPaveAge').textContent = paveAgeText;
-  document.getElementById('mNdp4Station').textContent = `NDP4 Link: ${b.ndp4 ? 'Yes' : 'No'} | Station: ${b.station || 'N/A'}`;
+  document.getElementById('mNdp4Station').textContent = `Priority Link: ${b.ndp4 ? 'Yes' : 'No'} | Station: ${b.station || 'N/A'}`;
 
   // Traffic / Coordinates Info
   const trafficRow = bridgeTrafficRowForBridge(b);
