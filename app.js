@@ -4549,7 +4549,7 @@ function buildVehicleClassAdt(siteId) {
       plugins: {
         ...chartDefaults().plugins,
         legend: { display: false },
-        title: { display: true, text: `Estimated ADT by Vehicle Class - ${breakdown.siteId}`, color: '#f0f3fa', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } }
+        title: { display: true, text: `Estimated ADT by Vehicle Class - ${breakdown.siteId}`, color: '#111827', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } }
       },
       scales: {
         ...chartDefaults().scales,
@@ -4580,7 +4580,7 @@ function updateATCClassChart() {
       ...chartDefaults(), indexAxis: 'y',
       plugins: {
         ...chartDefaults().plugins, legend: { display: false },
-        title: { display: true, text: `Classified Fleet Count - ${siteId}`, color: '#f0f3fa', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } }
+        title: { display: true, text: `Classified Fleet Count - ${siteId}`, color: '#111827', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } }
       },
       scales: {
         ...chartDefaults().scales,
@@ -4604,7 +4604,7 @@ function updateATCClassChart() {
       responsive: true, maintainAspectRatio: false, cutout: '60%',
       plugins: {
         legend: { position: 'bottom', labels: { color: '#9aa5c4', font: { family: 'Plus Jakarta Sans', size: 12, weight: 600 }, padding: 20 } },
-        title: { display: true, text: 'Heavy Vehicle Classification Ratio', color: '#f0f3fa', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } },
+        title: { display: true, text: 'Heavy Vehicle Classification Ratio', color: '#111827', font: { family: 'Plus Jakarta Sans', size: 13, weight: 700 } },
         tooltip: {
           backgroundColor: 'rgba(6, 9, 19, 0.96)', borderColor: 'rgba(84, 116, 255, 0.25)', borderWidth: 1, padding: 12, cornerRadius: 12,
           callbacks: { label: ctx => ` ${ctx.label}: ${fmt(ctx.raw)} (${((ctx.raw/(lightTotal+heavyTotal))*100).toFixed(1)}%)` }
@@ -5352,7 +5352,7 @@ const MAP_TILE_SERVICES = {
   labels: 'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'
 };
 const BRIDGE_SYMBOL = {
-  fill: '#00e5ff',
+  fill: '#0f8fa8',
   stroke: '#ffffff',
   casing: 'rgba(2,6,23,0.88)',
   deck: '#06101f',
@@ -8703,7 +8703,7 @@ const chartConfigs = [
   
   const summaryCardsHtml = `
     <div style="grid-column: 1 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
-      <div class="card" style="border-left: 4px solid #00e5ff; padding: 16px;">
+      <div class="card" style="border-left: 4px solid #0f8fa8; padding: 16px;">
         <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #94a3b8; margin-bottom: 8px;">Total Assets</div>
         <div style="font-size: 28px; font-weight: 700; color: #fff;">${bridges.length + culverts.length}</div>
         <div style="font-size: 12px; color: #64748b; margin-top: 4px;">${bridges.length} Bridges, ${culverts.length} Culverts</div>
