@@ -4405,7 +4405,8 @@ function openBridgeModal(bridgeId) {
 }
 
 function closeModal() {
-  document.getElementById('bridgeModal').classList.remove('active');
+  const modal = document.getElementById('bridgeModal');
+  if (modal) modal.classList.remove('active');
 }
 
 // TAB 3: ONGOING ROAD WORKS PANEL
@@ -4560,7 +4561,9 @@ function buildVehicleClassAdt(siteId) {
 }
 
 function updateATCClassChart() {
-  const siteId = document.getElementById('atcSiteSelect').value;
+  const siteSelect = document.getElementById('atcSiteSelect');
+  if (!siteSelect) return;
+  const siteId = siteSelect.value;
   const siteData = ATC_CLASS_ITEMS.find(s => normalizeAtcId(s.id) === normalizeAtcId(siteId));
   if (!siteData) return;
   buildVehicleClassAdt(siteId);
@@ -8862,9 +8865,12 @@ function initPhotoGallery() {
         if(tab) tab.click();
         const s = filteredGallery[currentLightboxIndex];
         if (s && s.lon && s.lat) {
-            mapOffsetX = canvas.width / 2 - getProjection(s.lon, s.lat, canvas.width, canvas.height).x;
-            mapOffsetY = canvas.height / 2 - getProjection(s.lon, s.lat, canvas.width, canvas.height).y;
-            drawMap();
+            const canvas = document.getElementById('mapCanvas');
+            if (canvas && canvas.width && canvas.height) {
+                mapOffsetX = canvas.width / 2 - getProjection(s.lon, s.lat, canvas.width, canvas.height).x;
+                mapOffsetY = canvas.height / 2 - getProjection(s.lon, s.lat, canvas.width, canvas.height).y;
+                drawMap();
+            }
         }
     });
 
