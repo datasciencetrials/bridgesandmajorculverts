@@ -6756,7 +6756,7 @@ function snapBridgesToRoads() {
 
 function ensureMapAnimation() {
   if (mapAnimationFrame) return;
-  const targetInterval = 1000;
+  const targetInterval = 40; // 25 FPS smooth lively traffic flow
   const tick = now => {
     mapAnimationFrame = null;
     const panel = document.getElementById('panel-spatial-map');
