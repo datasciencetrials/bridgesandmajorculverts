@@ -140,3 +140,58 @@ h1, h2, h3, h4, h5, h6, .card-title, .metric-label {
   -webkit-text-fill-color: #0F172A !important;
   color: #0F172A !important;
 }
+
+
+/* Table light theme zebra striping & high contrast */
+table tr:nth-child(even), .inventory-table tr:nth-child(even), tbody tr:nth-child(even), .table-row:nth-child(even) {
+  background: #F8FAFC !important;
+  color: #0F172A !important;
+}
+table tr:nth-child(odd), .inventory-table tr:nth-child(odd), tbody tr:nth-child(odd), .table-row:nth-child(odd) {
+  background: #FFFFFF !important;
+  color: #0F172A !important;
+}
+table td, table th, th, td {
+  color: #0F172A !important;
+  border-color: #E2E8F0 !important;
+}
+table th, th {
+  background: #F1F5F9 !important;
+  font-weight: 700 !important;
+}
+
+/* Statistics & Summary KPI cards high-contrast text */
+.kpi-card [style*="color: #fff"],
+.kpi-card [style*="color:#fff"],
+.kpi-card [style*="color: white"],
+[style*="font-size: 28px"][style*="color: #fff"],
+[style*="font-size: 28px"][style*="color:#fff"],
+[style*="color: #fff"],
+[style*="color:#fff"] {
+  color: #0F172A !important;
+}
+
+/* Complementary Analytics Pane clean Apple light styling */
+.map-side-pane, .complementary-pane, #bridgeAnalyticsPane {
+  background: #FFFFFF !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06) !important;
+}
+.map-side-pane *, .complementary-pane * {
+  color: #0F172A !important;
+}
+.pane-metric, .pane-card {
+  background: #F8FAFC !important;
+  border: 1px solid #E2E8F0 !important;
+}
+.pane-metric .metric-val, .pane-metric div, .pane-metric span {
+  color: #0F172A !important;
+}
+
+/* Ensure buttons text on blue/green background remains white */
+button.active, .tab-btn.active, .btn-primary, [style*="background: #0071E3"], [style*="background:#0071E3"] {
+  color: #FFFFFF !important;
+}
+button.active *, .tab-btn.active * {
+  color: #FFFFFF !important;
+}
