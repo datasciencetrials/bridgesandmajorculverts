@@ -1672,7 +1672,10 @@ const PHOTOS_DATA = {
     "photos/C533_C533_17_01.jpg",
     "photos/C533_C533_17_02.jpg",
     "photos/C533_C533_17_07.jpg",
-    "photos/photo.jpg"
+    "photos/photo.jpg",
+    "photos/B077_B548_17_13.JPG",
+    "photos/B077_B548_17_14.JPG",
+    "photos/B077_B548_17_15.JPG"
   ],
   "ALL_COUNT": 1673,
   "B001": [
@@ -4392,5 +4395,10 @@ const PHOTOS_DATA = {
     "photos/C533_C533_17_01.jpg",
     "photos/C533_C533_17_02.jpg",
     "photos/C533_C533_17_07.jpg"
+  ],
+  "B548": [
+    "photos/B077_B548_17_13.JPG",
+    "photos/B077_B548_17_14.JPG",
+    "photos/B077_B548_17_15.JPG"
   ]
 };

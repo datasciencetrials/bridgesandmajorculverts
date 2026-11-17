@@ -8927,7 +8927,7 @@ function renderPhotoGallery() {
 
     grid.innerHTML = displayList.map((s, idx) => {
         const cClass = getConditionColorClass(s.conditionCat);
-        const thumb = s.photos.length > 0 ? s.photos[0] : 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" fill="%231e293b"><rect width="100%" height="100%"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="24" fill="%23475569">No Photo Available</text></svg>';
+        const thumb = s.photos.length > 0 ? s.photos[0] : 'data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' fill='%23F1F5F9'><rect width='100%' height='100%'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='20' fill='%2364748B'>No Photo Available</text></svg>';
         
         return `
             <div class="photo-card" data-condition="${cClass}" onclick="openLightbox(${idx})">
@@ -8958,7 +8958,7 @@ function openLightbox(index) {
     if (!filteredGallery[index]) return;
     currentLightboxIndex = index;
     const s = filteredGallery[index];
-    currentLightboxPhotos = s.photos.length > 0 ? s.photos : ['data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" fill="%230f172a"><rect width="100%" height="100%"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="32" fill="%23475569">No Photo Available</text></svg>'];
+    currentLightboxPhotos = s.photos.length > 0 ? s.photos : ['data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' fill='%23F1F5F9'><rect width='100%' height='100%'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='sans-serif' font-size='28' fill='%2364748B'>No Photo Available</text></svg>'];
     currentLightboxPhotoIndex = 0;
     
     // Update metadata
