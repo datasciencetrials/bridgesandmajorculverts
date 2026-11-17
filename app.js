@@ -1370,6 +1370,18 @@ const BMS_CODE_LOOKUPS = {
   traffic_flow_directions: { '1': 'One-way traffic', '2': 'Two-way traffic', '?': 'Unknown' }
 };
 
+function decodeBmsCode(field, code) {
+  if (!code || code === '-' || code === 'N/A') return 'Not recorded';
+  const val = String(code).trim();
+  const norm = (val.length === 1 && !isNaN(val)) ? '0' + val : val;
+  if (typeof BMS_CODE_LOOKUPS !== 'undefined' && BMS_CODE_LOOKUPS[field]) {
+    if (BMS_CODE_LOOKUPS[field][val]) return BMS_CODE_LOOKUPS[field][val];
+    if (BMS_CODE_LOOKUPS[field][norm]) return BMS_CODE_LOOKUPS[field][norm];
+  }
+  return val;
+}
+window.decodeBmsCode = decodeBmsCode;
+
 function normalizedBmsCode(value) {
   if (value === undefined || value === null || value === '') return '';
   const s = String(value).trim();
