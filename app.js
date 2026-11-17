@@ -4368,8 +4368,8 @@ function openBridgeModal(target) {
   document.getElementById('modalBridgeName').textContent = b.bridge_nam;
   document.getElementById('mBridgeNo').textContent = b.bridge_no || 'N/A';
   document.getElementById('mRiver').textContent = bridgeRiverName(b);
-  document.getElementById('mLength').textContent = b.bridge_len ? fmt(b.bridge_len, 1) + ' meters' : 'N/A';
-  document.getElementById('mWidth').textContent = b.bridge_wid ? fmt(b.bridge_wid, 1) + ' meters' : 'N/A';
+  document.getElementById('mLength').textContent = b.bridge_len ? fmt(b.bridge_len, 1) + ' m' : 'N/A';
+  document.getElementById('mWidth').textContent = b.bridge_wid ? fmt(b.bridge_wid, 1) + ' m' : 'N/A';
   document.getElementById('mSpansPiersLanes').textContent = `Spans: ${b.no_of_span ?? '-'} | Piers: ${b.no_of_pier ?? '-'} | Lanes: ${b.no_of_lane ?? '-'}`;
 
   const modalRatingBadge = (value, scope) => {
@@ -4422,7 +4422,7 @@ function openBridgeModal(target) {
   document.getElementById('mTownEndpoints').textContent = refText(b.town_left, b.town_right);
   document.getElementById('mReferenceComment').textContent = b.comment || b.remarks || 'N/A';
 
-  document.getElementById('bridgeModal').classList.add('active');
+  const _bm = document.getElementById('bridgeModal'); if (_bm) { if (_bm.parentElement !== document.body) document.body.appendChild(_bm); _bm.classList.add('active'); }
 }
 
 function closeModal() {
