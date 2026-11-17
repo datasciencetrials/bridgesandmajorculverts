@@ -53,7 +53,7 @@ body::before { display: none !important;
   background:
     radial-gradient(ellipse 60% 40% at 50% -10%, rgba(84,116,255,0.15) 0%, transparent 60%),
     radial-gradient(ellipse 50% 30% at 90% 90%, rgba(181,95,230,0.08) 0%, transparent 50%),
-    radial-gradient(ellipse 40% 30% at 10% 50%, rgba(0,229,255,0.05) 0%, transparent 50%);
+    radial-gradient(ellipse 40% 30% at 10% 50%, rgba(2,132,199,0.05) 0%, transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
@@ -351,13 +351,13 @@ header p {
 }
 
 .table-wrap::-webkit-scrollbar-thumb {
-  background: rgba(0,229,255,0.32);
+  background: rgba(2,132,199,0.32);
   border: 3px solid #FFFFFF;
   border-radius: 999px;
 }
 
 .table-wrap::-webkit-scrollbar-track {
-  background: rgba(6,9,19,0.42);
+  background: #F1F5F9;
   border-radius: 999px;
 }
 
@@ -373,7 +373,7 @@ header p {
   overscroll-behavior-x: contain;
   touch-action: pan-x pan-y;
   scrollbar-width: auto;
-  background: rgba(8, 13, 29, 0.92);
+  background: #FFFFFF;
   border: 1px solid var(--border);
   border-radius: 7px;
 }
@@ -384,7 +384,7 @@ header p {
   table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
-  background: rgba(8, 13, 29, 0.92);
+  background: #FFFFFF;
   color: var(--text-primary);
 }
 
@@ -396,8 +396,8 @@ header p {
   overflow-x: auto;
   overflow-y: hidden;
   border-radius: 999px;
-  background: rgba(5, 9, 23, 0.96);
-  border: 1px solid rgba(84, 116, 255, 0.24);
+  background: #F8FAFC;
+  border: 1px solid var(--border);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.46);
 }
 
@@ -416,7 +416,7 @@ header p {
 }
 
 .inventory-scroll-proxy::-webkit-scrollbar-track {
-  background: rgba(5, 9, 23, 0.96);
+  background: #F8FAFC;
   border-radius: 999px;
 }
 
@@ -486,7 +486,7 @@ header p {
   scrollbar-gutter: stable both-edges;
   overscroll-behavior-x: contain;
   touch-action: pan-x pan-y;
-  background: rgba(8, 13, 29, 0.92);
+  background: #FFFFFF;
   border: 1px solid var(--border);
   border-radius: 7px;
 }
@@ -497,7 +497,7 @@ header p {
   table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
-  background: rgba(8, 13, 29, 0.92);
+  background: #FFFFFF;
   color: var(--text-primary);
 }
 
@@ -556,8 +556,8 @@ header p {
 
 #panel-bridge-traffic > .card {
   padding: 14px;
-  background: rgba(10, 16, 34, 0.96);
-  border: 1px solid rgba(84, 116, 255, 0.22);
+  background: #FFFFFF; box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  border: 1px solid var(--border);
   border-radius: 8px;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.025);
 }
@@ -588,8 +588,8 @@ header p {
   scrollbar-gutter: stable both-edges;
   overscroll-behavior-x: contain;
   touch-action: pan-x pan-y;
-  background: rgba(8, 13, 29, 0.92);
-  border: 1px solid rgba(84, 116, 255, 0.24);
+  background: #FFFFFF;
+  border: 1px solid var(--border);
   border-radius: 7px;
 }
 
@@ -601,7 +601,7 @@ header p {
 
 #panel-bridge-traffic .table-wrap::-webkit-scrollbar-track,
 .analytics-grid-scroll::-webkit-scrollbar-track {
-  background: rgba(4, 8, 20, 0.98);
+  background: #F1F5F9;
   border-radius: 999px;
 }
 
@@ -614,7 +614,7 @@ header p {
 
 #panel-bridge-traffic .table-wrap::-webkit-scrollbar-corner,
 .analytics-grid-scroll::-webkit-scrollbar-corner {
-  background: rgba(4, 8, 20, 0.98);
+  background: #F1F5F9;
 }
 
 #bridgeVehicleClassTable,
@@ -625,7 +625,7 @@ header p {
   table-layout: auto;
   border-collapse: separate;
   border-spacing: 0;
-  background: rgba(8, 13, 29, 0.92);
+  background: #FFFFFF;
   color: var(--text-primary);
 }
 
@@ -720,7 +720,7 @@ header p {
   padding: 8px 12px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  background: rgba(14, 20, 39, 0.88);
+  background: #F8FAFC;
   color: var(--text-primary);
   font-size: 11px;
   font-weight: 800;
@@ -850,7 +850,7 @@ tbody td.highlight-cell {
 
 .badge-behind { background: rgba(244,63,94,0.12); color: var(--accent-rose); border: 1px solid rgba(244,63,94,0.2); }
 .badge-ontime { background: rgba(16,185,129,0.12); color: var(--accent-emerald); border: 1px solid rgba(16,185,129,0.2); }
-.badge-completed { background: rgba(0,229,255,0.12); color: var(--accent-cyan); border: 1px solid rgba(0,229,255,0.2); }
+.badge-completed { background: rgba(2,132,199,0.12); color: var(--accent-cyan); border: 1px solid rgba(2,132,199,0.2); }
 
 /* Rating badge */
 .rating-badge {
@@ -875,7 +875,7 @@ tbody td.highlight-cell {
 .modal-overlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(4, 7, 16, 0.75);
+  background: rgba(15, 23, 42, 0.45);
   backdrop-filter: blur(8px);
   z-index: 1000;
   display: flex;
@@ -1065,7 +1065,7 @@ tbody td.highlight-cell {
 
 .pill-a { background: rgba(84,116,255,0.12); color: #7390ff; border: 1px solid rgba(84,116,255,0.2); }
 .pill-b { background: rgba(181,95,230,0.12); color: #cb84fc; border: 1px solid rgba(181,95,230,0.2); }
-.pill-c { background: rgba(0,229,255,0.12); color: #4bf0ff; border: 1px solid rgba(0,229,255,0.2); }
+.pill-c { background: rgba(2,132,199,0.12); color: #4bf0ff; border: 1px solid rgba(2,132,199,0.2); }
 .pill-m { background: rgba(168,85,247,0.14); color: #c084fc; border: 1px solid rgba(168,85,247,0.28); }
 
 footer {
@@ -1126,7 +1126,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .map-stat {
-  background: rgba(6,9,19,0.45);
+  background: #F8FAFC;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   padding: 8px 10px;
@@ -1160,8 +1160,8 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   width: min(360px, calc(100% - 28px));
   min-height: 292px;
   display: none;
-  background: rgba(5, 10, 22, 0.68);
-  border: 1px solid rgba(0,229,255,0.24);
+  background: #FFFFFF;
+  border: 1px solid var(--border);
   border-radius: 12px;
   z-index: 1000;
   backdrop-filter: blur(10px);
@@ -1178,7 +1178,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 .calendar-months {
   padding: 40px 0 10px;
   border-right: 1px solid rgba(255,255,255,0.08);
-  background: rgba(9, 14, 28, 0.34);
+  background: #F8FAFC;
 }
 
 .calendar-month-btn {
@@ -1330,8 +1330,8 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   bottom: 18px;
   transform: translateX(-50%);
   width: min(520px, calc(100% - 32px));
-  background: rgba(8, 13, 26, 0.9);
-  border: 1px solid rgba(0,229,255,0.3);
+  background: #FFFFFF; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border: 1px solid var(--border);
   border-radius: 16px;
   padding: 18px 22px 16px;
   z-index: 999;
@@ -1375,8 +1375,8 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  border: 1px solid rgba(0,229,255,0.4);
-  background: rgba(0,229,255,0.08);
+  border: 1px solid rgba(2,132,199,0.4);
+  background: rgba(2,132,199,0.08);
   color: var(--accent-cyan);
   font-size: 16px;
   font-weight: 800;
@@ -1398,8 +1398,8 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 .timeline-periods button {
   height: 28px;
   border-radius: 6px;
-  border: 1px solid rgba(84,116,255,0.35);
-  background: rgba(15,23,42,0.78);
+  border: 1px solid var(--border);
+  background: #F8FAFC;
   color: var(--text-secondary);
   font-size: 11px;
   font-weight: 900;
@@ -1407,9 +1407,9 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .timeline-periods button.active {
-  border-color: rgba(0,229,255,0.85);
+  border-color: rgba(2,132,199,0.85);
   color: var(--accent-cyan);
-  background: rgba(0,229,255,0.08);
+  background: rgba(2,132,199,0.08);
 }
 
 .timeline-meta {
@@ -1437,8 +1437,8 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .map-side-pane {
-  background: rgba(8, 13, 26, 0.92);
-  border: 1px solid rgba(84,116,255,0.18);
+  background: #FFFFFF; box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+  border: 1px solid var(--border);
   border-radius: 10px;
   min-height: 560px;
   height: min(76vh, 760px);
@@ -1491,7 +1491,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .pane-metric {
-  background: rgba(255,255,255,0.035);
+  background: #F8FAFC;
   border: 1px solid var(--border);
   border-radius: 8px;
   padding: 9px;
@@ -1803,7 +1803,7 @@ header h1 {
   gap: 8px;
   margin: 0 0 6px;
   padding: 6px;
-  background: rgba(8, 13, 29, 0.72);
+  background: #FFFFFF;
   border: 1px solid var(--border);
   border-radius: 8px;
 }
@@ -1813,9 +1813,9 @@ header h1 {
   min-width: 0;
   height: 30px;
   padding: 5px 9px;
-  border: 1px solid rgba(84,116,255,0.35);
+  border: 1px solid var(--border);
   border-radius: 7px;
-  background: rgba(255,255,255,0.035);
+  background: #F8FAFC;
   color: var(--text-primary);
   font-family: inherit;
   font-size: 11px;
@@ -1825,7 +1825,7 @@ header h1 {
 
 .map-bridge-filter-strip select:focus {
   border-color: var(--accent-cyan);
-  box-shadow: 0 0 0 2px rgba(0,229,255,0.18);
+  box-shadow: 0 0 0 2px rgba(2,132,199,0.18);
 }
 
 .map-bridge-filter-strip select option {
@@ -1904,8 +1904,8 @@ header h1 {
   height: 54px;
   transform: translate(-50%, -50%);
   border-radius: 999px;
-  background: rgba(0,229,255,0.55);
-  box-shadow: 0 0 12px rgba(0,229,255,0.35);
+  background: rgba(2,132,199,0.55);
+  box-shadow: 0 0 12px rgba(2,132,199,0.35);
 }
 
 .map-pane-resizer:hover::after,
@@ -2004,7 +2004,7 @@ header h1 {
   gap: 10px;
   align-items: center;
   padding: 10px 14px;
-  background: rgba(8,13,29,0.72);
+  background: #FFFFFF;
   border: 1px solid var(--border);
   border-radius: 10px;
 }
@@ -2012,9 +2012,9 @@ header h1 {
 .od-controls-bar input {
   height: 32px;
   padding: 4px 10px;
-  border: 1px solid rgba(84,116,255,0.35);
+  border: 1px solid var(--border);
   border-radius: 7px;
-  background: rgba(255,255,255,0.035);
+  background: #F8FAFC;
   color: var(--text-primary);
   font-family: inherit;
   font-size: 12px;
@@ -2025,7 +2025,7 @@ header h1 {
 .od-controls-bar select:focus,
 .od-controls-bar input:focus {
   border-color: var(--accent-cyan);
-  box-shadow: 0 0 0 2px rgba(0,229,255,0.18);
+  box-shadow: 0 0 0 2px rgba(2,132,199,0.18);
 }
 .od-controls-bar select option { background: #111; color: #fff; }
 .od-controls-bar .od-search-input { flex: 1 1 200px; min-width: 160px; }
@@ -2034,7 +2034,7 @@ header h1 {
   gap: 0;
   border-radius: 7px;
   overflow: hidden;
-  border: 1px solid rgba(84,116,255,0.35);
+  border: 1px solid var(--border);
 }
 .od-view-toggle button {
   padding: 6px 14px;
@@ -2073,7 +2073,7 @@ header h1 {
 .od-table th {
   position: sticky;
   top: 0;
-  background: rgba(10,14,28,0.97);
+  background: #F8FAFC;
   backdrop-filter: blur(8px);
   z-index: 2;
   padding: 10px 14px;
@@ -2111,7 +2111,7 @@ header h1 {
 .od-heatmap { border-collapse: collapse; font-size: 10px; }
 .od-heatmap th {
   position: sticky;
-  background: rgba(10,14,28,0.97);
+  background: #F8FAFC;
   z-index: 1;
   padding: 6px 8px;
   font-size: 9px;
@@ -2140,7 +2140,7 @@ header h1 {
   font-variant-numeric: tabular-nums; min-width: 52px;
 }
 .od-heatmap tbody td:first-child {
-  position: sticky; left: 0; background: rgba(10,14,28,0.97); z-index: 2;
+  position: sticky; left: 0; background: #F8FAFC; z-index: 2;
   font-weight: 700; text-align: left; border-right: 2px solid var(--border);
   color: var(--text-primary); font-size: 10px;
 }
@@ -2522,7 +2522,7 @@ header h1 {
 
         <!-- Legend Overlay -->
         <div style="position: absolute; top: 12px; left: 12px; background: rgba(18, 22, 35, 0.88); backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; pointer-events: none; z-index: 998; display: flex; flex-direction: column; gap: 8px; box-shadow: 0 8px 32px rgba(0,0,0,0.45); min-width: 170px;">
-          <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: #26e6f6; letter-spacing: 0.8px; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 4px;">ROAD CLASS LEGEND</div>
+          <div style="font-size: 11px; font-weight: 800; text-transform: uppercase; color: #0284C7; letter-spacing: 0.8px; padding-bottom: 6px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 4px;">ROAD CLASS LEGEND</div>
 
           <div style="display: flex; align-items: center; gap: 10px; font-size: 11px; font-weight: 700; color: #ffffff;">
             <span style="display: inline-block; width: 16px; height: 5px; background: #ef4444; border-radius: 999px;"></span>
@@ -2543,7 +2543,7 @@ header h1 {
 
           <div style="margin-top: 2px; padding-top: 6px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; flex-direction: column; gap: 5px; font-size: 10px; color: rgba(255,255,255,0.6);">
             <div style="display: flex; align-items: center; gap: 8px;">
-              <span style="position: relative; display: inline-block; width: 12px; height: 12px; transform: rotate(45deg); border: 2px solid #fff; background: #0f8fa8; box-shadow: 0 0 0 2px rgba(2,6,23,0.75), 0 0 10px rgba(0,229,255,0.65);">
+              <span style="position: relative; display: inline-block; width: 12px; height: 12px; transform: rotate(45deg); border: 2px solid #fff; background: #0f8fa8; box-shadow: 0 0 0 2px rgba(2,6,23,0.75), 0 0 10px rgba(2,132,199,0.65);">
                 <span style="position:absolute; left:1px; right:1px; top:4px; height:2px; background:#06101f;"></span>
               </span>
               <span>Bridge crossings</span>
@@ -2565,7 +2565,7 @@ header h1 {
               <span>Manual count stations</span>
             </div>
             <div style="display: flex; align-items: center; gap: 8px;">
-              <span style="display: inline-block; width: 16px; height: 2px; background: linear-gradient(90deg, rgba(0,229,255,0.05), rgba(0,229,255,0.85)); border-radius: 999px;"></span>
+              <span style="display: inline-block; width: 16px; height: 2px; background: linear-gradient(90deg, rgba(2,132,199,0.05), rgba(2,132,199,0.85)); border-radius: 999px;"></span>
               <span>Animated traffic on road links</span>
             </div>
             <div style="display: flex; align-items: center; gap: 8px;">
@@ -2577,7 +2577,7 @@ header h1 {
         </div>
 
         <!-- Float Tooltip -->
-        <div id="mapTooltip" style="position: absolute; pointer-events: none; background: rgba(6, 9, 19, 0.95); border: 1px solid var(--border-glow); border-radius: 12px; padding: 12px 16px; color: var(--text-primary); font-family: inherit; font-size: 11px; z-index: 20; display: none; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+        <div id="mapTooltip" style="position: absolute; pointer-events: none; background: #FFFFFF; color: #0F172A; box-shadow: 0 4px 16px rgba(0,0,0,0.12); border: 1px solid var(--border-glow); border-radius: 12px; padding: 12px 16px; color: var(--text-primary); font-family: inherit; font-size: 11px; z-index: 20; display: none; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
           <div id="mTooltipTitle" style="font-weight: 800; color: #fff; margin-bottom: 4px; font-size: 12px;">-</div>
           <div style="display:flex; justify-content:space-between; margin-bottom: 2px;"><span style="color:var(--text-muted)">Region:</span> <span id="mTooltipRegion" style="font-weight:600">-</span></div>
           <div style="display:flex; justify-content:space-between; margin-bottom: 2px;"><span style="color:var(--text-muted)">River:</span> <span id="mTooltipRiver" style="font-weight:600">-</span></div>
