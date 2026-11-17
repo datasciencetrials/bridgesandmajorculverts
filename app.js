@@ -4367,7 +4367,7 @@ function openBridgeModal(bridgeId) {
     ? `${b.pave_year} (${b.pave_age} years old)`
     : b.pave_year ? `${b.pave_year}` : 'N/A';
   document.getElementById('mLinkPaveAge').textContent = paveAgeText;
-  document.getElementById('mNdp4Station').textContent = `Priority Link: ${b.ndp4 ? 'Yes' : 'No'} | Station: ${b.station || 'N/A'}`;
+  document.getElementById('mStationInfo').textContent = `Station: ${b.station || 'N/A'}`;
 
   // Traffic / Coordinates Info
   const trafficRow = bridgeTrafficRowForBridge(b);
