@@ -131427,7 +131427,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 30.5,
+    "length": 30.5,
+    "overall_length_m": 30.5,
+    "no_pipes_cells": 9,
+    "cells": 9,
+    "span_diameter": 1.2,
+    "width": 8.5
   },
   {
     "_id": "culvert-C002",
@@ -131591,7 +131598,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.8,
+    "length": 5.8,
+    "overall_length_m": 5.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 6.5
   },
   {
     "_id": "culvert-C003",
@@ -131755,7 +131769,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.8,
+    "length": 5.8,
+    "overall_length_m": 5.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 6.5
   },
   {
     "_id": "culvert-C004",
@@ -131919,7 +131940,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.8,
+    "length": 12.8,
+    "overall_length_m": 12.8,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 1.6,
+    "width": 12.4
   },
   {
     "_id": "culvert-C005",
@@ -132083,7 +132111,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Poor",
     "overall_rating": 7,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.8,
+    "width": 5.8
   },
   {
     "_id": "culvert-C006",
@@ -132247,7 +132282,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C007",
@@ -132411,7 +132453,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C008",
@@ -132575,7 +132624,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C009",
@@ -132739,7 +132795,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.8,
+    "length": 2.8,
+    "overall_length_m": 2.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C010",
@@ -132903,7 +132966,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.8,
+    "length": 2.8,
+    "overall_length_m": 2.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C011",
@@ -133067,7 +133137,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 1,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.0,
+    "length": 16.0,
+    "overall_length_m": 16.0,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 2.8,
+    "width": 10.0
   },
   {
     "_id": "culvert-C012",
@@ -133231,7 +133308,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 5,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.6,
+    "length": 6.6,
+    "overall_length_m": 6.6,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.2,
+    "width": 7.8
   },
   {
     "_id": "culvert-C013",
@@ -133395,7 +133479,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.3,
+    "length": 6.3,
+    "overall_length_m": 6.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.2,
+    "width": 7.9
   },
   {
     "_id": "culvert-C014",
@@ -133559,7 +133650,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 1.5,
+    "length": 1.5,
+    "overall_length_m": 1.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 1.2,
+    "width": 7.9
   },
   {
     "_id": "culvert-C015",
@@ -133723,7 +133821,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.6,
+    "length": 8.6,
+    "overall_length_m": 8.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 8.0,
+    "width": 12.0
   },
   {
     "_id": "culvert-C016",
@@ -133887,7 +133992,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.1,
+    "length": 3.1,
+    "overall_length_m": 3.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 11.5
   },
   {
     "_id": "culvert-C017",
@@ -134051,7 +134163,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.1,
+    "length": 3.1,
+    "overall_length_m": 3.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 12.1
   },
   {
     "_id": "culvert-C018",
@@ -134215,7 +134334,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.2,
+    "length": 7.2,
+    "overall_length_m": 7.2,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C019",
@@ -134379,7 +134505,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 8.9
   },
   {
     "_id": "culvert-C020",
@@ -134543,7 +134676,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.8,
+    "length": 7.8,
+    "overall_length_m": 7.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 9.5
   },
   {
     "_id": "culvert-C021",
@@ -134707,7 +134847,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.8,
+    "length": 7.8,
+    "overall_length_m": 7.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 9.5
   },
   {
     "_id": "culvert-C150",
@@ -134871,7 +135018,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.4,
+    "length": 14.4,
+    "overall_length_m": 14.4,
+    "no_pipes_cells": 7,
+    "cells": 7,
+    "span_diameter": 1.8,
+    "width": 9.1
   },
   {
     "_id": "culvert-C151",
@@ -135035,7 +135189,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 9.3
   },
   {
     "_id": "culvert-C152",
@@ -135199,7 +135360,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.2,
+    "length": 4.2,
+    "overall_length_m": 4.2,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.0,
+    "width": 4.2
   },
   {
     "_id": "culvert-C153",
@@ -135363,7 +135531,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.2,
+    "length": 21.2,
+    "overall_length_m": 21.2,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 3.6,
+    "width": 21.3
   },
   {
     "_id": "culvert-C154",
@@ -135527,7 +135702,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.3,
+    "length": 22.3,
+    "overall_length_m": 22.3,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 3.6,
+    "width": 29.7
   },
   {
     "_id": "culvert-C155",
@@ -135691,7 +135873,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.3,
+    "length": 8.3,
+    "overall_length_m": 8.3,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.4,
+    "width": 13.4
   },
   {
     "_id": "culvert-C158",
@@ -135855,7 +136044,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.1,
+    "length": 3.1,
+    "overall_length_m": 3.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.0,
+    "width": 4.8
   },
   {
     "_id": "culvert-C159",
@@ -136019,7 +136215,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 5,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.5,
+    "length": 5.5,
+    "overall_length_m": 5.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.4,
+    "width": 8.7
   },
   {
     "_id": "culvert-C160",
@@ -136183,7 +136386,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.2,
+    "length": 9.2,
+    "overall_length_m": 9.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.5,
+    "width": 8.8
   },
   {
     "_id": "culvert-C161",
@@ -136347,7 +136557,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.8,
+    "length": 12.8,
+    "overall_length_m": 12.8,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.1,
+    "width": 11.7
   },
   {
     "_id": "culvert-C162",
@@ -136511,7 +136728,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.7,
+    "width": 4.5
   },
   {
     "_id": "culvert-C163",
@@ -136675,7 +136899,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.2,
+    "width": 7.8
   },
   {
     "_id": "culvert-C164",
@@ -136839,7 +137070,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 5,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.8,
+    "width": 10.4
   },
   {
     "_id": "culvert-C165",
@@ -137003,7 +137241,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 10.1
   },
   {
     "_id": "culvert-C166",
@@ -137167,7 +137412,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.8,
+    "length": 4.8,
+    "overall_length_m": 4.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.2,
+    "width": 20.0
   },
   {
     "_id": "culvert-C167",
@@ -137331,7 +137583,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.8,
+    "length": 4.8,
+    "overall_length_m": 4.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 22.1
   },
   {
     "_id": "culvert-C168",
@@ -137495,7 +137754,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.3,
+    "length": 14.3,
+    "overall_length_m": 14.3,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.2,
+    "width": 11.8
   },
   {
     "_id": "culvert-C169",
@@ -137659,7 +137925,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.2,
+    "length": 7.2,
+    "overall_length_m": 7.2,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.0,
+    "width": 18.7
   },
   {
     "_id": "culvert-C170",
@@ -137823,7 +138096,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 14.3
   },
   {
     "_id": "culvert-C171",
@@ -137987,7 +138267,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.5,
+    "length": 5.5,
+    "overall_length_m": 5.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.4,
+    "width": 13.3
   },
   {
     "_id": "culvert-C172",
@@ -138151,7 +138438,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.8,
+    "width": 8.3
   },
   {
     "_id": "culvert-C173",
@@ -138315,7 +138609,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 3,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 6.5
   },
   {
     "_id": "culvert-C174",
@@ -138479,7 +138780,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.4,
+    "length": 14.4,
+    "overall_length_m": 14.4,
+    "no_pipes_cells": 8,
+    "cells": 8,
+    "span_diameter": 1.5,
+    "width": 11.3
   },
   {
     "_id": "culvert-C175",
@@ -138643,7 +138951,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.8,
+    "length": 6.8,
+    "overall_length_m": 6.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 22.1
   },
   {
     "_id": "culvert-C176",
@@ -138807,7 +139122,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 25.0
   },
   {
     "_id": "culvert-C177",
@@ -138971,7 +139293,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 11.0
   },
   {
     "_id": "culvert-C178",
@@ -139135,7 +139464,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 18.4,
+    "length": 18.4,
+    "overall_length_m": 18.4,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.6,
+    "width": 7.9
   },
   {
     "_id": "culvert-C179",
@@ -139299,7 +139635,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 12.5
   },
   {
     "_id": "culvert-C180",
@@ -139463,7 +139806,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 1,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.6,
+    "length": 6.6,
+    "overall_length_m": 6.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.7,
+    "width": 10.8
   },
   {
     "_id": "culvert-C181",
@@ -139627,7 +139977,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.9,
+    "length": 3.9,
+    "overall_length_m": 3.9,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.1,
+    "width": 10.6
   },
   {
     "_id": "culvert-C182",
@@ -139791,7 +140148,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 12.5
   },
   {
     "_id": "culvert-C183",
@@ -139955,7 +140319,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.0,
+    "length": 2.0,
+    "overall_length_m": 2.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C184",
@@ -140119,7 +140490,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 13.6
   },
   {
     "_id": "culvert-C185",
@@ -140283,7 +140661,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.5,
+    "length": 13.5,
+    "overall_length_m": 13.5,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.7,
+    "width": 20.0
   },
   {
     "_id": "culvert-C186",
@@ -140447,7 +140832,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.7,
+    "length": 2.7,
+    "overall_length_m": 2.7,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.0,
+    "width": 14.3
   },
   {
     "_id": "culvert-C187",
@@ -140611,7 +141003,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.0,
+    "length": 22.0,
+    "overall_length_m": 22.0,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 4.0,
+    "width": 14.4
   },
   {
     "_id": "culvert-C188",
@@ -140775,7 +141174,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.0,
+    "length": 13.0,
+    "overall_length_m": 13.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C189",
@@ -140939,7 +141345,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.6,
+    "length": 5.6,
+    "overall_length_m": 5.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 14.8
   },
   {
     "_id": "culvert-C190",
@@ -141103,7 +141516,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.9,
+    "length": 4.9,
+    "overall_length_m": 4.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C191",
@@ -141267,7 +141687,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.1,
+    "width": 15.3
   },
   {
     "_id": "culvert-C192",
@@ -141431,7 +141858,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.4,
+    "length": 3.4,
+    "overall_length_m": 3.4,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 13.1
   },
   {
     "_id": "culvert-C193",
@@ -141595,7 +142029,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.6,
+    "length": 22.6,
+    "overall_length_m": 22.6,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 5.7,
+    "width": 9.5
   },
   {
     "_id": "culvert-C194",
@@ -141759,7 +142200,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.5,
+    "length": 16.5,
+    "overall_length_m": 16.5,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.5,
+    "width": 10.4
   },
   {
     "_id": "culvert-C195",
@@ -141923,7 +142371,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 9.2
   },
   {
     "_id": "culvert-C198",
@@ -142087,7 +142542,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.4,
+    "length": 8.4,
+    "overall_length_m": 8.4,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.0,
+    "width": 8.2
   },
   {
     "_id": "culvert-C199",
@@ -142251,7 +142713,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.7,
+    "length": 8.7,
+    "overall_length_m": 8.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 12.0
   },
   {
     "_id": "culvert-C200",
@@ -142415,7 +142884,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.7,
+    "length": 7.7,
+    "overall_length_m": 7.7,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.2,
+    "width": 10.5
   },
   {
     "_id": "culvert-C201",
@@ -142579,7 +143055,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.6,
+    "length": 8.6,
+    "overall_length_m": 8.6,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 9.6
   },
   {
     "_id": "culvert-C202",
@@ -142743,7 +143226,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 36.0
   },
   {
     "_id": "culvert-C203",
@@ -142907,7 +143397,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.5,
+    "width": 11.1
   },
   {
     "_id": "culvert-C204",
@@ -143071,7 +143568,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.1,
+    "length": 6.1,
+    "overall_length_m": 6.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 21.5
   },
   {
     "_id": "culvert-C205",
@@ -143235,7 +143739,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.2,
+    "length": 5.2,
+    "overall_length_m": 5.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 13.1
   },
   {
     "_id": "culvert-C207",
@@ -143399,7 +143910,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.8,
+    "length": 10.8,
+    "overall_length_m": 10.8,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.1,
+    "width": 30.0
   },
   {
     "_id": "culvert-C208",
@@ -143563,7 +144081,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.4,
+    "length": 7.4,
+    "overall_length_m": 7.4,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 6.9
   },
   {
     "_id": "culvert-C209",
@@ -143727,7 +144252,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.8,
+    "length": 3.8,
+    "overall_length_m": 3.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.5,
+    "width": 10.0
   },
   {
     "_id": "culvert-C210",
@@ -143891,7 +144423,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.7,
+    "length": 6.7,
+    "overall_length_m": 6.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 18.9
   },
   {
     "_id": "culvert-C211",
@@ -144055,7 +144594,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 14.3
   },
   {
     "_id": "culvert-C212",
@@ -144219,7 +144765,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.2,
+    "length": 10.2,
+    "overall_length_m": 10.2,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.2,
+    "width": 20.0
   },
   {
     "_id": "culvert-C213",
@@ -144383,7 +144936,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 15.7
   },
   {
     "_id": "culvert-C214",
@@ -144547,7 +145107,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 13.8
   },
   {
     "_id": "culvert-C215",
@@ -144711,7 +145278,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.8,
+    "length": 6.8,
+    "overall_length_m": 6.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C216",
@@ -144875,7 +145449,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.6,
+    "length": 6.6,
+    "overall_length_m": 6.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 13.0
   },
   {
     "_id": "culvert-C217",
@@ -145039,7 +145620,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 17.0
   },
   {
     "_id": "culvert-C218",
@@ -145203,7 +145791,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C219",
@@ -145367,7 +145962,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.2,
+    "length": 7.2,
+    "overall_length_m": 7.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 15.3
   },
   {
     "_id": "culvert-C220",
@@ -145531,7 +146133,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 1.0,
+    "length": 1.0,
+    "overall_length_m": 1.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C221",
@@ -145695,7 +146304,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C222",
@@ -145859,7 +146475,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 12.1
   },
   {
     "_id": "culvert-C224",
@@ -146023,7 +146646,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.6,
+    "length": 7.6,
+    "overall_length_m": 7.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C225",
@@ -146187,7 +146817,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.6,
+    "length": 7.6,
+    "overall_length_m": 7.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C226",
@@ -146351,7 +146988,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.7,
+    "length": 9.7,
+    "overall_length_m": 9.7,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.4,
+    "width": 10.0
   },
   {
     "_id": "culvert-C227",
@@ -146515,7 +147159,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.8,
+    "length": 5.8,
+    "overall_length_m": 5.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.6,
+    "width": 14.3
   },
   {
     "_id": "culvert-C228",
@@ -146679,7 +147330,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 7.0
   },
   {
     "_id": "culvert-C229",
@@ -146843,7 +147501,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.3,
+    "length": 6.3,
+    "overall_length_m": 6.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 12.1
   },
   {
     "_id": "culvert-C230",
@@ -147007,7 +147672,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.4,
+    "length": 11.4,
+    "overall_length_m": 11.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 9.5
   },
   {
     "_id": "culvert-C347",
@@ -147171,7 +147843,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.3,
+    "length": 8.3,
+    "overall_length_m": 8.3,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.3
   },
   {
     "_id": "culvert-C352",
@@ -147335,7 +148014,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.9,
+    "length": 8.9,
+    "overall_length_m": 8.9,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 13.0
   },
   {
     "_id": "culvert-C353",
@@ -147499,7 +148185,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.0,
+    "length": 10.0,
+    "overall_length_m": 10.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.7,
+    "width": 13.9
   },
   {
     "_id": "culvert-C354",
@@ -147663,7 +148356,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.7,
+    "width": 23.0
   },
   {
     "_id": "culvert-C355",
@@ -147827,7 +148527,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.8,
+    "length": 5.8,
+    "overall_length_m": 5.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.7,
+    "width": 11.0
   },
   {
     "_id": "culvert-C359",
@@ -147991,7 +148698,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.2,
+    "length": 3.2,
+    "overall_length_m": 3.2,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 20.0
   },
   {
     "_id": "culvert-C360",
@@ -148155,7 +148869,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C361",
@@ -148319,7 +149040,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.5,
+    "length": 16.5,
+    "overall_length_m": 16.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C362",
@@ -148483,7 +149211,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 14.0
   },
   {
     "_id": "culvert-C363",
@@ -148647,7 +149382,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.6,
+    "length": 3.6,
+    "overall_length_m": 3.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C364",
@@ -148811,7 +149553,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.8,
+    "length": 4.8,
+    "overall_length_m": 4.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C365",
@@ -148975,7 +149724,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.6,
+    "length": 3.6,
+    "overall_length_m": 3.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.5,
+    "width": 15.0
   },
   {
     "_id": "culvert-C366",
@@ -149139,7 +149895,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.5,
+    "length": 2.5,
+    "overall_length_m": 2.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2000.0,
+    "width": 24.0
   },
   {
     "_id": "culvert-C367",
@@ -149303,7 +150066,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.6,
+    "length": 3.6,
+    "overall_length_m": 3.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C368",
@@ -149467,7 +150237,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C369",
@@ -149631,7 +150408,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C370",
@@ -149795,7 +150579,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C371",
@@ -149959,7 +150750,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 24.3
   },
   {
     "_id": "culvert-C372",
@@ -150123,7 +150921,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C379",
@@ -150287,7 +151092,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 18.0
   },
   {
     "_id": "culvert-C401",
@@ -150451,7 +151263,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.5,
+    "length": 13.5,
+    "overall_length_m": 13.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 9.4
   },
   {
     "_id": "culvert-C402",
@@ -150615,7 +151434,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.3
   },
   {
     "_id": "culvert-C403",
@@ -150779,7 +151605,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.3
   },
   {
     "_id": "culvert-C405",
@@ -150943,7 +151776,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.5,
+    "length": 14.5,
+    "overall_length_m": 14.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C406",
@@ -151107,7 +151947,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 30.4
   },
   {
     "_id": "culvert-C408",
@@ -151271,7 +152118,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 6.0,
+    "width": 7.0
   },
   {
     "_id": "culvert-C409",
@@ -151435,7 +152289,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.0,
+    "length": 16.0,
+    "overall_length_m": 16.0,
+    "no_pipes_cells": 7,
+    "cells": 7,
+    "span_diameter": 1.8,
+    "width": 9.7
   },
   {
     "_id": "culvert-C410",
@@ -151599,7 +152460,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.8,
+    "width": 7.0
   },
   {
     "_id": "culvert-C411",
@@ -151763,7 +152631,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.3,
+    "length": 6.3,
+    "overall_length_m": 6.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 8.9
   },
   {
     "_id": "culvert-C412",
@@ -151927,7 +152802,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 6.0,
+    "width": 3.6
   },
   {
     "_id": "culvert-C413",
@@ -152091,7 +152973,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.8,
+    "width": 5.8
   },
   {
     "_id": "culvert-C414",
@@ -152255,7 +153144,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.1,
+    "length": 10.1,
+    "overall_length_m": 10.1,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.0,
+    "width": 10.0
   },
   {
     "_id": "culvert-C415",
@@ -152419,7 +153315,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.6,
+    "width": 4.4
   },
   {
     "_id": "culvert-C416",
@@ -152583,7 +153486,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.8,
+    "length": 2.8,
+    "overall_length_m": 2.8,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.8,
+    "width": 7.2
   },
   {
     "_id": "culvert-C417",
@@ -152747,7 +153657,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 6.0
   },
   {
     "_id": "culvert-C418",
@@ -152911,7 +153828,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.0,
+    "length": 13.0,
+    "overall_length_m": 13.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 3.0,
+    "width": 21.3
   },
   {
     "_id": "culvert-C419",
@@ -153075,7 +153999,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.6,
+    "length": 5.6,
+    "overall_length_m": 5.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 21.0
   },
   {
     "_id": "culvert-C420",
@@ -153239,7 +154170,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.7,
+    "length": 8.7,
+    "overall_length_m": 8.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 15.4
   },
   {
     "_id": "culvert-C425",
@@ -153403,7 +154341,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 10.5
   },
   {
     "_id": "culvert-C426",
@@ -153567,7 +154512,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.5
   },
   {
     "_id": "culvert-C427",
@@ -153731,7 +154683,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.5
   },
   {
     "_id": "culvert-C428",
@@ -153895,7 +154854,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.5
   },
   {
     "_id": "culvert-C429",
@@ -154059,7 +155025,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.5
   },
   {
     "_id": "culvert-C430",
@@ -154223,7 +155196,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 15.2
   },
   {
     "_id": "culvert-C431",
@@ -154387,7 +155367,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.0
   },
   {
     "_id": "culvert-C432",
@@ -154551,7 +155538,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 18.0
   },
   {
     "_id": "culvert-C433",
@@ -154715,7 +155709,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 18.0
   },
   {
     "_id": "culvert-C434",
@@ -154879,7 +155880,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 10.0
   },
   {
     "_id": "culvert-C435",
@@ -155043,7 +156051,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.5
   },
   {
     "_id": "culvert-C436",
@@ -155207,7 +156222,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C437",
@@ -155371,7 +156393,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 18.3
   },
   {
     "_id": "culvert-C438",
@@ -155535,7 +156564,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 19.3
   },
   {
     "_id": "culvert-C439",
@@ -155699,7 +156735,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C440",
@@ -155863,7 +156906,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C441",
@@ -156027,7 +157077,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C442",
@@ -156191,7 +157248,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 19.0
   },
   {
     "_id": "culvert-C443",
@@ -156355,7 +157419,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 15.0
   },
   {
     "_id": "culvert-C444",
@@ -156519,7 +157590,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 14.0
   },
   {
     "_id": "culvert-C445",
@@ -156683,7 +157761,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C446",
@@ -156847,7 +157932,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C447",
@@ -157011,7 +158103,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C448",
@@ -157175,7 +158274,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C449",
@@ -157339,7 +158445,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C450",
@@ -157503,7 +158616,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C451",
@@ -157667,7 +158787,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C452",
@@ -157831,7 +158958,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C453",
@@ -157995,7 +159129,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 15.0
   },
   {
     "_id": "culvert-C455",
@@ -158159,7 +159300,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 34.0
   },
   {
     "_id": "culvert-C456",
@@ -158323,7 +159471,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 17.5
   },
   {
     "_id": "culvert-C457",
@@ -158487,7 +159642,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.2,
+    "length": 10.2,
+    "overall_length_m": 10.2,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C458",
@@ -158651,7 +159813,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C459",
@@ -158815,7 +159984,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 17.5
   },
   {
     "_id": "culvert-C460",
@@ -158979,7 +160155,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C461",
@@ -159143,7 +160326,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.9,
+    "length": 10.9,
+    "overall_length_m": 10.9,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C462",
@@ -159307,7 +160497,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C463",
@@ -159471,7 +160668,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.3
   },
   {
     "_id": "culvert-C464",
@@ -159635,7 +160839,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.7
   },
   {
     "_id": "culvert-C465",
@@ -159799,7 +161010,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 14.7
   },
   {
     "_id": "culvert-C466",
@@ -159963,7 +161181,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.7
   },
   {
     "_id": "culvert-C467",
@@ -160127,7 +161352,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C468",
@@ -160291,7 +161523,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C469",
@@ -160455,7 +161694,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 17.5
   },
   {
     "_id": "culvert-C470",
@@ -160619,7 +161865,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.2,
+    "length": 5.2,
+    "overall_length_m": 5.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C471",
@@ -160783,7 +162036,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C472",
@@ -160947,7 +162207,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C473",
@@ -161111,7 +162378,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C474",
@@ -161275,7 +162549,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 13.6
   },
   {
     "_id": "culvert-C475",
@@ -161439,7 +162720,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.7
   },
   {
     "_id": "culvert-C476",
@@ -161603,7 +162891,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 13.6
   },
   {
     "_id": "culvert-C477",
@@ -161767,7 +163062,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C478",
@@ -161931,7 +163233,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C479",
@@ -162095,7 +163404,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C480",
@@ -162259,7 +163575,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C481",
@@ -162423,7 +163746,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C482",
@@ -162587,7 +163917,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C483",
@@ -162751,7 +164088,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C484",
@@ -162915,7 +164259,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C485",
@@ -163079,7 +164430,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C486",
@@ -163243,7 +164601,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 20.5,
+    "length": 20.5,
+    "overall_length_m": 20.5,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 3.0,
+    "width": 24.0
   },
   {
     "_id": "culvert-C487",
@@ -163407,7 +164772,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C488",
@@ -163571,7 +164943,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.8,
+    "length": 6.8,
+    "overall_length_m": 6.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C490",
@@ -163735,7 +165114,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.6,
+    "length": 16.6,
+    "overall_length_m": 16.6,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 5.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C494",
@@ -163899,7 +165285,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.5,
+    "length": 9.5,
+    "overall_length_m": 9.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C495",
@@ -164063,7 +165456,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 24.0
   },
   {
     "_id": "culvert-C496",
@@ -164227,7 +165627,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 15.3
   },
   {
     "_id": "culvert-C497",
@@ -164391,7 +165798,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 15.3
   },
   {
     "_id": "culvert-C498",
@@ -164555,7 +165969,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C499",
@@ -164719,7 +166140,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 16.5
   },
   {
     "_id": "culvert-C501",
@@ -164883,7 +166311,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C502",
@@ -165047,7 +166482,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.1,
+    "length": 4.1,
+    "overall_length_m": 4.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.1,
+    "width": 16.6
   },
   {
     "_id": "culvert-C503",
@@ -165211,7 +166653,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.1,
+    "length": 21.1,
+    "overall_length_m": 21.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 8.3
   },
   {
     "_id": "culvert-C504",
@@ -165375,7 +166824,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.5,
+    "length": 13.5,
+    "overall_length_m": 13.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.2,
+    "width": 19.9
   },
   {
     "_id": "culvert-C505",
@@ -165539,7 +166995,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 17.9
   },
   {
     "_id": "culvert-C506",
@@ -165703,7 +167166,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 16.6
   },
   {
     "_id": "culvert-C507",
@@ -165867,7 +167337,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 19.0,
+    "length": 19.0,
+    "overall_length_m": 19.0,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 3.0,
+    "width": 19.2
   },
   {
     "_id": "culvert-C508",
@@ -166031,7 +167508,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.1,
+    "length": 17.1,
+    "overall_length_m": 17.1,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 9.5
   },
   {
     "_id": "culvert-C509",
@@ -166195,7 +167679,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 19.3,
+    "length": 19.3,
+    "overall_length_m": 19.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 6.3
   },
   {
     "_id": "culvert-C510",
@@ -166359,7 +167850,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.5,
+    "length": 17.5,
+    "overall_length_m": 17.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 9.6
   },
   {
     "_id": "culvert-C511",
@@ -166523,7 +168021,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.7,
+    "length": 17.7,
+    "overall_length_m": 17.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 4.3
   },
   {
     "_id": "culvert-C512",
@@ -166687,7 +168192,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 18.7,
+    "length": 18.7,
+    "overall_length_m": 18.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 6.2
   },
   {
     "_id": "culvert-C513",
@@ -166851,7 +168363,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.0,
+    "length": 17.0,
+    "overall_length_m": 17.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 3.0
   },
   {
     "_id": "culvert-C514",
@@ -167015,7 +168534,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 15.3,
+    "length": 15.3,
+    "overall_length_m": 15.3,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 6.0,
+    "width": 19.0
   },
   {
     "_id": "culvert-C515",
@@ -167179,7 +168705,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.7,
+    "length": 14.7,
+    "overall_length_m": 14.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 4.3
   },
   {
     "_id": "culvert-C516",
@@ -167343,7 +168876,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 20.5,
+    "length": 20.5,
+    "overall_length_m": 20.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.1,
+    "width": 8.4
   },
   {
     "_id": "culvert-C517",
@@ -167507,7 +169047,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 19.2,
+    "length": 19.2,
+    "overall_length_m": 19.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 6.3
   },
   {
     "_id": "culvert-C518",
@@ -167671,7 +169218,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.2,
+    "length": 21.2,
+    "overall_length_m": 21.2,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 3.0,
+    "width": 19.2
   },
   {
     "_id": "culvert-C519",
@@ -167835,7 +169389,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.8,
+    "length": 9.8,
+    "overall_length_m": 9.8,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 17.3
   },
   {
     "_id": "culvert-C520",
@@ -167999,7 +169560,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.7,
+    "length": 12.7,
+    "overall_length_m": 12.7,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 3.0,
+    "width": 17.3
   },
   {
     "_id": "culvert-C521",
@@ -168163,7 +169731,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.8,
+    "length": 14.8,
+    "overall_length_m": 14.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 4.3
   },
   {
     "_id": "culvert-C523",
@@ -168327,7 +169902,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.2,
+    "length": 8.2,
+    "overall_length_m": 8.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.7,
+    "width": 10.3
   },
   {
     "_id": "culvert-C524",
@@ -168491,7 +170073,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.1,
+    "length": 8.1,
+    "overall_length_m": 8.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.7,
+    "width": 10.3
   },
   {
     "_id": "culvert-C525",
@@ -168655,7 +170244,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 8.5
   },
   {
     "_id": "culvert-C526",
@@ -168819,7 +170415,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 1.8,
+    "width": 3.4
   },
   {
     "_id": "culvert-C527",
@@ -168983,7 +170586,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.0,
+    "width": 2.6
   },
   {
     "_id": "culvert-C528",
@@ -169147,7 +170757,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.3,
+    "width": 7.1
   },
   {
     "_id": "culvert-C529",
@@ -169311,7 +170928,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.4,
+    "width": 10.1
   },
   {
     "_id": "culvert-C530",
@@ -169475,7 +171099,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.5,
+    "length": 14.5,
+    "overall_length_m": 14.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.6,
+    "width": 6.9
   },
   {
     "_id": "culvert-C551",
@@ -169639,7 +171270,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.7,
+    "length": 9.7,
+    "overall_length_m": 9.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 18.6
   },
   {
     "_id": "culvert-C552",
@@ -169803,7 +171441,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 20.1
   },
   {
     "_id": "culvert-C553",
@@ -169967,7 +171612,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 40.5,
+    "length": 40.5,
+    "overall_length_m": 40.5,
+    "no_pipes_cells": 15,
+    "cells": 15,
+    "span_diameter": 2.4,
+    "width": 11.5
   },
   {
     "_id": "culvert-C554",
@@ -170131,7 +171783,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 19.9,
+    "length": 19.9,
+    "overall_length_m": 19.9,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 3.0,
+    "width": 15.7
   },
   {
     "_id": "culvert-C556",
@@ -170295,7 +171954,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.5,
+    "length": 17.5,
+    "overall_length_m": 17.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 3.1,
+    "width": 13.5
   },
   {
     "_id": "culvert-C557",
@@ -170459,7 +172125,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.0,
+    "length": 13.0,
+    "overall_length_m": 13.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 3.0,
+    "width": 18.8
   },
   {
     "_id": "culvert-C558",
@@ -170623,7 +172296,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Poor",
     "overall_rating": 1,
     "IsCriticalStructure": true,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 30.0,
+    "length": 30.0,
+    "overall_length_m": 30.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.8,
+    "width": 5.4
   },
   {
     "_id": "culvert-C560",
@@ -170787,7 +172467,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.1,
+    "length": 7.1,
+    "overall_length_m": 7.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.5,
+    "width": 9.6
   },
   {
     "_id": "culvert-C561",
@@ -170951,7 +172638,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.3,
+    "length": 7.3,
+    "overall_length_m": 7.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.5,
+    "width": 9.9
   },
   {
     "_id": "culvert-C562",
@@ -171115,7 +172809,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.2,
+    "length": 11.2,
+    "overall_length_m": 11.2,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.3
   },
   {
     "_id": "culvert-C566",
@@ -171279,7 +172980,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.5,
+    "length": 21.5,
+    "overall_length_m": 21.5,
+    "no_pipes_cells": 11,
+    "cells": 11,
+    "span_diameter": 1.8,
+    "width": 5.8
   },
   {
     "_id": "culvert-C567",
@@ -171443,7 +173151,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 5.6
   },
   {
     "_id": "culvert-C570",
@@ -171607,7 +173322,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.5,
+    "length": 9.5,
+    "overall_length_m": 9.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 12.2
   },
   {
     "_id": "culvert-C571",
@@ -171771,7 +173493,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.8,
+    "length": 21.8,
+    "overall_length_m": 21.8,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.8,
+    "width": 5.7
   },
   {
     "_id": "culvert-C601",
@@ -171935,7 +173664,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.3,
+    "length": 3.3,
+    "overall_length_m": 3.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.5,
+    "width": 16.2
   },
   {
     "_id": "culvert-C602",
@@ -172099,7 +173835,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.9,
+    "length": 8.9,
+    "overall_length_m": 8.9,
+    "no_pipes_cells": 8,
+    "cells": 8,
+    "span_diameter": 2.0,
+    "width": 11.9
   },
   {
     "_id": "culvert-C603",
@@ -172263,7 +174006,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 13.0
   },
   {
     "_id": "culvert-C604",
@@ -172427,7 +174177,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.5
   },
   {
     "_id": "culvert-C605",
@@ -172591,7 +174348,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.9,
+    "length": 8.9,
+    "overall_length_m": 8.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.2,
+    "width": 27.6
   },
   {
     "_id": "culvert-C606",
@@ -172755,7 +174519,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 2.5,
+    "length": 2.5,
+    "overall_length_m": 2.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 20.2
   },
   {
     "_id": "culvert-C607",
@@ -172919,7 +174690,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 24.0,
+    "length": 24.0,
+    "overall_length_m": 24.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.2,
+    "width": 6.9
   },
   {
     "_id": "culvert-C608",
@@ -173083,7 +174861,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.5,
+    "length": 6.5,
+    "overall_length_m": 6.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 23.6
   },
   {
     "_id": "culvert-C610",
@@ -173247,7 +175032,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.2,
+    "length": 8.2,
+    "overall_length_m": 8.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C611",
@@ -173411,7 +175203,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 15.3
   },
   {
     "_id": "culvert-C612",
@@ -173575,7 +175374,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.4,
+    "length": 4.4,
+    "overall_length_m": 4.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 38.1
   },
   {
     "_id": "culvert-C613",
@@ -173739,7 +175545,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 6.1
   },
   {
     "_id": "culvert-C614",
@@ -173903,7 +175716,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C615",
@@ -174067,7 +175887,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 11.0
   },
   {
     "_id": "culvert-C616",
@@ -174231,7 +176058,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 15.1
   },
   {
     "_id": "culvert-C617",
@@ -174395,7 +176229,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.2,
+    "length": 14.2,
+    "overall_length_m": 14.2,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 3.0
   },
   {
     "_id": "culvert-C618",
@@ -174559,7 +176400,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.2,
+    "length": 8.2,
+    "overall_length_m": 8.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 7.1
   },
   {
     "_id": "culvert-C619",
@@ -174723,7 +176571,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.9,
+    "width": 8.5
   },
   {
     "_id": "culvert-C620",
@@ -174887,7 +176742,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.5,
+    "width": 8.1
   },
   {
     "_id": "culvert-C621",
@@ -175051,7 +176913,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.9,
+    "length": 6.9,
+    "overall_length_m": 6.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.6,
+    "width": 10.2
   },
   {
     "_id": "culvert-C622",
@@ -175215,7 +177084,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.9,
+    "length": 6.9,
+    "overall_length_m": 6.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.3,
+    "width": 10.3
   },
   {
     "_id": "culvert-C623",
@@ -175379,7 +177255,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.1,
+    "length": 12.1,
+    "overall_length_m": 12.1,
+    "no_pipes_cells": 13,
+    "cells": 13,
+    "span_diameter": 0.9,
+    "width": 4.6
   },
   {
     "_id": "culvert-C624",
@@ -175543,7 +177426,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 10.3
   },
   {
     "_id": "culvert-C625",
@@ -175707,7 +177597,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 10.2
   },
   {
     "_id": "culvert-C626",
@@ -175871,7 +177768,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.3,
+    "length": 6.3,
+    "overall_length_m": 6.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 10.4
   },
   {
     "_id": "culvert-C627",
@@ -176035,7 +177939,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.3,
+    "length": 6.3,
+    "overall_length_m": 6.3,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 10.3
   },
   {
     "_id": "culvert-C628",
@@ -176199,7 +178110,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 10.3
   },
   {
     "_id": "culvert-C629",
@@ -176363,7 +178281,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.4,
+    "length": 6.4,
+    "overall_length_m": 6.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.1,
+    "width": 10.2
   },
   {
     "_id": "culvert-C630",
@@ -176527,7 +178452,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.5,
+    "length": 21.5,
+    "overall_length_m": 21.5,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 4.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C631",
@@ -176691,7 +178623,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C632",
@@ -176855,7 +178794,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.9,
+    "length": 4.9,
+    "overall_length_m": 4.9,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.9,
+    "width": 11.0
   },
   {
     "_id": "culvert-C633",
@@ -177019,7 +178965,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 32.0,
+    "length": 32.0,
+    "overall_length_m": 32.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 10.5,
+    "width": 11.0
   },
   {
     "_id": "culvert-C634",
@@ -177183,7 +179136,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.0,
+    "length": 21.0,
+    "overall_length_m": 21.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 5.0,
+    "width": 11.0
   },
   {
     "_id": "culvert-C700",
@@ -177347,7 +179307,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.5,
+    "length": 13.5,
+    "overall_length_m": 13.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.2,
+    "width": 15.0
   },
   {
     "_id": "culvert-C701",
@@ -177511,7 +179478,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.0,
+    "width": 16.6
   },
   {
     "_id": "culvert-C702",
@@ -177675,7 +179649,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 17.8
   },
   {
     "_id": "culvert-C703",
@@ -177839,7 +179820,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 17.4
   },
   {
     "_id": "culvert-C704",
@@ -178003,7 +179991,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 17.8
   },
   {
     "_id": "culvert-C705",
@@ -178167,7 +180162,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 15.8
   },
   {
     "_id": "culvert-C706",
@@ -178331,7 +180333,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 16.5
   },
   {
     "_id": "culvert-C707",
@@ -178495,7 +180504,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C708",
@@ -178659,7 +180675,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C709",
@@ -178823,7 +180846,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.2,
+    "width": 15.5
   },
   {
     "_id": "culvert-C710",
@@ -178987,7 +181017,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C711",
@@ -179151,7 +181188,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C712",
@@ -179315,7 +181359,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C713",
@@ -179479,7 +181530,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C714",
@@ -179643,7 +181701,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 18.5
   },
   {
     "_id": "culvert-C715",
@@ -179807,7 +181872,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.5,
+    "length": 21.5,
+    "overall_length_m": 21.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 5.0,
+    "width": 21.5
   },
   {
     "_id": "culvert-C716",
@@ -179971,7 +182043,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.9,
+    "length": 10.9,
+    "overall_length_m": 10.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 19.0
   },
   {
     "_id": "culvert-C717",
@@ -180135,7 +182214,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.0,
+    "width": 19.5
   },
   {
     "_id": "culvert-C718",
@@ -180299,7 +182385,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.0,
+    "width": 19.5
   },
   {
     "_id": "culvert-C719",
@@ -180463,7 +182556,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 20.5
   },
   {
     "_id": "culvert-C720",
@@ -180627,7 +182727,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C721",
@@ -180791,7 +182898,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.0,
+    "length": 10.0,
+    "overall_length_m": 10.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C723",
@@ -180955,7 +183069,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C724",
@@ -181119,7 +183240,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 21.0
   },
   {
     "_id": "culvert-C725",
@@ -181283,7 +183411,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.0,
+    "length": 10.0,
+    "overall_length_m": 10.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C726",
@@ -181447,7 +183582,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C727",
@@ -181611,7 +183753,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C728",
@@ -181775,7 +183924,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C729",
@@ -181939,7 +184095,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.5,
+    "width": 18.0
   },
   {
     "_id": "culvert-C730",
@@ -182103,7 +184266,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C731",
@@ -182267,7 +184437,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C732",
@@ -182431,7 +184608,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C733",
@@ -182595,7 +184779,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 18.5
   },
   {
     "_id": "culvert-C734",
@@ -182757,7 +184948,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C735",
@@ -182921,7 +185119,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 15.0
   },
   {
     "_id": "culvert-C736",
@@ -183085,7 +185290,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 15.5
   },
   {
     "_id": "culvert-C737",
@@ -183249,7 +185461,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C751",
@@ -183413,7 +185632,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.7,
+    "length": 22.7,
+    "overall_length_m": 22.7,
+    "no_pipes_cells": 8,
+    "cells": 8,
+    "span_diameter": 2.5,
+    "width": 24.0
   },
   {
     "_id": "culvert-C752",
@@ -183577,7 +185803,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.3,
+    "length": 9.3,
+    "overall_length_m": 9.3,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.0,
+    "width": 25.0
   },
   {
     "_id": "culvert-C753",
@@ -183741,7 +185974,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.1,
+    "length": 17.1,
+    "overall_length_m": 17.1,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 2.5,
+    "width": 25.0
   },
   {
     "_id": "culvert-C754",
@@ -183905,7 +186145,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.5,
+    "length": 17.5,
+    "overall_length_m": 17.5,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 2.5,
+    "width": 17.0
   },
   {
     "_id": "culvert-C755",
@@ -184069,7 +186316,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.5,
+    "length": 9.5,
+    "overall_length_m": 9.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 4.0,
+    "width": 14.3
   },
   {
     "_id": "culvert-C756",
@@ -184233,7 +186487,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.9,
+    "length": 4.9,
+    "overall_length_m": 4.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 15.6
   },
   {
     "_id": "culvert-C757",
@@ -184397,7 +186658,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.7,
+    "length": 8.7,
+    "overall_length_m": 8.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 12.8
   },
   {
     "_id": "culvert-C758",
@@ -184561,7 +186829,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.3,
+    "length": 9.3,
+    "overall_length_m": 9.3,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 13.8
   },
   {
     "_id": "culvert-C759",
@@ -184725,7 +187000,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 13.8
   },
   {
     "_id": "culvert-C760",
@@ -184889,7 +187171,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.3,
+    "length": 8.3,
+    "overall_length_m": 8.3,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 16.0
   },
   {
     "_id": "culvert-C761",
@@ -185053,7 +187342,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.7,
+    "length": 4.7,
+    "overall_length_m": 4.7,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 13.7
   },
   {
     "_id": "culvert-C762",
@@ -185217,7 +187513,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C763",
@@ -185381,7 +187684,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.8,
+    "length": 4.8,
+    "overall_length_m": 4.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 13.7
   },
   {
     "_id": "culvert-C764",
@@ -185545,7 +187855,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.8,
+    "length": 8.8,
+    "overall_length_m": 8.8,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 15.7
   },
   {
     "_id": "culvert-C765",
@@ -185709,7 +188026,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.8,
+    "length": 8.8,
+    "overall_length_m": 8.8,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 15.6
   },
   {
     "_id": "culvert-C766",
@@ -185873,7 +188197,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.4,
+    "length": 10.4,
+    "overall_length_m": 10.4,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.7,
+    "width": 16.4
   },
   {
     "_id": "culvert-C767",
@@ -186037,7 +188368,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 15.4
   },
   {
     "_id": "culvert-C768",
@@ -186201,7 +188539,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.7,
+    "length": 6.7,
+    "overall_length_m": 6.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.5,
+    "width": 14.5
   },
   {
     "_id": "culvert-C769",
@@ -186365,7 +188710,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.1,
+    "length": 5.1,
+    "overall_length_m": 5.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.7,
+    "width": 16.0
   },
   {
     "_id": "culvert-C770",
@@ -186529,7 +188881,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.1,
+    "length": 4.1,
+    "overall_length_m": 4.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.5,
+    "width": 15.0
   },
   {
     "_id": "culvert-C771",
@@ -186693,7 +189052,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.7,
+    "length": 11.7,
+    "overall_length_m": 11.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.6,
+    "width": 15.0
   },
   {
     "_id": "culvert-C772",
@@ -186857,7 +189223,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 17.0
   },
   {
     "_id": "culvert-C773",
@@ -187021,7 +189394,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C774",
@@ -187185,7 +189565,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 17.8
   },
   {
     "_id": "culvert-C775",
@@ -187349,7 +189736,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 16.0
   },
   {
     "_id": "culvert-C776",
@@ -187513,7 +189907,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.5,
+    "length": 3.5,
+    "overall_length_m": 3.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 16.8
   },
   {
     "_id": "culvert-C777",
@@ -187677,7 +190078,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.5,
+    "length": 10.5,
+    "overall_length_m": 10.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 15.2
   },
   {
     "_id": "culvert-C778",
@@ -187841,7 +190249,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.5,
+    "width": 13.0
   },
   {
     "_id": "culvert-C779",
@@ -188005,7 +190420,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.7,
+    "length": 8.7,
+    "overall_length_m": 8.7,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 14.4
   },
   {
     "_id": "culvert-C780",
@@ -188169,7 +190591,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.8,
+    "length": 13.8,
+    "overall_length_m": 13.8,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.2,
+    "width": 14.0
   },
   {
     "_id": "culvert-C781",
@@ -188333,7 +190762,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.6,
+    "length": 5.6,
+    "overall_length_m": 5.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 6.6
   },
   {
     "_id": "culvert-C782",
@@ -188497,7 +190933,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.4,
+    "length": 5.4,
+    "overall_length_m": 5.4,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.5,
+    "width": 7.3
   },
   {
     "_id": "culvert-C783",
@@ -188661,7 +191104,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 8.0
   },
   {
     "_id": "culvert-C784",
@@ -188825,7 +191275,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 12.0
   },
   {
     "_id": "culvert-C786",
@@ -188989,7 +191446,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 10.2
   },
   {
     "_id": "culvert-C787",
@@ -189153,7 +191617,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 5.0
   },
   {
     "_id": "culvert-C788",
@@ -189317,7 +191788,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.2,
+    "width": 8.0
   },
   {
     "_id": "culvert-C789",
@@ -189481,7 +191959,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 7.5
   },
   {
     "_id": "culvert-C790",
@@ -189645,7 +192130,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.2,
+    "width": 15.2
   },
   {
     "_id": "culvert-C791",
@@ -189809,7 +192301,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.0,
+    "length": 13.0,
+    "overall_length_m": 13.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 6.0,
+    "width": 17.6
   },
   {
     "_id": "culvert-C792",
@@ -189973,7 +192472,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 10.0
   },
   {
     "_id": "culvert-C793",
@@ -190137,7 +192643,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.0,
+    "length": 5.0,
+    "overall_length_m": 5.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 10.0
   },
   {
     "_id": "culvert-C794",
@@ -190301,7 +192814,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 43.0
   },
   {
     "_id": "culvert-C795",
@@ -190465,7 +192985,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 14.0
   },
   {
     "_id": "culvert-C796",
@@ -190629,7 +193156,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.6,
+    "length": 3.6,
+    "overall_length_m": 3.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 26.0
   },
   {
     "_id": "culvert-C798",
@@ -190793,7 +193327,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.9,
+    "length": 10.9,
+    "overall_length_m": 10.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.0,
+    "width": 18.0
   },
   {
     "_id": "culvert-C799",
@@ -190957,7 +193498,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.1,
+    "length": 6.1,
+    "overall_length_m": 6.1,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.5,
+    "width": 17.4
   },
   {
     "_id": "culvert-C800",
@@ -191121,7 +193669,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.0,
+    "length": 3.0,
+    "overall_length_m": 3.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 2.5,
+    "width": 4.8
   },
   {
     "_id": "culvert-C801",
@@ -191285,7 +193840,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.5,
+    "width": 7.0
   },
   {
     "_id": "culvert-C802",
@@ -191449,7 +194011,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.0,
+    "length": 22.0,
+    "overall_length_m": 22.0,
+    "no_pipes_cells": 9,
+    "cells": 9,
+    "span_diameter": 1.2,
+    "width": 5.0
   },
   {
     "_id": "culvert-C804",
@@ -191613,7 +194182,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.2,
+    "length": 6.2,
+    "overall_length_m": 6.2,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 9.0
   },
   {
     "_id": "culvert-C806",
@@ -191777,7 +194353,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 24.0
   },
   {
     "_id": "culvert-C807",
@@ -191941,7 +194524,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 15.0
   },
   {
     "_id": "culvert-C808",
@@ -192105,7 +194695,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Marginal",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.0,
+    "length": 10.0,
+    "overall_length_m": 10.0,
+    "no_pipes_cells": 9,
+    "cells": 9,
+    "span_diameter": 0.9,
+    "width": 5.0
   },
   {
     "_id": "culvert-C809",
@@ -192269,7 +194866,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 5.0
   },
   {
     "_id": "culvert-C810",
@@ -192433,7 +195037,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.8,
+    "length": 5.8,
+    "overall_length_m": 5.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.4,
+    "width": 7.6
   },
   {
     "_id": "culvert-C811",
@@ -192597,7 +195208,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 7.6
   },
   {
     "_id": "culvert-C812",
@@ -192761,7 +195379,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 7.6
   },
   {
     "_id": "culvert-C813",
@@ -192925,7 +195550,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 7.0
   },
   {
     "_id": "culvert-C814",
@@ -193089,7 +195721,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 5.5
   },
   {
     "_id": "culvert-C815",
@@ -193253,7 +195892,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 13.5,
+    "length": 13.5,
+    "overall_length_m": 13.5,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 2.5,
+    "width": 7.3
   },
   {
     "_id": "culvert-C816",
@@ -193417,7 +196063,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.2,
+    "length": 7.2,
+    "overall_length_m": 7.2,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.4,
+    "width": 7.3
   },
   {
     "_id": "culvert-C817",
@@ -193581,7 +196234,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.2,
+    "length": 7.2,
+    "overall_length_m": 7.2,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 2.5,
+    "width": 7.3
   },
   {
     "_id": "culvert-C818",
@@ -193745,7 +196405,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.5,
+    "width": 7.6
   },
   {
     "_id": "culvert-C819",
@@ -193909,7 +196576,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 5,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 3.5
   },
   {
     "_id": "culvert-C821",
@@ -194073,7 +196747,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.5,
+    "length": 8.5,
+    "overall_length_m": 8.5,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.2,
+    "width": 16.0
   },
   {
     "_id": "culvert-C823",
@@ -194237,7 +196918,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.0,
+    "length": 11.0,
+    "overall_length_m": 11.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C824",
@@ -194401,7 +197089,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.1,
+    "width": 5.0
   },
   {
     "_id": "culvert-C825",
@@ -194565,7 +197260,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.2,
+    "width": 5.2
   },
   {
     "_id": "culvert-C826",
@@ -194729,7 +197431,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.0,
+    "width": 6.0
   },
   {
     "_id": "culvert-C827",
@@ -194893,7 +197602,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 2.0,
+    "width": 6.0
   },
   {
     "_id": "culvert-C829",
@@ -195057,7 +197773,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.6,
+    "length": 6.6,
+    "overall_length_m": 6.6,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 3.0,
+    "width": 40.0
   },
   {
     "_id": "culvert-C830",
@@ -195221,7 +197944,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 16.7
   },
   {
     "_id": "culvert-C831",
@@ -195385,7 +198115,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 27.0
   },
   {
     "_id": "culvert-C832",
@@ -195549,7 +198286,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 17.0
   },
   {
     "_id": "culvert-C833",
@@ -195713,7 +198457,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.0,
+    "length": 7.0,
+    "overall_length_m": 7.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 30.0
   },
   {
     "_id": "culvert-C834",
@@ -195877,7 +198628,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.6,
+    "length": 4.6,
+    "overall_length_m": 4.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.0,
+    "width": 43.0
   },
   {
     "_id": "culvert-C835",
@@ -196041,7 +198799,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.0,
+    "length": 9.0,
+    "overall_length_m": 9.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.4,
+    "width": 45.0
   },
   {
     "_id": "culvert-C836",
@@ -196205,7 +198970,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.0,
+    "length": 10.0,
+    "overall_length_m": 10.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 15.4
   },
   {
     "_id": "culvert-C837",
@@ -196369,7 +199141,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.0,
+    "length": 6.0,
+    "overall_length_m": 6.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 11.6
   },
   {
     "_id": "culvert-C838",
@@ -196533,7 +199312,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 9.5
   },
   {
     "_id": "culvert-C839",
@@ -196697,7 +199483,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Under Construction",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 8.0,
+    "length": 8.0,
+    "overall_length_m": 8.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.8,
+    "width": 7.5
   },
   {
     "_id": "culvert-C840",
@@ -196861,7 +199654,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 10.8,
+    "length": 10.8,
+    "overall_length_m": 10.8,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 1.8,
+    "width": 12.5
   },
   {
     "_id": "culvert-C841",
@@ -197025,7 +199825,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 19.7
   },
   {
     "_id": "culvert-C842",
@@ -197189,7 +199996,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 5.6,
+    "length": 5.6,
+    "overall_length_m": 5.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C843",
@@ -197353,7 +200167,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 6,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.6,
+    "length": 3.6,
+    "overall_length_m": 3.6,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 20.0
   },
   {
     "_id": "culvert-C844",
@@ -197517,7 +200338,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 14.0,
+    "length": 14.0,
+    "overall_length_m": 14.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.0,
+    "width": 10.1
   },
   {
     "_id": "culvert-C845",
@@ -197681,7 +200509,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 14.0
   },
   {
     "_id": "culvert-C846",
@@ -197845,7 +200680,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.6,
+    "length": 9.6,
+    "overall_length_m": 9.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 10.1
   },
   {
     "_id": "culvert-C847",
@@ -198009,7 +200851,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.5,
+    "length": 4.5,
+    "overall_length_m": 4.5,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 4.0,
+    "width": 5.5
   },
   {
     "_id": "culvert-C851",
@@ -198173,7 +201022,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 18.0,
+    "length": 18.0,
+    "overall_length_m": 18.0,
+    "no_pipes_cells": 12,
+    "cells": 12,
+    "span_diameter": 0.9,
+    "width": 6.5
   },
   {
     "_id": "culvert-C854",
@@ -198337,7 +201193,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.3,
+    "length": 4.3,
+    "overall_length_m": 4.3,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 4.3
   },
   {
     "_id": "culvert-C856",
@@ -198501,7 +201364,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 4.0,
+    "length": 4.0,
+    "overall_length_m": 4.0,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 3.0,
+    "width": 8.5
   },
   {
     "_id": "culvert-C858",
@@ -198665,7 +201535,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.9,
+    "length": 3.9,
+    "overall_length_m": 3.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 7.2
   },
   {
     "_id": "culvert-C859",
@@ -198829,7 +201706,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.9,
+    "length": 3.9,
+    "overall_length_m": 3.9,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 1.8,
+    "width": 7.2
   },
   {
     "_id": "culvert-C863",
@@ -198993,7 +201877,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 3.1,
+    "length": 3.1,
+    "overall_length_m": 3.1,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 8.0
   },
   {
     "_id": "culvert-C870",
@@ -199157,7 +202048,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 11.6,
+    "length": 11.6,
+    "overall_length_m": 11.6,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 8.2
   },
   {
     "_id": "culvert-C871",
@@ -199321,7 +202219,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 18.5,
+    "length": 18.5,
+    "overall_length_m": 18.5,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.2
   },
   {
     "_id": "culvert-C900",
@@ -199485,7 +202390,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.1,
+    "length": 16.1,
+    "overall_length_m": 16.1,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 5.3,
+    "width": 18.3
   },
   {
     "_id": "culvert-C905",
@@ -199649,7 +202561,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.3,
+    "length": 22.3,
+    "overall_length_m": 22.3,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 4.0,
+    "width": 15.3
   },
   {
     "_id": "culvert-C906",
@@ -199813,7 +202732,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 26.8,
+    "length": 26.8,
+    "overall_length_m": 26.8,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 5.0,
+    "width": 18.7
   },
   {
     "_id": "culvert-C907",
@@ -199977,7 +202903,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 26.3,
+    "length": 26.3,
+    "overall_length_m": 26.3,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 5.0,
+    "width": 19.2
   },
   {
     "_id": "culvert-C908",
@@ -200141,7 +203074,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 26.8,
+    "length": 26.8,
+    "overall_length_m": 26.8,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 5.0,
+    "width": 19.5
   },
   {
     "_id": "culvert-C909",
@@ -200305,7 +203245,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 16.9,
+    "length": 16.9,
+    "overall_length_m": 16.9,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 1.8,
+    "width": 10.7
   },
   {
     "_id": "culvert-C910",
@@ -200469,7 +203416,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 15.6,
+    "length": 15.6,
+    "overall_length_m": 15.6,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 2.0,
+    "width": 10.3
   },
   {
     "_id": "culvert-C911",
@@ -200633,7 +203587,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 17.0,
+    "length": 17.0,
+    "overall_length_m": 17.0,
+    "no_pipes_cells": 3,
+    "cells": 3,
+    "span_diameter": 5.0,
+    "width": 22.0
   },
   {
     "_id": "culvert-C912",
@@ -200797,7 +203758,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.8,
+    "length": 6.8,
+    "overall_length_m": 6.8,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 22.5
   },
   {
     "_id": "culvert-C913",
@@ -200961,7 +203929,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 9,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 6.2,
+    "length": 6.2,
+    "overall_length_m": 6.2,
+    "no_pipes_cells": 1,
+    "cells": 1,
+    "span_diameter": 5.0,
+    "width": 24.7
   },
   {
     "_id": "culvert-C914",
@@ -201125,7 +204100,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 22.0,
+    "length": 22.0,
+    "overall_length_m": 22.0,
+    "no_pipes_cells": 6,
+    "cells": 6,
+    "span_diameter": 2.0,
+    "width": 9.5
   },
   {
     "_id": "culvert-C915",
@@ -201289,7 +204271,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 25.0,
+    "length": 25.0,
+    "overall_length_m": 25.0,
+    "no_pipes_cells": 5,
+    "cells": 5,
+    "span_diameter": 3.0,
+    "width": 9.0
   },
   {
     "_id": "culvert-C916",
@@ -201451,7 +204440,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 21.0,
+    "length": 21.0,
+    "overall_length_m": 21.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 3.0,
+    "width": 9.0
   },
   {
     "_id": "culvert-C917",
@@ -201615,7 +204611,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 9.5,
+    "length": 9.5,
+    "overall_length_m": 9.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 4.0,
+    "width": 10.1
   },
   {
     "_id": "culvert-C918",
@@ -201779,7 +204782,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Satisfactory",
     "overall_rating": 7,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 5.5,
+    "width": 10.6
   },
   {
     "_id": "culvert-C919",
@@ -201943,7 +204953,14 @@ const MAJOR_CULVERTS = [
     "RoadwayBand": "Good",
     "overall_rating": 8,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 7.5,
+    "length": 7.5,
+    "overall_length_m": 7.5,
+    "no_pipes_cells": 2,
+    "cells": 2,
+    "span_diameter": 2.5,
+    "width": 9.0
   },
   {
     "_id": "culvert-C022",
@@ -202024,7 +205041,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C023",
@@ -202105,7 +205129,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C024",
@@ -202186,7 +205217,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C025",
@@ -202267,7 +205305,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C026",
@@ -202348,7 +205393,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C027",
@@ -202429,7 +205481,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C028",
@@ -202510,7 +205569,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C029",
@@ -202591,7 +205657,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C030",
@@ -202672,7 +205745,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C031",
@@ -202753,7 +205833,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C032",
@@ -202834,7 +205921,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C033",
@@ -202915,7 +206009,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C034",
@@ -202996,7 +206097,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C035",
@@ -203077,7 +206185,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C036",
@@ -203158,7 +206273,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C037",
@@ -203239,7 +206361,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C038",
@@ -203320,7 +206449,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C039",
@@ -203401,7 +206537,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C040",
@@ -203482,7 +206625,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C041",
@@ -203563,7 +206713,14 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   },
   {
     "_id": "culvert-C042",
@@ -203644,6 +206801,13 @@ const MAJOR_CULVERTS = [
     "growth_rate": 0.045,
     "annual_weighted_growth_rate": 0.045,
     "IsCriticalStructure": false,
-    "Owner": "MoWT Department of National Roads"
+    "Owner": "MoWT Department of National Roads",
+    "culvert_length": 12.0,
+    "length": 12.0,
+    "overall_length_m": 12.0,
+    "no_pipes_cells": 4,
+    "cells": 4,
+    "span_diameter": 1.5,
+    "width": 8.5
   }
 ];

@@ -281,7 +281,7 @@ function buildKPIs(options = {}) {
 
   const kpis = [
     { value: activeBridges.length, label: 'Bridge Crossings' },
-    { value: fmt(bridgeLinks.size), label: 'Host Road Links' },
+    { value: '21,284.02 km', label: 'National Road Network' },
     { value: fmt(totalLength, 0) + ' m', label: 'Total Bridge Length' },
     { value: fmt(avgAssignedAdt, 0), label: 'Avg Assigned ADT' },
     { value: highTraffic, label: 'High Traffic Bridges' },
@@ -5984,7 +5984,7 @@ function updateBridgeAnalyticsPane(bridge) {
       <div class="pane-section-title" style="margin-top: 20px; color: var(--accent-cyan); font-weight: 800; letter-spacing: 1.1px;">BRIDGES NETWORK SUMMARY</div>
       <div class="pane-metrics">
         <div class="pane-metric"><strong>${fmt(activeBridges.length)}</strong><span>BRIDGE CROSSINGS, FY 2026/27</span></div>
-        <div class="pane-metric"><strong>${fmt(bridgeLinks.size)}</strong><span>HOST ROAD LINKS</span></div>
+        <div class="pane-metric"><strong>21,284.02 km</strong><span>NATIONAL ROAD NETWORK</span></div>
         <div class="pane-metric"><strong>${fmt(totalLength, 0)} m</strong><span>TOTAL BRIDGE LENGTH</span></div>
         <div class="pane-metric"><strong>${fmt(avgAadt, 0)}</strong><span>AVG ASSIGNED ADT</span></div>
         <div class="pane-metric"><strong>${formatGrowthPercent(avgGrowth)}</strong><span>WEIGHTED ANNUAL GROWTH</span></div>
