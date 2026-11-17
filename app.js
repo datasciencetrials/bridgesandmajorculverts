@@ -7204,16 +7204,25 @@ function drawRoadLayer(ctx, canvas, activeLinkSet) {
   ctx.lineJoin = 'round';
   ROAD_GEOMETRY.forEach(road => {
     const active = !searchHasFilter || activeLinkSet.has(road.id);
-    const width = roadWidth(road);
-    ctx.globalAlpha = active ? 0.75 : 0.25;
-    ctx.strokeStyle = 'rgba(2,6,23,0.96)';
-    ctx.lineWidth = width + (1.2 / Math.pow(Math.max(1, mapScale), 0.42));
+    const baseWidth = roadWidth(road);
+    const isUnpaved = !road.surface || /unsealed|gravel|unpaved|earth/i.test(String(road.surface));
+    const width = isUnpaved ? Math.max(1, baseWidth * 0.58) : baseWidth;
+
+    // Road casing
+    ctx.globalAlpha = active ? (isUnpaved ? 0.35 : 0.70) : 0.15;
+    ctx.strokeStyle = '#E2E8F0';
+    ctx.lineWidth = width + (1.0 / Math.pow(Math.max(1, mapScale), 0.42));
+    ctx.setLineDash(isUnpaved ? [2, 4] : []);
     drawLineGeometry(ctx, canvas, road);
-    ctx.globalAlpha = active ? 0.98 : 0.40;
+
+    // Road body: unpaved becomes same color, thinner and dotted
+    ctx.globalAlpha = active ? (isUnpaved ? 0.85 : 0.98) : 0.35;
     ctx.strokeStyle = roadColor(road);
     ctx.lineWidth = width;
+    ctx.setLineDash(isUnpaved ? [2, 4] : []);
     drawLineGeometry(ctx, canvas, road);
   });
+  ctx.setLineDash([]);
   ctx.restore();
 }
 
