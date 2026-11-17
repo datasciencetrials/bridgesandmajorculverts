@@ -488,7 +488,7 @@ const TABLE_CASE_ACRONYMS = {
   'rc': 'RC',
   'rhs': 'RHS',
   'sqlbot': 'SQLBot',
-  'authority': 'National Roads Authority',
+  'authority': 'MoWT Department of National Roads',
   '4wd': '4WD'
 };
 
@@ -1297,7 +1297,7 @@ const BMS_CODE_LOOKUPS = {
     '09': 'Agricultural underpass', '10': 'Road over water pipes', '11': 'Road over conveyer belt',
     '12': 'Conveyer belt over road', '13': 'Other', '?': 'Unknown'
   },
-  owner: { '01': 'National roads authority', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
+  owner: { '01': 'MoWT Department of National Roads', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
   type_bridge: {
     '01': 'Simply supported span', '02': 'Continuous span', '03': 'Double cantilevered span', '04': 'Single cantilevered span',
     '05': 'Single suspended simply supported span', '06': 'Suspended span', '07': 'Portal frame', '08': 'Cantilevered construction',
@@ -4811,8 +4811,8 @@ function downloadBlob(filename, blob) {
 
 function downloadFormulaWorkbook() {
   const link = document.createElement('a');
-  link.href = 'bridge_traffic_formula_workbook.xlsx';
-  link.download = readableDownloadName('bridge_traffic_formula_workbook.xlsx');
+  link.href = '#';
+  link.download = readableDownloadName('#');
   link.click();
 }
 
@@ -5045,7 +5045,7 @@ function exportCorrectedBridgeSHP() {
   const dbf = makeDbf(rows);
   const prj = 'GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]';
   const zip = makeZip([
-    { name: 'uganda_corrected_bridges.shp', data: shp },
+    { name: 'National BMS Register', data: shp },
     { name: 'uganda_corrected_bridges.shx', data: shx },
     { name: 'uganda_corrected_bridges.dbf', data: dbf },
     { name: 'uganda_corrected_bridges.prj', data: prj },
