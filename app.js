@@ -4352,8 +4352,17 @@ function buildVehicleClassificationGroupCharts() {
 }
 
 // BRIDGE DETAIL MODAL CONTROLLER
-function openBridgeModal(bridgeId) {
-  const b = BRIDGES.find(br => br._id === bridgeId) || BRIDGES.find(br => br.bridge_nam === bridgeId);
+function openBridgeModal(target) {
+  let b = null;
+  if (typeof target === 'object' && target !== null) {
+    b = target.bridge_no ? BRIDGES.find(br => br.bridge_no === target.bridge_no) : null;
+    if (!b && target._id) b = BRIDGES.find(br => br._id === target._id);
+    if (!b) b = target;
+  } else if (typeof target === 'string') {
+    b = BRIDGES.find(br => br._id === target || br.bridge_no === target || br.bridge_nam === target);
+  }
+  if (!b && typeof selectedMapBridge !== 'undefined') b = selectedMapBridge;
+  if (!b && typeof currentSelectedBridge !== 'undefined') b = currentSelectedBridge;
   if (!b) return;
 
   document.getElementById('modalBridgeName').textContent = b.bridge_nam;
@@ -5914,10 +5923,11 @@ function downloadSelectedBridgeCsv(bridge = selectedMapBridge) {
   }
 
   function getDictName(type, val) {
-    if (!val) return 'N/A';
+    if (val == null || val === '') return 'N/A';
+    if (typeof val === 'string' && val.length > 2 && isNaN(Number(val))) return cleanBmsDescription(val);
     let strVal = String(val).padStart(2, '0');
     if (strVal === '00' || strVal === '0' || strVal === '?' || strVal.toUpperCase() === 'UNKNOWN') return 'N/A';
-    return cleanBmsDescription(ELEMENT_DICT[type] && ELEMENT_DICT[type][strVal] ? ELEMENT_DICT[type][strVal] : 'Unknown');
+    return cleanBmsDescription(ELEMENT_DICT[type] && ELEMENT_DICT[type][strVal] ? ELEMENT_DICT[type][strVal] : val);
   }
 
   function getCondName(val) {
@@ -6119,7 +6129,7 @@ function updateBridgeAnalyticsPane(bridge) {
   title.innerHTML = `${escapeHTML(row.bridge_nam || row.bridge_no || 'Bridge crossing')} ${row.is_critical ? '<span class="pill" style="background:#ef4444; color:white; margin-left:8px;">CRITICAL STRUCTURE</span>' : ''}`;
   subtitle.innerHTML = `${escapeHTML(row.link_no || 'N/A')} | ${escapeHTML(row.link_name || 'N/A')} | Class ${canonicalRoadClass(row.road_class)} | ${timelineYear} ${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][timelineMonth]}
 ${row.is_critical && row.critical_comment ? `<br><span style="color:#ef4444; font-weight:500; font-size:11px; display:inline-block; margin-top:4px;">Warning: ${escapeHTML(row.critical_comment)}</span>` : ''}`;
-  const condRef = bridge.reference_attributes || bridge;
+  const condRef = { ...bridge, ...(bridge.reference_attributes || {}) };
   const approachRating = bridge.approaches_rating ?? bridge.approaches ?? bridge.inlet_outlet_cond ?? bridge.overall_rating ?? 3;
   const roadwayRating = bridge.roadway_rating ?? bridge.roadway ?? bridge.roadway_cond ?? bridge.overall_rating ?? 3;
   const substructureRating = bridge.substructure_rating ?? bridge.substructure ?? bridge.structure_cond ?? bridge.overall_rating ?? 3;

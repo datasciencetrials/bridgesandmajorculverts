@@ -85,7 +85,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 264,
     "chainage_validated_km": 264,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -116,7 +116,11 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Rwizi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-002",
@@ -147,7 +151,7 @@ const BRIDGES = [
     "no_of_span": "03",
     "no_of_pier": 2,
     "no_of_exp_joints": 0,
-    "year_compl": 2022,
+    "year_compl": 1960,
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "Gabion Riprap",
@@ -212,7 +216,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 117.86,
     "chainage_validated_km": 117.86,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -238,7 +242,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kibimba River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-003",
@@ -246,7 +253,7 @@ const BRIDGES = [
     "original_bridge_no": "B002",
     "bridge_nam": "Malaba",
     "type_crossing": "01",
-    "road_descr_principal": "Tororo Junction - Malaba (Uganda/kenya Border)",
+    "road_descr_principal": "Tororo junction - Malaba (Uganda/Kenya border)",
     "link_no": "A001_Link11",
     "km": 201.009,
     "river": "Malaba",
@@ -270,11 +277,11 @@ const BRIDGES = [
     "no_of_span": "03",
     "no_of_pier": 2,
     "no_of_exp_joints": 0,
-    "year_compl": 2016,
+    "year_compl": 1963,
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 31.1,
     "bridge_wid": 8.3,
     "width_between_para_rail": 8.55,
@@ -284,7 +291,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A001",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+    "link_name": "Tororo junction - Malaba (Uganda/Kenya border)",
     "chainage_from": 201.008988,
     "chainage_to": 212.657988,
     "link_len_km": 11.649,
@@ -334,7 +341,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 201.009,
     "chainage_validated_km": 201.009,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -360,7 +367,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Malaba",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-004",
@@ -416,7 +426,12 @@ const BRIDGES = [
     "maintenanc": "Mpigi",
     "River": "Busega River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1958,
+    "YearCompleted": 1958,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-005",
@@ -539,7 +554,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Katonga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1958,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-006",
@@ -638,7 +656,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 264,
     "chainage_validated_km": 264,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -664,7 +682,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Rwizi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-007",
@@ -759,7 +780,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 325.596,
     "chainage_validated_km": 325.596,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -785,7 +806,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kamira River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-008",
@@ -886,7 +910,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 325.6,
     "chainage_validated_km": 325.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -912,7 +936,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Rubanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-009",
@@ -1011,12 +1038,12 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 340.214,
     "chainage_validated_km": 340.214,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
     "chainage_geometry_fraction": 1,
-    "year_compl": 1985,
+    "year_compl": 1970,
     "type_abutments": "02 / 02",
     "parapet_railing_type": "02",
     "wearing_surface_type": "02",
@@ -1037,7 +1064,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kemyenda River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-010",
@@ -1138,7 +1168,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 391,
     "chainage_validated_km": 391,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -1164,7 +1194,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kyanamira",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1985,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-011",
@@ -1175,7 +1208,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "02",
     "type_deck": "01",
     "type_deck_material": "03",
@@ -1231,7 +1264,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 16.575,
     "chainage_km": 16.575,
     "chainage_validated_km": 16.575,
@@ -1246,7 +1279,7 @@ const BRIDGES = [
     "type_para_rail": "02",
     "type_piers": "97",
     "type_wearing_surface": "01",
-    "year_compl": 1960,
+    "year_compl": 2018,
     "type_abutments": "02 / 02",
     "parapet_railing_type": "02",
     "wearing_surface_type": "01",
@@ -1270,7 +1303,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-012",
@@ -1341,7 +1377,7 @@ const BRIDGES = [
     "location_correction_method": "Snapped to exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "traffic_flow_directions": 2,
     "town_left": "Njeru",
     "town_right": "Jinja (Dual Section)",
@@ -1381,7 +1417,11 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Nile",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1960,
+    "YearCompleted": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-013",
@@ -1392,7 +1432,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -1444,7 +1484,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 6.729,
     "chainage_km": 6.729,
     "chainage_validated_km": 6.729,
@@ -1482,7 +1522,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-014",
@@ -1545,7 +1589,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 18.513,
     "chainage_km": 18.513,
     "chainage_validated_km": 18.513,
@@ -1583,7 +1627,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road Underpass",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-015",
@@ -1681,7 +1729,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 421.317,
     "chainage_km": 421.317,
     "chainage_validated_km": 421.317,
@@ -1709,7 +1757,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Mwanyare River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-016",
@@ -1720,7 +1771,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -1772,7 +1823,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.527,
     "chainage_km": 7.527,
     "chainage_validated_km": 7.527,
@@ -1810,7 +1861,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-017",
@@ -1821,7 +1876,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -1873,7 +1928,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 19.744,
     "chainage_km": 19.744,
     "chainage_validated_km": 19.744,
@@ -1913,7 +1968,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-018",
@@ -2037,7 +2096,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Bukoola",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-019",
@@ -2048,7 +2110,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "01",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
@@ -2101,7 +2163,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 9.771,
     "chainage_km": 9.771,
     "chainage_validated_km": 9.771,
@@ -2139,7 +2201,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-020",
@@ -2150,7 +2216,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "01",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
@@ -2203,7 +2269,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 20.114,
     "chainage_km": 20.114,
     "chainage_validated_km": 20.114,
@@ -2241,7 +2307,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-021",
@@ -2251,7 +2321,7 @@ const BRIDGES = [
     "type_crossing": "02",
     "road_descr_principal": "Busega - Bujuuko",
     "link_no": "A005_Link01",
-    "river": "Road over Rail",
+    "river": "Road Over Rail",
     "type_bridge": 1,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -2366,7 +2436,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Rail",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2012,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-022",
@@ -2377,7 +2450,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "01",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
@@ -2430,7 +2503,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 11.863,
     "chainage_km": 11.863,
     "chainage_validated_km": 11.863,
@@ -2468,7 +2541,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-023",
@@ -2479,7 +2556,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "01",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
@@ -2532,7 +2609,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 21.164,
     "chainage_km": 21.164,
     "chainage_validated_km": 21.164,
@@ -2570,7 +2647,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-024",
@@ -2665,7 +2746,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 266.129,
     "chainage_validated_km": 266.129,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -2691,7 +2772,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Mpanga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1989,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-025",
@@ -2759,7 +2843,7 @@ const BRIDGES = [
     "no_of_span": 1,
     "no_of_pier": 0,
     "no_of_exp_joints": 0,
-    "year_compl": 0,
+    "year_compl": 2018,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -2789,7 +2873,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -2810,7 +2894,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Expressway Grade Separation",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-026",
@@ -2879,7 +2966,7 @@ const BRIDGES = [
     "no_of_span": 1,
     "no_of_pier": 0,
     "no_of_exp_joints": 0,
-    "year_compl": 0,
+    "year_compl": 2018,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -2908,7 +2995,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -2929,7 +3016,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Nambigirwa Wetland",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-027",
@@ -3004,7 +3094,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "location_source_lon": 30.296738,
     "location_source_lat": 0.660422,
@@ -3022,7 +3112,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0.272,
     "chainage_validated_km": 0.272,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3048,7 +3138,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-028",
@@ -3143,7 +3237,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.623,
     "chainage_validated_km": 12.623,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3164,7 +3258,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-029",
@@ -3259,7 +3357,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.419,
     "chainage_validated_km": 13.419,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3280,7 +3378,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-030",
@@ -3338,7 +3440,12 @@ const BRIDGES = [
     "maintenanc": "Fort Portal",
     "River": "Mpanga River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1989,
+    "YearCompleted": 1989,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-031",
@@ -3407,7 +3514,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15.6999998092651,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.80000019073486,
@@ -3432,7 +3539,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.025,
     "chainage_validated_km": 13.025,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3454,7 +3561,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Rwimi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-032",
@@ -3523,7 +3634,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15.6999998092651,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.80000019073486,
@@ -3548,7 +3659,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.533,
     "chainage_validated_km": 45.533,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3570,7 +3681,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rwimi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-033",
@@ -3578,7 +3693,7 @@ const BRIDGES = [
     "original_bridge_no": "B016",
     "bridge_nam": "Rwimi",
     "type_crossing": "01",
-    "road_descr_principal": "Fortportal - Rwimi (Bridge)",
+    "road_descr_principal": "FortPortal - Rwimi (bridge)",
     "link_no": "A005_Link11",
     "km": 327.701,
     "river": "Rwimi",
@@ -3605,7 +3720,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15.6999998092651,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.8,
@@ -3615,7 +3730,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A005",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Fortportal - Rwimi (Bridge)",
+    "link_name": "FortPortal - Rwimi (bridge)",
     "chainage_from": 283.029629,
     "chainage_to": 327.710629,
     "link_len_km": 44.681,
@@ -3665,7 +3780,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 327.701,
     "chainage_validated_km": 327.701,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3691,7 +3806,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Rwimi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-034",
@@ -3702,7 +3820,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": "01",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
@@ -3786,7 +3904,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.934,
     "chainage_validated_km": 13.934,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3808,7 +3926,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-035",
@@ -3900,7 +4022,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.1,
     "chainage_validated_km": 46.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -3925,7 +4047,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpalla Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-036",
@@ -4019,7 +4145,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.1,
     "chainage_validated_km": 46.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4040,7 +4166,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nsonja River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-037",
@@ -4141,7 +4271,7 @@ const BRIDGES = [
     "location_correction_method": "Corrected from historical B018 Mubuku/Kasese evidence; workbook row had contaminated North Eastern road-link fields",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 346.19,
     "chainage_validated_km": 346.19,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4164,7 +4294,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mubuku River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-038",
@@ -4256,7 +4390,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 47.849,
     "chainage_validated_km": 47.849,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4279,7 +4413,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mubuku River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-039",
@@ -4380,7 +4518,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 346.19,
     "chainage_validated_km": 346.19,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4405,7 +4543,11 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Mubuku River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2007,
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-040",
@@ -4501,7 +4643,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.15,
     "chainage_validated_km": 2.15,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4523,7 +4665,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Mubuku",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-041",
@@ -4619,7 +4764,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 354.33,
     "chainage_validated_km": 354.33,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4641,7 +4786,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Nyamwamba River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-042",
@@ -4737,12 +4885,12 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 101.552,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
     "chainage_geometry_fraction": 0.335862,
-    "year_compl": 2007,
+    "year_compl": 1989,
     "type_abutments": "03 / 03",
     "parapet_railing_type": "02",
     "wearing_surface_type": "01",
@@ -4759,7 +4907,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nyamwamba",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1989,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-043",
@@ -4854,7 +5005,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 92.893,
     "chainage_validated_km": 92.893,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -4882,7 +5033,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nyamwamba",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-044",
@@ -4963,7 +5117,7 @@ const BRIDGES = [
     },
     "geo_validation": "corrected_on_exact_national_road_link",
     "comment": "Good",
-    "year_compl": 2008,
+    "year_compl": 2007,
     "aadt_rebuilt_2026": 5246.59,
     "abutment_l": 2,
     "abutment_r": 1,
@@ -4984,7 +5138,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 417.336,
     "chainage_validated_km": 417.336,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5009,7 +5163,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Rubiriha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-045",
@@ -5108,7 +5265,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 117.21,
     "chainage_validated_km": 117.21,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5134,7 +5291,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Kafu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1962,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-046",
@@ -5168,7 +5328,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 12,
     "bridge_wid": 9.80000019073486,
     "width_between_para_rail": 9.8,
@@ -5233,7 +5393,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after swapped-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.664,
     "chainage_validated_km": 33.664,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5259,7 +5419,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Titi Swamp River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-047",
@@ -5294,7 +5457,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 86,
     "bridge_wid": 8.27000045776367,
     "width_between_para_rail": 8.24,
@@ -5356,7 +5519,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.053,
     "chainage_validated_km": 32.053,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5382,7 +5545,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "White Nile",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-048",
@@ -5417,7 +5583,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7,
     "bridge_wid": 9.5,
     "width_between_para_rail": 8,
@@ -5483,7 +5649,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 116.766,
     "chainage_validated_km": 116.766,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5509,7 +5675,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Magodes",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-049",
@@ -5591,7 +5760,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 55.686,
     "chainage_validated_km": 55.686,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5621,7 +5790,11 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Nabuyonga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-050",
@@ -5651,7 +5824,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 9.5,
     "bridge_wid": 6.5,
     "width_between_para_rail": 6.1,
@@ -5717,7 +5890,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.427,
     "chainage_validated_km": 1.427,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5745,7 +5918,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namatala",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-051",
@@ -5842,7 +6018,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.218,
     "chainage_validated_km": 18.218,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5863,7 +6039,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nangipa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-052",
@@ -5893,7 +6073,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4.19999980926514,
     "bridge_wid": 8.39999961853027,
     "width_between_para_rail": 7.4,
@@ -5942,7 +6122,7 @@ const BRIDGES = [
     "new_bridge_no": "B029",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "remarks": "The deck is of 2 types, half is of reinforced concrete solid slab and another half is of steel and concrete slab on top.",
     "location_source_lon": 34.15733,
     "location_source_lat": 1.1647,
@@ -5960,7 +6140,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 48,
     "chainage_validated_km": 48,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -5987,7 +6167,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Lwere",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-053",
@@ -6056,7 +6239,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4.19999980926514,
     "bridge_wid": 8.39999961853027,
     "width_between_para_rail": 7.40000009536743,
@@ -6082,7 +6265,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 48,
     "chainage_validated_km": 48,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6103,7 +6286,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lwere",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-054",
@@ -6138,7 +6325,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 60,
     "bridge_wid": 10.6000003814697,
     "width_between_para_rail": 10,
@@ -6200,12 +6387,12 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 8890.71,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16.643,
     "chainage_validated_km": 16.643,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
     "chainage_geometry_fraction": 0.670784,
-    "year_compl": 1970,
+    "year_compl": 2018,
     "type_abutments": "02 / 02",
     "parapet_railing_type": "02",
     "wearing_surface_type": "01",
@@ -6226,7 +6413,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Awoja",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-055",
@@ -6323,7 +6513,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 339.331,
     "chainage_validated_km": 339.331,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6349,7 +6539,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Tochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-056",
@@ -6444,7 +6637,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 106.199,
     "chainage_validated_km": 106.199,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6470,7 +6663,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Albert Nile",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-057",
@@ -6565,7 +6761,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 147.1,
     "chainage_validated_km": 147.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6591,7 +6787,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Achwera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-058",
@@ -6686,7 +6885,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 150.1,
     "chainage_validated_km": 150.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6712,7 +6911,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Akaba River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-059",
@@ -6807,7 +7009,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 152.2,
     "chainage_validated_km": 152.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6833,7 +7035,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Nyarwodho",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-060",
@@ -6928,7 +7133,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 163.7,
     "chainage_validated_km": 163.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -6954,7 +7159,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Namthin River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-061",
@@ -7049,7 +7257,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 181.8,
     "chainage_validated_km": 181.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7075,7 +7283,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Ora River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-062",
@@ -7170,7 +7381,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 208,
     "chainage_validated_km": 208,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7196,7 +7407,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Aguyi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-063",
@@ -7291,7 +7505,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 212.1,
     "chainage_validated_km": 212.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7317,7 +7531,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Ozuva",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-064",
@@ -7373,7 +7590,12 @@ const BRIDGES = [
     "maintenanc": "Arua",
     "River": "Wiki",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2003,
+    "YearCompleted": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-065",
@@ -7471,7 +7693,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 97.864,
     "chainage_validated_km": 97.864,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7499,7 +7721,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kayiriira River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-066",
@@ -7507,7 +7732,7 @@ const BRIDGES = [
     "original_bridge_no": "B042",
     "bridge_nam": "Mpologoma",
     "type_crossing": "01",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_LINK01",
     "km": 46.3,
     "river": "Mpologoma",
@@ -7544,7 +7769,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A012",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "chainage_from": 0,
     "chainage_to": 46.333,
     "link_len_km": 46.333,
@@ -7600,7 +7825,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.3,
     "chainage_validated_km": 46.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7626,7 +7851,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Mpologoma",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-067",
@@ -7727,7 +7955,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 25.7,
     "chainage_validated_km": 25.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7753,7 +7981,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rushango River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-068",
@@ -7851,7 +8082,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 97.499,
     "chainage_validated_km": 97.499,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -7878,7 +8109,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-069",
@@ -7960,7 +8194,7 @@ const BRIDGES = [
     "geo_validation": "corrected_on_exact_national_road_link",
     "aadt_rebuilt_2026": 5684.07,
     "comment": "Marginal",
-    "year_compl": 1954,
+    "year_compl": 1989,
     "abutment_l": 2,
     "abutment_r": 1,
     "remarks": "- Scour protection; LHS - Stonepitching",
@@ -7980,7 +8214,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 90,
     "chainage_validated_km": 90,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8005,7 +8239,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kazinga Channel",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1989,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-070",
@@ -8100,7 +8337,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 20.07,
     "chainage_validated_km": 20.07,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8126,7 +8363,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Muzizi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-071",
@@ -8221,7 +8461,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 70.605,
     "chainage_validated_km": 70.605,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8247,7 +8487,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nkusi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-072",
@@ -8346,7 +8589,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.5,
     "chainage_validated_km": 21.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8372,7 +8615,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Rwere",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1961,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-073",
@@ -8471,7 +8717,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.917,
     "chainage_validated_km": 14.917,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8497,7 +8743,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Sironko",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1961,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-074",
@@ -8532,7 +8781,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7,
     "bridge_wid": 10.8000001907349,
     "width_between_para_rail": 10.2,
@@ -8596,7 +8845,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.8,
     "chainage_validated_km": 21.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8622,7 +8871,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nalugugu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1961,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-075",
@@ -8723,7 +8975,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22,
     "chainage_validated_km": 22,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8749,7 +9001,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Simu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1961,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-076",
@@ -8847,7 +9102,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 72.1,
     "chainage_validated_km": 72.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8872,7 +9127,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Yembe",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-077",
@@ -8973,7 +9232,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 98.6,
     "chainage_validated_km": 98.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -8999,7 +9258,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Atari",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-078",
@@ -9034,7 +9296,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "04",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 16,
     "bridge_wid": 15,
     "width_between_para_rail": 14,
@@ -9094,7 +9356,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 36.456,
     "chainage_validated_km": 36.456,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9120,7 +9382,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ngenge",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-079",
@@ -9155,7 +9420,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "04",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18,
     "bridge_wid": 15,
     "width_between_para_rail": 14,
@@ -9221,7 +9486,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 38.076,
     "chainage_validated_km": 38.076,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9247,7 +9512,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Emjong",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-080",
@@ -9308,7 +9576,7 @@ const BRIDGES = [
     "approaches_rating": 8,
     "km": 59.166,
     "no_of_exp_joints": 2,
-    "year_compl": 1961,
+    "year_compl": 2021,
     "no_of_lane": 1,
     "aadt_rebuilt_2026": 3609.7,
     "owner": "01",
@@ -9344,7 +9612,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 59.166,
     "chainage_validated_km": 59.166,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9370,7 +9638,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Oladot",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-081",
@@ -9399,11 +9670,11 @@ const BRIDGES = [
     "no_of_span": 1,
     "no_of_pier": 0,
     "no_of_exp_joints": 0,
-    "year_compl": 1961,
+    "year_compl": 2021,
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18,
     "bridge_wid": 8.5,
     "width_between_para_rail": 6,
@@ -9467,8 +9738,8 @@ const BRIDGES = [
     "location_correction_method": "Snapped to nearest national road geometry from structure registry coordinates",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0.034,
-    "annual_weighted_growth_rate": 0.01,
-    "annual_traffic_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
+    "annual_traffic_growth_rate": 0.045,
     "annual_traffic_growth_source": "Road-link traffic observations",
     "chainage_km": 0.222,
     "chainage_validated_km": 0.222,
@@ -9496,7 +9767,9 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ladot River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)"
   },
   {
     "_id": "bridge-082",
@@ -9597,7 +9870,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 41.446,
     "chainage_validated_km": 41.446,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9623,7 +9896,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ladot",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-083",
@@ -9694,7 +9970,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 3.5,
@@ -9717,7 +9993,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.965,
     "chainage_validated_km": 8.965,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9744,7 +10020,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Buyanja",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1993,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-084",
@@ -9844,7 +10123,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.203,
     "chainage_validated_km": 22.203,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9869,7 +10148,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kibal River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-085",
@@ -9950,7 +10233,7 @@ const BRIDGES = [
     "geo_validation": "corrected_on_exact_national_road_link",
     "aadt_rebuilt_2026": 2531.77,
     "comment": "Good",
-    "year_compl": 1996,
+    "year_compl": 2005,
     "abutment_l": 2,
     "abutment_r": 1,
     "location_source_lon": 30.05032,
@@ -9969,7 +10252,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.1,
     "chainage_validated_km": 14.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -9994,7 +10277,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kahenge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2005,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-086",
@@ -10092,7 +10378,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 53.4,
     "chainage_validated_km": 53.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10117,7 +10403,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Minera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-087",
@@ -10211,7 +10501,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 53.43,
     "chainage_validated_km": 53.43,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10236,7 +10526,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Minera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-088",
@@ -10285,7 +10579,12 @@ const BRIDGES = [
     "maintenanc": "Kasese",
     "River": "Nyamwiru River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-089",
@@ -10334,7 +10633,12 @@ const BRIDGES = [
     "maintenanc": "Kasese",
     "River": "Rwempunu River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-090",
@@ -10383,7 +10687,12 @@ const BRIDGES = [
     "maintenanc": "Kasese",
     "River": "Kaizi River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-091",
@@ -10481,7 +10790,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 50.2,
     "chainage_validated_km": 50.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10506,7 +10815,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nshwera River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-092",
@@ -10604,7 +10917,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 66.6,
     "chainage_validated_km": 66.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10629,7 +10942,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ntungwe River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-093",
@@ -10727,7 +11044,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 86.3,
     "chainage_validated_km": 86.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10752,7 +11069,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ishasha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-094",
@@ -10852,7 +11173,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.13,
     "chainage_validated_km": 22.13,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -10877,7 +11198,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyakambugu Swamp",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-095",
@@ -10960,7 +11285,7 @@ const BRIDGES = [
     "new_bridge_no": "B077",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "no_of_lane": 0,
     "pave_age": 0,
     "location_source_lon": 30.424589,
@@ -10979,7 +11304,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.2,
     "chainage_validated_km": 13.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11004,7 +11329,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kamiira Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-096",
@@ -11101,7 +11429,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 29.707,
     "chainage_validated_km": 29.707,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11127,7 +11455,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Kagera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2017,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-097",
@@ -11227,7 +11558,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9.14,
     "chainage_validated_km": 9.14,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11252,7 +11583,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Katengure River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-098",
@@ -11352,7 +11687,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.7,
     "chainage_validated_km": 10.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11377,7 +11712,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mubuku River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-099",
@@ -11385,7 +11724,7 @@ const BRIDGES = [
     "original_bridge_no": "B081",
     "bridge_nam": "Kilembe Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "km": 10.2,
     "river": "River Nyamwamba",
@@ -11422,7 +11761,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C511",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "chainage_from": 0,
     "chainage_to": 11.734,
     "link_len_km": 11.734,
@@ -11478,7 +11817,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.2,
     "chainage_validated_km": 10.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11504,7 +11843,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Nyamwamba",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-100",
@@ -11604,7 +11946,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 6.3,
     "chainage_validated_km": 6.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11629,7 +11971,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kanyampala",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-101",
@@ -11727,7 +12073,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.3,
     "chainage_validated_km": 14.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11752,7 +12098,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namusagani",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-102",
@@ -11846,7 +12196,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 24.06,
     "chainage_validated_km": 24.06,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11871,7 +12221,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Wassa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-103",
@@ -11965,7 +12319,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 40.285,
     "chainage_validated_km": 40.285,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -11990,7 +12344,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sogoha",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-104",
@@ -12089,7 +12447,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 25.35,
     "chainage_validated_km": 25.35,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12115,7 +12473,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Waiga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-105",
@@ -12123,7 +12484,7 @@ const BRIDGES = [
     "original_bridge_no": "B090",
     "bridge_nam": "Waiga",
     "type_crossing": "01",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "km": 41.16,
     "river": "Waiga",
@@ -12160,7 +12521,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C625",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "chainage_from": 0,
     "chainage_to": 71.121,
     "link_len_km": 71.121,
@@ -12216,7 +12577,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 41.16,
     "chainage_validated_km": 41.16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12242,18 +12603,21 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Waiga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-106",
     "bridge_no": "B091",
     "bridge_nam": "Waringo",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "river": "Waringo",
     "road_no": "C625",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "region": "Western",
     "station": "Masindi",
     "map_x": 31.7160396575928,
@@ -12298,18 +12662,23 @@ const BRIDGES = [
     "maintenanc": "Masindi",
     "River": "Waringo",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-107",
     "bridge_no": "B092",
     "bridge_nam": "Zoleya",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "river": "Zoliya",
     "road_no": "C625",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "region": "Western",
     "station": "Masindi",
     "map_x": 31.7061996459961,
@@ -12354,18 +12723,23 @@ const BRIDGES = [
     "maintenanc": "Masindi",
     "River": "Zoliya",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-108",
     "bridge_no": "B093",
     "bridge_nam": "Sambiya",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "river": "Sambiya",
     "road_no": "C625",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "region": "Western",
     "station": "Masindi",
     "map_x": 31.6970691680908,
@@ -12410,7 +12784,12 @@ const BRIDGES = [
     "maintenanc": "Masindi",
     "River": "Sambiya",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-109",
@@ -12466,7 +12845,12 @@ const BRIDGES = [
     "maintenanc": "Tororo",
     "River": "Rubonge",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-110",
@@ -12501,7 +12885,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 3.20000004768372,
     "bridge_wid": 5,
     "width_between_para_rail": 4,
@@ -12564,7 +12948,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.5,
     "chainage_validated_km": 33.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12589,7 +12973,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Pakamu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-111",
@@ -12624,7 +13012,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5.80000019073486,
     "bridge_wid": 5,
     "width_between_para_rail": 4.5,
@@ -12689,7 +13077,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.5,
     "chainage_validated_km": 33.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12714,7 +13102,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mahanga",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-112",
@@ -12722,7 +13114,7 @@ const BRIDGES = [
     "original_bridge_no": "B097",
     "bridge_nam": "Nakulumutu",
     "type_crossing": "01",
-    "road_descr_principal": "Nabumali Junction - Busolwe",
+    "road_descr_principal": "Nabumali junction - Busolwe",
     "link_no": "C833_Link01",
     "km": 34.5,
     "river": "Nakulumutu",
@@ -12760,7 +13152,7 @@ const BRIDGES = [
     "remarks": "Guard rails required",
     "road_no": "C833",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nabumali Junction - Busolwe",
+    "link_name": "Nabumali junction - Busolwe",
     "chainage_from": 0,
     "chainage_to": 34.588,
     "link_len_km": 34.588,
@@ -12810,7 +13202,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 34.5,
     "chainage_validated_km": 34.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12835,7 +13227,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nakulumutu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-113",
@@ -12843,7 +13239,7 @@ const BRIDGES = [
     "original_bridge_no": "B098",
     "bridge_nam": "Nkola",
     "type_crossing": "01",
-    "road_descr_principal": "Nabumali Junction - Busolwe",
+    "road_descr_principal": "Nabumali junction - Busolwe",
     "link_no": "C833_Link01",
     "km": 34.5,
     "river": "Manafa",
@@ -12881,7 +13277,7 @@ const BRIDGES = [
     "remarks": "Guard rails required",
     "road_no": "C833",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nabumali Junction - Busolwe",
+    "link_name": "Nabumali junction - Busolwe",
     "chainage_from": 0,
     "chainage_to": 34.588,
     "link_len_km": 34.588,
@@ -12935,7 +13331,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 34.5,
     "chainage_validated_km": 34.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -12960,7 +13356,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-114",
@@ -12968,7 +13368,7 @@ const BRIDGES = [
     "original_bridge_no": "B099",
     "bridge_nam": "Nakwazi",
     "type_crossing": "01",
-    "road_descr_principal": "Nabumali Junction - Busolwe",
+    "road_descr_principal": "Nabumali junction - Busolwe",
     "link_no": "C833_Link01",
     "km": 34.5,
     "river": "Nakwazi",
@@ -12995,7 +13395,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5,
     "bridge_wid": 4.59999990463257,
     "width_between_para_rail": 4.6,
@@ -13005,7 +13405,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C833",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nabumali Junction - Busolwe",
+    "link_name": "Nabumali junction - Busolwe",
     "chainage_from": 0,
     "chainage_to": 34.588,
     "link_len_km": 34.588,
@@ -13060,7 +13460,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 34.5,
     "chainage_validated_km": 34.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13085,7 +13485,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nakwazi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-115",
@@ -13141,7 +13545,12 @@ const BRIDGES = [
     "maintenanc": "Tororo",
     "River": "Mpologoma",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-116",
@@ -13199,7 +13608,12 @@ const BRIDGES = [
     "maintenanc": "Mbale",
     "River": "Miwu",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-117",
@@ -13248,7 +13662,12 @@ const BRIDGES = [
     "maintenanc": "Mbale",
     "River": "Sironko River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-118",
@@ -13306,7 +13725,12 @@ const BRIDGES = [
     "maintenanc": "Mbale",
     "River": "Kado",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-119",
@@ -13341,7 +13765,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6.5,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.2,
@@ -13404,7 +13828,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.4,
     "chainage_validated_km": 18.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13429,7 +13853,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sonoli",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-120",
@@ -13464,7 +13892,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7,
     "bridge_wid": 9.5,
     "width_between_para_rail": 9.1,
@@ -13529,7 +13957,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21,
     "chainage_validated_km": 21,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13554,7 +13982,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namatsu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-121",
@@ -13589,7 +14021,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5,
     "bridge_wid": 4.5,
     "width_between_para_rail": 3.5,
@@ -13652,7 +14084,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21,
     "chainage_validated_km": 21,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13677,7 +14109,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nabuyonga",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-122",
@@ -13778,7 +14214,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 4.5,
     "chainage_validated_km": 4.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13804,7 +14240,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namikhoma",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-123",
@@ -13812,7 +14251,7 @@ const BRIDGES = [
     "original_bridge_no": "B108",
     "bridge_nam": "Pasa",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "km": 28.4,
     "river": "Pasa",
@@ -13850,7 +14289,7 @@ const BRIDGES = [
     "remarks": "Maintain guard rails",
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -13904,7 +14343,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.4,
     "chainage_validated_km": 28.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -13929,7 +14368,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Pasa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-124",
@@ -13937,7 +14380,7 @@ const BRIDGES = [
     "original_bridge_no": "B109",
     "bridge_nam": "Tsutsu",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "km": 28.4,
     "river": "Tsutsu",
@@ -13964,7 +14407,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 8,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.5,
@@ -13975,7 +14418,7 @@ const BRIDGES = [
     "remarks": "Abutment failing",
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -14030,7 +14473,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.4,
     "chainage_validated_km": 28.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14055,7 +14498,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tsutsu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1962,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-125",
@@ -14063,7 +14509,7 @@ const BRIDGES = [
     "original_bridge_no": "B110",
     "bridge_nam": "Manafa",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "river": "Manafwa River",
     "type_bridge": 1,
@@ -14071,7 +14517,7 @@ const BRIDGES = [
     "type_deck_material": "07",
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -14148,7 +14594,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 39.625,
     "chainage_km": 39.625,
     "chainage_validated_km": 39.625,
@@ -14176,7 +14622,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafwa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-126",
@@ -14184,7 +14634,7 @@ const BRIDGES = [
     "original_bridge_no": "B111",
     "bridge_nam": "Manafwa",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_LINK02",
     "river": "Manafwa River",
     "type_bridge": 2,
@@ -14192,7 +14642,7 @@ const BRIDGES = [
     "type_deck_material": "03",
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -14270,7 +14720,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 40.605,
     "chainage_validated_km": 40.605,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14297,7 +14747,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafwa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-127",
@@ -14332,7 +14786,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 24,
     "bridge_wid": 11.6000003814697,
     "width_between_para_rail": 11.2,
@@ -14396,7 +14850,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 15.6,
     "chainage_validated_km": 15.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14422,7 +14876,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-128",
@@ -14521,7 +14978,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16,
     "chainage_validated_km": 16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14547,7 +15004,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namunyiri",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-129",
@@ -14555,7 +15015,7 @@ const BRIDGES = [
     "original_bridge_no": "B114",
     "bridge_nam": "Mbigi",
     "type_crossing": "01",
-    "road_descr_principal": "Simu Corner - Kaserem",
+    "road_descr_principal": "Simu corner - Kaserem",
     "link_no": "C871_Link01",
     "km": 9.8,
     "river": "Yembe",
@@ -14582,7 +15042,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 16,
     "bridge_wid": 8,
     "width_between_para_rail": 6.6,
@@ -14592,7 +15052,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C871",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Simu Corner - Kaserem",
+    "link_name": "Simu corner - Kaserem",
     "chainage_from": 0,
     "chainage_to": 9.801,
     "link_len_km": 9.801,
@@ -14647,7 +15107,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9.8,
     "chainage_validated_km": 9.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14672,7 +15132,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Yembe",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-130",
@@ -14680,7 +15144,7 @@ const BRIDGES = [
     "original_bridge_no": "B115",
     "bridge_nam": "Kumi",
     "type_crossing": "01",
-    "road_descr_principal": "Kumi - Brooks Corner",
+    "road_descr_principal": "Kumi - Brooks corner",
     "link_no": "C920_Link01",
     "km": 45.5,
     "river": "Amokoka",
@@ -14717,7 +15181,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C920",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kumi - Brooks Corner",
+    "link_name": "Kumi - Brooks corner",
     "chainage_from": 0,
     "chainage_to": 45.953,
     "link_len_km": 45.953,
@@ -14766,7 +15230,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.5,
     "chainage_validated_km": 45.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14791,7 +15255,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Amokoka",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-131",
@@ -14799,7 +15267,7 @@ const BRIDGES = [
     "original_bridge_no": "B116",
     "bridge_nam": "Abuket",
     "type_crossing": "01",
-    "road_descr_principal": "Kumi - Brooks Corner",
+    "road_descr_principal": "Kumi - Brooks corner",
     "link_no": "C920_Link01",
     "km": 45.5,
     "river": "Abuket",
@@ -14826,7 +15294,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 24,
     "bridge_wid": 7.40000009536743,
     "width_between_para_rail": 7.4,
@@ -14836,7 +15304,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C920",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kumi - Brooks Corner",
+    "link_name": "Kumi - Brooks corner",
     "chainage_from": 0,
     "chainage_to": 45.953,
     "link_len_km": 45.953,
@@ -14885,7 +15353,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.5,
     "chainage_validated_km": 45.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -14910,7 +15378,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Abuket",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-132",
@@ -15005,7 +15477,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 297.383,
     "chainage_validated_km": 297.383,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15031,7 +15503,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Tochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-133",
@@ -15039,7 +15514,7 @@ const BRIDGES = [
     "original_bridge_no": "B118",
     "bridge_nam": "Unyama",
     "type_crossing": "01",
-    "road_descr_principal": "Atiak - Nimule (Uganda/sudan Border)",
+    "road_descr_principal": "Atiak - Nimule (Uganda/Sudan border)",
     "link_no": "A006_Link13",
     "river": "Unyama River",
     "type_bridge": 2,
@@ -15055,7 +15530,7 @@ const BRIDGES = [
     "approach_roadway_width": 3,
     "road_no": "A006",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Atiak - Nimule (Uganda/sudan Border)",
+    "link_name": "Atiak - Nimule (Uganda/Sudan border)",
     "chainage_from": 396.342,
     "chainage_to": 433.617,
     "link_len_km": 37.275,
@@ -15108,7 +15583,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "waterway_rating": 8,
     "substructure_rating": 6,
@@ -15130,7 +15605,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 433.456,
     "chainage_validated_km": 433.456,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15156,7 +15631,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Unyama River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-134",
@@ -15251,7 +15729,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 246.399,
     "chainage_validated_km": 246.399,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15277,7 +15755,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Enyau River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-135",
@@ -15285,7 +15766,7 @@ const BRIDGES = [
     "original_bridge_no": "B120",
     "bridge_nam": "Enve Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
+    "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
     "link_no": "A008_Link07",
     "km": 306.372,
     "river": "Enve River",
@@ -15317,7 +15798,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A008",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+    "link_name": "Koboko - Oraba (Uganda/Sudan border)",
     "chainage_from": 292.003,
     "chainage_to": 310.848,
     "link_len_km": 18.845,
@@ -15354,7 +15835,7 @@ const BRIDGES = [
     "new_bridge_no": "B120",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 2015,
     "comment": 0,
     "location_source_lon": 30.910522,
     "location_source_lat": 3.510684,
@@ -15372,7 +15853,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 306.372,
     "chainage_validated_km": 306.372,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15399,7 +15880,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Enve River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-136",
@@ -15494,7 +15978,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 253.8,
     "chainage_validated_km": 253.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15516,7 +16000,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Enve River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-137",
@@ -15611,7 +16098,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 260,
     "chainage_validated_km": 260,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15637,7 +16124,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Oluffe",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-138",
@@ -15732,7 +16222,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 270.299,
     "chainage_validated_km": 270.299,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15758,7 +16248,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Ayi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-139",
@@ -15853,7 +16346,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 280.6,
     "chainage_validated_km": 280.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -15879,7 +16372,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Yoyo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-140",
@@ -15974,7 +16470,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 281.6,
     "chainage_validated_km": 281.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16000,7 +16496,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Oru River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-141",
@@ -16095,7 +16594,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 283.2,
     "chainage_validated_km": 283.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16121,7 +16620,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Apa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-142",
@@ -16129,7 +16631,7 @@ const BRIDGES = [
     "original_bridge_no": "B126",
     "bridge_nam": "Kochi Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
+    "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
     "link_no": "A008_Link07",
     "km": 298.3,
     "river": "Kochi",
@@ -16166,7 +16668,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A008",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+    "link_name": "Koboko - Oraba (Uganda/Sudan border)",
     "chainage_from": 292.003,
     "chainage_to": 310.848,
     "link_len_km": 18.845,
@@ -16216,7 +16718,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 298.3,
     "chainage_validated_km": 298.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16242,7 +16744,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kochi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-143",
@@ -16337,7 +16842,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 20.1,
     "chainage_validated_km": 20.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16363,7 +16868,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ayugi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-144",
@@ -16390,7 +16898,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "03",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18,
     "bridge_wid": 8.5,
     "min_bridge_roadway_width": 3.2,
@@ -16447,7 +16955,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.368,
     "chainage_validated_km": 3.368,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16477,7 +16985,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Eyiagwea",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2025,
+    "YearCompleted": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-145",
@@ -16572,7 +17084,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 42.2,
     "chainage_validated_km": 42.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16598,7 +17110,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Eria River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-146",
@@ -16625,7 +17140,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "03",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18,
     "bridge_wid": 8.5,
     "width_between_para_rail": 3.45,
@@ -16683,7 +17198,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.865,
     "chainage_validated_km": 32.865,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16713,7 +17228,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Surumu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2025,
+    "YearCompleted": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-147",
@@ -16740,7 +17259,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "03",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 36,
     "bridge_wid": 8.5,
     "width_between_para_rail": 3,
@@ -16798,7 +17317,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.192,
     "chainage_validated_km": 8.192,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16828,7 +17347,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Cala River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2025,
+    "YearCompleted": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-148",
@@ -16917,7 +17440,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 111.779,
     "chainage_validated_km": 111.779,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -16944,7 +17467,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Yii",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-149",
@@ -17040,7 +17567,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 111.779,
     "chainage_validated_km": 111.779,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17061,7 +17588,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Yii",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-150",
@@ -17156,7 +17687,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 117.8,
     "chainage_validated_km": 117.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17177,7 +17708,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nyawa Bridge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-151",
@@ -17271,7 +17806,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 117.8,
     "chainage_validated_km": 117.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17296,7 +17831,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nyawa Bridge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-152",
@@ -17354,7 +17893,12 @@ const BRIDGES = [
     "maintenanc": "Moyo",
     "River": "Kochi",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-153",
@@ -17412,7 +17956,12 @@ const BRIDGES = [
     "maintenanc": "Arua",
     "River": "Jure River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-154",
@@ -17506,7 +18055,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 172.533,
     "chainage_validated_km": 172.533,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17531,7 +18080,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Dacha",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-155",
@@ -17625,7 +18178,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 181.114,
     "chainage_validated_km": 181.114,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17650,7 +18203,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ore River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-156",
@@ -17732,7 +18289,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 189.175,
     "chainage_validated_km": 189.175,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17762,7 +18319,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ozoro",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-157",
@@ -17789,7 +18350,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "03",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18,
     "bridge_wid": 8.5,
     "min_bridge_roadway_width": 3,
@@ -17845,7 +18406,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 191.107,
     "chainage_validated_km": 191.107,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -17875,7 +18436,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Nvetre",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-158",
@@ -17975,7 +18540,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 192.734,
     "chainage_validated_km": 192.734,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18000,7 +18565,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Oru Bridge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-159",
@@ -18098,7 +18667,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 198.9,
     "chainage_validated_km": 198.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18123,7 +18692,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Enyawu River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-160",
@@ -18218,7 +18791,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35.8,
     "chainage_validated_km": 35.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18244,7 +18817,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ayago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-161",
@@ -18339,7 +18915,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 38.2,
     "chainage_validated_km": 38.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18365,7 +18941,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Ayago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2006,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-162",
@@ -18441,7 +19020,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "no_of_lane": 2,
     "traffic_flow_directions": 2,
     "location_source_lon": 31.92931,
@@ -18460,7 +19039,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 53,
     "chainage_validated_km": 53,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18486,7 +19065,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Akaku",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-163",
@@ -18586,7 +19168,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35.392,
     "chainage_validated_km": 35.392,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18611,7 +19193,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Itunga Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-164",
@@ -18712,7 +19298,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 42.091,
     "chainage_validated_km": 42.091,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18737,7 +19323,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Puranga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2017,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-165",
@@ -18838,7 +19427,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 58.215,
     "chainage_validated_km": 58.215,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18863,7 +19452,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Atup River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1959,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-166",
@@ -18964,7 +19556,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 104.5,
     "chainage_validated_km": 104.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -18989,7 +19581,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Agora River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1959,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-167",
@@ -19090,7 +19685,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 69.825,
     "chainage_validated_km": 69.825,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19115,7 +19710,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Agago",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1959,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-168",
@@ -19200,7 +19798,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 104.76,
     "chainage_validated_km": 104.76,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19230,7 +19828,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Acholibur",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-169",
@@ -19315,7 +19917,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 112.25,
     "chainage_validated_km": 112.25,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19345,7 +19947,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Dure Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-170",
@@ -19427,7 +20033,7 @@ const BRIDGES = [
     "geo_validation": "corrected_on_exact_national_road_link",
     "aadt_rebuilt_2026": 2841.93,
     "comment": "Good",
-    "year_compl": 1997,
+    "year_compl": 2018,
     "abutment_l": 1,
     "abutment_r": 2,
     "remarks": "The water channel is bushy and much silt deposits undermining the water channel",
@@ -19447,7 +20053,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 123.967,
     "chainage_validated_km": 123.967,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19472,7 +20078,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Pager River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-171",
@@ -19557,7 +20166,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 135.736,
     "chainage_validated_km": 135.736,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19587,7 +20196,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lanyang Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-172",
@@ -19689,7 +20302,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 141.934,
     "chainage_validated_km": 141.934,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19714,7 +20327,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Aringa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-173",
@@ -19790,7 +20406,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 148.1,
     "chainage_validated_km": 148.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19816,7 +20432,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Agwapoke Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-174",
@@ -19851,7 +20471,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 8,
     "bridge_wid": 4.5,
     "width_between_para_rail": 3.5,
@@ -19914,7 +20534,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 72.1,
     "chainage_validated_km": 72.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -19939,7 +20559,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Sipi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-175",
@@ -19974,7 +20598,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21,
     "bridge_wid": 5.5,
     "width_between_para_rail": 4,
@@ -20035,7 +20659,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.5,
     "chainage_validated_km": 32.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20061,7 +20685,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Cheptui",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-176",
@@ -20159,7 +20787,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.5,
     "chainage_validated_km": 32.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20185,7 +20813,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Chesebere",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-177",
@@ -20220,7 +20852,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 12,
     "bridge_wid": 8,
     "width_between_para_rail": 7.4,
@@ -20285,7 +20917,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.5,
     "chainage_validated_km": 32.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20310,7 +20942,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaputokoi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-178",
@@ -20345,7 +20981,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7,
     "bridge_wid": 7.59999990463257,
     "width_between_para_rail": 7.2,
@@ -20404,7 +21040,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.5,
     "chainage_validated_km": 32.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20429,7 +21065,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Atari River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-179",
@@ -20523,7 +21163,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 65.747,
     "chainage_validated_km": 65.747,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20548,7 +21188,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Seretyo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-180",
@@ -20646,7 +21290,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 72.178,
     "chainage_validated_km": 72.178,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20672,7 +21316,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Okilim",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-181",
@@ -20707,7 +21355,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 49,
     "bridge_wid": 11,
     "width_between_para_rail": 10.4,
@@ -20767,7 +21415,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 162,
     "chainage_validated_km": 162,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20793,7 +21441,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Omaniman",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-182",
@@ -20828,7 +21479,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 25,
     "bridge_wid": 11,
     "width_between_para_rail": 10.4,
@@ -20888,7 +21539,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 161.8,
     "chainage_validated_km": 161.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -20914,7 +21565,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Namalera",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-183",
@@ -20949,7 +21603,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 25,
     "bridge_wid": 11,
     "width_between_para_rail": 10.4,
@@ -21009,7 +21663,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 162,
     "chainage_validated_km": 162,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21035,7 +21689,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lokali",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-184",
@@ -21070,7 +21727,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 25,
     "bridge_wid": 11,
     "width_between_para_rail": 10.4,
@@ -21130,7 +21787,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 208,
     "chainage_validated_km": 208,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21156,7 +21813,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Angolot",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-185",
@@ -21247,7 +21907,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 54,
     "chainage_validated_km": 54,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21274,7 +21934,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lokichar",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-186",
@@ -21309,7 +21973,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 31,
     "bridge_wid": 4.80000019073486,
     "width_between_para_rail": 5,
@@ -21368,7 +22032,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 83.5,
     "chainage_validated_km": 83.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21393,7 +22057,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nangololo",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-187",
@@ -21487,7 +22155,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 63.5,
     "chainage_validated_km": 63.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21512,7 +22180,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Longiro",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-188",
@@ -21547,7 +22219,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21.5,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -21606,7 +22278,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21631,7 +22303,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Katulangole",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-189",
@@ -21666,7 +22342,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15.8000001907349,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -21725,7 +22401,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21750,7 +22426,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lochom",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-190",
@@ -21846,7 +22526,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21871,7 +22551,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lomusan",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-191",
@@ -21906,7 +22590,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 40,
     "bridge_wid": 10.3999996185303,
     "width_between_para_rail": 10.4,
@@ -21965,7 +22649,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -21990,7 +22674,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaabong",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-192",
@@ -22025,7 +22713,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -22086,7 +22774,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22111,7 +22799,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Akapelot",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-193",
@@ -22205,7 +22897,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22230,7 +22922,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Nakwosongwan",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-194",
@@ -22326,7 +23022,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 102.5,
     "chainage_validated_km": 102.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22351,7 +23047,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lobalokili",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-195",
@@ -22386,7 +23086,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 27,
     "bridge_wid": 5,
     "width_between_para_rail": 4.5,
@@ -22447,7 +23147,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 43,
     "chainage_validated_km": 43,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22472,7 +23172,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Loyoroit",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-196",
@@ -22556,7 +23260,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 99.544,
     "chainage_validated_km": 99.544,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22586,7 +23290,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-197",
@@ -22666,7 +23374,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "location_source_lon": 33.063862,
     "location_source_lat": 2.80604,
@@ -22684,7 +23392,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 68.9,
     "chainage_validated_km": 68.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22709,7 +23417,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Otaka River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-198",
@@ -22806,7 +23518,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 29.6,
     "chainage_validated_km": 29.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22832,7 +23544,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Komolo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-199",
@@ -22929,7 +23644,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 81.862,
     "chainage_validated_km": 81.862,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -22954,7 +23669,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Abraitu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-200",
@@ -22989,7 +23707,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 78,
     "bridge_wid": 18.7999992370605,
     "width_between_para_rail": 18.200001,
@@ -23049,7 +23767,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 54.1,
     "chainage_validated_km": 54.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23075,7 +23793,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Omanima",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-201",
@@ -23144,7 +23865,7 @@ const BRIDGES = [
     "no_of_span": 2,
     "no_of_pier": 0,
     "no_of_exp_joints": 3,
-    "year_compl": 2017,
+    "year_compl": 2019,
     "no_of_lane": 2,
     "owner": "01",
     "district_council": "12",
@@ -23177,7 +23898,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.2,
     "chainage_validated_km": 8.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23201,7 +23922,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apak River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-202",
@@ -23302,7 +24026,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.2,
     "chainage_validated_km": 8.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23328,7 +24052,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apak River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-203",
@@ -23428,7 +24155,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.93,
     "chainage_validated_km": 7.93,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23453,7 +24180,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-204",
@@ -23552,7 +24283,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 64.43,
     "chainage_validated_km": 64.43,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23576,7 +24307,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odek River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-205",
@@ -23676,7 +24411,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 74.91,
     "chainage_validated_km": 74.91,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23701,7 +24436,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aswa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-206",
@@ -23786,7 +24525,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.759,
     "chainage_validated_km": 10.759,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23816,7 +24555,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Atika Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-207",
@@ -23892,7 +24635,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.44,
     "chainage_validated_km": 18.44,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -23918,7 +24661,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ogeng Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-208",
@@ -24017,7 +24764,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.525,
     "chainage_validated_km": 21.525,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24043,7 +24790,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ajan River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-209",
@@ -24119,7 +24869,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.94,
     "chainage_validated_km": 22.94,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24145,7 +24895,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Atanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-210",
@@ -24221,7 +24975,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 76.01,
     "chainage_validated_km": 76.01,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24247,7 +25001,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Unyama",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-211",
@@ -24342,7 +25100,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.121,
     "chainage_validated_km": 45.121,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24368,7 +25126,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aswa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-212",
@@ -24468,7 +25229,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 20.32,
     "chainage_validated_km": 20.32,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24493,7 +25254,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Unyama River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-213",
@@ -24574,7 +25339,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "remarks": "Bridge is new at the boarder point between Uganda and Congo.The old bridge still exist which needs to be removed.",
     "location_source_lon": 31.029881,
@@ -24593,7 +25358,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 15.025,
     "chainage_validated_km": 15.025,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24618,7 +25383,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Nyarwodho",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-214",
@@ -24718,7 +25487,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.945,
     "chainage_validated_km": 10.945,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24743,7 +25512,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Unyama River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-215",
@@ -24844,7 +25617,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 37.498,
     "chainage_validated_km": 37.498,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24869,7 +25642,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aswa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-216",
@@ -24969,7 +25745,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 48.12,
     "chainage_validated_km": 48.12,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -24994,7 +25770,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Awich River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-217",
@@ -25094,7 +25874,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 62.887,
     "chainage_validated_km": 62.887,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25119,7 +25899,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Burkung",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-218",
@@ -25219,7 +26003,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.467,
     "chainage_validated_km": 14.467,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25244,7 +26028,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lagwel Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-219",
@@ -25344,7 +26132,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 54.486,
     "chainage_validated_km": 54.486,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25369,7 +26157,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Limu River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-220",
@@ -25454,7 +26246,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 169.365,
     "chainage_validated_km": 169.365,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25484,7 +26276,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Lakaye Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-221",
@@ -25583,7 +26379,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.543,
     "chainage_validated_km": 21.543,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25608,7 +26404,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "21.543",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2006,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-222",
@@ -25708,7 +26507,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.147,
     "chainage_validated_km": 22.147,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25733,7 +26532,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Pager River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-223",
@@ -25813,7 +26616,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "no_of_lane": 1,
     "traffic_flow_directions": 2,
     "remarks": "The bridge has timber deck which had just been fixed but this shall last because of the way it has been secured. Due to the big span the bridge shakes a lot particularly when being crossed by heavy traffic.Inspection could not be done thoroughly due to flooded channel.The deck is made of timber and was repaired recenty.The Bridge shakes a lot when heavy vehicle crosses it.",
@@ -25833,7 +26636,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.561,
     "chainage_validated_km": 33.561,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25858,7 +26661,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Oraa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-224",
@@ -25940,7 +26747,7 @@ const BRIDGES = [
     "new_bridge_no": "B209",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "aadt_rebuilt_2026": 515.08,
     "remarks": "The condition of the bridge is not good. The timber deck is weak and it,s getting broken.The bridge shakes a lot when being crossed by loaded vehicle.",
@@ -25960,7 +26767,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.562,
     "chainage_validated_km": 33.562,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -25985,7 +26792,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Oraa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-225",
@@ -26063,7 +26873,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -26086,7 +26896,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 69.685,
     "chainage_validated_km": 69.685,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26111,7 +26921,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Awa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-226",
@@ -26211,7 +27024,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 78.299,
     "chainage_validated_km": 78.299,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26236,7 +27049,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ala River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-227",
@@ -26336,7 +27153,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 84.499,
     "chainage_validated_km": 84.499,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26361,7 +27178,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Olemika",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-228",
@@ -26455,7 +27276,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.805,
     "chainage_validated_km": 21.805,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26480,7 +27301,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mututu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-229",
@@ -26580,7 +27405,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 26.166,
     "chainage_validated_km": 26.166,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26605,7 +27430,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kivuje",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-230",
@@ -26640,7 +27469,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4.5,
@@ -26687,7 +27516,7 @@ const BRIDGES = [
     "new_bridge_no": "B215",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "location_source_lon": 34.568588,
     "location_source_lat": 2.0349,
@@ -26705,7 +27534,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22,
     "chainage_validated_km": 22,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26730,7 +27559,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lojoro",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-231",
@@ -26814,7 +27646,7 @@ const BRIDGES = [
     "new_bridge_no": "B216",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "location_source_lon": 34.6814,
     "location_source_lat": 2.10067,
@@ -26832,7 +27664,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.5,
     "chainage_validated_km": 46.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26857,7 +27689,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nakoyiti",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-232",
@@ -26892,7 +27727,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 20,
     "bridge_wid": 10.3999996185303,
     "width_between_para_rail": 10.4,
@@ -26955,7 +27790,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 30.5,
     "chainage_validated_km": 30.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -26981,7 +27816,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Chololo",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-233",
@@ -26991,7 +27830,7 @@ const BRIDGES = [
     "type_crossing": "02",
     "road_descr_principal": "Nambole - Kampala Industrial Park - Mukono",
     "link_no": "C036_Link01",
-    "river": "Road over Rail",
+    "river": "Road Over Rail",
     "type_bridge": 1,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -27072,7 +27911,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.692,
     "chainage_validated_km": 13.692,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27100,7 +27939,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Road over Rail",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-234",
@@ -27194,7 +28037,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "km": 10,
     "chainage_km": 10,
     "chainage_validated_km": 10,
@@ -27223,7 +28066,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kigungu Bridge Waterway",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-235",
@@ -27318,7 +28165,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 4,
     "chainage_validated_km": 4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27345,7 +28192,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mayanja River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-236",
@@ -27425,7 +28276,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "location_source_lon": 31.625471,
     "location_source_lat": 0.893864,
@@ -27443,7 +28294,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 79.572,
     "chainage_validated_km": 79.572,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27467,7 +28318,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Bukoola",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-237",
@@ -27541,7 +28396,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 5.7,
@@ -27564,7 +28419,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.6,
     "chainage_validated_km": 8.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27591,7 +28446,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Mayanja",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-238",
@@ -27671,7 +28530,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "location_source_lon": 30.346518,
     "location_source_lat": -0.102603,
@@ -27689,7 +28548,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.514,
     "chainage_validated_km": 21.514,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27714,7 +28573,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nkurungu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-239",
@@ -27812,7 +28675,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 19.6,
     "chainage_validated_km": 19.6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27837,7 +28700,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Butembe River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-240",
@@ -27845,7 +28712,7 @@ const BRIDGES = [
     "original_bridge_no": "B229",
     "bridge_nam": "Kyonyo",
     "type_crossing": "01",
-    "road_descr_principal": "Nsiika - Bihanga - Katerera (Ishaka T/c)",
+    "road_descr_principal": "Nsiika - Bihanga - Katerera (Ishaka T/C)",
     "link_no": "C416_Link02",
     "river": "Kyonyo",
     "type_bridge": 1,
@@ -27868,7 +28735,7 @@ const BRIDGES = [
     "remarks": "Bridge need to be replaced",
     "road_no": "C416",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nsiika - Bihanga - Katerera (Ishaka T/c)",
+    "link_name": "Nsiika - Bihanga - Katerera (Ishaka T/C)",
     "chainage_from": 13.222,
     "chainage_to": 57.532,
     "link_len_km": 44.31,
@@ -27937,7 +28804,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.707,
     "chainage_validated_km": 28.707,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -27962,7 +28829,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kyonyo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-241",
@@ -27996,7 +28867,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 60,
     "bridge_wid": 10.6000003814697,
     "width_between_para_rail": 10,
@@ -28058,7 +28929,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.1,
     "chainage_validated_km": 12.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28083,7 +28954,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kacwamahembe",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-242",
@@ -28181,7 +29056,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 47,
     "chainage_validated_km": 47,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28206,7 +29081,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpungu River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-243",
@@ -28304,7 +29183,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.964,
     "chainage_validated_km": 1.964,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28329,7 +29208,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mucha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-244",
@@ -28429,7 +29312,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.3,
     "chainage_validated_km": 12.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28454,7 +29337,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kaku River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-245",
@@ -28554,7 +29441,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9.01,
     "chainage_validated_km": 9.01,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28579,7 +29466,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ishasha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-246",
@@ -28679,7 +29570,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.42,
     "chainage_validated_km": 18.42,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28704,7 +29595,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Muyaga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-247",
@@ -28802,7 +29697,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.2,
     "chainage_validated_km": 13.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28827,7 +29722,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kiruruma",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-248",
@@ -28925,7 +29824,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.35,
     "chainage_validated_km": 32.35,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -28950,7 +29849,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mitano River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-249",
@@ -29050,7 +29953,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.9,
     "chainage_validated_km": 1.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29075,7 +29978,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kabale River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-250",
@@ -29175,7 +30082,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.284,
     "chainage_validated_km": 14.284,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29200,7 +30107,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kakindo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-251",
@@ -29298,7 +30209,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.284,
     "chainage_validated_km": 14.284,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29323,7 +30234,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rushaya River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-252",
@@ -29422,7 +30337,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 15.782,
     "chainage_validated_km": 15.782,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29448,7 +30363,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mitano River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-253",
@@ -29548,7 +30466,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 50.5,
     "chainage_validated_km": 50.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29573,7 +30491,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rwamuganga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-254",
@@ -29673,7 +30595,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 50.5,
     "chainage_validated_km": 50.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29698,7 +30620,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ndurumo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-255",
@@ -29796,7 +30722,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 51.5,
     "chainage_validated_km": 51.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29821,7 +30747,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kabira - Rukungiri",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-256",
@@ -29919,7 +30849,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1,
     "chainage_validated_km": 1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -29944,7 +30874,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kyambura",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-257",
@@ -30042,7 +30976,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.3,
     "chainage_validated_km": 8.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30067,7 +31001,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enshya",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-258",
@@ -30167,7 +31105,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 6.257,
     "chainage_validated_km": 6.257,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30192,7 +31130,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rubiriha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-259",
@@ -30273,7 +31215,7 @@ const BRIDGES = [
     "new_bridge_no": "B253",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "aadt_rebuilt_2026": 1287.6,
     "location_source_lon": 29.7407,
@@ -30292,7 +31234,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9,
     "chainage_validated_km": 9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30317,7 +31259,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kabira River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-260",
@@ -30413,7 +31358,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 43.025,
     "chainage_validated_km": 43.025,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30438,7 +31383,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ruzairwe",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-261",
@@ -30473,7 +31422,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6,
     "bridge_wid": 4.05999994277954,
     "width_between_para_rail": 3.57,
@@ -30532,7 +31481,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.114,
     "chainage_validated_km": 2.114,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30557,7 +31506,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Perida",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-262",
@@ -30592,7 +31545,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5,
     "bridge_wid": 4,
     "width_between_para_rail": 4,
@@ -30650,7 +31603,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5.935,
     "chainage_validated_km": 5.935,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30675,7 +31628,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mahoma River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-263",
@@ -30769,7 +31726,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.508,
     "chainage_validated_km": 8.508,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30794,7 +31751,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Dunga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-264",
@@ -30889,7 +31850,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9.519,
     "chainage_validated_km": 9.519,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -30914,7 +31875,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyabuswa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-265",
@@ -30949,7 +31914,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4,
     "bridge_wid": 4.40000009536743,
     "width_between_para_rail": 4.4,
@@ -31009,7 +31974,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.192,
     "chainage_validated_km": 13.192,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31034,7 +31999,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-266",
@@ -31129,7 +32098,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.493,
     "chainage_validated_km": 13.493,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31154,7 +32123,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Satisfactory River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-267",
@@ -31250,7 +32223,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 48.599,
     "chainage_validated_km": 48.599,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31275,7 +32248,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Murungu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-268",
@@ -31371,7 +32348,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 61.006,
     "chainage_validated_km": 61.006,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31396,7 +32373,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nguse",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-269",
@@ -31431,7 +32412,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 8.19999980926514,
     "bridge_wid": 4.40000009536743,
     "width_between_para_rail": 3.8,
@@ -31490,7 +32471,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 55.367,
     "chainage_validated_km": 55.367,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31515,7 +32496,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-270",
@@ -31613,7 +32598,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 39.608,
     "chainage_validated_km": 39.608,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31638,7 +32623,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-271",
@@ -31732,7 +32721,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 135.067,
     "chainage_validated_km": 135.067,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31757,7 +32746,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-272",
@@ -31792,7 +32785,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21.7999992370605,
     "bridge_wid": 7.5,
     "width_between_para_rail": 7.2,
@@ -31853,7 +32846,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 52.977,
     "chainage_validated_km": 52.977,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31878,7 +32871,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kisege",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-273",
@@ -31973,7 +32970,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 6.229,
     "chainage_validated_km": 6.229,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -31999,7 +32996,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Wambabya",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-274",
@@ -32093,7 +33093,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 24.603,
     "chainage_validated_km": 24.603,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32118,7 +33118,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Wambabya",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-275",
@@ -32151,7 +33155,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 17.1000003814697,
     "bridge_wid": 3.97000002861023,
     "width_between_para_rail": 3.97,
@@ -32214,7 +33218,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.12,
     "chainage_validated_km": 2.12,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32239,7 +33243,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mairirwe",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-276",
@@ -32315,7 +33323,7 @@ const BRIDGES = [
     "abutment_r": 0,
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -32340,7 +33348,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.705,
     "chainage_validated_km": 12.705,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32365,7 +33373,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Wambabya River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-277",
@@ -32399,7 +33410,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6,
     "bridge_wid": 4.05999994277954,
     "width_between_para_rail": 3.57,
@@ -32464,7 +33475,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.939,
     "chainage_validated_km": 1.939,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32490,7 +33501,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Wambabya",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-278",
@@ -32571,7 +33586,7 @@ const BRIDGES = [
     "new_bridge_no": "B276",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "aadt_rebuilt_2026": 1014.57,
     "location_source_lon": 31.44503,
@@ -32590,7 +33605,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35.712,
     "chainage_validated_km": 35.712,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32615,7 +33630,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kanangalo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-279",
@@ -32696,7 +33714,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "remarks": "-Safety features(parapets) are damaged causing safety hazard to vehicles and pedestrians.",
     "location_source_lon": 32.571899,
@@ -32716,7 +33734,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 1801,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5.069,
     "chainage_validated_km": 5.069,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32741,7 +33759,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Okole River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-280",
@@ -32840,7 +33862,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.822,
     "chainage_validated_km": 7.822,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32866,7 +33888,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Walabam",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-281",
@@ -32967,7 +33993,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 24.811,
     "chainage_validated_km": 24.811,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -32992,7 +34018,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Tochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-282",
@@ -33093,7 +34123,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 1679.35,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 20.589,
     "chainage_validated_km": 20.589,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33118,7 +34148,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Eyama River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-283",
@@ -33218,7 +34252,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.68,
     "chainage_validated_km": 10.68,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33243,7 +34277,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enget River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-284",
@@ -33342,7 +34380,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 14.7,
     "chainage_validated_km": 14.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33367,7 +34405,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Akokowo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-285",
@@ -33467,7 +34508,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 31.79,
     "chainage_validated_km": 31.79,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33492,7 +34533,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enget River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-286",
@@ -33590,7 +34635,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.89,
     "chainage_validated_km": 3.89,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33615,7 +34660,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apoc River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-287",
@@ -33716,7 +34765,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.82,
     "chainage_validated_km": 7.82,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33741,7 +34790,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Obim River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1939,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-288",
@@ -33841,7 +34893,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.309,
     "chainage_validated_km": 18.309,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33866,7 +34918,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-289",
@@ -33966,7 +35022,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 31.309,
     "chainage_validated_km": 31.309,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -33991,7 +35047,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Econgo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-290",
@@ -34025,7 +35085,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4,
     "bridge_wid": 4.40000009536743,
     "width_between_para_rail": 4.4,
@@ -34089,7 +35149,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 25.473,
     "chainage_validated_km": 25.473,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34114,7 +35174,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apoc",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-291",
@@ -34212,7 +35276,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.89,
     "chainage_validated_km": 45.89,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34237,7 +35301,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Akwera River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-292",
@@ -34245,7 +35313,7 @@ const BRIDGES = [
     "original_bridge_no": "B291",
     "bridge_nam": "Okee Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Okwang - Okwang Subcounty Spur",
+    "road_descr_principal": "Okwang - Okwang Subcounty spur",
     "link_no": "C994_Link01",
     "km": 0.75,
     "river": "Okee River",
@@ -34283,7 +35351,7 @@ const BRIDGES = [
     "remarks": "Reinforcement exposed under the deck",
     "road_no": "C994",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Okwang - Okwang Subcounty Spur",
+    "link_name": "Okwang - Okwang Subcounty spur",
     "chainage_from": 0,
     "chainage_to": 3.21,
     "link_len_km": 3.21,
@@ -34337,7 +35405,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0.75,
     "chainage_validated_km": 0.75,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34362,7 +35430,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Okee River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-293",
@@ -34456,7 +35528,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.2,
     "chainage_validated_km": 3.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34481,7 +35553,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-294",
@@ -34579,7 +35655,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.559,
     "chainage_validated_km": 1.559,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34604,7 +35680,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-295",
@@ -34702,7 +35782,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.584,
     "chainage_validated_km": 1.584,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34727,7 +35807,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-296",
@@ -34825,7 +35909,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2,
     "chainage_validated_km": 2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34850,7 +35934,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-297",
@@ -34950,7 +36038,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.487,
     "chainage_validated_km": 28.487,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -34975,7 +36063,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-298",
@@ -35075,7 +36167,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 69,
     "chainage_validated_km": 69,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35100,7 +36192,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Bulugi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-299",
@@ -35195,7 +36291,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 65,
     "chainage_validated_km": 65,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35216,7 +36312,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odyaka River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-300",
@@ -35311,7 +36411,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 65,
     "chainage_validated_km": 65,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35337,7 +36437,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odyaka River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-301",
@@ -35433,7 +36537,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.859,
     "chainage_validated_km": 13.859,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35458,7 +36562,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ngoya River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-302",
@@ -35558,7 +36666,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.029,
     "chainage_validated_km": 8.029,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35583,7 +36691,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Orok River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-303",
@@ -35676,7 +36788,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "km": 3.148,
     "chainage_km": 3.148,
     "chainage_validated_km": 3.148,
@@ -35702,7 +36814,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Torchi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-304",
@@ -35783,7 +36899,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "remarks": "Uthere is a lot of water in water way.",
     "location_source_lon": 32.169022,
@@ -35802,7 +36918,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.138,
     "chainage_validated_km": 8.138,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35827,7 +36943,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ayago",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-305",
@@ -35927,7 +37047,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 11.77,
     "chainage_validated_km": 11.77,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -35952,7 +37072,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Langol River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-306",
@@ -36050,7 +37174,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 51.85,
     "chainage_validated_km": 51.85,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36075,7 +37199,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omee River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-307",
@@ -36175,7 +37303,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 78.945,
     "chainage_validated_km": 78.945,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36200,7 +37328,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Apaa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-308",
@@ -36298,7 +37430,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 75.34,
     "chainage_validated_km": 75.34,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36323,7 +37455,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ociip River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-309",
@@ -36419,7 +37555,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 26.3,
     "chainage_validated_km": 26.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36444,7 +37580,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omee",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-310",
@@ -36538,7 +37678,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.9,
     "chainage_validated_km": 46.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36563,7 +37703,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Zoka River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-311",
@@ -36657,7 +37801,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.9,
     "chainage_validated_km": 13.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36682,7 +37826,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ayugi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-312",
@@ -36751,7 +37899,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 7,
@@ -36775,7 +37923,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.4,
     "chainage_validated_km": 28.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36802,7 +37950,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Opio",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-313",
@@ -36870,7 +38022,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.4,
@@ -36893,7 +38045,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 30.2,
     "chainage_validated_km": 30.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -36920,7 +38072,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Amoro",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-314",
@@ -37016,7 +38172,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 31.1,
     "chainage_validated_km": 31.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37041,7 +38197,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Yuba River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-315",
@@ -37135,7 +38295,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 39.2,
     "chainage_validated_km": 39.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37160,7 +38320,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Adidi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-316",
@@ -37256,7 +38420,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 39.2,
     "chainage_validated_km": 39.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37281,7 +38445,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odragi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-317",
@@ -37350,7 +38518,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -37379,7 +38547,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37406,7 +38574,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Agugura",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-318",
@@ -37505,7 +38676,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0.762,
     "chainage_validated_km": 0.762,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37530,7 +38701,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lagwel River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-319",
@@ -37628,7 +38802,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.983,
     "chainage_validated_km": 23.983,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37653,7 +38827,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Pauo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-320",
@@ -37735,7 +38913,7 @@ const BRIDGES = [
     "new_bridge_no": "B326",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "location_source_lon": 33.05547,
     "location_source_lat": 3.612535,
@@ -37753,7 +38931,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 19.832,
     "chainage_validated_km": 19.832,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37778,7 +38956,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Okwora Bridge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-321",
@@ -37876,7 +39057,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16.832,
     "chainage_validated_km": 16.832,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -37901,7 +39082,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aringa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-322",
@@ -38000,7 +39185,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.594,
     "chainage_validated_km": 18.594,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38025,7 +39210,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aringa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2012,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-323",
@@ -38119,7 +39307,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 11.899,
     "chainage_validated_km": 11.899,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38144,7 +39332,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Gango River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-324",
@@ -38238,7 +39430,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.5,
     "chainage_validated_km": 3.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38263,7 +39455,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lea River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-325",
@@ -38359,7 +39555,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.9,
     "chainage_validated_km": 23.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38384,7 +39580,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyawa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-326",
@@ -38419,7 +39619,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 25.7000007629395,
     "bridge_wid": 3.59999990463257,
     "width_between_para_rail": 3.7,
@@ -38478,7 +39678,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 36.299,
     "chainage_validated_km": 36.299,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38503,7 +39703,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omposo",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-327",
@@ -38597,7 +39801,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 11.199,
     "chainage_validated_km": 11.199,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38622,7 +39826,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tete River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-328",
@@ -38722,7 +39930,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 9.772,
     "chainage_validated_km": 9.772,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38747,7 +39955,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Balibo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-329",
@@ -38782,7 +39994,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 8.03999996185303,
     "bridge_wid": 3.65000009536743,
     "width_between_para_rail": 3.2,
@@ -38847,7 +40059,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.315,
     "chainage_validated_km": 7.315,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38872,7 +40084,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Oguta River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-330",
@@ -38972,7 +40188,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16.483,
     "chainage_validated_km": 16.483,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -38997,7 +40213,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Araga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-331",
@@ -39032,7 +40252,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7.80000019073486,
     "bridge_wid": 3.5,
     "width_between_para_rail": 3.13,
@@ -39098,7 +40318,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.263,
     "chainage_validated_km": 18.263,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39123,7 +40343,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Acodho River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1995,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-332",
@@ -39221,7 +40444,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 46.618,
     "chainage_validated_km": 46.618,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39246,7 +40469,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Cido River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-333",
@@ -39344,7 +40571,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 49.066,
     "chainage_validated_km": 49.066,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39369,7 +40596,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyarwotho River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-334",
@@ -39470,7 +40701,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.384,
     "chainage_validated_km": 2.384,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39495,7 +40726,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enyau River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-335",
@@ -39595,7 +40829,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.699,
     "chainage_validated_km": 3.699,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39620,7 +40854,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Okayiva",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-336",
@@ -39720,7 +40958,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.075,
     "chainage_validated_km": 10.075,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39745,7 +40983,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Esi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-337",
@@ -39845,7 +41087,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5.892,
     "chainage_validated_km": 5.892,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39870,7 +41112,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enyawu River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-338",
@@ -39948,7 +41194,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "traffic_flow_directions": 2,
     "location_source_lon": 31.25313,
     "location_source_lat": 3.550001,
@@ -39966,7 +41212,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 6.7,
     "chainage_validated_km": 6.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -39990,7 +41236,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kochi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-339",
@@ -40090,7 +41340,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.154,
     "chainage_validated_km": 21.154,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40115,7 +41365,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Onzua",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-340",
@@ -40182,7 +41436,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -40211,7 +41465,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.064,
     "chainage_validated_km": 21.064,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40238,7 +41492,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Korubude",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-341",
@@ -40273,7 +41530,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4.59999990463257,
     "bridge_wid": 4.90000009536743,
     "width_between_para_rail": 4.3,
@@ -40338,7 +41595,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18,
     "chainage_validated_km": 18,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40363,7 +41620,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kaminima",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-342",
@@ -40398,7 +41659,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4.40000009536743,
     "bridge_wid": 4.69999980926514,
     "width_between_para_rail": 4.6,
@@ -40461,7 +41722,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18,
     "chainage_validated_km": 18,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40486,7 +41747,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kamunima",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-343",
@@ -40513,7 +41778,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "02",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.9,
@@ -40570,7 +41835,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.3,
     "chainage_validated_km": 12.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40600,7 +41865,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kapisa River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-344",
@@ -40635,7 +41904,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 20.3999996185303,
     "bridge_wid": 4.30000019073486,
     "width_between_para_rail": 4,
@@ -40700,7 +41969,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.5,
     "chainage_validated_km": 13.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40725,7 +41994,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-345",
@@ -40826,7 +42099,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.5,
     "chainage_validated_km": 18.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40851,7 +42124,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nagongera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1959,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-346",
@@ -40886,7 +42162,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4.59999990463257,
     "bridge_wid": 4.69999980926514,
     "width_between_para_rail": 4.1,
@@ -40951,7 +42227,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.4,
     "chainage_validated_km": 3.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -40976,7 +42252,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Jalaja",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-347",
@@ -41011,7 +42291,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 13,
     "bridge_wid": 4.40000009536743,
     "width_between_para_rail": 4,
@@ -41057,7 +42337,7 @@ const BRIDGES = [
     "new_bridge_no": "B362",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "aadt_rebuilt_2026": 1417.91,
     "location_source_lon": 34.04174,
@@ -41076,7 +42356,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3,
     "chainage_validated_km": 3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41101,7 +42381,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nahamya River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-348",
@@ -41136,7 +42419,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21,
     "bridge_wid": 5.19999980926514,
     "width_between_para_rail": 4.9,
@@ -41199,7 +42482,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.9,
     "chainage_validated_km": 28.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41224,7 +42507,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kitoikawunoni",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-349",
@@ -41259,7 +42546,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 30,
     "bridge_wid": 4.19999980926514,
     "width_between_para_rail": 4,
@@ -41324,7 +42611,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16,
     "chainage_validated_km": 16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41349,7 +42636,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namatyale",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-350",
@@ -41384,7 +42675,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 8,
     "bridge_wid": 5,
     "width_between_para_rail": 5,
@@ -41449,7 +42740,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16,
     "chainage_validated_km": 16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41474,7 +42765,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Namatyale",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-351",
@@ -41572,7 +42867,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.4,
     "chainage_validated_km": 12.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41597,7 +42892,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Simu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-352",
@@ -41632,7 +42931,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6,
     "bridge_wid": 4,
     "width_between_para_rail": 4,
@@ -41697,7 +42996,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.4,
     "chainage_validated_km": 12.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41722,7 +43021,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Simu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-353",
@@ -41757,7 +43060,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7.5,
     "bridge_wid": 6,
     "width_between_para_rail": 6,
@@ -41822,7 +43125,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5,
     "chainage_validated_km": 5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41847,7 +43150,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sisi",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-354",
@@ -41882,7 +43189,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 5.42999982833862,
     "bridge_wid": 9,
     "width_between_para_rail": 5,
@@ -41945,7 +43252,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.5,
     "chainage_validated_km": 7.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -41970,7 +43277,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kuffu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-355",
@@ -42068,7 +43379,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.55,
     "chainage_validated_km": 7.55,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42093,7 +43404,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nabukhya",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-356",
@@ -42120,7 +43435,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "03",
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 3.3,
@@ -42177,7 +43492,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.55,
     "chainage_validated_km": 7.55,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42208,7 +43523,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Methi - Meru",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-357",
@@ -42308,7 +43627,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 7.5,
     "chainage_validated_km": 7.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42333,7 +43652,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tsakhana",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-358",
@@ -42360,7 +43683,7 @@ const BRIDGES = [
     "superload_route": "03",
     "weight_load_restr": "02",
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.2,
@@ -42416,7 +43739,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.068,
     "chainage_validated_km": 23.068,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42446,7 +43769,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Atoot",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-359",
@@ -42529,7 +43856,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 33.058,
     "chainage_validated_km": 33.058,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42559,7 +43886,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Opot",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-360",
@@ -42594,7 +43925,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7,
     "bridge_wid": 6,
     "width_between_para_rail": 5.4,
@@ -42653,7 +43984,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.5,
     "chainage_validated_km": 28.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42678,7 +44009,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Loro",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-361",
@@ -42745,7 +44080,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 70,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.64,
@@ -42769,7 +44104,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 62.855,
     "chainage_validated_km": 62.855,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42796,7 +44131,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kanyangaren",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-362",
@@ -42864,7 +44203,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.77,
@@ -42887,7 +44226,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 90.933,
     "chainage_validated_km": 90.933,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -42914,7 +44253,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kanyangaren",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-363",
@@ -43007,7 +44350,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 48.9,
     "chainage_validated_km": 48.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43034,7 +44377,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omongo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-364",
@@ -43102,7 +44449,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 3.3,
@@ -43125,7 +44472,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 17.517,
     "chainage_validated_km": 17.517,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43152,7 +44499,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nakodongot",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-365",
@@ -43162,7 +44513,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Mukono",
     "link_no": "A001_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": 2,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -43244,7 +44595,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 17.737,
     "chainage_validated_km": 17.737,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43273,7 +44624,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-366",
@@ -43283,7 +44637,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Mukono",
     "link_no": "A001_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": 2,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -43369,7 +44723,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 17.737,
     "chainage_validated_km": 17.737,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43398,7 +44752,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-367",
@@ -43408,7 +44765,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kireka - Namugongo - Misindye - Seeta",
     "link_no": "C152_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "type_bridge": 2,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -43494,7 +44851,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.1,
     "chainage_validated_km": 2.1,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43523,7 +44880,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2010,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-368",
@@ -43532,10 +44892,10 @@ const BRIDGES = [
     "new_bridge_no": "B393",
     "bridge_nam": "Kiwatule Flyover",
     "type_crossing": "Road over road",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "km": 5,
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "flow": 3,
     "type_deck_material": "03",
     "type_para_rail": "07",
@@ -43559,7 +44919,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -43607,7 +44967,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5,
     "chainage_validated_km": 5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43638,7 +44998,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2008,
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-369",
@@ -43647,10 +45011,10 @@ const BRIDGES = [
     "new_bridge_no": "B394",
     "bridge_nam": "Najeera Flyover",
     "type_crossing": "Road over road",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "km": 0,
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "flow": 3,
     "type_deck_material": "04",
     "type_para_rail": "08",
@@ -43675,7 +45039,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -43723,7 +45087,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43754,7 +45118,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2008,
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-370",
@@ -43765,7 +45133,7 @@ const BRIDGES = [
     "bridge_nam": "Kisaasi Flyover",
     "structure_type": "bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "km": 8.561,
     "river": "Unknown",
@@ -43796,7 +45164,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999,
     "link_len_km": 19.999,
@@ -43850,8 +45218,8 @@ const BRIDGES = [
     "location_correction_method": "Snapped to nearest national road geometry from structure registry coordinates",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0.005,
-    "annual_weighted_growth_rate": 0.055,
-    "annual_traffic_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
+    "annual_traffic_growth_rate": 0.045,
     "annual_traffic_growth_source": "Road-link traffic observations",
     "chainage_km": 8.561,
     "chainage_validated_km": 8.561,
@@ -43879,7 +45247,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Unknown",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2008,
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)"
   },
   {
     "_id": "bridge-371",
@@ -43888,10 +45259,10 @@ const BRIDGES = [
     "new_bridge_no": "B396",
     "bridge_nam": "Kyebando Flyover",
     "type_crossing": "Road over road",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "km": 0,
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "flow": 3,
     "type_deck_material": "04",
     "type_para_rail": "08",
@@ -43916,7 +45287,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -43964,7 +45335,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -43995,7 +45366,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2008,
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-372",
@@ -44004,7 +45379,7 @@ const BRIDGES = [
     "new_bridge_no": "B397",
     "bridge_nam": "Pedestrian Bridge at Kalerwe",
     "type_crossing": "Pedestrian over road",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "km": 0,
     "river": "Pedestrian Crossing",
@@ -44032,7 +45407,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -44080,7 +45455,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44111,7 +45486,11 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Pedestrian Crossing",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2008,
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-373",
@@ -44209,7 +45588,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 19.397,
     "chainage_validated_km": 19.397,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44234,7 +45613,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Olwal",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-374",
@@ -44332,7 +45715,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.42,
     "chainage_validated_km": 23.42,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44357,7 +45740,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ashaw",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-375",
@@ -44433,7 +45820,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.002,
     "chainage_validated_km": 10.002,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44462,7 +45849,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kufu",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-376",
@@ -44557,7 +45948,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.988,
     "chainage_validated_km": 28.988,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44582,7 +45973,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nakaloke - Kabwangasi - Butebo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-377",
@@ -44614,11 +46009,11 @@ const BRIDGES = [
     "no_of_span": 2,
     "no_of_pier": 1,
     "no_of_exp_joints": 0,
-    "year_compl": 2005,
+    "year_compl": 2020,
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "07",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 18.7000007629395,
     "bridge_wid": 6.59999990463257,
     "width_between_para_rail": 6.1,
@@ -44682,7 +46077,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 15.4,
     "chainage_validated_km": 15.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44708,7 +46103,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-378",
@@ -44799,7 +46197,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 50.4,
     "chainage_validated_km": 50.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44826,7 +46224,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aragi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-379",
@@ -44902,7 +46304,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "no_of_exp_joints": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -44925,7 +46327,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0,
     "chainage_validated_km": 0,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -44950,7 +46352,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Laimon River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-380",
@@ -45046,7 +46451,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 56.2,
     "chainage_validated_km": 56.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -45071,7 +46476,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Asiya River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-381",
@@ -45128,7 +46537,12 @@ const BRIDGES = [
     "maintenanc": "Luwero",
     "River": "Kafu River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1962,
+    "YearCompleted": 1962,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-382",
@@ -45160,7 +46574,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 32,
     "bridge_wid": 11.5,
     "width_between_para_rail": 7.3,
@@ -45229,8 +46643,8 @@ const BRIDGES = [
     "location_correction_method": "Snapped to nearest national road geometry from structure registry coordinates",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0.023,
-    "annual_weighted_growth_rate": 0.04,
-    "annual_traffic_growth_rate": 0.04,
+    "annual_weighted_growth_rate": 0.045,
+    "annual_traffic_growth_rate": 0.045,
     "annual_traffic_growth_source": "Road-class fallback for restored registry crossing",
     "chainage_km": 0.573,
     "chainage_validated_km": 0.573,
@@ -45265,7 +46679,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Unknown",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)"
   },
   {
     "_id": "bridge-383",
@@ -45297,7 +46714,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 32,
     "bridge_wid": 11.5,
     "width_between_para_rail": 7.3,
@@ -45365,8 +46782,8 @@ const BRIDGES = [
     "location_correction_method": "Snapped to nearest national road geometry from structure registry coordinates",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0.005,
-    "annual_weighted_growth_rate": 0.055,
-    "annual_traffic_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
+    "annual_traffic_growth_rate": 0.045,
     "annual_traffic_growth_source": "Road-link traffic observations",
     "chainage_km": 0.068,
     "chainage_validated_km": 0.068,
@@ -45400,7 +46817,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Unknown",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)"
   },
   {
     "_id": "bridge-384",
@@ -45408,7 +46828,7 @@ const BRIDGES = [
     "original_bridge_no": "B430",
     "bridge_nam": "Murongo Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Kikagati - Murungo Bridge",
+    "road_descr_principal": "Kikagati - Murungo bridge",
     "link_no": "C354_Link01",
     "km": 2.7,
     "river": "River Kagera",
@@ -45445,7 +46865,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C354",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kikagati - Murungo Bridge",
+    "link_name": "Kikagati - Murungo bridge",
     "chainage_from": 0,
     "chainage_to": 2.719,
     "link_len_km": 2.719,
@@ -45495,7 +46915,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.7,
     "chainage_validated_km": 2.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -45521,7 +46941,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Kagera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-385",
@@ -45641,7 +47064,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Mayanja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-386",
@@ -45733,7 +47159,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 60,
     "chainage_validated_km": 60,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -45761,7 +47187,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Mayanja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-387",
@@ -45853,7 +47282,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 63.8,
     "chainage_validated_km": 63.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -45881,7 +47310,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Mayanja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-388",
@@ -45972,7 +47404,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.85,
     "chainage_validated_km": 2.85,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -45999,7 +47431,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Mayanja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-389",
@@ -46090,7 +47526,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.65,
     "chainage_validated_km": 2.65,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46117,7 +47553,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Mayanja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-390",
@@ -46208,7 +47648,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 41.879,
     "chainage_validated_km": 41.879,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46236,7 +47676,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Lugazi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-391",
@@ -46246,7 +47689,7 @@ const BRIDGES = [
     "type_crossing": "02",
     "road_descr_principal": "Natete - Nakawuka - Kisubi",
     "link_no": "C178_Link01",
-    "river": "Road over Rail",
+    "river": "Road Over Rail",
     "type_bridge": 2,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -46327,7 +47770,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.7,
     "chainage_validated_km": 2.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46355,7 +47798,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Road over Rail",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-392",
@@ -46447,7 +47894,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 44.479,
     "chainage_validated_km": 44.479,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46476,7 +47923,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road Underpass",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-393",
@@ -46567,7 +48017,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 74.064,
     "chainage_validated_km": 74.064,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46595,7 +48045,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Matagi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-394",
@@ -46688,7 +48141,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.2,
     "chainage_validated_km": 3.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46715,7 +48168,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kabaale Bridge",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-395",
@@ -46725,7 +48182,7 @@ const BRIDGES = [
     "type_crossing": "02",
     "road_descr_principal": "Mityana - Naama - Myanzi",
     "link_no": "A005_Link03",
-    "river": "Road over Rail",
+    "river": "Road Over Rail",
     "type_bridge": 1,
     "type_deck": "01",
     "type_deck_material": "03",
@@ -46807,7 +48264,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 69.139,
     "chainage_validated_km": 69.139,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46836,7 +48293,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Rail",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-396",
@@ -46927,7 +48387,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.5,
     "chainage_validated_km": 13.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -46954,7 +48414,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Bukoola River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-397",
@@ -46988,7 +48452,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 25,
     "bridge_wid": 11,
     "width_between_para_rail": 10.4,
@@ -47077,7 +48541,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Katonga",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1958,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-398",
@@ -47171,7 +48638,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 29.243,
     "chainage_validated_km": 29.243,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47196,7 +48663,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rwamuganga Swamp",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-399",
@@ -47204,7 +48675,7 @@ const BRIDGES = [
     "original_bridge_no": "B541",
     "bridge_nam": "Murongo Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Kikagati - Murungo Bridge",
+    "road_descr_principal": "Kikagati - Murungo bridge",
     "link_no": "C354_Link01",
     "river": "River Kagera",
     "owner": "01",
@@ -47230,7 +48701,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 31,
     "bridge_wid": 4.80000019073486,
     "width_between_para_rail": 5,
@@ -47240,7 +48711,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C354",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kikagati - Murungo Bridge",
+    "link_name": "Kikagati - Murungo bridge",
     "chainage_from": 0,
     "chainage_to": 2.719,
     "link_len_km": 2.719,
@@ -47291,7 +48762,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.719,
     "chainage_validated_km": 2.719,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47317,7 +48788,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Kagera",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-400",
@@ -47414,7 +48888,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35.71,
     "chainage_validated_km": 35.71,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47440,7 +48914,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Kagera",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2017,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-401",
@@ -47537,7 +49014,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32,
     "chainage_validated_km": 32,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47563,7 +49040,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kyambu River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-402",
@@ -47659,7 +49139,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.4,
     "chainage_validated_km": 32.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47680,7 +49160,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyamashekye",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2014,
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-403",
@@ -47775,7 +49259,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.4,
     "chainage_validated_km": 32.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47800,7 +49284,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyamashekye",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2014,
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-404",
@@ -47895,7 +49383,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 98,
     "chainage_validated_km": 98,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -47921,7 +49409,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Mpanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-405",
@@ -48015,7 +49506,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 45.81,
     "chainage_validated_km": 45.81,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48041,7 +49532,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Ibanda River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2002,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-406",
@@ -48135,7 +49629,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.2,
     "chainage_validated_km": 12.2,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48160,7 +49654,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rwembyo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-407",
@@ -48254,7 +49752,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.9,
     "chainage_validated_km": 8.9,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48279,7 +49777,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kajwenge River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-408",
@@ -48287,7 +49789,7 @@ const BRIDGES = [
     "original_bridge_no": "B551",
     "bridge_nam": "Kyanjuki",
     "type_crossing": "01",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "river": "Nyamwamba River",
     "owner": "01",
@@ -48313,7 +49815,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21.5,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -48323,7 +49825,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C511",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "chainage_from": 0,
     "chainage_to": 11.734,
     "link_len_km": 11.734,
@@ -48376,7 +49878,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 11.734,
     "chainage_validated_km": 11.734,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48402,7 +49904,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyamwamba River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-409",
@@ -48497,7 +50002,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 357.13,
     "chainage_validated_km": 357.13,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48523,7 +50028,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Stream",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-410",
@@ -48534,7 +50042,7 @@ const BRIDGES = [
     "road_descr_principal": "Old Kabale Road (Kigata - Kabunyonyi - N",
     "link_no": "C424_Link01",
     "km": 13,
-    "river": "Old Kabale Road (Kigata Waterway",
+    "river": "Old Kabale Road (kigata Waterway",
     "owner": "01",
     "district_council": "07",
     "flow": 3,
@@ -48616,7 +50124,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13,
     "chainage_validated_km": 13,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48641,7 +50149,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Old Kabale Road (Kigata Waterway",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-411",
@@ -48736,7 +50248,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 344.27,
     "chainage_validated_km": 344.27,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48762,7 +50274,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Rukiri River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1985,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-412",
@@ -48796,7 +50311,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15.8000001907349,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -48858,7 +50373,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after latitude-sign-corrected-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.188,
     "chainage_validated_km": 18.188,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -48883,7 +50398,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omuyanja",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-413",
@@ -48891,7 +50410,7 @@ const BRIDGES = [
     "original_bridge_no": "B556",
     "bridge_nam": "Munyanga Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Rwabuteera - Kanyansande Spur",
+    "road_descr_principal": "Rwabuteera - Kanyansande spur",
     "link_no": "C456_Link01",
     "km": 3.8,
     "river": "Mutanga River",
@@ -48929,7 +50448,7 @@ const BRIDGES = [
     "remarks": "Guard rails required",
     "road_no": "C456",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Rwabuteera - Kanyansande Spur",
+    "link_name": "Rwabuteera - Kanyansande spur",
     "chainage_from": 0,
     "chainage_to": 6.74,
     "link_len_km": 6.74,
@@ -48979,7 +50498,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 3.8,
     "chainage_validated_km": 3.8,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49004,7 +50523,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mutanga River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-414",
@@ -49061,7 +50584,12 @@ const BRIDGES = [
     "maintenanc": "Kampala",
     "River": "Unknown Road Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1957,
+    "YearCompleted": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-415",
@@ -49155,7 +50683,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 21.4,
     "chainage_validated_km": 21.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49180,7 +50708,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Dunguluha",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-416",
@@ -49274,7 +50806,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "aadt_rebuilt_2026": 631.39,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 12.472,
     "chainage_validated_km": 12.472,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49299,7 +50831,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Birara",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-417",
@@ -49332,7 +50868,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 7.5,
     "width_between_para_rail": 4.5,
@@ -49400,8 +50936,8 @@ const BRIDGES = [
     "location_correction_method": "Snapped to nearest national road geometry from structure registry coordinates",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0.799,
-    "annual_weighted_growth_rate": 0.05,
-    "annual_traffic_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
+    "annual_traffic_growth_rate": 0.045,
     "annual_traffic_growth_source": "Road-link traffic observations",
     "chainage_km": 22.739,
     "chainage_validated_km": 22.739,
@@ -49435,7 +50971,9 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyamashekye",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)"
   },
   {
     "_id": "bridge-418",
@@ -49470,7 +51008,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "98",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 11.1999998092651,
     "bridge_wid": 3.5,
     "width_between_para_rail": 3.4,
@@ -49528,7 +51066,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 8.5,
     "chainage_validated_km": 8.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49553,7 +51091,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kidoko - Kachonga River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-419",
@@ -49646,7 +51188,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 19.5,
     "chainage_validated_km": 19.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49671,7 +51213,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kapir - Ngora River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-420",
@@ -49762,7 +51308,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 19,
     "chainage_validated_km": 19,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49789,7 +51335,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mulanda - Nagongera River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-421",
@@ -49824,7 +51374,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "04",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 14,
     "bridge_wid": 15,
     "width_between_para_rail": 14,
@@ -49883,7 +51433,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 52.91,
     "chainage_validated_km": 52.91,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -49909,7 +51459,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaserem - Kapchorwa - Suam River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-422",
@@ -49944,7 +51497,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4,
     "bridge_wid": 4.5,
     "width_between_para_rail": 3.5,
@@ -50004,7 +51557,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 17,
     "chainage_validated_km": 17,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -50029,7 +51582,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Rubongi - Mulanda River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-423",
@@ -50123,7 +51680,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 49.649,
     "chainage_validated_km": 49.649,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -50150,7 +51707,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaserem - Kapchorwa - Suam River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-424",
@@ -50243,7 +51803,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16,
     "chainage_validated_km": 16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -50269,7 +51829,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mbale - Bufumbo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-425",
@@ -50361,7 +51925,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 49.635,
     "chainage_km": 49.635,
     "chainage_validated_km": 49.635,
@@ -50388,7 +51952,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kapchorwa - Suam River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-426",
@@ -50480,7 +52047,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "km": 58.875,
     "chainage_km": 58.875,
     "chainage_validated_km": 58.875,
@@ -50507,7 +52074,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kanyago Bridge Waterway",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-427",
@@ -50600,7 +52170,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 98.366,
     "chainage_km": 98.366,
     "chainage_validated_km": 98.366,
@@ -50627,7 +52197,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaserem - Kapchorwa - Suam River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-428",
@@ -50720,7 +52293,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 64.864,
     "chainage_km": 64.864,
     "chainage_validated_km": 64.864,
@@ -50747,7 +52320,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Kaserem - Kapchorwa - Suam River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-429",
@@ -50842,7 +52418,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16.324,
     "chainage_validated_km": 16.324,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -50866,7 +52442,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mayanja River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-430",
@@ -50962,7 +52542,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5.01,
     "chainage_validated_km": 5.01,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -50988,7 +52568,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kiziranfumbi Waterway",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2024,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-431",
@@ -51082,7 +52665,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 41.108,
     "chainage_validated_km": 41.108,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -51107,7 +52690,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "King Fisher",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-432",
@@ -51189,7 +52776,7 @@ const BRIDGES = [
     "new_bridge_no": "B634",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "location_source_lon": 30.4907,
     "location_source_lat": 0.15818,
@@ -51207,7 +52794,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 6,
     "chainage_validated_km": 6,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -51232,7 +52819,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Mpanga",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-433",
@@ -51327,7 +52917,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35.46,
     "chainage_validated_km": 35.46,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -51353,7 +52943,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Waaki River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-434",
@@ -51387,7 +52980,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 71,
     "bridge_wid": 8,
     "width_between_para_rail": 9,
@@ -51451,7 +53044,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after swapped-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "km": 167.585,
     "chainage_km": 167.585,
     "chainage_validated_km": 167.585,
@@ -51478,7 +53071,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Kafu River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1962,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-435",
@@ -51575,7 +53171,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry after swapped-source-coordinate",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 5.538,
     "chainage_km": 5.538,
     "chainage_validated_km": 5.538,
@@ -51601,7 +53197,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sonja",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-436",
@@ -51636,7 +53236,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 7.40000009536743,
     "bridge_wid": 5.90000009536743,
     "width_between_para_rail": 5,
@@ -51695,7 +53295,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.84,
     "chainage_validated_km": 2.84,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -51720,7 +53320,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Buryambwa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-437",
@@ -51816,7 +53420,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.107,
     "chainage_validated_km": 22.107,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -51841,7 +53445,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lakupe River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-438",
@@ -51898,7 +53506,12 @@ const BRIDGES = [
     "maintenanc": "Kitgum",
     "River": "Unknown Road Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-439",
@@ -51992,7 +53605,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 35,
     "chainage_validated_km": 35,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52017,7 +53630,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odro River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-440",
@@ -52113,7 +53730,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 30.541,
     "chainage_validated_km": 30.541,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52138,7 +53755,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Isa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-441",
@@ -52208,7 +53829,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -52236,7 +53857,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 32.372,
     "chainage_validated_km": 32.372,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52263,7 +53884,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Naara River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-442",
@@ -52271,7 +53895,7 @@ const BRIDGES = [
     "original_bridge_no": "B735",
     "bridge_nam": "Gazi (Alla)",
     "type_crossing": "01",
-    "road_descr_principal": "Rhino Camp - Ogoko - Inde",
+    "road_descr_principal": "Rhino camp - Ogoko - Inde",
     "link_no": "C742_Link01",
     "river": "Gazi",
     "type_bridge": 21,
@@ -52279,7 +53903,7 @@ const BRIDGES = [
     "type_deck_material": "01",
     "road_no": "C742",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Rhino Camp - Ogoko - Inde",
+    "link_name": "Rhino camp - Ogoko - Inde",
     "chainage_from": 0,
     "chainage_to": 22.638,
     "link_len_km": 22.638,
@@ -52331,7 +53955,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -52361,7 +53985,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 20.406,
     "chainage_validated_km": 20.406,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52388,7 +54012,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Gazi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-443",
@@ -52482,7 +54109,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 10.498,
     "chainage_validated_km": 10.498,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52507,7 +54134,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ayuda River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-444",
@@ -52603,7 +54234,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.159,
     "chainage_validated_km": 13.159,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52628,7 +54259,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nyagak River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-445",
@@ -52722,7 +54357,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 51.175,
     "chainage_validated_km": 51.175,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52747,7 +54382,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ora River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-446",
@@ -52841,7 +54480,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 56.073,
     "chainage_validated_km": 56.073,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52866,7 +54505,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aniza River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-447",
@@ -52960,7 +54603,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 60.466,
     "chainage_validated_km": 60.466,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -52985,7 +54628,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Omolo River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-448",
@@ -53081,7 +54728,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 70.959,
     "chainage_validated_km": 70.959,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53106,7 +54753,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Odrua River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-449",
@@ -53199,7 +54850,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 2.194,
     "chainage_validated_km": 2.194,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53226,7 +54877,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Alla",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-450",
@@ -53320,7 +54975,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.93,
     "chainage_validated_km": 23.93,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53345,7 +55000,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tochi 2 River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-451",
@@ -53413,7 +55072,7 @@ const BRIDGES = [
     "approach_slab": "Concrete Approach Slab",
     "abutment_gallery": "Standard Abutment Gallery",
     "type_bearings": "Elastomeric Bearing",
-    "year_compl": 0,
+    "year_compl": 1970,
     "superload_route": 0,
     "weight_load_restr": 0,
     "scour_protection": "Gabion Riprap",
@@ -53443,7 +55102,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.28,
     "chainage_validated_km": 28.28,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53471,7 +55130,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Okole River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-452",
@@ -53567,7 +55229,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23.087,
     "chainage_validated_km": 23.087,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53592,7 +55254,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tochi River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-453",
@@ -53600,7 +55266,7 @@ const BRIDGES = [
     "original_bridge_no": "B760",
     "bridge_nam": "Itirikwa",
     "type_crossing": "01",
-    "road_descr_principal": "Adjumani - Sinyanya Ferry Landing",
+    "road_descr_principal": "Adjumani - Sinyanya Ferry landing",
     "link_no": "C726_Link01",
     "km": 22.56,
     "river": "Itirikwa",
@@ -53638,7 +55304,7 @@ const BRIDGES = [
     "remarks": "Maintenance of the waterway required",
     "road_no": "C726",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Adjumani - Sinyanya Ferry Landing",
+    "link_name": "Adjumani - Sinyanya Ferry landing",
     "chainage_from": 0,
     "chainage_to": 34.352,
     "link_len_km": 34.352,
@@ -53688,7 +55354,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 22.56,
     "chainage_validated_km": 22.56,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53713,7 +55379,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Itirikwa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-454",
@@ -53809,7 +55479,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "km": 8.2,
     "chainage_km": 8.2,
     "chainage_validated_km": 8.2,
@@ -53836,7 +55506,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Aloi",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-455",
@@ -53932,7 +55605,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.859,
     "chainage_validated_km": 13.859,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -53957,7 +55630,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Pager",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-456",
@@ -53992,7 +55669,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 15,
     "bridge_wid": 11.3000001907349,
     "width_between_para_rail": 10.6,
@@ -54051,7 +55728,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0.917,
     "chainage_validated_km": 0.917,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54076,7 +55753,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Enyau",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-457",
@@ -54169,7 +55850,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 55.7,
     "chainage_validated_km": 55.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54194,7 +55875,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Amuru Junction - Awee River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-458",
@@ -54287,7 +55972,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 55.7,
     "chainage_validated_km": 55.7,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54312,7 +55997,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Amuru Junction - Awee River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-459",
@@ -54407,7 +56096,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 57.65,
     "chainage_validated_km": 57.65,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54432,7 +56121,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Amuru Junction - Awee River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-460",
@@ -54489,7 +56182,12 @@ const BRIDGES = [
     "maintenanc": "Kotido",
     "River": "Nalubaale Dam / Owen Falls River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-461",
@@ -54546,7 +56244,12 @@ const BRIDGES = [
     "maintenanc": "Moroto",
     "River": "Unknown Road Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-462",
@@ -54554,10 +56257,10 @@ const BRIDGES = [
     "original_bridge_no": "B861",
     "bridge_nam": "Road over Sugarcane Plantation",
     "type_crossing": "01",
-    "road_descr_principal": "Kakira Junction - Iganga",
+    "road_descr_principal": "Kakira junction - Iganga",
     "link_no": "A001_Link06",
     "km": 86.144,
-    "river": "Road over Sugarcane Plantation River",
+    "river": "Road Over Sugarcane Plantation River",
     "owner": "01",
     "district_council": "17",
     "flow": 5,
@@ -54591,7 +56294,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A001",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Kakira Junction - Iganga",
+    "link_name": "Kakira junction - Iganga",
     "chainage_from": 86.143988,
     "chainage_to": 112.952988,
     "link_len_km": 26.87,
@@ -54640,7 +56343,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 86.144,
     "chainage_validated_km": 86.144,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54666,7 +56369,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Sugarcane Plantation River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-463",
@@ -54674,10 +56380,10 @@ const BRIDGES = [
     "original_bridge_no": "B862",
     "bridge_nam": "Road over Sugarcane Plantation",
     "type_crossing": "01",
-    "road_descr_principal": "Kakira Junction - Iganga",
+    "road_descr_principal": "Kakira junction - Iganga",
     "link_no": "A001_Link06",
     "km": 86.144,
-    "river": "Road over Sugarcane Plantation River",
+    "river": "Road Over Sugarcane Plantation River",
     "owner": "01",
     "district_council": "17",
     "flow": 5,
@@ -54711,7 +56417,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "A001",
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Kakira Junction - Iganga",
+    "link_name": "Kakira junction - Iganga",
     "chainage_from": 86.143988,
     "chainage_to": 112.952988,
     "link_len_km": 26.87,
@@ -54760,7 +56466,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 86.144,
     "chainage_validated_km": 86.144,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54786,7 +56492,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Road over Sugarcane Plantation River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-464",
@@ -54883,7 +56592,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16.5,
     "chainage_validated_km": 16.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -54909,7 +56618,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Malawa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-465",
@@ -55005,7 +56717,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.427,
     "chainage_validated_km": 18.427,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55030,7 +56742,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sironko",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-466",
@@ -55038,7 +56754,7 @@ const BRIDGES = [
     "original_bridge_no": "B865",
     "bridge_nam": "Leresi",
     "type_crossing": "01",
-    "road_descr_principal": "Nabumali Junction - Busolwe",
+    "road_descr_principal": "Nabumali junction - Busolwe",
     "link_no": "C833_Link01",
     "km": 34.5,
     "river": "Manafa",
@@ -55076,7 +56792,7 @@ const BRIDGES = [
     "remarks": "Maitanance of the waterway required",
     "road_no": "C833",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nabumali Junction - Busolwe",
+    "link_name": "Nabumali junction - Busolwe",
     "chainage_from": 0,
     "chainage_to": 34.588,
     "link_len_km": 34.588,
@@ -55126,7 +56842,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 34.5,
     "chainage_validated_km": 34.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55151,7 +56867,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Manafa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-467",
@@ -55186,7 +56906,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 26.3999996185303,
     "bridge_wid": 10.6000003814697,
     "width_between_para_rail": 10.6,
@@ -55246,7 +56966,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 4,
     "chainage_validated_km": 4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55272,7 +56992,10 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "Magodes",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-468",
@@ -55280,7 +57003,7 @@ const BRIDGES = [
     "original_bridge_no": "B867",
     "bridge_nam": "Buwangani",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "km": 28.4,
     "river": "Tsutsu",
@@ -55307,7 +57030,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6.40000009536743,
     "bridge_wid": 7.80000019073486,
     "width_between_para_rail": 7.1,
@@ -55317,7 +57040,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -55366,7 +57089,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.4,
     "chainage_validated_km": 28.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55391,7 +57114,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Tsutsu",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-469",
@@ -55486,7 +57213,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 63.821,
     "chainage_validated_km": 63.821,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55511,7 +57238,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Dopeth River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-470",
@@ -55605,7 +57336,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.02,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 83.821,
     "chainage_validated_km": 83.821,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55630,7 +57361,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Agago River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-471",
@@ -55726,7 +57461,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 18.4,
     "chainage_validated_km": 18.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55751,7 +57486,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Wasita",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-472",
@@ -55846,7 +57585,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 44.157,
     "chainage_validated_km": 44.157,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55872,7 +57611,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Manafa River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-473",
@@ -55907,7 +57649,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 17,
     "bridge_wid": 12,
     "width_between_para_rail": 11,
@@ -55969,7 +57711,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 69.979,
     "chainage_validated_km": 69.979,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -55995,7 +57737,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Siti",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-474",
@@ -56030,7 +57775,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 30,
     "bridge_wid": 7.19999980926514,
     "width_between_para_rail": 6.4,
@@ -56088,7 +57833,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 26,
     "chainage_validated_km": 26,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56113,7 +57858,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Girik River",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-475",
@@ -56210,7 +57959,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 98.69,
     "chainage_validated_km": 98.69,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56236,7 +57985,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Bukwo",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-476",
@@ -56319,7 +58071,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 1.311,
     "chainage_validated_km": 1.311,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56350,7 +58102,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lukha River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-477",
@@ -56447,7 +58203,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 98.695,
     "chainage_validated_km": 98.695,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56474,7 +58230,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Suam",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-478",
@@ -56509,7 +58268,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 37,
     "bridge_wid": 5,
     "width_between_para_rail": 5,
@@ -56568,7 +58327,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.5,
     "chainage_validated_km": 28.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56593,7 +58352,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kanyangaren",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-479",
@@ -56628,7 +58391,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "03",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21,
     "bridge_wid": 5,
     "width_between_para_rail": 4.5,
@@ -56687,7 +58450,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 5.3,
     "chainage_validated_km": 5.3,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56712,7 +58475,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Manafa",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-480",
@@ -56747,7 +58514,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4,
     "bridge_wid": 4.5,
     "width_between_para_rail": 4,
@@ -56806,7 +58573,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 16,
     "chainage_validated_km": 16,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56831,7 +58598,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Osya",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-481",
@@ -56925,7 +58696,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 26,
     "chainage_validated_km": 26,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -56950,7 +58721,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Korubude",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-482",
@@ -56958,7 +58733,7 @@ const BRIDGES = [
     "original_bridge_no": "B883",
     "bridge_nam": "Okame",
     "type_crossing": "01",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "km": 23,
     "river": "Okame",
@@ -56985,7 +58760,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 21,
     "bridge_wid": 5.19999980926514,
     "width_between_para_rail": 3.5,
@@ -56995,7 +58770,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "B306",
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "chainage_from": 0,
     "chainage_to": 24.235,
     "link_len_km": 24.235,
@@ -57033,7 +58808,7 @@ const BRIDGES = [
     "new_bridge_no": "B883",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "remarks": "Pier Type 98 - Masonry Wall",
     "location_source_lon": 34.138279,
@@ -57052,7 +58827,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23,
     "chainage_validated_km": 23,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -57077,7 +58852,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Okame",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-483",
@@ -57085,7 +58863,7 @@ const BRIDGES = [
     "original_bridge_no": "B884",
     "bridge_nam": "Akatenyani",
     "type_crossing": "01",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "km": 23,
     "river": "Malaba",
@@ -57111,7 +58889,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 6,
     "bridge_wid": 5,
     "width_between_para_rail": 4,
@@ -57122,7 +58900,7 @@ const BRIDGES = [
     "remarks": "Developing cracks on the abutment",
     "road_no": "B306",
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "chainage_from": 0,
     "chainage_to": 24.235,
     "link_len_km": 24.235,
@@ -57173,7 +58951,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 23,
     "chainage_validated_km": 23,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -57198,7 +58976,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Malaba",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-484",
@@ -57206,7 +58988,7 @@ const BRIDGES = [
     "original_bridge_no": "B885",
     "bridge_nam": "Angolo",
     "type_crossing": "01",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "km": 24,
     "river": "Malaba",
@@ -57233,7 +59015,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 4,
     "bridge_wid": 5,
     "width_between_para_rail": 4,
@@ -57243,7 +59025,7 @@ const BRIDGES = [
     "traffic_flow_directions": 2,
     "road_no": "B306",
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "chainage_from": 0,
     "chainage_to": 24.235,
     "link_len_km": 24.235,
@@ -57280,7 +59062,7 @@ const BRIDGES = [
     "new_bridge_no": "B885",
     "abutment_l": 0,
     "abutment_r": 0,
-    "year_compl": 0,
+    "year_compl": 1970,
     "pave_age": 0,
     "location_source_lon": 34.116741,
     "location_source_lat": 0.5204,
@@ -57298,7 +59080,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 24,
     "chainage_validated_km": 24,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -57323,7 +59105,10 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "Malaba",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-485",
@@ -57358,7 +59143,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 2,
     "scour_protection": "10",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 10.5,
     "bridge_wid": 5.09999990463257,
     "width_between_para_rail": 5.1,
@@ -57419,7 +59204,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.06,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.5,
     "chainage_validated_km": 28.5,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -57444,7 +59229,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kwakiteza",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-486",
@@ -57535,7 +59324,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 49,
     "chainage_validated_km": 49,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -57563,7 +59352,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Loyoro",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-487",
@@ -57628,7 +59421,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 42,
     "bridge_wid": 7.5,
     "width_between_para_rail": 9,
@@ -57654,7 +59447,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -57683,7 +59476,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Paraa Waterway",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-488",
@@ -57692,12 +59489,12 @@ const BRIDGES = [
     "new_bridge_no": "B376",
     "bridge_nam": "Namboole B1",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -57747,7 +59544,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 0,
     "chainage_km": 0,
     "chainage_validated_km": 0,
@@ -57787,7 +59584,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-489",
@@ -57796,12 +59596,12 @@ const BRIDGES = [
     "new_bridge_no": "B385",
     "bridge_nam": "Old Kira Road over Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -57851,7 +59651,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 5.156,
     "chainage_km": 5.156,
     "chainage_validated_km": 5.156,
@@ -57891,7 +59691,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-490",
@@ -57900,12 +59703,12 @@ const BRIDGES = [
     "new_bridge_no": "B386",
     "bridge_nam": "Ntinda Foot Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Pedestrian Crossing",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -57955,7 +59758,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 6.809,
     "chainage_km": 6.809,
     "chainage_validated_km": 6.809,
@@ -57995,7 +59798,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Pedestrian Crossing",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-491",
@@ -58004,12 +59810,12 @@ const BRIDGES = [
     "new_bridge_no": "B398",
     "bridge_nam": "Ntinda B1",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58059,7 +59865,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.512,
     "chainage_km": 7.512,
     "chainage_validated_km": 7.512,
@@ -58099,7 +59905,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-492",
@@ -58108,12 +59917,12 @@ const BRIDGES = [
     "new_bridge_no": "B400",
     "bridge_nam": "Ntinda B2",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58163,7 +59972,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.44,
     "chainage_km": 7.44,
     "chainage_validated_km": 7.44,
@@ -58203,7 +60012,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-493",
@@ -58212,12 +60024,12 @@ const BRIDGES = [
     "new_bridge_no": "B403",
     "bridge_nam": "Bukoto - Kisasi over Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58267,7 +60079,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 8.574,
     "chainage_km": 8.574,
     "chainage_validated_km": 8.574,
@@ -58307,7 +60119,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-494",
@@ -58316,12 +60131,12 @@ const BRIDGES = [
     "new_bridge_no": "B404",
     "bridge_nam": "Bukoto - Kyebando B1 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58371,7 +60186,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 9.935,
     "chainage_km": 9.935,
     "chainage_validated_km": 9.935,
@@ -58411,7 +60226,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-495",
@@ -58420,12 +60238,12 @@ const BRIDGES = [
     "new_bridge_no": "B405",
     "bridge_nam": "Bukoto - Kyebando B1 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58475,7 +60293,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 9.933,
     "chainage_km": 9.933,
     "chainage_validated_km": 9.933,
@@ -58515,7 +60333,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-496",
@@ -58524,12 +60345,12 @@ const BRIDGES = [
     "new_bridge_no": "B409",
     "bridge_nam": "Bukoto - Kyebando B2 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58579,7 +60400,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 9.999,
     "chainage_km": 9.999,
     "chainage_validated_km": 9.999,
@@ -58619,7 +60440,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-497",
@@ -58628,12 +60452,12 @@ const BRIDGES = [
     "new_bridge_no": "B412",
     "bridge_nam": "Bukoto - Kyebando B2 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58683,7 +60507,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 9.999,
     "chainage_km": 9.999,
     "chainage_validated_km": 9.999,
@@ -58723,7 +60547,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-498",
@@ -58732,12 +60559,12 @@ const BRIDGES = [
     "new_bridge_no": "B242",
     "bridge_nam": "Kyebando Foot Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Pedestrian Crossing",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58787,7 +60614,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 10.376,
     "chainage_km": 10.376,
     "chainage_validated_km": 10.376,
@@ -58827,7 +60654,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Pedestrian Crossing",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-499",
@@ -58836,12 +60666,12 @@ const BRIDGES = [
     "new_bridge_no": "B416",
     "bridge_nam": "Namboole B2",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58891,7 +60721,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 0,
     "chainage_km": 0,
     "chainage_validated_km": 0,
@@ -58931,7 +60761,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-500",
@@ -58940,12 +60773,12 @@ const BRIDGES = [
     "new_bridge_no": "B204",
     "bridge_nam": "Kyebando over Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -58995,7 +60828,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 11.187,
     "chainage_km": 11.187,
     "chainage_validated_km": 11.187,
@@ -59035,7 +60868,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-501",
@@ -59044,12 +60880,12 @@ const BRIDGES = [
     "new_bridge_no": "B417",
     "bridge_nam": "Kalerwe B1 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Aguar",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59127,7 +60963,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 12.036,
     "chainage_km": 12.036,
     "chainage_validated_km": 12.036,
@@ -59151,7 +60987,10 @@ const BRIDGES = [
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
     "River": "Aguar",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-502",
@@ -59160,12 +60999,12 @@ const BRIDGES = [
     "new_bridge_no": "B418",
     "bridge_nam": "Kalerwe B2 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59215,7 +61054,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 12.126,
     "chainage_km": 12.126,
     "chainage_validated_km": 12.126,
@@ -59255,7 +61094,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-503",
@@ -59264,12 +61106,12 @@ const BRIDGES = [
     "new_bridge_no": "B219",
     "bridge_nam": "Kalerwe B2 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59319,7 +61161,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 12.126,
     "chainage_km": 12.126,
     "chainage_validated_km": 12.126,
@@ -59359,7 +61201,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-504",
@@ -59368,12 +61213,12 @@ const BRIDGES = [
     "new_bridge_no": "B221",
     "bridge_nam": "Kalerwe B1 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59423,7 +61268,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 12.036,
     "chainage_km": 12.036,
     "chainage_validated_km": 12.036,
@@ -59463,7 +61308,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-505",
@@ -59472,12 +61320,12 @@ const BRIDGES = [
     "new_bridge_no": "B224",
     "bridge_nam": "Kalerwe Foot Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Pedestrian Crossing",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59527,7 +61375,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 12.397,
     "chainage_km": 12.397,
     "chainage_validated_km": 12.397,
@@ -59567,7 +61415,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Pedestrian Crossing",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-506",
@@ -59576,12 +61427,12 @@ const BRIDGES = [
     "new_bridge_no": "B244",
     "bridge_nam": "Bwayise B1 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59635,7 +61486,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 13.132,
     "chainage_km": 13.132,
     "chainage_validated_km": 13.132,
@@ -59675,7 +61526,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-507",
@@ -59684,12 +61538,12 @@ const BRIDGES = [
     "new_bridge_no": "B245",
     "bridge_nam": "Bwayise B2 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59739,7 +61593,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 13.212,
     "chainage_km": 13.212,
     "chainage_validated_km": 13.212,
@@ -59779,7 +61633,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-508",
@@ -59788,12 +61645,12 @@ const BRIDGES = [
     "new_bridge_no": "B247",
     "bridge_nam": "Bwayise B1 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59843,7 +61700,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 13.212,
     "chainage_km": 13.212,
     "chainage_validated_km": 13.212,
@@ -59883,7 +61740,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-509",
@@ -59892,12 +61752,12 @@ const BRIDGES = [
     "new_bridge_no": "B250",
     "bridge_nam": "Bwayise B2 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -59947,7 +61807,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 13.212,
     "chainage_km": 13.212,
     "chainage_validated_km": 13.212,
@@ -59987,7 +61847,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-510",
@@ -59996,12 +61859,12 @@ const BRIDGES = [
     "new_bridge_no": "B254",
     "bridge_nam": "Namugongo Overbridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60051,7 +61914,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 1.855,
     "chainage_km": 1.855,
     "chainage_validated_km": 1.855,
@@ -60091,7 +61954,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-511",
@@ -60100,12 +61966,12 @@ const BRIDGES = [
     "new_bridge_no": "B257",
     "bridge_nam": "Kawaala Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60155,7 +62021,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 14.288,
     "chainage_km": 14.288,
     "chainage_validated_km": 14.288,
@@ -60195,7 +62061,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-512",
@@ -60204,12 +62073,12 @@ const BRIDGES = [
     "new_bridge_no": "B262",
     "bridge_nam": "Namungoona B2",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60259,7 +62128,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 15.508,
     "chainage_km": 15.508,
     "chainage_validated_km": 15.508,
@@ -60299,7 +62168,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-513",
@@ -60308,12 +62180,12 @@ const BRIDGES = [
     "new_bridge_no": "B419",
     "bridge_nam": "Namungoona B22",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60363,7 +62235,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 15.508,
     "chainage_km": 15.508,
     "chainage_validated_km": 15.508,
@@ -60403,7 +62275,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-514",
@@ -60412,12 +62287,12 @@ const BRIDGES = [
     "new_bridge_no": "B280",
     "bridge_nam": "Namungoona B1",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60467,7 +62342,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 15.58,
     "chainage_km": 15.58,
     "chainage_validated_km": 15.58,
@@ -60507,7 +62382,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-515",
@@ -60516,12 +62394,12 @@ const BRIDGES = [
     "new_bridge_no": "B304",
     "bridge_nam": "Namungoona B12",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60571,7 +62449,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 15.58,
     "chainage_km": 15.58,
     "chainage_validated_km": 15.58,
@@ -60611,7 +62489,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-516",
@@ -60620,12 +62501,12 @@ const BRIDGES = [
     "new_bridge_no": "B305",
     "bridge_nam": "Sentema B2",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60675,7 +62556,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 17.869,
     "chainage_km": 17.869,
     "chainage_validated_km": 17.869,
@@ -60715,7 +62596,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-517",
@@ -60724,12 +62608,12 @@ const BRIDGES = [
     "new_bridge_no": "B306",
     "bridge_nam": "Sentema B22",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60779,7 +62663,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 17.869,
     "chainage_km": 17.869,
     "chainage_validated_km": 17.869,
@@ -60819,7 +62703,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-518",
@@ -60828,12 +62715,12 @@ const BRIDGES = [
     "new_bridge_no": "B307",
     "bridge_nam": "Sentema B1",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60883,7 +62770,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 17.951,
     "chainage_km": 17.951,
     "chainage_validated_km": 17.951,
@@ -60923,7 +62810,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-519",
@@ -60932,12 +62822,12 @@ const BRIDGES = [
     "new_bridge_no": "B309",
     "bridge_nam": "Sentema B12",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -60987,7 +62877,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 17.951,
     "chainage_km": 17.951,
     "chainage_validated_km": 17.951,
@@ -61027,7 +62917,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-520",
@@ -61036,12 +62929,12 @@ const BRIDGES = [
     "new_bridge_no": "B310",
     "bridge_nam": "Nalya - Kamuli Flyover Foot Bridge",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Pedestrian Crossing",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61091,7 +62984,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 2.691,
     "chainage_km": 2.691,
     "chainage_validated_km": 2.691,
@@ -61131,7 +63024,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Pedestrian Crossing",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-521",
@@ -61140,12 +63036,12 @@ const BRIDGES = [
     "new_bridge_no": "B311",
     "bridge_nam": "Nalya B1 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61195,7 +63091,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 3.815,
     "chainage_km": 3.815,
     "chainage_validated_km": 3.815,
@@ -61235,7 +63131,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-522",
@@ -61244,12 +63143,12 @@ const BRIDGES = [
     "new_bridge_no": "B322",
     "bridge_nam": "Nalya B2 Lhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61299,7 +63198,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 3.639,
     "chainage_km": 3.639,
     "chainage_validated_km": 3.639,
@@ -61339,7 +63238,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-523",
@@ -61348,12 +63250,12 @@ const BRIDGES = [
     "new_bridge_no": "B329",
     "bridge_nam": "Nalya B1 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61403,7 +63305,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 3.88,
     "chainage_km": 3.88,
     "chainage_validated_km": 3.88,
@@ -61443,7 +63345,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-524",
@@ -61452,12 +63357,12 @@ const BRIDGES = [
     "new_bridge_no": "B341",
     "bridge_nam": "Nalya B2 Rhs",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61507,7 +63412,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 3.814,
     "chainage_km": 3.814,
     "chainage_validated_km": 3.814,
@@ -61547,7 +63452,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-525",
@@ -61556,12 +63464,12 @@ const BRIDGES = [
     "new_bridge_no": "B342",
     "bridge_nam": "Kiwatule Under - Pass",
     "type_crossing": "03",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "link_no": "M20",
     "river": "Road Underpass",
     "road_no": "M20",
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "chainage_from": 0,
     "chainage_to": 19.999153,
     "link_len_km": 19.999,
@@ -61611,7 +63519,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 46450.56,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 4.814,
     "chainage_km": 4.814,
     "chainage_validated_km": 4.814,
@@ -61651,7 +63559,10 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road Underpass",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-526",
@@ -61662,7 +63573,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -61715,7 +63626,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 0.366,
     "chainage_km": 0.366,
     "chainage_validated_km": 0.366,
@@ -61754,7 +63665,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-527",
@@ -61765,7 +63680,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -61818,7 +63733,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 0.366,
     "chainage_km": 0.366,
     "chainage_validated_km": 0.366,
@@ -61857,7 +63772,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-528",
@@ -61868,7 +63787,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -61921,7 +63840,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 1.581,
     "chainage_km": 1.581,
     "chainage_validated_km": 1.581,
@@ -61960,7 +63879,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-529",
@@ -61971,7 +63894,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62024,7 +63947,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 1.581,
     "chainage_km": 1.581,
     "chainage_validated_km": 1.581,
@@ -62063,7 +63986,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-530",
@@ -62074,7 +64001,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62127,7 +64054,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 1.959,
     "chainage_km": 1.959,
     "chainage_validated_km": 1.959,
@@ -62166,7 +64093,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-531",
@@ -62177,7 +64108,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62230,7 +64161,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 1.959,
     "chainage_km": 1.959,
     "chainage_validated_km": 1.959,
@@ -62269,7 +64200,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-532",
@@ -62280,7 +64215,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62333,7 +64268,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 4.024,
     "chainage_km": 4.024,
     "chainage_validated_km": 4.024,
@@ -62372,7 +64307,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-533",
@@ -62383,7 +64322,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62436,7 +64375,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 4.516,
     "chainage_km": 4.516,
     "chainage_validated_km": 4.516,
@@ -62475,7 +64414,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-534",
@@ -62486,7 +64429,7 @@ const BRIDGES = [
     "type_crossing": "03",
     "road_descr_principal": "Kampala - Entebbe Expressway",
     "link_no": "M3_Link01",
-    "river": "Road over Road",
+    "river": "Road Over Road",
     "road_no": "M3",
     "road_class": "Class M (Expressway)",
     "link_name": "Kampala - Entebbe Expressway",
@@ -62539,7 +64482,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 5.441,
     "chainage_km": 5.441,
     "chainage_validated_km": 5.441,
@@ -62578,7 +64521,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road over Road",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-535",
@@ -62642,7 +64589,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 20711.35,
-    "annual_weighted_growth_rate": 0.055,
+    "annual_weighted_growth_rate": 0.045,
     "km": 5.966,
     "chainage_km": 5.966,
     "chainage_validated_km": 5.966,
@@ -62681,7 +64628,11 @@ const BRIDGES = [
     "road_class_desc": "Class M (Expressway)",
     "River": "Road Underpass",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2018,
+    "YearCompleted": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-536",
@@ -62690,12 +64641,12 @@ const BRIDGES = [
     "new_bridge_no": "B636",
     "bridge_nam": "Paraa Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Park Junction - Paraa",
+    "road_descr_principal": "Park junction - Paraa",
     "link_no": "C626_Link01",
     "river": "Park Junction Waterway",
     "road_no": "C626",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Park Junction - Paraa",
+    "link_name": "Park junction - Paraa",
     "chainage_from": 0,
     "chainage_to": 7.701,
     "link_len_km": 7.701,
@@ -62744,7 +64695,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.701,
     "chainage_km": 7.701,
     "chainage_validated_km": 7.701,
@@ -62782,7 +64733,11 @@ const BRIDGES = [
     "road_class_desc": "Class C (Primary Road)",
     "River": "Park Junction Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-537",
@@ -62847,7 +64802,7 @@ const BRIDGES = [
     "superload_route": 3,
     "weight_load_restr": 3,
     "scour_protection": "01",
-    "scour_risk": "Active Scour Risk",
+    "scour_risk": "No Scour Risk",
     "bridge_len": 42,
     "bridge_wid": 7.5,
     "width_between_para_rail": 9,
@@ -62873,7 +64828,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -62902,7 +64857,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Park Junction Waterway",
-    "ScourRisk": "Active Scour Risk"
+    "ScourRisk": "Active Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-538",
@@ -62965,7 +64924,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -63003,7 +64962,11 @@ const BRIDGES = [
     "road_class_desc": "Class C (Primary Road)",
     "River": "Masindi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-539",
@@ -63014,7 +64977,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Paraa - Packwach",
     "link_no": "C626_Link02",
-    "river": "B3 (K - P5) River",
+    "river": "B3 (k - P5) River",
     "road_no": "C626",
     "road_class": "Class C (Primary Road)",
     "link_name": "Paraa - Packwach",
@@ -63066,7 +65029,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -63104,7 +65067,11 @@ const BRIDGES = [
     "road_class_desc": "Class C (Primary Road)",
     "River": "B3 (K - P5) River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-540",
@@ -63115,7 +65082,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Paraa - Packwach",
     "link_no": "C626_Link02",
-    "river": "B2 (K - P5) River",
+    "river": "B2 (k - P5) River",
     "road_no": "C626",
     "road_class": "Class C (Primary Road)",
     "link_name": "Paraa - Packwach",
@@ -63167,7 +65134,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -63205,7 +65172,11 @@ const BRIDGES = [
     "road_class_desc": "Class C (Primary Road)",
     "River": "B2 (K - P5) River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-541",
@@ -63216,7 +65187,7 @@ const BRIDGES = [
     "type_crossing": "01",
     "road_descr_principal": "Paraa - Packwach",
     "link_no": "C626_Link02",
-    "river": "B1 (K - P5) River",
+    "river": "B1 (k - P5) River",
     "road_no": "C626",
     "road_class": "Class C (Primary Road)",
     "link_name": "Paraa - Packwach",
@@ -63268,7 +65239,7 @@ const BRIDGES = [
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
     "aadt_rebuilt_2026": 722.92,
-    "annual_weighted_growth_rate": 0.032,
+    "annual_weighted_growth_rate": 0.045,
     "km": 7.906,
     "chainage_km": 7.906,
     "chainage_validated_km": 7.906,
@@ -63306,7 +65277,11 @@ const BRIDGES = [
     "road_class_desc": "Class C (Primary Road)",
     "River": "B1 (K - P5) River",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2022,
+    "YearCompleted": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-542",
@@ -63408,7 +65383,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 28.51,
     "chainage_validated_km": 28.51,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -63433,7 +65408,11 @@ const BRIDGES = [
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
     "River": "River Mubuku",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-543",
@@ -63489,7 +65468,12 @@ const BRIDGES = [
     "maintenanc": "Kotido",
     "River": "Lopei Irish Crossing Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-544",
@@ -63498,7 +65482,7 @@ const BRIDGES = [
     "new_bridge_no": "B388",
     "bridge_nam": "Bunamubi Bridge",
     "type_crossing": "01",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "river": "Sezibwa",
     "type_bridge": "01",
@@ -63506,7 +65490,7 @@ const BRIDGES = [
     "type_deck_material": "06",
     "road_no": "C867",
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "chainage_from": 15.402,
     "chainage_to": 43.884,
     "link_len_km": 28.482,
@@ -63589,7 +65573,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 43.266,
     "chainage_validated_km": 43.266,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -63611,7 +65595,10 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Sezibwa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "YearCompleted": 1953,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-545",
@@ -63681,7 +65668,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 0.5,
     "chainage_validated_km": 0.338,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -63726,7 +65713,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Nile",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-546",
@@ -63784,7 +65775,12 @@ const BRIDGES = [
     "maintenanc": "Kitgum",
     "River": "Agago Irish Crossing Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "bridge-547",
@@ -63848,7 +65844,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 10.125,
     "chainage_km": 10.125,
     "chainage_validated_km": 10.125,
@@ -63898,7 +65894,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Kitekena River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-548",
@@ -63961,7 +65961,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "km": 32.058,
     "chainage_km": 32.058,
     "chainage_validated_km": 32.058,
@@ -64013,7 +66013,11 @@ const BRIDGES = [
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
     "River": "River Manafwa",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1969,
+    "YearCompleted": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-549",
@@ -64112,7 +66116,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.05,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.4,
     "chainage_validated_km": 13.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -64134,7 +66138,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Ekyambu - Mpcc River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 2014,
+    "YearCompleted": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-550",
@@ -64229,7 +66237,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "chainage_km": 13.4,
     "chainage_validated_km": 13.4,
     "chainage_measurement_method": "Calculated along corrected national road link geometry from link start chainage",
@@ -64252,7 +66260,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "River Nakironget",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-551",
@@ -64352,7 +66364,7 @@ const BRIDGES = [
     "location_correction_method": "Placed by bridge chainage along exact host road link geometry",
     "map_coord_snapped": true,
     "location_correction_distance_km": 0,
-    "annual_weighted_growth_rate": 0.01,
+    "annual_weighted_growth_rate": 0.045,
     "km": 10.253,
     "chainage_km": 10.253,
     "chainage_validated_km": 10.253,
@@ -64376,7 +66388,11 @@ const BRIDGES = [
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
     "River": "Lolachat River",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045
   },
   {
     "_id": "bridge-552",
@@ -64432,7 +66448,12 @@ const BRIDGES = [
     "maintenanc": "Moroto",
     "River": "Nabilatuk Irish Crossing Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "year_compl": 1970,
+    "YearCompleted": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   }
 ];
 const MAJOR_CULVERTS = [
@@ -64471,7 +66492,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kasandati Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasandati Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-002",
@@ -64509,7 +66535,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Namayumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namayumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-003",
@@ -64547,7 +66578,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Namayumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namayumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-004",
@@ -64585,7 +66621,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kayunga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kayunga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-005",
@@ -64623,7 +66664,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Namataba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namataba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-006",
@@ -64661,7 +66707,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Namyumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namyumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-007",
@@ -64699,7 +66750,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Namyumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namyumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-008",
@@ -64737,7 +66793,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Namyumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namyumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-009",
@@ -64775,7 +66836,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Namyumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namyumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-010",
@@ -64812,7 +66878,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Namyumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namyumba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-011",
@@ -64850,7 +66921,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Luwero",
     "River": "Katuugo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Katuugo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-012",
@@ -64888,7 +66964,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Mityana Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mityana Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-013",
@@ -64926,7 +67007,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Mityana Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mityana Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-014",
@@ -64964,7 +67050,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Mityana Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mityana Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-015",
@@ -65002,7 +67093,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Mukono Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mukono Waterway",
+    "year_compl": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-016",
@@ -65040,7 +67136,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Busega Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Busega Waterway",
+    "year_compl": 2012,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-017",
@@ -65078,7 +67179,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Busega Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Busega Waterway",
+    "year_compl": 2012,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-018",
@@ -65116,7 +67222,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mpigi",
     "River": "Busega Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Busega Waterway",
+    "year_compl": 2012,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-019",
@@ -65154,7 +67265,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Nkonge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nkonge Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-020",
@@ -65192,7 +67308,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Nkonge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nkonge Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-021",
@@ -65230,7 +67351,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Nkonge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nkonge Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-022",
@@ -65268,7 +67394,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Kafunzo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kafunzo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-023",
@@ -65306,7 +67437,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Buhindagye Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Buhindagye Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-024",
@@ -65344,7 +67480,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabira Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-025",
@@ -65382,7 +67523,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Bwera Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bwera Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-026",
@@ -65420,7 +67566,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Kikagati Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikagati Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-027",
@@ -65458,7 +67609,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Ruti Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ruti Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-028",
@@ -65496,7 +67652,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Kabujogera Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabujogera Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-029",
@@ -65534,7 +67695,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Muzizi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muzizi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-030",
@@ -65572,7 +67738,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Muzizi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muzizi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-031",
@@ -65610,7 +67781,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Buremba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Buremba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-032",
@@ -65648,7 +67824,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Kazo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kazo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-033",
@@ -65686,7 +67867,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Buremba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Buremba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-034",
@@ -65724,7 +67910,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Kazo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kazo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-035",
@@ -65762,7 +67953,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Ibanda Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ibanda Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-036",
@@ -65800,7 +67996,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-037",
@@ -65838,7 +68039,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-038",
@@ -65876,7 +68082,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-039",
@@ -65914,7 +68125,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 2013,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-040",
@@ -65952,7 +68168,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Rubaale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rubaale Waterway",
+    "year_compl": 1985,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-041",
@@ -65990,7 +68211,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kagamba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kagamba Waterway",
+    "year_compl": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-042",
@@ -66028,7 +68254,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Muhanga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muhanga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-043",
@@ -66066,7 +68297,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kihihi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kihihi Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-044",
@@ -66104,7 +68340,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Rukungiri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rukungiri Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-045",
@@ -66142,7 +68383,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 1957,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-046",
@@ -66180,7 +68426,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Rubaale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rubaale Waterway",
+    "year_compl": 1985,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-047",
@@ -66218,7 +68469,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kebisoni Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kebisoni Waterway",
+    "year_compl": 2005,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-048",
@@ -66256,12 +68512,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Mubuku Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mubuku Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-049",
     "culvert_no": "C179",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 12.5,
@@ -66277,7 +68538,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0654392242432,
     "map_y": 0.187360003590584,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66290,16 +68551,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12.5,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-050",
     "culvert_no": "C180",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 10.8000001907349,
@@ -66315,7 +68581,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0105590820313,
     "map_y": 0.20134000480175,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66328,16 +68594,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 10.8000001907349,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-051",
     "culvert_no": "C181",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -66353,7 +68624,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0183296203613,
     "map_y": 0.185680001974106,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66366,16 +68637,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-052",
     "culvert_no": "C182",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 12.5,
@@ -66391,7 +68667,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0186462402344,
     "map_y": 0.185081303119659,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66404,16 +68680,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12.5,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-053",
     "culvert_no": "C183",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 16,
@@ -66429,7 +68710,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0261192321777,
     "map_y": 0.183249995112419,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66442,16 +68723,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 16,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-054",
     "culvert_no": "C184",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "24",
     "length_km": 13.6000003814697,
@@ -66467,7 +68753,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0491409301758,
     "map_y": 0.187260001897812,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -66480,11 +68766,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 13.6000003814697,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-055",
@@ -66522,7 +68813,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-056",
@@ -66560,7 +68856,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-057",
@@ -66598,7 +68899,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-058",
@@ -66636,7 +68942,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-059",
@@ -66674,7 +68985,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-060",
@@ -66712,7 +69028,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-061",
@@ -66750,7 +69071,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-062",
@@ -66788,7 +69114,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kikorongo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kikorongo Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-063",
@@ -66826,7 +69157,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kisinga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisinga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-064",
@@ -66864,7 +69200,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kisinga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisinga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-065",
@@ -66902,7 +69243,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Nkenda Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nkenda Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-066",
@@ -66940,7 +69286,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Nkenda Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nkenda Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-067",
@@ -66978,7 +69329,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Rwentobo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rwentobo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-068",
@@ -67016,7 +69372,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kabale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabale Waterway",
+    "year_compl": 2013,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-069",
@@ -67054,7 +69415,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Katobo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Katobo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-070",
@@ -67092,7 +69458,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Kebisoni Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kebisoni Waterway",
+    "year_compl": 2005,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-071",
@@ -67130,7 +69501,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Ntungamo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ntungamo Waterway",
+    "year_compl": 2002,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-072",
@@ -67168,7 +69544,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Muzizi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muzizi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-073",
@@ -67206,13 +69587,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Ntungamo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ntungamo Waterway",
+    "year_compl": 2002,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-074",
     "culvert_no": "C207",
     "road_name": "Mbarara (Bushenyi Junction) - Ntungamo",
-    "river": "Mbarara (Bushenyi Junction) Waterway",
+    "river": "Mbarara (bushenyi Junction) Waterway",
     "type_culvert": "24",
     "length_km": 0,
     "chainage": 263.534,
@@ -67244,7 +69630,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Mbarara (Bushenyi Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mbarara (bushenyi Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-075",
@@ -67282,13 +69673,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Ibanda",
     "River": "Muzizi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muzizi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-076",
     "culvert_no": "C209",
     "road_name": "Mbarara (Bushenyi Junction) - Ntungamo",
-    "river": "Mbarara (Bushenyi Junction) Waterway",
+    "river": "Mbarara (bushenyi Junction) Waterway",
     "type_culvert": "24",
     "chainage": 263.534,
     "span_diameter": 1.52999997138977,
@@ -67319,13 +69715,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Mbarara (Bushenyi Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mbarara (bushenyi Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-077",
     "culvert_no": "C210",
     "road_name": "Mbarara (Bushenyi Junction) - Ntungamo",
-    "river": "Mbarara (Bushenyi Junction) Waterway",
+    "river": "Mbarara (bushenyi Junction) Waterway",
     "type_culvert": "24",
     "length_km": 18.8999996185303,
     "chainage": 263.534,
@@ -67357,7 +69758,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbarara",
     "River": "Mbarara (Bushenyi Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mbarara (bushenyi Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-078",
@@ -67395,13 +69801,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Rubaale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rubaale Waterway",
+    "year_compl": 1985,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-079",
     "culvert_no": "C212",
-    "road_name": "Rwimi (Bridge) - Hima - Mubuku",
-    "river": "Rwimi (Bridge) Waterway",
+    "road_name": "Rwimi (bridge) - Hima - Mubuku",
+    "river": "Rwimi (bridge) Waterway",
     "type_culvert": "24",
     "length_km": 20,
     "chainage": 327.71062948158686,
@@ -67416,7 +69827,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.1749401092529,
     "map_y": 0.288379997014999,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Rwimi (Bridge) - Hima - Mubuku",
+    "link_name": "Rwimi (bridge) - Hima - Mubuku",
     "link_no": "A005_Link12",
     "region": "Southern",
     "station": "Kasese",
@@ -67429,17 +69840,22 @@ const MAJOR_CULVERTS = [
     "culvert_length": 20,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Rwimi (Bridge) - Hima - Mubuku",
+    "road_descr_principal": "Rwimi (bridge) - Hima - Mubuku",
     "maintenanc": "Kasese",
     "River": "Rwimi (Bridge) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rwimi (bridge) Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-080",
     "culvert_no": "C213",
-    "road_name": "Rwimi (Bridge) - Hima - Mubuku",
-    "river": "Rwimi (Bridge) Waterway",
+    "road_name": "Rwimi (bridge) - Hima - Mubuku",
+    "river": "Rwimi (bridge) Waterway",
     "type_culvert": "27",
     "length_km": 15.6999998092651,
     "chainage": 327.71062948158686,
@@ -67454,7 +69870,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0926609039307,
     "map_y": 0.184660002589226,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Rwimi (Bridge) - Hima - Mubuku",
+    "link_name": "Rwimi (bridge) - Hima - Mubuku",
     "link_no": "A005_Link12",
     "region": "Southern",
     "station": "Kasese",
@@ -67467,11 +69883,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 15.6999998092651,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Rwimi (Bridge) - Hima - Mubuku",
+    "road_descr_principal": "Rwimi (bridge) - Hima - Mubuku",
     "maintenanc": "Kasese",
     "River": "Rwimi (Bridge) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rwimi (bridge) Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-081",
@@ -67509,7 +69930,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Mubuku Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mubuku Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-082",
@@ -67547,7 +69973,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-083",
@@ -67585,7 +70016,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-084",
@@ -67623,7 +70059,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-085",
@@ -67661,7 +70102,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-086",
@@ -67699,7 +70145,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-087",
@@ -67737,7 +70188,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-088",
@@ -67775,7 +70231,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-089",
@@ -67813,7 +70274,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-090",
@@ -67851,7 +70317,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Ruwerere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ruwerere Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-091",
@@ -67889,7 +70360,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kabale",
     "River": "Ruwerere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ruwerere Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-092",
@@ -67927,12 +70403,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Mubuku Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mubuku Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-093",
     "culvert_no": "C227",
-    "road_name": "Kasese - Kilembe Mines",
+    "road_name": "Kasese - Kilembe mines",
     "river": "Kasese Waterway",
     "type_culvert": "27",
     "length_km": 14.3000001907349,
@@ -67948,7 +70429,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.0338592529297,
     "map_y": 0.186550006270409,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kasese - Kilembe Mines",
+    "link_name": "Kasese - Kilembe mines",
     "link_no": "C511_Link01",
     "region": "Southern",
     "station": "Kasese",
@@ -67961,11 +70442,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 14.3000001907349,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kasese - Kilembe Mines",
+    "road_descr_principal": "Kasese - Kilembe mines",
     "maintenanc": "Kasese",
     "River": "Kasese Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kasese Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-094",
@@ -68003,7 +70489,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Rugendabara Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rugendabara Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-095",
@@ -68041,7 +70532,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Rugendabara Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rugendabara Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-096",
@@ -68079,7 +70575,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kasese",
     "River": "Kisinga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisinga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-097",
@@ -68113,12 +70614,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-098",
     "culvert_no": "C352",
-    "road_name": "Fortportal - Rwimi (Bridge)",
+    "road_name": "FortPortal - Rwimi (bridge)",
     "river": "Fortportal Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -68134,7 +70640,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.1915607452393,
     "map_y": 0.572799980640411,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Fortportal - Rwimi (Bridge)",
+    "link_name": "FortPortal - Rwimi (bridge)",
     "link_no": "A005_Link11",
     "region": "Western",
     "station": "Fort Portal",
@@ -68147,16 +70653,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Fortportal - Rwimi (Bridge)",
+    "road_descr_principal": "FortPortal - Rwimi (bridge)",
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-099",
     "culvert_no": "C353",
-    "road_name": "Fortportal - Rwimi (Bridge)",
+    "road_name": "FortPortal - Rwimi (bridge)",
     "river": "Fortportal Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -68172,7 +70683,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.168909072876,
     "map_y": 0.542909979820251,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Fortportal - Rwimi (Bridge)",
+    "link_name": "FortPortal - Rwimi (bridge)",
     "link_no": "A005_Link11",
     "region": "Western",
     "station": "Fort Portal",
@@ -68185,16 +70696,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Fortportal - Rwimi (Bridge)",
+    "road_descr_principal": "FortPortal - Rwimi (bridge)",
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-100",
     "culvert_no": "C354",
-    "road_name": "Fortportal - Rwimi (Bridge)",
+    "road_name": "FortPortal - Rwimi (bridge)",
     "river": "Fortportal Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -68210,7 +70726,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.1779308319092,
     "map_y": 0.525969982147217,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Fortportal - Rwimi (Bridge)",
+    "link_name": "FortPortal - Rwimi (bridge)",
     "link_no": "A005_Link11",
     "region": "Western",
     "station": "Fort Portal",
@@ -68223,16 +70739,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Fortportal - Rwimi (Bridge)",
+    "road_descr_principal": "FortPortal - Rwimi (bridge)",
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-101",
     "culvert_no": "C355",
-    "road_name": "Fortportal - Rwimi (Bridge)",
+    "road_name": "FortPortal - Rwimi (bridge)",
     "river": "Fortportal Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -68248,7 +70769,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.1865005493164,
     "map_y": 0.489719986915588,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Fortportal - Rwimi (Bridge)",
+    "link_name": "FortPortal - Rwimi (bridge)",
     "link_no": "A005_Link11",
     "region": "Western",
     "station": "Fort Portal",
@@ -68261,11 +70782,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Fortportal - Rwimi (Bridge)",
+    "road_descr_principal": "FortPortal - Rwimi (bridge)",
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2007,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-102",
@@ -68303,7 +70829,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kibale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kibale Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-103",
@@ -68341,7 +70872,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kafu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kafu Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-104",
@@ -68379,7 +70915,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kafu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kafu Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-105",
@@ -68416,7 +70957,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-106",
@@ -68454,7 +71000,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-107",
@@ -68492,7 +71043,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-108",
@@ -68530,7 +71086,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-109",
@@ -68568,7 +71129,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-110",
@@ -68606,7 +71172,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-111",
@@ -68644,7 +71215,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-112",
@@ -68682,7 +71258,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-113",
@@ -68720,7 +71301,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-114",
@@ -68757,7 +71343,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-115",
@@ -68795,7 +71386,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Karugutu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karugutu Waterway",
+    "year_compl": 2014,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-116",
@@ -68832,7 +71428,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-117",
@@ -68869,7 +71470,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Masoode Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Masoode Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-118",
@@ -68906,7 +71512,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Masoode Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Masoode Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-119",
@@ -68943,7 +71554,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Masoode Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Masoode Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-120",
@@ -68981,7 +71597,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kiziranfumbi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kiziranfumbi Waterway",
+    "year_compl": 2024,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-121",
@@ -69019,7 +71640,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kiziranfumbi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kiziranfumbi Waterway",
+    "year_compl": 2024,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-122",
@@ -69057,7 +71683,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Buseruka Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Buseruka Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-123",
@@ -69094,12 +71725,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Buseruka Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Buseruka Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-124",
     "culvert_no": "C410",
-    "road_name": "Kyegegwa - Hapuyo - Kibale",
+    "road_name": "Kyegegwa - Hapuyo - kibale",
     "river": "Kyegegwa Waterway",
     "type_culvert": "28",
     "length_km": 0,
@@ -69115,7 +71751,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.0602397918701,
     "map_y": 0.656560003757477,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kyegegwa - Hapuyo - Kibale",
+    "link_name": "Kyegegwa - Hapuyo - kibale",
     "link_no": "C551_Link01",
     "region": "Western",
     "station": "Fort Portal",
@@ -69127,16 +71763,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kyegegwa - Hapuyo - Kibale",
+    "road_descr_principal": "Kyegegwa - Hapuyo - kibale",
     "maintenanc": "Fort Portal",
     "River": "Kyegegwa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kyegegwa Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-125",
     "culvert_no": "C411",
-    "road_name": "Kyegegwa - Hapuyo - Kibale",
+    "road_name": "Kyegegwa - Hapuyo - kibale",
     "river": "Kyegegwa Waterway",
     "type_culvert": "28",
     "length_km": 8.10000038146973,
@@ -69152,7 +71793,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.0600605010986,
     "map_y": 0.657190024852753,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kyegegwa - Hapuyo - Kibale",
+    "link_name": "Kyegegwa - Hapuyo - kibale",
     "link_no": "C551_Link01",
     "region": "Western",
     "station": "Fort Portal",
@@ -69164,11 +71805,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 8.10000038146973,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kyegegwa - Hapuyo - Kibale",
+    "road_descr_principal": "Kyegegwa - Hapuyo - kibale",
     "maintenanc": "Fort Portal",
     "River": "Kyegegwa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kyegegwa Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-126",
@@ -69206,7 +71852,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Rugombe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rugombe Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-127",
@@ -69243,7 +71894,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Kakara Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kakara Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-128",
@@ -69280,7 +71936,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Bukuku Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukuku Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-129",
@@ -69318,7 +71979,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Fortportal Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Fortportal Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-130",
@@ -69355,7 +72021,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Rwimi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rwimi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-131",
@@ -69392,7 +72063,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Fort Portal",
     "River": "Mpara Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mpara Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-132",
@@ -69430,7 +72106,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Kakumiro Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kakumiro Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-133",
@@ -69468,7 +72149,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Kakumiro Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kakumiro Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-134",
@@ -69506,7 +72192,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mubende",
     "River": "Kakumiro Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kakumiro Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-135",
@@ -69543,7 +72234,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-136",
@@ -69580,7 +72276,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-137",
@@ -69617,7 +72318,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-138",
@@ -69654,7 +72360,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-139",
@@ -69691,7 +72402,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-140",
@@ -69728,7 +72444,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-141",
@@ -69765,7 +72486,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-142",
@@ -69802,7 +72528,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-143",
@@ -69839,7 +72570,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-144",
@@ -69876,7 +72612,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-145",
@@ -69913,7 +72654,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-146",
@@ -69950,7 +72696,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-147",
@@ -69987,7 +72738,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-148",
@@ -70024,7 +72780,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-149",
@@ -70061,7 +72822,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-150",
@@ -70098,7 +72864,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-151",
@@ -70135,7 +72906,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-152",
@@ -70172,7 +72948,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-153",
@@ -70209,7 +72990,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-154",
@@ -70246,7 +73032,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-155",
@@ -70283,7 +73074,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-156",
@@ -70320,7 +73116,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-157",
@@ -70357,7 +73158,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-158",
@@ -70394,7 +73200,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-159",
@@ -70431,7 +73242,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-160",
@@ -70468,7 +73284,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-161",
@@ -70505,7 +73326,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-162",
@@ -70542,7 +73368,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-163",
@@ -70579,7 +73410,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-164",
@@ -70617,7 +73453,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Biso Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Biso Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-165",
@@ -70655,7 +73496,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Biso Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Biso Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-166",
@@ -70693,7 +73539,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Biso Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Biso Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-167",
@@ -70731,7 +73582,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-168",
@@ -70769,7 +73625,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-169",
@@ -70807,7 +73668,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-170",
@@ -70845,7 +73711,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-171",
@@ -70883,7 +73754,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-172",
@@ -70921,7 +73797,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-173",
@@ -70959,7 +73840,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-174",
@@ -70997,7 +73883,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-175",
@@ -71035,7 +73926,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-176",
@@ -71073,7 +73969,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-177",
@@ -71111,7 +74012,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-178",
@@ -71149,12 +74055,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bukumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bukumi Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-179",
     "culvert_no": "C470",
-    "road_name": "Kisanja - Park Junction",
+    "road_name": "Kisanja - Park junction",
     "river": "Kisanja Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -71170,7 +74081,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.7124195098877,
     "map_y": 1.798220038414,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "region": "Western",
     "station": "Masindi",
@@ -71183,16 +74094,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "maintenanc": "Masindi",
     "River": "Kisanja Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisanja Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-180",
     "culvert_no": "C471",
-    "road_name": "Kisanja - Park Junction",
+    "road_name": "Kisanja - Park junction",
     "river": "Kisanja Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -71208,7 +74124,7 @@ const MAJOR_CULVERTS = [
     "map_x": 1.94167995452881,
     "map_y": 31.7134990692139,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "region": "Western",
     "station": "Masindi",
@@ -71221,16 +74137,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "maintenanc": "Masindi",
     "River": "Kisanja Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisanja Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-181",
     "culvert_no": "C472",
-    "road_name": "Kisanja - Park Junction",
+    "road_name": "Kisanja - Park junction",
     "river": "Kisanja Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -71246,7 +74167,7 @@ const MAJOR_CULVERTS = [
     "map_x": 1.95866000652313,
     "map_y": 31.7133808135986,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "region": "Western",
     "station": "Masindi",
@@ -71259,16 +74180,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "maintenanc": "Masindi",
     "River": "Kisanja Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisanja Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-182",
     "culvert_no": "C473",
-    "road_name": "Kisanja - Park Junction",
+    "road_name": "Kisanja - Park junction",
     "river": "Kisanja Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -71284,7 +74210,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.7124195098877,
     "map_y": 1.798220038414,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Kisanja - Park Junction",
+    "link_name": "Kisanja - Park junction",
     "link_no": "C625_Link01",
     "region": "Western",
     "station": "Masindi",
@@ -71297,11 +74223,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Kisanja - Park Junction",
+    "road_descr_principal": "Kisanja - Park junction",
     "maintenanc": "Masindi",
     "River": "Kisanja Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisanja Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-183",
@@ -71339,7 +74270,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bulisa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bulisa Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-184",
@@ -71377,7 +74313,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bulisa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bulisa Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-185",
@@ -71415,7 +74356,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Bulisa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bulisa Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-186",
@@ -71453,7 +74399,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-187",
@@ -71491,7 +74442,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-188",
@@ -71529,7 +74485,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-189",
@@ -71567,7 +74528,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-190",
@@ -71605,7 +74571,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-191",
@@ -71643,7 +74614,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-192",
@@ -71681,7 +74657,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-193",
@@ -71719,7 +74700,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-194",
@@ -71757,7 +74743,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kabaale Swamp Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kabaale Swamp Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-195",
@@ -71795,7 +74786,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kitumbi Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitumbi Bridge Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-196",
@@ -71833,7 +74829,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Biso Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Biso Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-197",
@@ -71871,7 +74872,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-198",
@@ -71909,12 +74915,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Kyehooro Link 1 Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kyehooro Link 1 Waterway",
+    "year_compl": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-199",
     "culvert_no": "C494",
-    "road_name": "Park Junction - Buliisa",
+    "road_name": "Park junction - Buliisa",
     "river": "Kisanja Waterway",
     "type_culvert": "24",
     "length_km": 0,
@@ -71930,7 +74941,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.4625797271729,
     "map_y": 2.12184000015259,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Park Junction - Buliisa",
+    "link_name": "Park junction - Buliisa",
     "link_no": "C625_Link02",
     "region": "Western",
     "station": "Masindi",
@@ -71943,11 +74954,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Park Junction - Buliisa",
+    "road_descr_principal": "Park junction - Buliisa",
     "maintenanc": "Masindi",
     "River": "Kisanja Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kisanja Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-200",
@@ -71985,7 +75001,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Hoima",
     "River": "Hoima Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Hoima Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-201",
@@ -72022,7 +75043,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-202",
@@ -72059,7 +75085,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-203",
@@ -72096,7 +75127,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-204",
@@ -72133,7 +75169,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Masindi",
     "River": "Kigumba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kigumba Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-205",
@@ -72171,7 +75212,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-206",
@@ -72209,7 +75255,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-207",
@@ -72247,7 +75298,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-208",
@@ -72285,7 +75341,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-209",
@@ -72323,7 +75384,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Aswa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Aswa Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-210",
@@ -72361,7 +75427,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Aswa Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Aswa Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-211",
@@ -72399,7 +75470,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-212",
@@ -72437,7 +75513,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-213",
@@ -72475,7 +75556,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-214",
@@ -72513,7 +75599,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-215",
@@ -72551,7 +75642,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Acholibur Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Acholibur Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-216",
@@ -72589,7 +75685,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-217",
@@ -72627,7 +75728,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-218",
@@ -72665,7 +75771,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-219",
@@ -72703,7 +75814,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-220",
@@ -72741,7 +75857,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-221",
@@ -72779,7 +75900,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-222",
@@ -72817,7 +75943,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-223",
@@ -72855,7 +75986,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-224",
@@ -72893,12 +76029,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-225",
     "culvert_no": "C521",
-    "road_name": "Madi Opei - Uganda/sudan Border",
+    "road_name": "Madi Opei - Uganda/Sudan border",
     "river": "Madi Opei Waterway",
     "type_culvert": "24",
     "length_km": 14.8000001907349,
@@ -72914,7 +76055,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.1102600097656,
     "map_y": -3.66395998001099,
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Madi Opei - Uganda/sudan Border",
+    "link_name": "Madi Opei - Uganda/Sudan border",
     "link_no": "B252_Link05",
     "region": "Northern",
     "station": "Kitgum",
@@ -72927,11 +76068,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 14.8000001907349,
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
-    "road_descr_principal": "Madi Opei - Uganda/sudan Border",
+    "road_descr_principal": "Madi Opei - Uganda/Sudan border",
     "maintenanc": "Kitgum",
     "River": "Madi Opei Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Madi Opei Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-226",
@@ -72969,7 +76115,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Kamdini Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamdini Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-227",
@@ -73007,7 +76158,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Kamdini Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamdini Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-228",
@@ -73045,7 +76201,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-229",
@@ -73083,7 +76244,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-230",
@@ -73121,7 +76287,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Madi Opei Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Madi Opei Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-231",
@@ -73159,7 +76330,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Abim Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Abim Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-232",
@@ -73197,7 +76373,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Abim Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Abim Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-233",
@@ -73235,7 +76416,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Abim Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Abim Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-234",
@@ -73273,7 +76459,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-235",
@@ -73311,7 +76502,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-236",
@@ -73349,7 +76545,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-237",
@@ -73387,7 +76588,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-238",
@@ -73425,7 +76631,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-239",
@@ -73463,12 +76674,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Atiak Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Atiak Waterway",
+    "year_compl": 2025,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-240",
     "culvert_no": "C558",
-    "road_name": "Adjumani - Sinyanya Ferry Landing",
+    "road_name": "Adjumani - Sinyanya Ferry landing",
     "river": "Adjumani Waterway",
     "type_culvert": "27",
     "length_km": 5.40000009536743,
@@ -73484,7 +76700,7 @@ const MAJOR_CULVERTS = [
     "map_x": 31.6847801208496,
     "map_y": -3.31274008750916,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Adjumani - Sinyanya Ferry Landing",
+    "link_name": "Adjumani - Sinyanya Ferry landing",
     "link_no": "C726_Link01",
     "region": "Northern",
     "station": "Moyo",
@@ -73497,11 +76713,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 5.40000009536743,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Adjumani - Sinyanya Ferry Landing",
+    "road_descr_principal": "Adjumani - Sinyanya Ferry landing",
     "maintenanc": "Moyo",
     "River": "Adjumani Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Adjumani Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-241",
@@ -73539,7 +76760,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Yumbe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Yumbe Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-242",
@@ -73577,7 +76803,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Moyo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Moyo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-243",
@@ -73615,7 +76846,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Inde Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Inde Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-244",
@@ -73653,7 +76889,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Pabbo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pabbo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-245",
@@ -73691,7 +76932,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Agweng Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Agweng Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-246",
@@ -73729,7 +76975,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-247",
@@ -73767,7 +77018,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Agweng Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Agweng Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-248",
@@ -73805,7 +77061,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Karuma Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karuma Waterway",
+    "year_compl": 2006,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-249",
@@ -73843,7 +77104,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Karuma Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Karuma Waterway",
+    "year_compl": 2006,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-250",
@@ -73881,7 +77147,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Packwach Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Packwach Waterway",
+    "year_compl": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-251",
@@ -73919,7 +77190,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Nebbi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nebbi Waterway",
+    "year_compl": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-252",
@@ -73957,7 +77233,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Nebbi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nebbi Waterway",
+    "year_compl": 2003,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-253",
@@ -73995,7 +77276,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Manibe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Manibe Waterway",
+    "year_compl": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-254",
@@ -74033,12 +77319,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Manibe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Manibe Waterway",
+    "year_compl": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-255",
     "culvert_no": "C608",
-    "road_name": "Koboko - Oraba (Uganda/sudan Border)",
+    "road_name": "Koboko - Oraba (Uganda/Sudan border)",
     "river": "Koboko Waterway",
     "type_culvert": "24",
     "length_km": 23.6000003814697,
@@ -74054,7 +77345,7 @@ const MAJOR_CULVERTS = [
     "map_x": 30.8925895690918,
     "map_y": -3.52958989143372,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+    "link_name": "Koboko - Oraba (Uganda/Sudan border)",
     "link_no": "A008_Link07",
     "region": "Northern",
     "station": "Arua",
@@ -74067,11 +77358,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 23.6000003814697,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
+    "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
     "maintenanc": "Arua",
     "River": "Koboko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Koboko Waterway",
+    "year_compl": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-256",
@@ -74109,7 +77405,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Pakwach Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakwach Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-257",
@@ -74147,7 +77448,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Zombo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Zombo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-258",
@@ -74185,7 +77491,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Manibe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Manibe Waterway",
+    "year_compl": 2015,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-259",
@@ -74223,7 +77534,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Koboko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Koboko Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-260",
@@ -74261,7 +77577,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Pakele Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakele Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-261",
@@ -74299,7 +77620,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Pakele Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakele Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-262",
@@ -74337,7 +77663,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Gulu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Gulu Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-263",
@@ -74375,7 +77706,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Kitgum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kitgum Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-264",
@@ -74413,7 +77749,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kitgum",
     "River": "Potika Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Potika Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-265",
@@ -74451,7 +77792,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Amuru Junction Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Amuru Junction Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-266",
@@ -74489,7 +77835,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Gulu",
     "River": "Arom Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arom Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-267",
@@ -74527,7 +77878,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-268",
@@ -74565,7 +77921,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-269",
@@ -74603,7 +77964,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Okee Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Okee Bridge Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-270",
@@ -74641,7 +78007,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-271",
@@ -74679,7 +78050,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-272",
@@ -74717,7 +78093,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-273",
@@ -74755,7 +78136,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-274",
@@ -74793,7 +78179,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-275",
@@ -74831,7 +78222,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Lira",
     "River": "Lira Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lira Waterway",
+    "year_compl": 1968,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-276",
@@ -74869,7 +78265,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Inde Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Inde Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-277",
@@ -74907,7 +78308,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Arua",
     "River": "Inde Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Inde Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-278",
@@ -74945,7 +78351,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Pakele Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakele Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-279",
@@ -74983,7 +78394,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Pakele Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakele Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-280",
@@ -75021,7 +78437,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moyo",
     "River": "Pakele Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Pakele Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-281",
@@ -75059,7 +78480,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-282",
@@ -75097,7 +78523,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-283",
@@ -75135,7 +78566,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kamonkoli Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamonkoli Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-284",
@@ -75173,7 +78609,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kamonkoli Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamonkoli Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-285",
@@ -75211,12 +78652,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kamonkoli Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamonkoli Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-286",
     "culvert_no": "C705",
-    "road_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+    "road_name": "Tororo junction - Malaba (Uganda/Kenya border)",
     "river": "Tororo Junction Waterway",
     "type_culvert": "27",
     "length_km": 15.8000001907349,
@@ -75232,7 +78678,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.235179901123,
     "map_y": 0.646529972553253,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+    "link_name": "Tororo junction - Malaba (Uganda/Kenya border)",
     "link_no": "A001_Link11",
     "region": "Eastern",
     "station": "Tororo",
@@ -75245,11 +78691,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 15.8000001907349,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Tororo Junction - Malaba (Uganda/kenya Border)",
+    "road_descr_principal": "Tororo junction - Malaba (Uganda/Kenya border)",
     "maintenanc": "Tororo",
     "River": "Tororo Junction Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo Junction Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-287",
@@ -75287,7 +78738,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-288",
@@ -75325,7 +78781,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-289",
@@ -75363,7 +78824,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-290",
@@ -75401,7 +78867,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-291",
@@ -75439,7 +78910,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-292",
@@ -75477,7 +78953,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-293",
@@ -75515,7 +78996,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-294",
@@ -75553,7 +79039,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-295",
@@ -75591,7 +79082,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-296",
@@ -75629,7 +79125,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-297",
@@ -75667,7 +79168,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-298",
@@ -75705,7 +79211,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-299",
@@ -75743,7 +79254,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-300",
@@ -75781,7 +79297,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-301",
@@ -75819,7 +79340,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-302",
@@ -75857,7 +79383,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-303",
@@ -75895,7 +79426,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-304",
@@ -75933,7 +79469,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-305",
@@ -75971,7 +79512,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-306",
@@ -76009,7 +79555,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-307",
@@ -76047,7 +79598,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-308",
@@ -76085,7 +79641,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-309",
@@ -76123,7 +79684,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-310",
@@ -76161,7 +79727,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-311",
@@ -76199,7 +79770,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-312",
@@ -76237,7 +79813,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-313",
@@ -76275,7 +79856,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-314",
@@ -76313,7 +79899,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-315",
@@ -76351,7 +79942,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-316",
@@ -76389,7 +79985,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-317",
@@ -76427,12 +80028,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-318",
     "culvert_no": "C751",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 24,
@@ -76448,7 +80054,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7385101318359,
     "map_y": 0.969039976596832,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76461,16 +80067,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 24,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-319",
     "culvert_no": "C752",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 25,
@@ -76486,7 +80097,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7381896972656,
     "map_y": 96803,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76499,16 +80110,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 25,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-320",
     "culvert_no": "C753",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 25,
@@ -76524,7 +80140,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7380981445313,
     "map_y": 0.967750012874603,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76537,16 +80153,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 25,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-321",
     "culvert_no": "C754",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 17,
@@ -76562,7 +80183,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.736629486084,
     "map_y": 0.963199973106384,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76575,16 +80196,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 17,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-322",
     "culvert_no": "C755",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 14.3000001907349,
@@ -76600,7 +80226,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7342185974121,
     "map_y": 0.955799996852875,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76613,16 +80239,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 14.3000001907349,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-323",
     "culvert_no": "C756",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 15.6000003814697,
@@ -76638,7 +80269,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7324981689453,
     "map_y": 0.950500011444092,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76651,16 +80282,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 15.6000003814697,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-324",
     "culvert_no": "C757",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 12.8000001907349,
@@ -76676,7 +80312,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.7231597900391,
     "map_y": 0.885670006275177,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76689,16 +80325,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12.8000001907349,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-325",
     "culvert_no": "C758",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 13.8000001907349,
@@ -76714,7 +80355,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.5887298583984,
     "map_y": 0.731379985809326,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76727,16 +80368,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 13.8000001907349,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-326",
     "culvert_no": "C759",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 13.8000001907349,
@@ -76752,7 +80398,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.5885200500488,
     "map_y": 0.731149971485138,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76765,16 +80411,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 13.8000001907349,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-327",
     "culvert_no": "C760",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 16,
@@ -76790,7 +80441,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.586971282959,
     "map_y": 0.729229986667633,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76803,16 +80454,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 16,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-328",
     "culvert_no": "C761",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 13.6999998092651,
@@ -76828,7 +80484,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.5772094726563,
     "map_y": 0.717010021209717,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76841,16 +80497,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 13.6999998092651,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-329",
     "culvert_no": "C762",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 14,
@@ -76866,7 +80527,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.5769996643066,
     "map_y": 0.71671998500824,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76879,16 +80540,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 14,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-330",
     "culvert_no": "C763",
-    "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_name": "Nakalama - Namutumba - Mpologoma bridge",
     "river": "Nakalama Waterway",
     "type_culvert": "24",
     "length_km": 13.6999998092651,
@@ -76904,7 +80570,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.5762405395508,
     "map_y": 0.715669989585876,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+    "link_name": "Nakalama - Namutumba - Mpologoma bridge",
     "link_no": "A012_Link01",
     "region": "Eastern",
     "station": "Jinja",
@@ -76917,11 +80583,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 13.6999998092651,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
+    "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1996,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-331",
@@ -76959,7 +80630,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-332",
@@ -76997,7 +80673,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-333",
@@ -77035,7 +80716,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-334",
@@ -77073,7 +80759,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-335",
@@ -77111,7 +80802,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-336",
@@ -77149,12 +80845,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Nakalama Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nakalama Waterway",
+    "year_compl": 1960,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-337",
     "culvert_no": "C770",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 15,
@@ -77170,7 +80871,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0108108520508,
     "map_y": 0.541339993476868,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77183,16 +80884,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 15,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-338",
     "culvert_no": "C771",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 15,
@@ -77208,7 +80914,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0313911437988,
     "map_y": 0.565240025520325,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77221,16 +80927,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 15,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-339",
     "culvert_no": "C772",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 17,
@@ -77246,7 +80957,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.054931640625,
     "map_y": 0.587920010089874,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77259,16 +80970,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 17,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-340",
     "culvert_no": "C773",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 18,
@@ -77284,7 +81000,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0553588867188,
     "map_y": 0.588320016860962,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77297,16 +81013,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 18,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-341",
     "culvert_no": "C774",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 17.7999992370605,
@@ -77322,7 +81043,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0558395385742,
     "map_y": 0.588649988174438,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77335,16 +81056,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 17.7999992370605,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-342",
     "culvert_no": "C775",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 16,
@@ -77360,7 +81086,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0563011169434,
     "map_y": 0.589070022106171,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77373,16 +81099,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 16,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-343",
     "culvert_no": "C776",
-    "road_name": "Busitema Junction - Tororo Junction",
+    "road_name": "Busitema Junction - Tororo junction",
     "river": "Namutere Waterway",
     "type_culvert": "24",
     "length_km": 16.7999992370605,
@@ -77398,7 +81129,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.0569305419922,
     "map_y": 0.589770019054413,
     "road_class": "Class A (International Trunk Road)",
-    "link_name": "Busitema Junction - Tororo Junction",
+    "link_name": "Busitema Junction - Tororo junction",
     "link_no": "A001_Link10",
     "region": "Eastern",
     "station": "Tororo",
@@ -77411,11 +81142,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 16.7999992370605,
     "RoadClass": "Class A (International Trunk Road)",
     "road_class_desc": "Class A (International Trunk Road)",
-    "road_descr_principal": "Busitema Junction - Tororo Junction",
+    "road_descr_principal": "Busitema Junction - Tororo junction",
     "maintenanc": "Tororo",
     "River": "Namutere Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namutere Waterway",
+    "year_compl": 1963,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-344",
@@ -77453,7 +81189,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Tororo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo Waterway",
+    "year_compl": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-345",
@@ -77491,7 +81232,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Tororo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo Waterway",
+    "year_compl": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-346",
@@ -77529,7 +81275,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Tororo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo Waterway",
+    "year_compl": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-347",
@@ -77567,7 +81318,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Tororo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo Waterway",
+    "year_compl": 1969,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-348",
@@ -77605,7 +81361,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Nyambogo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nyambogo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-349",
@@ -77643,7 +81404,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Nyambogo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nyambogo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-350",
@@ -77681,7 +81447,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Nalugugu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nalugugu Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-351",
@@ -77719,12 +81490,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Doho Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Doho Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-352",
     "culvert_no": "C786",
-    "road_name": "Bubulo - Bududa Circle Road",
+    "road_name": "Bubulo - Bududa Circle road",
     "river": "Bubulo Waterway",
     "type_culvert": "27",
     "length_km": 5,
@@ -77740,7 +81516,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.3016700744629,
     "map_y": 0.964309990406036,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "region": "Eastern",
     "station": "Mbale",
@@ -77753,16 +81529,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 5,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-353",
     "culvert_no": "C787",
-    "road_name": "Bubulo - Bududa Circle Road",
+    "road_name": "Bubulo - Bududa Circle road",
     "river": "Bubulo Waterway",
     "type_culvert": "27",
     "length_km": 8.5,
@@ -77778,7 +81559,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.3495216369629,
     "map_y": 1.05183005332947,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Bubulo - Bududa Circle Road",
+    "link_name": "Bubulo - Bududa Circle road",
     "link_no": "C867_Link02",
     "region": "Eastern",
     "station": "Mbale",
@@ -77791,11 +81572,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 8.5,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Bubulo - Bududa Circle Road",
+    "road_descr_principal": "Bubulo - Bududa Circle road",
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-354",
@@ -77833,7 +81619,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Magale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-355",
@@ -77871,7 +81662,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Magale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-356",
@@ -77909,7 +81705,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-357",
@@ -77947,7 +81748,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Bubulo Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Bubulo Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-358",
@@ -77985,7 +81791,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Korir Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Korir Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-359",
@@ -78023,7 +81834,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Korir Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Korir Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-360",
@@ -78061,7 +81877,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-361",
@@ -78099,7 +81920,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-362",
@@ -78137,7 +81963,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-363",
@@ -78175,7 +82006,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-364",
@@ -78213,12 +82049,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-365",
     "culvert_no": "C800",
-    "road_name": "Simu Corner - Kaserem",
+    "road_name": "Simu corner - Kaserem",
     "river": "Simu Corner Waterway",
     "type_culvert": "24",
     "length_km": 4.80000019073486,
@@ -78234,7 +82075,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.3305397033691,
     "map_y": 1.31072998046875,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Simu Corner - Kaserem",
+    "link_name": "Simu corner - Kaserem",
     "link_no": "C871_Link01",
     "region": "Eastern",
     "station": "Mbale",
@@ -78247,11 +82088,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 4.80000019073486,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Simu Corner - Kaserem",
+    "road_descr_principal": "Simu corner - Kaserem",
     "maintenanc": "Mbale",
     "River": "Simu Corner Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Simu Corner Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-366",
@@ -78289,7 +82135,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kotido",
     "River": "Kotido Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kotido Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-367",
@@ -78327,7 +82178,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kotido",
     "River": "Kotido Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kotido Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-368",
@@ -78365,7 +82221,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Angatun Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Angatun Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-369",
@@ -78403,7 +82264,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Lokapel Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Lokapel Waterway",
+    "year_compl": 2016,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-370",
@@ -78441,7 +82307,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-371",
@@ -78479,7 +82350,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-372",
@@ -78517,7 +82393,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-373",
@@ -78555,7 +82436,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-374",
@@ -78593,7 +82479,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-375",
@@ -78631,7 +82522,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-376",
@@ -78669,7 +82565,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-377",
@@ -78707,7 +82608,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-378",
@@ -78745,7 +82651,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-379",
@@ -78783,7 +82694,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-380",
@@ -78821,7 +82737,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-381",
@@ -78859,7 +82780,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Kokeris Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kokeris Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-382",
@@ -78897,7 +82823,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Namalu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namalu Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-383",
@@ -78935,7 +82866,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Namalu Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Namalu Waterway",
+    "year_compl": 2022,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-384",
@@ -78973,13 +82909,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Iriri Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iriri Waterway",
+    "year_compl": 2019,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-385",
     "culvert_no": "C824",
     "road_name": "Amuria (Kuju) - Obalang",
-    "river": "Amuria (Kuju) Waterway",
+    "river": "Amuria (kuju) Waterway",
     "type_culvert": "24",
     "length_km": 5,
     "chainage": 0,
@@ -79011,13 +82952,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Amuria (Kuju) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Amuria (kuju) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-386",
     "culvert_no": "C825",
     "road_name": "Amuria (Kuju) - Obalang",
-    "river": "Amuria (Kuju) Waterway",
+    "river": "Amuria (kuju) Waterway",
     "type_culvert": "24",
     "length_km": 5.19999980926514,
     "chainage": 0,
@@ -79049,7 +82995,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Amuria (Kuju) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Amuria (kuju) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-387",
@@ -79087,7 +83038,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Soroti Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Soroti Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-388",
@@ -79125,7 +83081,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Soroti Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Soroti Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-389",
@@ -79163,7 +83124,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-390",
@@ -79201,7 +83167,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-391",
@@ -79239,7 +83210,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-392",
@@ -79276,7 +83252,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-393",
@@ -79314,7 +83295,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kaserem Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kaserem Waterway",
+    "year_compl": 2023,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-394",
@@ -79352,7 +83338,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Muyembe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muyembe Waterway",
+    "year_compl": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-395",
@@ -79390,7 +83381,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Muyembe Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Muyembe Waterway",
+    "year_compl": 2004,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-396",
@@ -79428,7 +83424,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Soroti Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Soroti Waterway",
+    "year_compl": 2009,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-397",
@@ -79466,7 +83467,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kumi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kumi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-398",
@@ -79504,7 +83510,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kapir Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kapir Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-399",
@@ -79543,7 +83554,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Munamba Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Munamba Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-400",
@@ -79581,7 +83597,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Jinja",
     "River": "Iganga Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Iganga Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-401",
@@ -79619,7 +83640,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Kamonkoli Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kamonkoli Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-402",
@@ -79657,7 +83683,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Tirinyi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tirinyi Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-403",
@@ -79695,7 +83726,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Tirinyi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tirinyi Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-404",
@@ -79733,7 +83769,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Leresi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Leresi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-405",
@@ -79771,7 +83812,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Leresi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Leresi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-406",
@@ -79809,7 +83855,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Leresi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Leresi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-407",
@@ -79847,13 +83898,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Kidoko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kidoko Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-408",
     "culvert_no": "C851",
     "road_name": "Chosan to Amudat",
-    "river": "Chosan to Amudat Waterway",
+    "river": "Chosan To Amudat Waterway",
     "type_culvert": "26",
     "length_km": 6.5,
     "chainage": 0,
@@ -79885,7 +83941,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Moroto",
     "River": "Chosan to Amudat Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Chosan To Amudat Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-409",
@@ -79923,13 +83984,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Rubongi Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Rubongi Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-410",
     "culvert_no": "C856",
     "road_name": "Katine to Ochero",
-    "river": "Katine to Ochero Waterway",
+    "river": "Katine To Ochero Waterway",
     "type_culvert": "24",
     "length_km": 8.5,
     "chainage": 0,
@@ -79961,7 +84027,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Katine to Ochero Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Katine To Ochero Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-411",
@@ -79999,7 +84070,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyum Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-412",
@@ -80037,7 +84113,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyum Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyum Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-413",
@@ -80075,7 +84156,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Apokor Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Apokor Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-414",
@@ -80113,7 +84199,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Kidoko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kidoko Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-415",
@@ -80151,7 +84242,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Kidoko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kidoko Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-416",
@@ -80189,13 +84285,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Mbale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Mbale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-417",
     "culvert_no": "C905",
     "road_name": "Amuria (Kuju) - Obalang",
-    "river": "Amuria (Kuju) Waterway",
+    "river": "Amuria (kuju) Waterway",
     "type_culvert": "24",
     "length_km": 15.3000001907349,
     "chainage": 0,
@@ -80227,7 +84328,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Amuria (Kuju) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Amuria (kuju) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-418",
@@ -80265,7 +84371,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-419",
@@ -80303,7 +84414,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-420",
@@ -80341,7 +84457,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Kanyago Bridge Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kanyago Bridge Waterway",
+    "year_compl": 2021,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-421",
@@ -80379,7 +84500,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Ngora Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Ngora Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-422",
@@ -80417,13 +84543,18 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Soroti",
     "River": "Arapai Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Arapai Waterway",
+    "year_compl": 2020,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-423",
     "culvert_no": "C911",
-    "road_name": "Tororo (Malaba Junction) - Busia",
-    "river": "Tororo (Malaba Junction) Waterway",
+    "road_name": "Tororo (Malaba junction) - Busia",
+    "river": "Tororo (malaba Junction) Waterway",
     "type_culvert": "24",
     "length_km": 22,
     "chainage": 0,
@@ -80438,7 +84569,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.1393394470215,
     "map_y": 0.585739970207214,
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "region": "Eastern",
     "station": "Tororo",
@@ -80451,17 +84582,22 @@ const MAJOR_CULVERTS = [
     "culvert_length": 22,
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "maintenanc": "Tororo",
     "River": "Tororo (Malaba Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo (malaba Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-424",
     "culvert_no": "C912",
-    "road_name": "Tororo (Malaba Junction) - Busia",
-    "river": "Tororo (Malaba Junction) Waterway",
+    "road_name": "Tororo (Malaba junction) - Busia",
+    "river": "Tororo (malaba Junction) Waterway",
     "type_culvert": "24",
     "length_km": 22.5,
     "chainage": 0,
@@ -80476,7 +84612,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.1388206481934,
     "map_y": 0.584389984607697,
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "region": "Eastern",
     "station": "Tororo",
@@ -80489,17 +84625,22 @@ const MAJOR_CULVERTS = [
     "culvert_length": 22.5,
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "maintenanc": "Tororo",
     "River": "Tororo (Malaba Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo (malaba Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-425",
     "culvert_no": "C913",
-    "road_name": "Tororo (Malaba Junction) - Busia",
-    "river": "Tororo (Malaba Junction) Waterway",
+    "road_name": "Tororo (Malaba junction) - Busia",
+    "river": "Tororo (malaba Junction) Waterway",
     "type_culvert": "24",
     "length_km": 24.7000007629395,
     "chainage": 0,
@@ -80514,7 +84655,7 @@ const MAJOR_CULVERTS = [
     "map_x": 34.1379013061523,
     "map_y": 0.582019984722137,
     "road_class": "Class B (National Trunk Road)",
-    "link_name": "Tororo (Malaba Junction) - Busia",
+    "link_name": "Tororo (Malaba junction) - Busia",
     "link_no": "B306_Link01",
     "region": "Eastern",
     "station": "Tororo",
@@ -80527,16 +84668,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 24.7000007629395,
     "RoadClass": "Class B (National Trunk Road)",
     "road_class_desc": "Class B (National Trunk Road)",
-    "road_descr_principal": "Tororo (Malaba Junction) - Busia",
+    "road_descr_principal": "Tororo (Malaba junction) - Busia",
     "maintenanc": "Tororo",
     "River": "Tororo (Malaba Junction) Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Tororo (malaba Junction) Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-426",
     "culvert_no": "C914",
-    "road_name": "Nabumali Junction - Busolwe",
+    "road_name": "Nabumali junction - Busolwe",
     "river": "Nabumali Junction Waterway",
     "type_culvert": "27",
     "length_km": 9.5,
@@ -80552,7 +84698,7 @@ const MAJOR_CULVERTS = [
     "map_x": 33.9903106689453,
     "map_y": 0.928309977054596,
     "road_class": "Class C (Primary Road)",
-    "link_name": "Nabumali Junction - Busolwe",
+    "link_name": "Nabumali junction - Busolwe",
     "link_no": "C833_Link01",
     "region": "Eastern",
     "station": "Tororo",
@@ -80565,11 +84711,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 9.5,
     "RoadClass": "Class C (Primary Road)",
     "road_class_desc": "Class C (Primary Road)",
-    "road_descr_principal": "Nabumali Junction - Busolwe",
+    "road_descr_principal": "Nabumali junction - Busolwe",
     "maintenanc": "Tororo",
     "River": "Nabumali Junction Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Nabumali Junction Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-427",
@@ -80607,7 +84758,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Kidoko Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kidoko Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-428",
@@ -80645,7 +84801,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Tororo",
     "River": "Magodes Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magodes Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-429",
@@ -80683,7 +84844,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Magale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-430",
@@ -80721,7 +84887,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Magale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-431",
@@ -80759,12 +84930,17 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Mbale",
     "River": "Magale Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Magale Waterway",
+    "year_compl": 1970,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-432",
     "culvert_no": "C022",
-    "road_name": "Kampala Northernbypass",
+    "road_name": "Kampala NorthernBypass",
     "river": "Kampala Northernbypass Waterway",
     "type_culvert": "25",
     "chainage": 0,
@@ -80779,7 +84955,7 @@ const MAJOR_CULVERTS = [
     "map_x": 32.5897,
     "map_y": 0.3521,
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "link_no": "M20",
     "region": "Central",
     "station": "Kampala",
@@ -80792,16 +84968,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "maintenanc": "Kampala",
     "River": "Kampala Northernbypass Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Northernbypass Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-433",
     "culvert_no": "C023",
-    "road_name": "Kampala Northernbypass",
+    "road_name": "Kampala NorthernBypass",
     "river": "Kampala Northernbypass Waterway",
     "type_culvert": "25",
     "chainage": 0,
@@ -80816,7 +84997,7 @@ const MAJOR_CULVERTS = [
     "map_x": 32.572,
     "map_y": 0.3523,
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "link_no": "M20",
     "region": "Central",
     "station": "Kampala",
@@ -80829,16 +85010,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "maintenanc": "Kampala",
     "River": "Kampala Northernbypass Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Northernbypass Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-434",
     "culvert_no": "C024",
-    "road_name": "Kampala Northernbypass",
+    "road_name": "Kampala NorthernBypass",
     "river": "Kampala Northernbypass Waterway",
     "type_culvert": "25",
     "chainage": 0,
@@ -80853,7 +85039,7 @@ const MAJOR_CULVERTS = [
     "map_x": 32.572,
     "map_y": 0.3523,
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "link_no": "M20",
     "region": "Central",
     "station": "Kampala",
@@ -80866,16 +85052,21 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "maintenanc": "Kampala",
     "River": "Kampala Northernbypass Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Northernbypass Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-435",
     "culvert_no": "C025",
-    "road_name": "Kampala Northernbypass",
+    "road_name": "Kampala NorthernBypass",
     "river": "Kampala Northernbypass Waterway",
     "type_culvert": "25",
     "chainage": 0,
@@ -80890,7 +85081,7 @@ const MAJOR_CULVERTS = [
     "map_x": 32.5665,
     "map_y": 0.3505,
     "road_class": "Class M (Expressway)",
-    "link_name": "Kampala Northernbypass",
+    "link_name": "Kampala NorthernBypass",
     "link_no": "M20",
     "region": "Central",
     "station": "Kampala",
@@ -80903,11 +85094,16 @@ const MAJOR_CULVERTS = [
     "culvert_length": 12,
     "RoadClass": "Class M (Expressway)",
     "road_class_desc": "Class M (Expressway)",
-    "road_descr_principal": "Kampala Northernbypass",
+    "road_descr_principal": "Kampala NorthernBypass",
     "maintenanc": "Kampala",
     "River": "Kampala Northernbypass Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Northernbypass Waterway",
+    "year_compl": 2008,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-436",
@@ -80944,7 +85140,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-437",
@@ -80981,7 +85182,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-438",
@@ -81018,7 +85224,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-439",
@@ -81055,7 +85266,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-440",
@@ -81092,7 +85308,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-441",
@@ -81129,7 +85350,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-442",
@@ -81166,7 +85392,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-443",
@@ -81203,7 +85434,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-444",
@@ -81240,7 +85476,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-445",
@@ -81277,7 +85518,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-446",
@@ -81314,7 +85560,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-447",
@@ -81351,7 +85602,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-448",
@@ -81388,7 +85644,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-449",
@@ -81425,7 +85686,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-450",
@@ -81462,7 +85728,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-451",
@@ -81499,7 +85770,12 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kampala Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kampala Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   },
   {
     "_id": "culvert-452",
@@ -81536,6 +85812,11 @@ const MAJOR_CULVERTS = [
     "maintenanc": "Kampala",
     "River": "Kajjansi Interchange Slip 1 Waterway",
     "scour_risk": "No Scour Risk",
-    "ScourRisk": "No Scour Risk"
+    "ScourRisk": "No Scour Risk",
+    "waterway": "Kajjansi Interchange Slip 1 Waterway",
+    "year_compl": 2018,
+    "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+    "annual_traffic_growth_rate": 0.045,
+    "annual_weighted_growth_rate": 0.045
   }
 ];

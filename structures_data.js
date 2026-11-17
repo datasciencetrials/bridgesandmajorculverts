@@ -33,7 +33,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "River Rwizi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -68,7 +72,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Kibimba River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -84,7 +92,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B002",
         "name": "MALABA",
         "road_no": "A001",
-        "road_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+        "road_name": "Tororo junction - Malaba (Uganda/Kenya border)",
         "link_no": "A001_Link11",
         "region": "Eastern",
         "station": "Tororo",
@@ -98,12 +106,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Tororo Junction - Malaba (Uganda/kenya Border)",
-        "link_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+        "road_descr_principal": "Tororo junction - Malaba (Uganda/Kenya border)",
+        "link_name": "Tororo junction - Malaba (Uganda/Kenya border)",
         "maintenanc": "Tororo",
         "River": "Malaba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -138,7 +150,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Busega River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1958,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -173,7 +189,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "River Katonga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1958,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -208,7 +228,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "River Rwizi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -243,7 +267,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kamira River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -278,7 +306,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rubanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -313,7 +345,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kemyenda River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -348,7 +384,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kyanamira",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1985,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -373,7 +413,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.176,
         "lon": 32.5173,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -383,7 +423,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -418,7 +462,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Nile",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -443,7 +491,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.2596,
         "lon": 32.5215,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -453,7 +501,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -488,7 +540,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road Underpass",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -523,7 +579,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Mwanyare River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -548,7 +608,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.2525,
         "lon": 32.5224,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -558,7 +618,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -583,7 +647,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.1485,
         "lon": 32.5107,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -593,7 +657,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -628,7 +696,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masaka",
         "River": "River Bukoola",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -653,7 +725,7 @@ window.BRIDGE_DATA = {
         "condition": 4,
         "lat": 0.2324,
         "lon": 32.5235,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -663,7 +735,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -688,7 +764,7 @@ window.BRIDGE_DATA = {
         "condition": 4,
         "lat": 0.1452,
         "lon": 32.5104,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -698,7 +774,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -723,7 +803,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.329329997301102,
         "lon": 32.4180297851563,
-        "river": "Road over Rail",
+        "river": "Road Over Rail",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -733,7 +813,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Road over Rail",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2012,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -758,7 +842,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.2153,
         "lon": 32.5313,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -768,7 +852,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -793,7 +881,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.1358,
         "lon": 32.5104,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -803,7 +891,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -838,7 +930,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1989,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -873,7 +969,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Expressway Grade Separation",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -908,7 +1008,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Nambigirwa Wetland",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -943,7 +1047,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -978,7 +1086,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1013,7 +1125,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1048,7 +1164,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1989,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1083,7 +1203,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Rwimi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1118,7 +1242,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Rwimi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1134,7 +1262,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B016",
         "name": "RWIMI",
         "road_no": "A005",
-        "road_name": "Fortportal - Rwimi (Bridge)",
+        "road_name": "FortPortal - Rwimi (bridge)",
         "link_no": "A005_Link11",
         "region": "Western",
         "station": "Fort Portal",
@@ -1148,12 +1276,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Fortportal - Rwimi (Bridge)",
-        "link_name": "Fortportal - Rwimi (Bridge)",
+        "road_descr_principal": "FortPortal - Rwimi (bridge)",
+        "link_name": "FortPortal - Rwimi (bridge)",
         "maintenanc": "Fort Portal",
         "River": "Rwimi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1178,7 +1310,7 @@ window.BRIDGE_DATA = {
         "condition": 4,
         "lat": 0.1974,
         "lon": 32.5262,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -1188,7 +1320,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1223,7 +1359,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Mpalla Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1258,7 +1398,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Nsonja River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1293,7 +1437,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Mubuku River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1328,7 +1476,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Mubuku River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1363,7 +1515,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Mubuku River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1398,7 +1554,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "River Mubuku",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1433,7 +1593,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nyamwamba River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1468,7 +1632,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nyamwamba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1989,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1503,7 +1671,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Nyamwamba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1538,7 +1710,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rubiriha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1573,7 +1749,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "River Kafu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1962,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1608,7 +1788,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Titi Swamp River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1643,7 +1827,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "White Nile",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1678,7 +1866,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Magodes",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1713,7 +1905,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nabuyonga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1748,7 +1944,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Namatala",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1783,7 +1983,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Nangipa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1818,7 +2022,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Lwere",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1853,7 +2061,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Lwere",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1888,7 +2100,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Awoja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1923,7 +2139,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Tochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1958,7 +2178,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Albert Nile",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -1993,7 +2217,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Achwera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2028,7 +2256,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Akaba River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2063,7 +2295,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Nyarwodho",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2098,7 +2334,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Namthin River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2133,7 +2373,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ora River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2168,7 +2412,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Aguyi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2203,7 +2451,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ozuva",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2238,7 +2490,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Wiki",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2273,7 +2529,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kayiriira River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2289,7 +2549,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B042",
         "name": "MPOLOGOMA",
         "road_no": "A012",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_LINK01",
         "region": "Eastern",
         "station": "Jinja",
@@ -2303,12 +2563,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Mpologoma",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2343,7 +2607,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Rushango River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2378,7 +2646,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2413,7 +2685,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Kazinga Channel",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1989,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2448,7 +2724,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Muzizi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2483,7 +2763,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Nkusi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2518,7 +2802,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Rwere",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1961,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2553,7 +2841,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sironko",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1961,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2588,7 +2880,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nalugugu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1961,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2623,7 +2919,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Simu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1961,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2658,7 +2958,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Yembe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2693,7 +2997,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Atari",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2728,7 +3036,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Ngenge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2763,7 +3075,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Emjong",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2798,7 +3114,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "River Oladot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2833,7 +3153,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Ladot River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2868,7 +3192,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Ladot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2903,7 +3231,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masaka",
         "River": "Buyanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2938,7 +3270,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Kibal River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -2973,7 +3309,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kahenge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2005,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3008,7 +3348,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "River Minera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3043,7 +3387,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "River Minera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3078,7 +3426,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nyamwiru River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3113,7 +3465,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rwempunu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3148,7 +3504,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kaizi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3183,7 +3543,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nshwera River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3218,7 +3582,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Ntungwe River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3253,7 +3621,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Ishasha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3288,7 +3660,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Nyakambugu Swamp",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3323,7 +3699,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Kamiira Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3358,7 +3738,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "River Kagera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2017,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3393,7 +3777,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Katengure River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3428,7 +3816,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Mubuku River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3444,7 +3836,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B081",
         "name": "KILEMBE  BRIDGE",
         "road_no": "C511",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -3458,12 +3850,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "River Nyamwamba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3498,7 +3894,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kanyampala",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3533,7 +3933,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Namusagani",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3568,7 +3972,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Wassa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3603,7 +4011,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Sogoha",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3638,7 +4050,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Waiga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3654,7 +4070,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B090",
         "name": "WAIGA",
         "road_no": "C625",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -3668,12 +4084,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Waiga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3689,7 +4109,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B091",
         "name": "WARINGO",
         "road_no": "C625",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -3703,12 +4123,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Waringo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3724,7 +4148,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B092",
         "name": "ZOLEYA",
         "road_no": "C625",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -3738,12 +4162,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Zoliya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3759,7 +4187,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B093",
         "name": "SAMBIYA",
         "road_no": "C625",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -3773,12 +4201,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Sambiya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3813,7 +4245,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Rubonge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3848,7 +4284,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Pakamu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3883,7 +4323,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Mahanga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3899,7 +4343,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B097",
         "name": "NAKULUMUTU",
         "road_no": "C833",
-        "road_name": "Nabumali Junction - Busolwe",
+        "road_name": "Nabumali junction - Busolwe",
         "link_no": "C833_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -3913,12 +4357,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nabumali Junction - Busolwe",
-        "link_name": "Nabumali Junction - Busolwe",
+        "road_descr_principal": "Nabumali junction - Busolwe",
+        "link_name": "Nabumali junction - Busolwe",
         "maintenanc": "Tororo",
         "River": "Nakulumutu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3934,7 +4382,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B098",
         "name": "NKOLA",
         "road_no": "C833",
-        "road_name": "Nabumali Junction - Busolwe",
+        "road_name": "Nabumali junction - Busolwe",
         "link_no": "C833_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -3948,12 +4396,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nabumali Junction - Busolwe",
-        "link_name": "Nabumali Junction - Busolwe",
+        "road_descr_principal": "Nabumali junction - Busolwe",
+        "link_name": "Nabumali junction - Busolwe",
         "maintenanc": "Tororo",
         "River": "Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -3969,7 +4421,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B099",
         "name": "NAKWAZI",
         "road_no": "C833",
-        "road_name": "Nabumali Junction - Busolwe",
+        "road_name": "Nabumali junction - Busolwe",
         "link_no": "C833_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -3983,12 +4435,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nabumali Junction - Busolwe",
-        "link_name": "Nabumali Junction - Busolwe",
+        "road_descr_principal": "Nabumali junction - Busolwe",
+        "link_name": "Nabumali junction - Busolwe",
         "maintenanc": "Tororo",
         "River": "Nakwazi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4023,7 +4479,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Mpologoma",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4058,7 +4518,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Miwu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4093,7 +4557,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sironko River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4128,7 +4596,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kado",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4163,7 +4635,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sonoli",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4198,7 +4674,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Namatsu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4233,7 +4713,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nabuyonga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4268,7 +4752,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Namikhoma",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4284,7 +4772,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B108",
         "name": "PASA",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -4298,12 +4786,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Pasa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4319,7 +4811,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B109",
         "name": "TSUTSU",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -4333,12 +4825,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Tsutsu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4354,7 +4850,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B110",
         "name": "Manafa",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -4368,12 +4864,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Manafwa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4389,7 +4889,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B111",
         "name": "Manafwa",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_LINK02",
         "region": "Eastern",
         "station": "Mbale",
@@ -4403,12 +4903,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Manafwa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4443,7 +4947,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4478,7 +4986,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Namunyiri",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4494,7 +5006,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B114",
         "name": "MBIGI",
         "road_no": "C871",
-        "road_name": "Simu Corner - Kaserem",
+        "road_name": "Simu corner - Kaserem",
         "link_no": "C871_Link01",
         "region": "Eastern",
         "station": "Mbale",
@@ -4508,12 +5020,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Simu Corner - Kaserem",
-        "link_name": "Simu Corner - Kaserem",
+        "road_descr_principal": "Simu corner - Kaserem",
+        "link_name": "Simu corner - Kaserem",
         "maintenanc": "Mbale",
         "River": "Yembe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4529,7 +5045,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B115",
         "name": "KUMI",
         "road_no": "C920",
-        "road_name": "Kumi - Brooks Corner",
+        "road_name": "Kumi - Brooks corner",
         "link_no": "C920_Link01",
         "region": "North Eastern",
         "station": "Soroti",
@@ -4543,12 +5059,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kumi - Brooks Corner",
-        "link_name": "Kumi - Brooks Corner",
+        "road_descr_principal": "Kumi - Brooks corner",
+        "link_name": "Kumi - Brooks corner",
         "maintenanc": "Soroti",
         "River": "Amokoka",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4564,7 +5084,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B116",
         "name": "ABUKET",
         "road_no": "C920",
-        "road_name": "Kumi - Brooks Corner",
+        "road_name": "Kumi - Brooks corner",
         "link_no": "C920_Link01",
         "region": "North Eastern",
         "station": "Soroti",
@@ -4578,12 +5098,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kumi - Brooks Corner",
-        "link_name": "Kumi - Brooks Corner",
+        "road_descr_principal": "Kumi - Brooks corner",
+        "link_name": "Kumi - Brooks corner",
         "maintenanc": "Soroti",
         "River": "Abuket",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4618,7 +5142,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Tochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4634,7 +5162,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B118",
         "name": "Unyama",
         "road_no": "A006",
-        "road_name": "Atiak - Nimule (Uganda/sudan Border)",
+        "road_name": "Atiak - Nimule (Uganda/Sudan border)",
         "link_no": "A006_Link13",
         "region": "Northern",
         "station": "Gulu",
@@ -4648,12 +5176,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Atiak - Nimule (Uganda/sudan Border)",
-        "link_name": "Atiak - Nimule (Uganda/sudan Border)",
+        "road_descr_principal": "Atiak - Nimule (Uganda/Sudan border)",
+        "link_name": "Atiak - Nimule (Uganda/Sudan border)",
         "maintenanc": "Gulu",
         "River": "Unyama River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4688,7 +5220,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enyau River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4704,7 +5240,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B120",
         "name": "ENVE BRIDGE",
         "road_no": "A008",
-        "road_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_name": "Koboko - Oraba (Uganda/Sudan border)",
         "link_no": "A008_Link07",
         "region": "Northern",
         "station": "Arua",
@@ -4718,12 +5254,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
-        "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
+        "link_name": "Koboko - Oraba (Uganda/Sudan border)",
         "maintenanc": "Arua",
         "River": "Enve River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4758,7 +5298,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enve River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4793,7 +5337,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oluffe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4828,7 +5376,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ayi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4863,7 +5415,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Yoyo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4898,7 +5454,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oru River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4933,7 +5493,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Apa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -4949,7 +5513,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B126",
         "name": "KOCHI BRIDGE",
         "road_no": "A008",
-        "road_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_name": "Koboko - Oraba (Uganda/Sudan border)",
         "link_no": "A008_Link07",
         "region": "Northern",
         "station": "Arua",
@@ -4963,12 +5527,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
-        "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
+        "link_name": "Koboko - Oraba (Uganda/Sudan border)",
         "maintenanc": "Arua",
         "River": "Kochi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5003,7 +5571,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Ayugi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5038,7 +5610,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Eyiagwea",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5073,7 +5649,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Eria River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5108,7 +5688,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "River Surumu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5143,7 +5727,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Cala River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5178,7 +5766,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Yii",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5213,7 +5805,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Yii",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5248,7 +5844,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Nyawa Bridge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5283,7 +5883,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Nyawa Bridge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5318,7 +5922,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Kochi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5353,7 +5961,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Jure River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5388,7 +6000,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Dacha",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5423,7 +6039,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ore River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5458,7 +6078,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ozoro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5493,7 +6117,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "River Nvetre",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5528,7 +6156,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oru Bridge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5563,7 +6195,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enyawu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5598,7 +6234,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Ayago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5633,7 +6273,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Ayago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2006,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5668,7 +6312,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Akaku",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5703,7 +6351,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Itunga Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5738,7 +6390,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Puranga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5773,7 +6429,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Atup River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5808,7 +6468,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agora River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5843,7 +6507,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5878,7 +6546,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5913,7 +6585,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Dure Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5948,7 +6624,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Pager River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -5983,7 +6663,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Lanyang Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6018,7 +6702,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Aringa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6053,7 +6741,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agwapoke Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6088,7 +6780,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sipi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6123,7 +6819,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Cheptui",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6158,7 +6858,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Chesebere",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6193,7 +6897,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaputokoi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6228,7 +6936,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Atari River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6263,7 +6975,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Seretyo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6298,7 +7014,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Okilim",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6333,7 +7053,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Omaniman",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6368,7 +7092,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Namalera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6403,7 +7131,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Lokali",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6438,7 +7170,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Angolot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6473,7 +7209,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Lokichar",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6508,7 +7248,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Nangololo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6543,7 +7287,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Longiro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6578,7 +7326,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Katulangole",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6613,7 +7365,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Lochom",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6648,7 +7404,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Lomusan",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6683,7 +7443,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Kaabong",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6718,7 +7482,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Akapelot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6753,7 +7521,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Nakwosongwan",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6788,7 +7560,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Lobalokili",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6823,7 +7599,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Loyoroit",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6858,7 +7638,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6893,7 +7677,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Otaka River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6928,7 +7716,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Komolo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6963,7 +7755,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Abraitu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -6998,7 +7794,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Omanima",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7033,7 +7833,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Apak River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7068,7 +7872,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Apak River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7103,7 +7911,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Tochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7138,7 +7950,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Odek River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7173,7 +7989,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Aswa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7208,7 +8028,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Atika Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7243,7 +8067,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Ogeng Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7278,7 +8106,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Ajan River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7313,7 +8145,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Atanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7348,7 +8184,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Unyama",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7383,7 +8223,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Aswa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7418,7 +8262,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Unyama River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7453,7 +8301,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "River Nyarwodho",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7488,7 +8340,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Unyama River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7523,7 +8379,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Aswa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7558,7 +8418,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Awich River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7593,7 +8457,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Burkung",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7628,7 +8496,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Lagwel Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7663,7 +8535,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Limu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7698,7 +8574,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Lakaye Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7733,7 +8613,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "21.543",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7768,7 +8652,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Pager River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7803,7 +8691,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oraa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7838,7 +8730,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oraa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7873,7 +8769,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Awa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7908,7 +8808,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ala River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7943,7 +8847,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Olemika",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -7978,7 +8886,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Mututu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8013,7 +8925,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Kivuje",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8048,7 +8964,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Lojoro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8083,7 +9003,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Nakoyiti",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8118,7 +9042,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Chololo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8143,7 +9071,7 @@ window.BRIDGE_DATA = {
         "condition": 5,
         "lat": 0.349079996347427,
         "lon": 32.6985092163086,
-        "river": "Road over Rail",
+        "river": "Road Over Rail",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -8153,7 +9081,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Rail",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8188,7 +9120,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kigungu Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8223,7 +9159,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Mayanja River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8258,7 +9198,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Bukoola",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8293,7 +9237,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8328,7 +9276,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Nkurungu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8363,7 +9315,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Butembe River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8379,7 +9335,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B229",
         "name": "KYONYO",
         "road_no": "C416",
-        "road_name": "Nsiika - Bihanga - Katerera (Ishaka T/c)",
+        "road_name": "Nsiika - Bihanga - Katerera (Ishaka T/C)",
         "link_no": "C416_Link02",
         "region": "Southern",
         "station": "Ibanda",
@@ -8393,12 +9349,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nsiika - Bihanga - Katerera (Ishaka T/c)",
-        "link_name": "Nsiika - Bihanga - Katerera (Ishaka T/c)",
+        "road_descr_principal": "Nsiika - Bihanga - Katerera (Ishaka T/C)",
+        "link_name": "Nsiika - Bihanga - Katerera (Ishaka T/C)",
         "maintenanc": "Ibanda",
         "River": "Kyonyo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8433,7 +9393,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kacwamahembe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8468,7 +9432,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Mpungu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8503,7 +9471,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Mucha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8538,7 +9510,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kaku River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8573,7 +9549,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Ishasha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8608,7 +9588,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Muyaga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8643,7 +9627,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kiruruma",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8678,7 +9666,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Mitano River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8713,7 +9705,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8748,7 +9744,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kakindo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8783,7 +9783,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rushaya River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8818,7 +9822,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Mitano River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8853,7 +9861,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Rwamuganga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8888,7 +9900,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Ndurumo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8923,7 +9939,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabira - Rukungiri",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8958,7 +9978,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Kyambura",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -8993,7 +10017,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Enshya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9028,7 +10056,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rubiriha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9063,7 +10095,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kabira River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9098,7 +10134,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Ruzairwe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9133,7 +10173,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Perida",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9168,7 +10212,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mahoma River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9203,7 +10251,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Dunga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9238,7 +10290,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Nyabuswa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9273,7 +10329,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9308,7 +10368,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Satisfactory River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9343,7 +10407,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Murungu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9378,7 +10446,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Nguse",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9413,7 +10485,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Mpanga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9448,7 +10524,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9483,7 +10563,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9518,7 +10602,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kisege",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9553,7 +10641,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Wambabya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9588,7 +10680,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Wambabya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9623,7 +10719,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Mairirwe",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9658,7 +10758,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Wambabya River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9693,7 +10797,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Wambabya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9728,7 +10836,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kanangalo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9763,7 +10875,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Okole River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9798,7 +10914,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Walabam",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9833,7 +10953,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Tochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9868,7 +10992,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Eyama River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9903,7 +11031,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Enget River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9938,7 +11070,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Akokowo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -9973,7 +11109,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Enget River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10008,7 +11148,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Apoc River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10043,7 +11187,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Obim River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10078,7 +11226,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Apochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10113,7 +11265,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Econgo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10148,7 +11304,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Apoc",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10183,7 +11343,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Akwera River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10199,7 +11363,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B291",
         "name": "OKEE BRIDGE",
         "road_no": "C994",
-        "road_name": "Okwang - Okwang Subcounty Spur",
+        "road_name": "Okwang - Okwang Subcounty spur",
         "link_no": "C994_Link01",
         "region": "Northern",
         "station": "Lira",
@@ -10213,12 +11377,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Okwang - Okwang Subcounty Spur",
-        "link_name": "Okwang - Okwang Subcounty Spur",
+        "road_descr_principal": "Okwang - Okwang Subcounty spur",
+        "link_name": "Okwang - Okwang Subcounty spur",
         "maintenanc": "Lira",
         "River": "Okee River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10253,7 +11421,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10288,7 +11460,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10323,7 +11499,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10358,7 +11538,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10393,7 +11577,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10428,7 +11616,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Bulugi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10463,7 +11655,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Odyaka River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10498,7 +11694,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Odyaka River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10533,7 +11733,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Ngoya River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10568,7 +11772,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Orok River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10603,7 +11811,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Torchi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10638,7 +11850,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Ayago",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10673,7 +11889,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Langol River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10708,7 +11928,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Omee River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10743,7 +11967,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Apaa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10778,7 +12006,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Ociip River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10813,7 +12045,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Omee",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10848,7 +12084,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Zoka River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10883,7 +12123,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Ayugi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10918,7 +12162,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Opio",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10953,7 +12201,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Amoro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -10988,7 +12240,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Yuba River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11023,7 +12279,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Adidi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11058,7 +12318,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Odragi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11093,7 +12357,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Agugura",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11128,7 +12396,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Lagwel River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11163,7 +12435,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Pauo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11198,7 +12474,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Okwora Bridge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11233,7 +12513,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Aringa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11268,7 +12552,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Aringa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11303,7 +12591,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Gango River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11338,7 +12630,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Lea River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11373,7 +12669,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Nyawa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11408,7 +12708,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Omposo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11443,7 +12747,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Tete River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11478,7 +12786,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Balibo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11513,7 +12825,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Oguta River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11548,7 +12864,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Araga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11583,7 +12903,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Acodho River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11618,7 +12942,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Cido River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11653,7 +12981,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Nyarwotho River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11688,7 +13020,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enyau River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11723,7 +13059,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Okayiva",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11758,7 +13098,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Esi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11793,7 +13137,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enyawu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11828,7 +13176,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Kochi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11863,7 +13215,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Onzua",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11898,7 +13254,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "River Korubude",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11933,7 +13293,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kaminima",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -11968,7 +13332,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kamunima",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12003,7 +13371,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kapisa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12038,7 +13410,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12073,7 +13449,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Nagongera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12108,7 +13488,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Jalaja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12143,7 +13527,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nahamya River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12178,7 +13566,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kitoikawunoni",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12213,7 +13605,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Namatyale",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12248,7 +13644,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Namatyale",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12283,7 +13683,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Simu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12318,7 +13722,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Simu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12353,7 +13761,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sisi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12388,7 +13800,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kuffu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12423,7 +13839,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nabukhya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12458,7 +13878,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Methi - Meru",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12493,7 +13917,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Tsakhana",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12528,7 +13956,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Atoot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12563,7 +13995,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Opot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12598,7 +14034,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Loro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12633,7 +14073,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kanyangaren",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12668,7 +14112,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kanyangaren",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12703,7 +14151,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Omongo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12738,7 +14190,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Nakodongot",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12763,7 +14219,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.348230004310608,
         "lon": 32.6534805297852,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -12773,7 +14229,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12798,7 +14258,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.348789989948273,
         "lon": 32.6544494628906,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -12808,7 +14268,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12833,7 +14297,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.363409996032715,
         "lon": 32.6478805541992,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -12843,7 +14307,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2010,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12859,7 +14327,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B393",
         "name": "Kiwatule Flyover",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -12868,17 +14336,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.369,
         "lon": 32.626,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12894,7 +14366,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B394",
         "name": "Najeera Flyover",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -12903,17 +14375,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.349,
         "lon": 32.654,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12929,7 +14405,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B395",
         "name": "Kisaasi Flyover",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -12943,12 +14419,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Unknown",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12964,7 +14444,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B396",
         "name": "Kyebando Flyover",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -12973,17 +14453,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.349,
         "lon": 32.654,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -12999,7 +14483,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B397",
         "name": "Pedestrian Bridge at Kalerwe",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -13013,12 +14497,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Pedestrian Crossing",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13053,7 +14541,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Olwal",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13088,7 +14580,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Ashaw",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13123,7 +14619,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kufu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13158,7 +14658,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nakaloke - Kabwangasi - Butebo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13193,7 +14697,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13228,7 +14736,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Aragi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13263,7 +14775,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Laimon River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13298,7 +14814,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Asiya River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13333,7 +14853,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Kafu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1962,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13368,7 +14892,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Unknown",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13403,7 +14931,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Unknown",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13419,7 +14951,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B430",
         "name": "MURONGO BRIDGE",
         "road_no": "C354",
-        "road_name": "Kikagati - Murungo Bridge",
+        "road_name": "Kikagati - Murungo bridge",
         "link_no": "C354_Link01",
         "region": "Southern",
         "station": "Mbarara",
@@ -13433,12 +14965,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kikagati - Murungo Bridge",
-        "link_name": "Kikagati - Murungo Bridge",
+        "road_descr_principal": "Kikagati - Murungo bridge",
+        "link_name": "Kikagati - Murungo bridge",
         "maintenanc": "Mbarara",
         "River": "River Kagera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13473,7 +15009,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13508,7 +15048,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13543,7 +15087,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13578,7 +15126,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13613,7 +15165,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "River Mayanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13648,7 +15204,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Lugazi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13673,7 +15233,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.278140008449554,
         "lon": 32.515998840332,
-        "river": "Road over Rail",
+        "river": "Road Over Rail",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -13683,7 +15243,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Rail",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13718,7 +15282,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road Underpass",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13753,7 +15321,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Matagi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13788,7 +15360,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Kabaale Bridge",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13813,7 +15389,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.425480008125305,
         "lon": 31.9647102355957,
-        "river": "Road over Rail",
+        "river": "Road Over Rail",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -13823,7 +15399,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Road over Rail",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13858,7 +15438,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masaka",
         "River": "Bukoola River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13893,7 +15477,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Katonga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1958,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13928,7 +15516,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Rwamuganga Swamp",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13944,7 +15536,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B541",
         "name": "Murongo Bridge",
         "road_no": "C354",
-        "road_name": "Kikagati - Murungo Bridge",
+        "road_name": "Kikagati - Murungo bridge",
         "link_no": "C354_Link01",
         "region": "Southern",
         "station": "Mbarara",
@@ -13958,12 +15550,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kikagati - Murungo Bridge",
-        "link_name": "Kikagati - Murungo Bridge",
+        "road_descr_principal": "Kikagati - Murungo bridge",
+        "link_name": "Kikagati - Murungo bridge",
         "maintenanc": "Mbarara",
         "River": "River Kagera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -13998,7 +15594,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "River Kagera",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2017,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14033,7 +15633,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Kyambu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14068,7 +15672,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Nyamashekye",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14103,7 +15711,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Nyamashekye",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14138,7 +15750,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Mpanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14173,7 +15789,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Ibanda River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2002,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14208,7 +15828,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rwembyo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14243,7 +15867,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kajwenge River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14259,7 +15887,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B551",
         "name": "KYANJUKI",
         "road_no": "C511",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -14273,12 +15901,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Nyamwamba River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14313,7 +15945,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Stream",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14338,7 +15974,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": -1.30375564098358,
         "lon": 30.1010780334473,
-        "river": "Old Kabale Road (Kigata Waterway",
+        "river": "Old Kabale Road (kigata Waterway",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -14348,7 +15984,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Old Kabale Road (Kigata Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14383,7 +16023,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rukiri River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1985,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14418,7 +16062,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Omuyanja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14434,7 +16082,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B556",
         "name": "MUNYANGA BRIDGE",
         "road_no": "C456",
-        "road_name": "Rwabuteera - Kanyansande Spur",
+        "road_name": "Rwabuteera - Kanyansande spur",
         "link_no": "C456_Link01",
         "region": "Southern",
         "station": "Kabale",
@@ -14448,12 +16096,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Rwabuteera - Kanyansande Spur",
-        "link_name": "Rwabuteera - Kanyansande Spur",
+        "road_descr_principal": "Rwabuteera - Kanyansande spur",
+        "link_name": "Rwabuteera - Kanyansande spur",
         "maintenanc": "Kabale",
         "River": "Mutanga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14488,7 +16140,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Unknown Road Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14523,7 +16179,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Dunguluha",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14558,7 +16218,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Birara",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14593,7 +16257,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Nyamashekye",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14628,7 +16296,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kidoko - Kachonga River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14663,7 +16335,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kapir - Ngora River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14698,7 +16374,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Mulanda - Nagongera River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14733,7 +16413,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem - Kapchorwa - Suam River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14768,7 +16452,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Rubongi - Mulanda River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14803,7 +16491,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem - Kapchorwa - Suam River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14838,7 +16530,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Mbale - Bufumbo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14873,7 +16569,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kapchorwa - Suam River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14908,7 +16608,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14943,7 +16647,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem - Kapchorwa - Suam River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -14978,7 +16686,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem - Kapchorwa - Suam River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15013,7 +16725,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Mayanja River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15048,7 +16764,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kiziranfumbi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2024,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15083,7 +16803,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "King Fisher",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15118,7 +16842,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpanga",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15153,7 +16881,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Waaki River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15188,7 +16920,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Kafu River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1962,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15223,7 +16959,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Sonja",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15258,7 +16998,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Buryambwa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15293,7 +17037,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Lakupe River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15328,7 +17076,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Unknown Road Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15363,7 +17115,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Odro River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15398,7 +17154,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Isa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15433,7 +17193,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Naara River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15449,7 +17213,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B735",
         "name": "GAZI (ALLA)",
         "road_no": "C742",
-        "road_name": "Rhino Camp - Ogoko - Inde",
+        "road_name": "Rhino camp - Ogoko - Inde",
         "link_no": "C742_Link01",
         "region": "Northern",
         "station": "Arua",
@@ -15463,12 +17227,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Rhino Camp - Ogoko - Inde",
-        "link_name": "Rhino Camp - Ogoko - Inde",
+        "road_descr_principal": "Rhino camp - Ogoko - Inde",
+        "link_name": "Rhino camp - Ogoko - Inde",
         "maintenanc": "Arua",
         "River": "Gazi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15503,7 +17271,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ayuda River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15538,7 +17310,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Nyagak River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15573,7 +17349,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Ora River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15608,7 +17388,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Aniza River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15643,7 +17427,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Omolo River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15678,7 +17466,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Odrua River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15713,7 +17505,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Alla",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15748,7 +17544,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Tochi 2 River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15783,7 +17583,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Okole River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15818,7 +17622,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Tochi River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15834,7 +17642,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B760",
         "name": "ITIRIKWA",
         "road_no": "C726",
-        "road_name": "Adjumani - Sinyanya Ferry Landing",
+        "road_name": "Adjumani - Sinyanya Ferry landing",
         "link_no": "C726_Link01",
         "region": "Northern",
         "station": "Moyo",
@@ -15848,12 +17656,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Adjumani - Sinyanya Ferry Landing",
-        "link_name": "Adjumani - Sinyanya Ferry Landing",
+        "road_descr_principal": "Adjumani - Sinyanya Ferry landing",
+        "link_name": "Adjumani - Sinyanya Ferry landing",
         "maintenanc": "Moyo",
         "River": "Itirikwa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15888,7 +17700,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Aloi",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15923,7 +17739,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Pager",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15958,7 +17778,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Enyau",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -15993,7 +17817,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Amuru Junction - Awee River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16028,7 +17856,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Amuru Junction - Awee River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16063,7 +17895,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Amuru Junction - Awee River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16098,7 +17934,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Nalubaale Dam / Owen Falls River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16133,7 +17973,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Unknown Road Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16149,7 +17993,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B861",
         "name": "ROAD OVER SUGARCANE PLANTATION",
         "road_no": "A001",
-        "road_name": "Kakira Junction - Iganga",
+        "road_name": "Kakira junction - Iganga",
         "link_no": "A001_Link06",
         "region": "Eastern",
         "station": "Jinja",
@@ -16158,17 +18002,21 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.492909997701645,
         "lon": 33.2980613708496,
-        "river": "Road over Sugarcane Plantation River",
+        "river": "Road Over Sugarcane Plantation River",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Kakira Junction - Iganga",
-        "link_name": "Kakira Junction - Iganga",
+        "road_descr_principal": "Kakira junction - Iganga",
+        "link_name": "Kakira junction - Iganga",
         "maintenanc": "Jinja",
         "River": "Road over Sugarcane Plantation River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16184,7 +18032,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B862",
         "name": "ROAD OVER SUGARCANE PLANTATION",
         "road_no": "A001",
-        "road_name": "Kakira Junction - Iganga",
+        "road_name": "Kakira junction - Iganga",
         "link_no": "A001_Link06",
         "region": "Eastern",
         "station": "Jinja",
@@ -16193,17 +18041,21 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.503979980945587,
         "lon": 33.3192710876465,
-        "river": "Road over Sugarcane Plantation River",
+        "river": "Road Over Sugarcane Plantation River",
         "structure_type": "bridge",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Kakira Junction - Iganga",
-        "link_name": "Kakira Junction - Iganga",
+        "road_descr_principal": "Kakira junction - Iganga",
+        "link_name": "Kakira junction - Iganga",
         "maintenanc": "Jinja",
         "River": "Road over Sugarcane Plantation River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16238,7 +18090,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Malawa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16273,7 +18129,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Sironko",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16289,7 +18149,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B865",
         "name": "LERESI",
         "road_no": "C833",
-        "road_name": "Nabumali Junction - Busolwe",
+        "road_name": "Nabumali junction - Busolwe",
         "link_no": "C833_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -16303,12 +18163,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nabumali Junction - Busolwe",
-        "link_name": "Nabumali Junction - Busolwe",
+        "road_descr_principal": "Nabumali junction - Busolwe",
+        "link_name": "Nabumali junction - Busolwe",
         "maintenanc": "Tororo",
         "River": "Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16343,7 +18207,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Magodes",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16359,7 +18227,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B867",
         "name": "BUWANGANI",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -16373,12 +18241,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Tsutsu",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16413,7 +18285,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Dopeth River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16448,7 +18324,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16483,7 +18363,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Wasita",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16518,7 +18402,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Manafa River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16553,7 +18441,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Siti",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16588,7 +18480,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Girik River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16623,7 +18519,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Bukwo",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16658,7 +18558,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Lukha River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16693,7 +18597,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "River Suam",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16728,7 +18636,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kanyangaren",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16763,7 +18675,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "River Manafa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16798,7 +18714,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Osya",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16833,7 +18753,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "River Korubude",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16849,7 +18773,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B883",
         "name": "OKAME",
         "road_no": "B306",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -16863,12 +18787,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Okame",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16884,7 +18812,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B884",
         "name": "AKATENYANI",
         "road_no": "B306",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -16898,12 +18826,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Malaba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16919,7 +18851,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B885",
         "name": "ANGOLO",
         "road_no": "B306",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -16933,12 +18865,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Malaba",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -16973,7 +18909,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Kwakiteza",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17008,7 +18948,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "River Loyoro",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17043,7 +18987,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Paraa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17059,7 +19007,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B376",
         "name": "Namboole B1",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17068,17 +19016,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3484,
         "lon": 32.6537,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17094,7 +19046,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B385",
         "name": "Old Kira road Over Bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17103,17 +19055,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3692,
         "lon": 32.6247,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17129,7 +19085,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B386",
         "name": "Ntinda foot bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17143,12 +19099,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Pedestrian Crossing",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17164,7 +19124,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B398",
         "name": "Ntinda B1",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17173,17 +19133,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3651,
         "lon": 32.6045,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17199,7 +19163,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B400",
         "name": "Ntinda B2",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17208,17 +19172,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3655,
         "lon": 32.6051,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17234,7 +19202,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B403",
         "name": "Bukoto-Kisasi over Bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17243,17 +19211,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3587,
         "lon": 32.5985,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17269,7 +19241,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B404",
         "name": "Bukoto-Kyebando B1 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17278,17 +19250,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3525,
         "lon": 32.5893,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17304,7 +19280,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B405",
         "name": "Bukoto-Kyebando B1 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17313,17 +19289,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3526,
         "lon": 32.5892,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17339,7 +19319,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B409",
         "name": "Bukoto-Kyebando B2 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17348,17 +19328,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3521,
         "lon": 32.5889,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17374,7 +19358,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B412",
         "name": "Bukoto-Kyebando B2 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17383,17 +19367,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3521,
         "lon": 32.5889,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17409,7 +19397,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B242",
         "name": "Kyebando foot bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17423,12 +19411,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Pedestrian Crossing",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17444,7 +19436,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B416",
         "name": "Namboole B2",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17453,17 +19445,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3488,
         "lon": 32.6543,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17479,7 +19475,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B204",
         "name": "Kyebando over bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17488,17 +19484,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3505,
         "lon": 32.5795,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17514,7 +19514,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B417",
         "name": "Kalerwe B1 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17528,12 +19528,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Aguar",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17549,7 +19553,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B418",
         "name": "Kalerwe B2 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17558,17 +19562,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3526,
         "lon": 32.5715,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17584,7 +19592,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B219",
         "name": "Kalerwe B2 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17593,17 +19601,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3526,
         "lon": 32.5715,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17619,7 +19631,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B221",
         "name": "Kalerwe B1 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17628,17 +19640,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3526,
         "lon": 32.5723,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17654,7 +19670,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B224",
         "name": "Kalerwe Foot bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17668,12 +19684,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Pedestrian Crossing",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17689,7 +19709,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B244",
         "name": "Bwayise B1 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17698,17 +19718,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3494,
         "lon": 22.5633,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17724,7 +19748,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B245",
         "name": "Bwayise B2 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17733,17 +19757,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3493,
         "lon": 32.5626,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17759,7 +19787,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B247",
         "name": "Bwayise B1 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17768,17 +19796,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3493,
         "lon": 32.5626,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17794,7 +19826,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B250",
         "name": "Bwayise B2 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17803,17 +19835,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3493,
         "lon": 32.5626,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17829,7 +19865,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B254",
         "name": "Namugongo OverBridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17838,17 +19874,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3636,
         "lon": 32.6479,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17864,7 +19904,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B257",
         "name": "Kawaala Bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17873,17 +19913,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3471,
         "lon": 32.5534,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17899,7 +19943,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B262",
         "name": "Namungoona B2",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17908,17 +19952,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3452,
         "lon": 32.5428,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17934,7 +19982,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B419",
         "name": "Namungoona B22",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17943,17 +19991,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3452,
         "lon": 32.5428,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -17969,7 +20021,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B280",
         "name": "Namungoona B1",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -17978,17 +20030,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.345,
         "lon": 32.5422,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18004,7 +20060,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B304",
         "name": "Namungoona B12",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18013,17 +20069,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.345,
         "lon": 32.5422,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18039,7 +20099,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B305",
         "name": "Sentema B2",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18048,17 +20108,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3322,
         "lon": 32.5274,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18074,7 +20138,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B306",
         "name": "Sentema B22",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18083,17 +20147,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3322,
         "lon": 32.5274,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18109,7 +20177,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B307",
         "name": "Sentema B1",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18118,17 +20186,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3316,
         "lon": 32.527,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18144,7 +20216,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B309",
         "name": "Sentema B12",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18153,17 +20225,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3316,
         "lon": 32.527,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18179,7 +20255,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B310",
         "name": "Nalya-Kamuli Flyover Foot bridge",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18193,12 +20269,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Pedestrian Crossing",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18214,7 +20294,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B311",
         "name": "Nalya B1 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18223,17 +20303,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3631,
         "lon": 32.6336,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18249,7 +20333,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B322",
         "name": "Nalya B2 LHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18258,17 +20342,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3636,
         "lon": 32.6364,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18284,7 +20372,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B329",
         "name": "Nalya B1 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18293,17 +20381,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.3636,
         "lon": 32.6333,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18319,7 +20411,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B341",
         "name": "Nalya B2 RHS",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18328,17 +20420,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.363,
         "lon": 32.6335,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18354,7 +20450,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B342",
         "name": "Kiwatule under-pass",
         "road_no": "M20",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -18368,12 +20464,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Road Underpass",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18398,7 +20498,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.3146,
         "lon": 32.5146,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18408,7 +20508,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18433,7 +20537,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.3146,
         "lon": 32.5146,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18443,7 +20547,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18468,7 +20576,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.3033,
         "lon": 32.5126,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18478,7 +20586,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18503,7 +20615,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.3033,
         "lon": 32.5126,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18513,7 +20625,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18538,7 +20654,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.2999,
         "lon": 32.5126,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18548,7 +20664,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18573,7 +20693,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.2999,
         "lon": 32.5126,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18583,7 +20703,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18608,7 +20732,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.2817,
         "lon": 32.5131,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18618,7 +20742,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18643,7 +20771,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.2781,
         "lon": 32.5157,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18653,7 +20781,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18678,7 +20810,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 0.271,
         "lon": 32.52,
-        "river": "Road over Road",
+        "river": "Road Over Road",
         "structure_type": "bridge",
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
@@ -18688,7 +20820,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road over Road",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18723,7 +20859,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Road Underpass",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18739,7 +20879,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B636",
         "name": "Paraa Bridge",
         "road_no": "C626",
-        "road_name": "Park Junction - Paraa",
+        "road_name": "Park junction - Paraa",
         "link_no": "C626_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -18753,12 +20893,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Park Junction - Paraa",
-        "link_name": "Park Junction - Paraa",
+        "road_descr_principal": "Park junction - Paraa",
+        "link_name": "Park junction - Paraa",
         "maintenanc": "Masindi",
         "River": "Park Junction Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18793,7 +20937,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Park Junction Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18828,7 +20976,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Masindi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18853,7 +21005,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 2.2849,
         "lon": 31.5648,
-        "river": "B3 (K - P5) River",
+        "river": "B3 (k - P5) River",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -18863,7 +21015,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "B3 (K - P5) River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18888,7 +21044,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 2.2849,
         "lon": 31.5648,
-        "river": "B2 (K - P5) River",
+        "river": "B2 (k - P5) River",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -18898,7 +21054,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "B2 (K - P5) River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18923,7 +21083,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 2.2849,
         "lon": 31.5648,
-        "river": "B1 (K - P5) River",
+        "river": "B1 (k - P5) River",
         "structure_type": "bridge",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -18933,7 +21093,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "B1 (K - P5) River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -18968,7 +21132,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "River Mubuku",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19003,7 +21171,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Lopei Irish Crossing Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19019,7 +21191,7 @@ window.BRIDGE_DATA = {
         "structure_id": "B388",
         "name": "Bunamubi Bridge",
         "road_no": "C867",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -19033,12 +21205,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Sezibwa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19073,7 +21249,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Nile",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19108,7 +21288,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Agago Irish Crossing Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19143,7 +21327,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kitekena River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19178,7 +21366,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "River Manafwa",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19213,7 +21405,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Ekyambu - Mpcc River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19248,7 +21444,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "River Nakironget",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19283,7 +21483,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Lolachat River",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19318,7 +21522,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Nabilatuk Irish Crossing Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19350,7 +21558,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kasandati Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19382,7 +21594,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Namayumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19414,7 +21630,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Namayumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19446,7 +21666,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kayunga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19478,7 +21702,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Namataba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19510,7 +21738,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Namyumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19542,7 +21774,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Namyumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19574,7 +21810,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Namyumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19606,7 +21846,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Namyumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19638,7 +21882,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Namyumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19670,7 +21918,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Luwero",
         "River": "Katuugo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19702,7 +21954,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Mityana Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19734,7 +21990,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Mityana Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19766,7 +22026,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Mityana Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19798,7 +22062,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Mukono Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19830,7 +22098,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Busega Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2012,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19862,7 +22134,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Busega Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2012,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19894,7 +22170,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mpigi",
         "River": "Busega Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2012,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19926,7 +22206,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Nkonge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19958,7 +22242,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Nkonge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -19990,7 +22278,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Nkonge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20022,7 +22314,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Kafunzo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20054,7 +22350,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Buhindagye Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20086,7 +22386,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20118,7 +22422,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Bwera Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20150,7 +22458,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Kikagati Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20182,7 +22494,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Ruti Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20214,7 +22530,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Kabujogera Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20246,7 +22566,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Muzizi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20278,7 +22602,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Muzizi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20310,7 +22638,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Buremba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20342,7 +22674,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Kazo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20374,7 +22710,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Buremba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20406,7 +22746,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Kazo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20438,7 +22782,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Ibanda Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20470,7 +22818,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20502,7 +22854,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20534,7 +22890,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20566,7 +22926,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2013,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20598,7 +22962,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rubaale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1985,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20630,7 +22998,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kagamba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20662,7 +23034,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Muhanga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20694,7 +23070,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kihihi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20726,7 +23106,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rukungiri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20758,7 +23142,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1957,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20790,7 +23178,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rubaale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1985,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20822,7 +23214,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kebisoni Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2005,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20854,7 +23250,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Mubuku Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20868,7 +23268,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C179",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -20881,12 +23281,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20900,7 +23304,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C180",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -20913,12 +23317,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20932,7 +23340,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C181",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -20945,12 +23353,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20964,7 +23376,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C182",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -20977,12 +23389,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -20996,7 +23412,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C183",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -21009,12 +23425,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21028,7 +23448,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C184",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -21041,12 +23461,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21078,7 +23502,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21110,7 +23538,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21142,7 +23574,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21174,7 +23610,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21206,7 +23646,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21238,7 +23682,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21270,7 +23718,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21302,7 +23754,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kikorongo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21334,7 +23790,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kisinga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21366,7 +23826,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kisinga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21398,7 +23862,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nkenda Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21430,7 +23898,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Nkenda Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21462,7 +23934,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rwentobo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21494,7 +23970,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kabale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2013,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21526,7 +24006,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Katobo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21558,7 +24042,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Kebisoni Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2005,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21590,7 +24078,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Ntungamo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2002,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21622,7 +24114,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Muzizi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21654,7 +24150,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Ntungamo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2002,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21676,7 +24176,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": -0.72010999917984,
         "lon": 30.3765697479248,
-        "river": "Mbarara (Bushenyi Junction) Waterway",
+        "river": "Mbarara (bushenyi Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -21686,7 +24186,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Mbarara (Bushenyi Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21718,7 +24222,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Ibanda",
         "River": "Muzizi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21740,7 +24248,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": -0.624450027942657,
         "lon": 30.6338901519775,
-        "river": "Mbarara (Bushenyi Junction) Waterway",
+        "river": "Mbarara (bushenyi Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -21750,7 +24258,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Mbarara (Bushenyi Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21772,7 +24284,7 @@ window.BRIDGE_DATA = {
         "condition": 8,
         "lat": -0.657135009765625,
         "lon": 30.4735698699951,
-        "river": "Mbarara (Bushenyi Junction) Waterway",
+        "river": "Mbarara (bushenyi Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
@@ -21782,7 +24294,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbarara",
         "River": "Mbarara (Bushenyi Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21814,7 +24330,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Rubaale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1985,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21828,7 +24348,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C212",
-        "road_name": "Rwimi (Bridge) - Hima - Mubuku",
+        "road_name": "Rwimi (bridge) - Hima - Mubuku",
         "link_no": "A005_Link12",
         "region": "Southern",
         "station": "Kasese",
@@ -21836,17 +24356,21 @@ window.BRIDGE_DATA = {
         "condition": 8,
         "lat": 0.288379997014999,
         "lon": 30.1749401092529,
-        "river": "Rwimi (Bridge) Waterway",
+        "river": "Rwimi (bridge) Waterway",
         "structure_type": "culvert",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Rwimi (Bridge) - Hima - Mubuku",
-        "link_name": "Rwimi (Bridge) - Hima - Mubuku",
+        "road_descr_principal": "Rwimi (bridge) - Hima - Mubuku",
+        "link_name": "Rwimi (bridge) - Hima - Mubuku",
         "maintenanc": "Kasese",
         "River": "Rwimi (Bridge) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21860,7 +24384,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C213",
-        "road_name": "Rwimi (Bridge) - Hima - Mubuku",
+        "road_name": "Rwimi (bridge) - Hima - Mubuku",
         "link_no": "A005_Link12",
         "region": "Southern",
         "station": "Kasese",
@@ -21868,17 +24392,21 @@ window.BRIDGE_DATA = {
         "condition": 9,
         "lat": 0.184660002589226,
         "lon": 30.0926609039307,
-        "river": "Rwimi (Bridge) Waterway",
+        "river": "Rwimi (bridge) Waterway",
         "structure_type": "culvert",
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Rwimi (Bridge) - Hima - Mubuku",
-        "link_name": "Rwimi (Bridge) - Hima - Mubuku",
+        "road_descr_principal": "Rwimi (bridge) - Hima - Mubuku",
+        "link_name": "Rwimi (bridge) - Hima - Mubuku",
         "maintenanc": "Kasese",
         "River": "Rwimi (Bridge) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21910,7 +24438,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Mubuku Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21942,7 +24474,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -21974,7 +24510,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22006,7 +24546,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22038,7 +24582,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22070,7 +24618,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22102,7 +24654,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22134,7 +24690,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22166,7 +24726,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22198,7 +24762,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Ruwerere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22230,7 +24798,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kabale",
         "River": "Ruwerere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22262,7 +24834,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Mubuku Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22276,7 +24852,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C227",
-        "road_name": "Kasese - Kilembe Mines",
+        "road_name": "Kasese - Kilembe mines",
         "link_no": "C511_Link01",
         "region": "Southern",
         "station": "Kasese",
@@ -22289,12 +24865,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kasese - Kilembe Mines",
-        "link_name": "Kasese - Kilembe Mines",
+        "road_descr_principal": "Kasese - Kilembe mines",
+        "link_name": "Kasese - Kilembe mines",
         "maintenanc": "Kasese",
         "River": "Kasese Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22326,7 +24906,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rugendabara Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22358,7 +24942,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Rugendabara Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22390,7 +24978,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kasese",
         "River": "Kisinga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22422,7 +25014,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22436,7 +25032,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C352",
-        "road_name": "Fortportal - Rwimi (Bridge)",
+        "road_name": "FortPortal - Rwimi (bridge)",
         "link_no": "A005_Link11",
         "region": "Western",
         "station": "Fort Portal",
@@ -22449,12 +25045,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Fortportal - Rwimi (Bridge)",
-        "link_name": "Fortportal - Rwimi (Bridge)",
+        "road_descr_principal": "FortPortal - Rwimi (bridge)",
+        "link_name": "FortPortal - Rwimi (bridge)",
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22468,7 +25068,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C353",
-        "road_name": "Fortportal - Rwimi (Bridge)",
+        "road_name": "FortPortal - Rwimi (bridge)",
         "link_no": "A005_Link11",
         "region": "Western",
         "station": "Fort Portal",
@@ -22481,12 +25081,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Fortportal - Rwimi (Bridge)",
-        "link_name": "Fortportal - Rwimi (Bridge)",
+        "road_descr_principal": "FortPortal - Rwimi (bridge)",
+        "link_name": "FortPortal - Rwimi (bridge)",
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22500,7 +25104,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C354",
-        "road_name": "Fortportal - Rwimi (Bridge)",
+        "road_name": "FortPortal - Rwimi (bridge)",
         "link_no": "A005_Link11",
         "region": "Western",
         "station": "Fort Portal",
@@ -22513,12 +25117,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Fortportal - Rwimi (Bridge)",
-        "link_name": "Fortportal - Rwimi (Bridge)",
+        "road_descr_principal": "FortPortal - Rwimi (bridge)",
+        "link_name": "FortPortal - Rwimi (bridge)",
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22532,7 +25140,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C355",
-        "road_name": "Fortportal - Rwimi (Bridge)",
+        "road_name": "FortPortal - Rwimi (bridge)",
         "link_no": "A005_Link11",
         "region": "Western",
         "station": "Fort Portal",
@@ -22545,12 +25153,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Fortportal - Rwimi (Bridge)",
-        "link_name": "Fortportal - Rwimi (Bridge)",
+        "road_descr_principal": "FortPortal - Rwimi (bridge)",
+        "link_name": "FortPortal - Rwimi (bridge)",
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2007,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22582,7 +25194,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kibale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22614,7 +25230,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kafu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22646,7 +25266,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kafu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22678,7 +25302,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22710,7 +25338,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22742,7 +25374,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22774,7 +25410,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22806,7 +25446,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22838,7 +25482,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22870,7 +25518,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22902,7 +25554,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22934,7 +25590,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22966,7 +25626,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -22998,7 +25662,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Karugutu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2014,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23030,7 +25698,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23062,7 +25734,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Masoode Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23094,7 +25770,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Masoode Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23126,7 +25806,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Masoode Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23158,7 +25842,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kiziranfumbi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2024,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23190,7 +25878,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kiziranfumbi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2024,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23222,7 +25914,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Buseruka Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23254,7 +25950,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Buseruka Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23268,7 +25968,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C410",
-        "road_name": "Kyegegwa - Hapuyo - Kibale",
+        "road_name": "Kyegegwa - Hapuyo - kibale",
         "link_no": "C551_Link01",
         "region": "Western",
         "station": "Fort Portal",
@@ -23281,12 +25981,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kyegegwa - Hapuyo - Kibale",
-        "link_name": "Kyegegwa - Hapuyo - Kibale",
+        "road_descr_principal": "Kyegegwa - Hapuyo - kibale",
+        "link_name": "Kyegegwa - Hapuyo - kibale",
         "maintenanc": "Fort Portal",
         "River": "Kyegegwa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23300,7 +26004,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C411",
-        "road_name": "Kyegegwa - Hapuyo - Kibale",
+        "road_name": "Kyegegwa - Hapuyo - kibale",
         "link_no": "C551_Link01",
         "region": "Western",
         "station": "Fort Portal",
@@ -23313,12 +26017,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kyegegwa - Hapuyo - Kibale",
-        "link_name": "Kyegegwa - Hapuyo - Kibale",
+        "road_descr_principal": "Kyegegwa - Hapuyo - kibale",
+        "link_name": "Kyegegwa - Hapuyo - kibale",
         "maintenanc": "Fort Portal",
         "River": "Kyegegwa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23350,7 +26058,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Rugombe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23382,7 +26094,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Kakara Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23414,7 +26130,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Bukuku Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23446,7 +26166,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Fortportal Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23478,7 +26202,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Rwimi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23510,7 +26238,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Fort Portal",
         "River": "Mpara Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23542,7 +26274,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Kakumiro Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23574,7 +26310,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Kakumiro Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23606,7 +26346,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mubende",
         "River": "Kakumiro Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23638,7 +26382,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23670,7 +26418,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23702,7 +26454,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23734,7 +26490,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23766,7 +26526,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23798,7 +26562,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23830,7 +26598,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23862,7 +26634,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23894,7 +26670,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23926,7 +26706,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23958,7 +26742,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -23990,7 +26778,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24022,7 +26814,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24054,7 +26850,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24086,7 +26886,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24118,7 +26922,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24150,7 +26958,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24182,7 +26994,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24214,7 +27030,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24246,7 +27066,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24278,7 +27102,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24310,7 +27138,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24342,7 +27174,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24374,7 +27210,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24406,7 +27246,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24438,7 +27282,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24470,7 +27318,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24502,7 +27354,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24534,7 +27390,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24566,7 +27426,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Biso Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24598,7 +27462,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Biso Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24630,7 +27498,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Biso Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24662,7 +27534,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24694,7 +27570,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24726,7 +27606,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24758,7 +27642,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24790,7 +27678,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24822,7 +27714,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24854,7 +27750,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24886,7 +27786,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24918,7 +27822,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24950,7 +27858,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -24982,7 +27894,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25014,7 +27930,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bukumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25028,7 +27948,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C470",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -25041,12 +27961,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Kisanja Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25060,7 +27984,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C471",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -25073,12 +27997,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Kisanja Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25092,7 +28020,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C472",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -25105,12 +28033,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Kisanja Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25124,7 +28056,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C473",
-        "road_name": "Kisanja - Park Junction",
+        "road_name": "Kisanja - Park junction",
         "link_no": "C625_Link01",
         "region": "Western",
         "station": "Masindi",
@@ -25137,12 +28069,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Kisanja - Park Junction",
-        "link_name": "Kisanja - Park Junction",
+        "road_descr_principal": "Kisanja - Park junction",
+        "link_name": "Kisanja - Park junction",
         "maintenanc": "Masindi",
         "River": "Kisanja Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25174,7 +28110,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bulisa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25206,7 +28146,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bulisa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25238,7 +28182,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Bulisa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25270,7 +28218,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25302,7 +28254,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25334,7 +28290,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25366,7 +28326,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25398,7 +28362,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25430,7 +28398,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25462,7 +28434,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25494,7 +28470,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25526,7 +28506,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kabaale Swamp Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25558,7 +28542,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kitumbi Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25590,7 +28578,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Biso Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25622,7 +28614,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25654,7 +28650,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Kyehooro Link 1 Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25668,7 +28668,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C494",
-        "road_name": "Park Junction - Buliisa",
+        "road_name": "Park junction - Buliisa",
         "link_no": "C625_Link02",
         "region": "Western",
         "station": "Masindi",
@@ -25681,12 +28681,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Park Junction - Buliisa",
-        "link_name": "Park Junction - Buliisa",
+        "road_descr_principal": "Park junction - Buliisa",
+        "link_name": "Park junction - Buliisa",
         "maintenanc": "Masindi",
         "River": "Kisanja Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25718,7 +28722,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Hoima",
         "River": "Hoima Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25750,7 +28758,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25782,7 +28794,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25814,7 +28830,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25846,7 +28866,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Masindi",
         "River": "Kigumba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25878,7 +28902,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25910,7 +28938,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25942,7 +28974,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -25974,7 +29010,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26006,7 +29046,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Aswa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26038,7 +29082,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Aswa Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26070,7 +29118,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26102,7 +29154,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26134,7 +29190,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26166,7 +29226,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26198,7 +29262,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Acholibur Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26230,7 +29298,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26262,7 +29334,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26294,7 +29370,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26326,7 +29406,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26358,7 +29442,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26390,7 +29478,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26422,7 +29514,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26454,7 +29550,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26486,7 +29586,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26500,7 +29604,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C521",
-        "road_name": "Madi Opei - Uganda/sudan Border",
+        "road_name": "Madi Opei - Uganda/Sudan border",
         "link_no": "B252_Link05",
         "region": "Northern",
         "station": "Kitgum",
@@ -26513,12 +29617,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Madi Opei - Uganda/sudan Border",
-        "link_name": "Madi Opei - Uganda/sudan Border",
+        "road_descr_principal": "Madi Opei - Uganda/Sudan border",
+        "link_name": "Madi Opei - Uganda/Sudan border",
         "maintenanc": "Kitgum",
         "River": "Madi Opei Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26550,7 +29658,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Kamdini Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26582,7 +29694,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Kamdini Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26614,7 +29730,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26646,7 +29766,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26678,7 +29802,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Madi Opei Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26710,7 +29838,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Abim Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26742,7 +29874,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Abim Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26774,7 +29910,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Abim Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26806,7 +29946,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26838,7 +29982,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26870,7 +30018,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26902,7 +30054,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26934,7 +30090,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26966,7 +30126,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Atiak Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2025,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -26980,7 +30144,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C558",
-        "road_name": "Adjumani - Sinyanya Ferry Landing",
+        "road_name": "Adjumani - Sinyanya Ferry landing",
         "link_no": "C726_Link01",
         "region": "Northern",
         "station": "Moyo",
@@ -26993,12 +30157,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Adjumani - Sinyanya Ferry Landing",
-        "link_name": "Adjumani - Sinyanya Ferry Landing",
+        "road_descr_principal": "Adjumani - Sinyanya Ferry landing",
+        "link_name": "Adjumani - Sinyanya Ferry landing",
         "maintenanc": "Moyo",
         "River": "Adjumani Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27030,7 +30198,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Yumbe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27062,7 +30234,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Moyo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27094,7 +30270,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Inde Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27126,7 +30306,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Pabbo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27158,7 +30342,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Agweng Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27190,7 +30378,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27222,7 +30414,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Agweng Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27254,7 +30450,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Karuma Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2006,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27286,7 +30486,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Karuma Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2006,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27318,7 +30522,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Packwach Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27350,7 +30558,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Nebbi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27382,7 +30594,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Nebbi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2003,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27414,7 +30630,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Manibe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27446,7 +30666,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Manibe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27460,7 +30684,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C608",
-        "road_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_name": "Koboko - Oraba (Uganda/Sudan border)",
         "link_no": "A008_Link07",
         "region": "Northern",
         "station": "Arua",
@@ -27473,12 +30697,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Koboko - Oraba (Uganda/sudan Border)",
-        "link_name": "Koboko - Oraba (Uganda/sudan Border)",
+        "road_descr_principal": "Koboko - Oraba (Uganda/Sudan border)",
+        "link_name": "Koboko - Oraba (Uganda/Sudan border)",
         "maintenanc": "Arua",
         "River": "Koboko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27510,7 +30738,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Pakwach Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27542,7 +30774,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Zombo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27574,7 +30810,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Manibe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2015,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27606,7 +30846,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Koboko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27638,7 +30882,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Pakele Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27670,7 +30918,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Pakele Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27702,7 +30954,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Gulu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27734,7 +30990,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Kitgum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27766,7 +31026,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kitgum",
         "River": "Potika Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27798,7 +31062,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Amuru Junction Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27830,7 +31098,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Gulu",
         "River": "Arom Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27862,7 +31134,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27894,7 +31170,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27926,7 +31206,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Okee Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27958,7 +31242,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -27990,7 +31278,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28022,7 +31314,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28054,7 +31350,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28086,7 +31386,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28118,7 +31422,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Lira",
         "River": "Lira Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1968,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28150,7 +31458,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Inde Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28182,7 +31494,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Arua",
         "River": "Inde Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28214,7 +31530,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Pakele Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28246,7 +31566,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Pakele Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28278,7 +31602,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moyo",
         "River": "Pakele Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28310,7 +31638,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28342,7 +31674,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28374,7 +31710,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kamonkoli Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28406,7 +31746,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kamonkoli Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28438,7 +31782,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kamonkoli Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28452,7 +31800,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C705",
-        "road_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+        "road_name": "Tororo junction - Malaba (Uganda/Kenya border)",
         "link_no": "A001_Link11",
         "region": "Eastern",
         "station": "Tororo",
@@ -28465,12 +31813,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Tororo Junction - Malaba (Uganda/kenya Border)",
-        "link_name": "Tororo Junction - Malaba (Uganda/kenya Border)",
+        "road_descr_principal": "Tororo junction - Malaba (Uganda/Kenya border)",
+        "link_name": "Tororo junction - Malaba (Uganda/Kenya border)",
         "maintenanc": "Tororo",
         "River": "Tororo Junction Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28502,7 +31854,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28534,7 +31890,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28566,7 +31926,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28598,7 +31962,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28630,7 +31998,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28662,7 +32034,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28694,7 +32070,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28726,7 +32106,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28758,7 +32142,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28790,7 +32178,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28822,7 +32214,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28854,7 +32250,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28886,7 +32286,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28918,7 +32322,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28950,7 +32358,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -28982,7 +32394,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29014,7 +32430,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29046,7 +32466,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29078,7 +32502,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29110,7 +32538,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29142,7 +32574,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29174,7 +32610,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29206,7 +32646,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29238,7 +32682,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29270,7 +32718,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29302,7 +32754,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29334,7 +32790,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29366,7 +32826,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29398,7 +32862,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29430,7 +32898,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29462,7 +32934,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29476,7 +32952,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C751",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29489,12 +32965,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29508,7 +32988,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C752",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29521,12 +33001,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29540,7 +33024,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C753",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29553,12 +33037,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29572,7 +33060,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C754",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29585,12 +33073,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29604,7 +33096,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C755",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29617,12 +33109,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29636,7 +33132,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C756",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29649,12 +33145,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29668,7 +33168,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C757",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29681,12 +33181,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29700,7 +33204,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C758",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29713,12 +33217,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29732,7 +33240,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C759",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29745,12 +33253,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29764,7 +33276,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C760",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29777,12 +33289,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29796,7 +33312,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C761",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29809,12 +33325,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29828,7 +33348,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C762",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29841,12 +33361,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29860,7 +33384,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C763",
-        "road_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_name": "Nakalama - Namutumba - Mpologoma bridge",
         "link_no": "A012_Link01",
         "region": "Eastern",
         "station": "Jinja",
@@ -29873,12 +33397,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Nakalama - Namutumba - Mpologoma Bridge",
-        "link_name": "Nakalama - Namutumba - Mpologoma Bridge",
+        "road_descr_principal": "Nakalama - Namutumba - Mpologoma bridge",
+        "link_name": "Nakalama - Namutumba - Mpologoma bridge",
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1996,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29910,7 +33438,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29942,7 +33474,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -29974,7 +33510,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30006,7 +33546,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30038,7 +33582,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30070,7 +33618,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Nakalama Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1960,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30084,7 +33636,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C770",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30097,12 +33649,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30116,7 +33672,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C771",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30129,12 +33685,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30148,7 +33708,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C772",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30161,12 +33721,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30180,7 +33744,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C773",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30193,12 +33757,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30212,7 +33780,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C774",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30225,12 +33793,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30244,7 +33816,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C775",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30257,12 +33829,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30276,7 +33852,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C776",
-        "road_name": "Busitema Junction - Tororo Junction",
+        "road_name": "Busitema Junction - Tororo junction",
         "link_no": "A001_Link10",
         "region": "Eastern",
         "station": "Tororo",
@@ -30289,12 +33865,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class A (International Trunk Road)",
         "RoadClass": "Class A (International Trunk Road)",
         "road_class_desc": "Class A (International Trunk Road)",
-        "road_descr_principal": "Busitema Junction - Tororo Junction",
-        "link_name": "Busitema Junction - Tororo Junction",
+        "road_descr_principal": "Busitema Junction - Tororo junction",
+        "link_name": "Busitema Junction - Tororo junction",
         "maintenanc": "Tororo",
         "River": "Namutere Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1963,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30326,7 +33906,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Tororo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30358,7 +33942,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Tororo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30390,7 +33978,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Tororo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30422,7 +34014,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Tororo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1969,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30454,7 +34050,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Nyambogo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30486,7 +34086,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Nyambogo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30518,7 +34122,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Nalugugu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30550,7 +34158,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Doho Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30564,7 +34176,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C786",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -30577,12 +34189,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30596,7 +34212,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C787",
-        "road_name": "Bubulo - Bududa Circle Road",
+        "road_name": "Bubulo - Bududa Circle road",
         "link_no": "C867_Link02",
         "region": "Eastern",
         "station": "Mbale",
@@ -30609,12 +34225,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Bubulo - Bududa Circle Road",
-        "link_name": "Bubulo - Bududa Circle Road",
+        "road_descr_principal": "Bubulo - Bududa Circle road",
+        "link_name": "Bubulo - Bududa Circle road",
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30646,7 +34266,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Magale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30678,7 +34302,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Magale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30710,7 +34338,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30742,7 +34374,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Bubulo Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30774,7 +34410,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Korir Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30806,7 +34446,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Korir Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30838,7 +34482,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30870,7 +34518,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30902,7 +34554,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30934,7 +34590,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30966,7 +34626,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -30980,7 +34644,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C800",
-        "road_name": "Simu Corner - Kaserem",
+        "road_name": "Simu corner - Kaserem",
         "link_no": "C871_Link01",
         "region": "Eastern",
         "station": "Mbale",
@@ -30993,12 +34657,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Simu Corner - Kaserem",
-        "link_name": "Simu Corner - Kaserem",
+        "road_descr_principal": "Simu corner - Kaserem",
+        "link_name": "Simu corner - Kaserem",
         "maintenanc": "Mbale",
         "River": "Simu Corner Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31030,7 +34698,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Kotido Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31062,7 +34734,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kotido",
         "River": "Kotido Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31094,7 +34770,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Angatun Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31126,7 +34806,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Lokapel Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2016,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31158,7 +34842,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31190,7 +34878,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31222,7 +34914,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31254,7 +34950,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31286,7 +34986,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31318,7 +35022,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31350,7 +35058,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31382,7 +35094,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31414,7 +35130,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31446,7 +35166,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31478,7 +35202,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31510,7 +35238,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Kokeris Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31542,7 +35274,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Namalu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31574,7 +35310,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Namalu Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2022,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31606,7 +35346,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Iriri Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2019,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31628,7 +35372,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 2.33427000045776,
         "lon": 33.5812911987305,
-        "river": "Amuria (Kuju) Waterway",
+        "river": "Amuria (kuju) Waterway",
         "structure_type": "culvert",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -31638,7 +35382,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Amuria (Kuju) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31660,7 +35408,7 @@ window.BRIDGE_DATA = {
         "condition": 6,
         "lat": 2.33260011672974,
         "lon": 33.5817985534668,
-        "river": "Amuria (Kuju) Waterway",
+        "river": "Amuria (kuju) Waterway",
         "structure_type": "culvert",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -31670,7 +35418,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Amuria (Kuju) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31702,7 +35454,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Soroti Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31734,7 +35490,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Soroti Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31766,7 +35526,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31798,7 +35562,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31830,7 +35598,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31862,7 +35634,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31894,7 +35670,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kaserem Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2023,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31926,7 +35706,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Muyembe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31958,7 +35742,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Muyembe Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2004,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -31990,7 +35778,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Soroti Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2009,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32022,7 +35814,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kumi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32054,7 +35850,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kapir Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32086,7 +35886,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Munamba Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32118,7 +35922,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Jinja",
         "River": "Iganga Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32150,7 +35958,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Kamonkoli Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32182,7 +35994,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Tirinyi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32214,7 +36030,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Tirinyi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32246,7 +36066,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Leresi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32278,7 +36102,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Leresi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32310,7 +36138,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Leresi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32342,7 +36174,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kidoko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32364,7 +36200,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 1.9404000043869,
         "lon": 34.8484001159668,
-        "river": "Chosan to Amudat Waterway",
+        "river": "Chosan To Amudat Waterway",
         "structure_type": "culvert",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -32374,7 +36210,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Moroto",
         "River": "Chosan to Amudat Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32406,7 +36246,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Rubongi Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32428,7 +36272,7 @@ window.BRIDGE_DATA = {
         "condition": 8,
         "lat": 1.83300995826721,
         "lon": 33.4357986450195,
-        "river": "Katine to Ochero Waterway",
+        "river": "Katine To Ochero Waterway",
         "structure_type": "culvert",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -32438,7 +36282,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Katine to Ochero Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32470,7 +36318,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32502,7 +36354,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyum Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32534,7 +36390,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Apokor Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32566,7 +36426,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kidoko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32598,7 +36462,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kidoko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32630,7 +36498,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Mbale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32652,7 +36524,7 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 2.14198994636536,
         "lon": 33.6007308959961,
-        "river": "Amuria (Kuju) Waterway",
+        "river": "Amuria (kuju) Waterway",
         "structure_type": "culvert",
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
@@ -32662,7 +36534,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Amuria (Kuju) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32694,7 +36570,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32726,7 +36606,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32758,7 +36642,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Kanyago Bridge Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2021,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32790,7 +36678,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Ngora Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32822,7 +36714,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Soroti",
         "River": "Arapai Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2020,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32836,7 +36732,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C911",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -32844,17 +36740,21 @@ window.BRIDGE_DATA = {
         "condition": 7,
         "lat": 0.585739970207214,
         "lon": 34.1393394470215,
-        "river": "Tororo (Malaba Junction) Waterway",
+        "river": "Tororo (malaba Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Tororo (Malaba Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32868,7 +36768,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C912",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -32876,17 +36776,21 @@ window.BRIDGE_DATA = {
         "condition": 9,
         "lat": 0.584389984607697,
         "lon": 34.1388206481934,
-        "river": "Tororo (Malaba Junction) Waterway",
+        "river": "Tororo (malaba Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Tororo (Malaba Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32900,7 +36804,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C913",
-        "road_name": "Tororo (Malaba Junction) - Busia",
+        "road_name": "Tororo (Malaba junction) - Busia",
         "link_no": "B306_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -32908,17 +36812,21 @@ window.BRIDGE_DATA = {
         "condition": 9,
         "lat": 0.582019984722137,
         "lon": 34.1379013061523,
-        "river": "Tororo (Malaba Junction) Waterway",
+        "river": "Tororo (malaba Junction) Waterway",
         "structure_type": "culvert",
         "road_class": "Class B (National Trunk Road)",
         "RoadClass": "Class B (National Trunk Road)",
         "road_class_desc": "Class B (National Trunk Road)",
-        "road_descr_principal": "Tororo (Malaba Junction) - Busia",
-        "link_name": "Tororo (Malaba Junction) - Busia",
+        "road_descr_principal": "Tororo (Malaba junction) - Busia",
+        "link_name": "Tororo (Malaba junction) - Busia",
         "maintenanc": "Tororo",
         "River": "Tororo (Malaba Junction) Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32932,7 +36840,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C914",
-        "road_name": "Nabumali Junction - Busolwe",
+        "road_name": "Nabumali junction - Busolwe",
         "link_no": "C833_Link01",
         "region": "Eastern",
         "station": "Tororo",
@@ -32945,12 +36853,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class C (Primary Road)",
         "RoadClass": "Class C (Primary Road)",
         "road_class_desc": "Class C (Primary Road)",
-        "road_descr_principal": "Nabumali Junction - Busolwe",
-        "link_name": "Nabumali Junction - Busolwe",
+        "road_descr_principal": "Nabumali junction - Busolwe",
+        "link_name": "Nabumali junction - Busolwe",
         "maintenanc": "Tororo",
         "River": "Nabumali Junction Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -32982,7 +36894,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Kidoko Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33014,7 +36930,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Tororo",
         "River": "Magodes Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33046,7 +36966,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Magale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33078,7 +37002,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Magale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33110,7 +37038,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Mbale",
         "River": "Magale Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 1970,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33124,7 +37056,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C022",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -33137,12 +37069,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Kampala Northernbypass Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33156,7 +37092,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C023",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -33169,12 +37105,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Kampala Northernbypass Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33188,7 +37128,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C024",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -33201,12 +37141,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Kampala Northernbypass Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33220,7 +37164,7 @@ window.BRIDGE_DATA = {
       },
       "properties": {
         "structure_id": "C025",
-        "road_name": "Kampala Northernbypass",
+        "road_name": "Kampala NorthernBypass",
         "link_no": "M20",
         "region": "Central",
         "station": "Kampala",
@@ -33233,12 +37177,16 @@ window.BRIDGE_DATA = {
         "road_class": "Class M (Expressway)",
         "RoadClass": "Class M (Expressway)",
         "road_class_desc": "Class M (Expressway)",
-        "road_descr_principal": "Kampala Northernbypass",
-        "link_name": "Kampala Northernbypass",
+        "road_descr_principal": "Kampala NorthernBypass",
+        "link_name": "Kampala NorthernBypass",
         "maintenanc": "Kampala",
         "River": "Kampala Northernbypass Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2008,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33270,7 +37218,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33302,7 +37254,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33334,7 +37290,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33366,7 +37326,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33398,7 +37362,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33430,7 +37398,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33462,7 +37434,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33494,7 +37470,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33526,7 +37506,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33558,7 +37542,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33590,7 +37578,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33622,7 +37614,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33654,7 +37650,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33686,7 +37686,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33718,7 +37722,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33750,7 +37758,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kampala Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     },
     {
@@ -33782,7 +37794,11 @@ window.BRIDGE_DATA = {
         "maintenanc": "Kampala",
         "River": "Kajjansi Interchange Slip 1 Waterway",
         "scour_risk": "No Scour Risk",
-        "ScourRisk": "No Scour Risk"
+        "ScourRisk": "No Scour Risk",
+        "year_compl": 2018,
+        "design_load": "BS 5400 / MoWT Standard (HA + 30/45 Units HB)",
+        "annual_traffic_growth_rate": 0.045,
+        "annual_weighted_growth_rate": 0.045
       }
     }
   ]
