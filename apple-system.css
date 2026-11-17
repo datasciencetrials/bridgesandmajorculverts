@@ -195,3 +195,21 @@ button.active, .tab-btn.active, .btn-primary, [style*="background: #0071E3"], [s
 button.active *, .tab-btn.active * {
   color: #FFFFFF !important;
 }
+
+/* Primary and action buttons */
+button.btn-primary, .btn.btn-primary, #btnDownloadPNG {
+  background: #0071E3 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #0071E3 !important;
+}
+
+#btnDownloadPNG svg {
+  stroke: #FFFFFF !important;
+}
+
+h1 {
+  color: #0F172A !important;
+  background: none !important;
+  -webkit-text-fill-color: #0F172A !important;
+}
+
