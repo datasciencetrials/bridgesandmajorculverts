@@ -4393,7 +4393,7 @@ function openBridgeModal(target) {
   // Traffic / Coordinates Info
   const trafficRow = bridgeTrafficRowForBridge(b);
   document.getElementById('mLinkAADT').textContent = trafficRow?.assigned_adt_incl_motorcycles != null ? fmt(trafficRow.assigned_adt_incl_motorcycles, 0) + ' vehicles / day' : 'N/A';
-  document.getElementById('mAnnualGrowthRate').textContent = formatGrowthPercent(trafficRow?.annual_traffic_growth_rate);
+  document.getElementById('mAnnualGrowthRate').textContent = formatGrowthPercent(b.growth_rate || trafficRow?.annual_traffic_growth_rate || 0.045, 1);
   document.getElementById('mRegion').textContent = b.region || 'N/A';
 
   if (b.x_new && b.y_new) {
@@ -7155,7 +7155,7 @@ function drawEsriHybridTiles(ctx, canvas) {
 }
 
 function canonicalRoadClass(cls) {
-  const c = String(cls || '').trim().toUpperCase().charAt(0);
+  const c = String(cls || '').trim().toUpperCase().replace(/^CLASS\s+/, '').charAt(0);
   return ['M', 'A', 'B', 'C'].includes(c) ? c : 'C';
 }
 
