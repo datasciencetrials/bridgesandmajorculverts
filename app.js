@@ -4394,9 +4394,9 @@ function openBridgeModal(bridgeId) {
     return `<span title="${htmlEscape(bridgeConditionRatingTooltip(value, scope))}">${htmlEscape(label)}: ${modalRatingBadge(value, scope)}</span>`;
   }).join(' <span style="color:var(--border)">|</span> ');
   document.getElementById('mReferenceNumbers').textContent = refText(`Original: ${b.original_bridge_no || 'N/A'}`, `New: ${b.new_bridge_no || 'N/A'}`);
-  document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${b.type_bridge || 'N/A'}`, `Deck: ${b.type_deck || 'N/A'}`, `Crossing: ${b.type_crossing || 'N/A'}`);
-  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${b.type_deck_material || 'N/A'}`, `Wearing: ${b.type_wearing_surface || 'N/A'}`, `Surface: ${canonicalSurfaceType(b.surface_link || b.surface_ty)}`);
-  document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk || 'N/A'}`, `Protection: ${b.scour_protection || 'N/A'}`);
+  document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${decodeBmsCode('type_bridge', b.type_bridge)}`, `Deck: ${decodeBmsCode('type_deck', b.type_deck)}`, `Crossing: ${decodeBmsCode('type_crossing', b.type_crossing)}`);
+  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${decodeBmsCode('type_deck_material', b.type_deck_material)}`, `Wearing: ${decodeBmsCode('type_wearing_surface', b.type_wearing_surface)}`, `Surface: ${b.surface_link || b.surface_ty || 'Bituminous (Paved)'}`);
+  document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk === 'Active Scour Risk' || b.scour_risk === 'Y' ? 'Active Scour Risk' : 'No Scour Risk'}`, `Protection: ${decodeBmsCode('scour_protection', b.scour_protection)}`);
   document.getElementById('mComponentRatings').innerHTML = componentRatings;
   document.getElementById('mTownEndpoints').textContent = refText(b.town_left, b.town_right);
   document.getElementById('mReferenceComment').textContent = b.comment || b.remarks || 'N/A';
