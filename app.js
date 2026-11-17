@@ -77,7 +77,7 @@ const chartDefaults = () => ({
   responsive: true,
   maintainAspectRatio: false,
   plugins: {
-    legend: { labels: { color: '#9aa5c4', font: { family: 'Plus Jakarta Sans', size: 11, weight: 500 }, padding: 14 } },
+    legend: { labels: { color: '#334155', font: { family: 'Plus Jakarta Sans', size: 11, weight: 500 }, padding: 14 } },
     tooltip: {
       backgroundColor: 'rgba(6, 9, 19, 0.96)',
       titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: 700 },
@@ -89,8 +89,8 @@ const chartDefaults = () => ({
     }
   },
   scales: {
-    x: { ticks: { color: '#5a668a', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 } }, grid: { color: 'rgba(84, 116, 255, 0.05)' } },
-    y: { ticks: { color: '#5a668a', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 }, callback: compactAxisValue }, grid: { color: 'rgba(84, 116, 255, 0.05)' } }
+    x: { ticks: { color: '#475569', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 } }, grid: { color: 'rgba(84, 116, 255, 0.05)' } },
+    y: { ticks: { color: '#475569', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 }, callback: compactAxisValue }, grid: { color: 'rgba(84, 116, 255, 0.05)' } }
   }
 });
 
@@ -4298,7 +4298,7 @@ function buildVehicleClassificationGroupCharts() {
       labels: ATC_CLASS_ITEMS.map(s => normalizeAtcId(s.id)),
       datasets: buckets.map((b, i) => ({ label: b, data: ATC_CLASS_ITEMS.map(s => bucketAtcClasses11(s)[b]), backgroundColor: colors[i], borderRadius: 4 }))
     },
-    options: { ...chartDefaults(), indexAxis: 'y', scales: { x: { stacked: false, ticks: { color: '#5a668a', callback: v => v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1e3 ? (v/1e3).toFixed(0) + 'K' : v }, grid: { color: 'rgba(84,116,255,0.05)' } }, y: { stacked: false, ticks: { color: '#5a668a' }, grid: { color: 'rgba(84,116,255,0.05)' } } } }
+    options: { ...chartDefaults(), indexAxis: 'y', scales: { x: { stacked: false, ticks: { color: '#475569', callback: v => v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1e3 ? (v/1e3).toFixed(0) + 'K' : v }, grid: { color: 'rgba(84,116,255,0.05)' } }, y: { stacked: false, ticks: { color: '#475569' }, grid: { color: 'rgba(84,116,255,0.05)' } } } }
   });
 
   if (chartInstances.legacyClassStacked) chartInstances.legacyClassStacked.destroy();
@@ -4308,7 +4308,7 @@ function buildVehicleClassificationGroupCharts() {
       labels: LEGACY_ATC_STATIONS.map(s => s.id),
       datasets: buckets.map((b, i) => ({ label: b, data: LEGACY_ATC_STATIONS.map(s => bucketLegacyClasses11(s)[b]), backgroundColor: colors[i], borderRadius: 4 }))
     },
-    options: { ...chartDefaults(), indexAxis: 'y', scales: { x: { stacked: false, ticks: { color: '#5a668a', callback: v => v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1e3 ? (v/1e3).toFixed(0) + 'K' : v }, grid: { color: 'rgba(84,116,255,0.05)' } }, y: { stacked: false, ticks: { color: '#5a668a' }, grid: { color: 'rgba(84,116,255,0.05)' } } } }
+    options: { ...chartDefaults(), indexAxis: 'y', scales: { x: { stacked: false, ticks: { color: '#475569', callback: v => v >= 1e6 ? (v/1e6).toFixed(1) + 'M' : v >= 1e3 ? (v/1e3).toFixed(0) + 'K' : v }, grid: { color: 'rgba(84,116,255,0.05)' } }, y: { stacked: false, ticks: { color: '#475569' }, grid: { color: 'rgba(84,116,255,0.05)' } } } }
   });
 
   const atcLabels = ATC_CLASS_ITEMS.map(s => normalizeAtcId(s.id));
@@ -8751,7 +8751,7 @@ container.innerHTML = html;
         maintainAspectRatio: false,
         indexAxis: c.indexAxis || 'x',
         plugins: {
-          legend: { display: isPie || !!c.datasets, position: isPie ? 'right' : (c.datasets ? 'top' : 'right'), labels: { color: 'rgba(255,255,255,0.7)', font: { size: 10 } } },
+          legend: { display: isPie || !!c.datasets, position: isPie ? 'right' : (c.datasets ? 'top' : 'right'), labels: { color: '#334155', font: { size: 10 } } },
           tooltip: {
             backgroundColor: 'rgba(15,23,42,0.9)',
             titleColor: '#fff',
@@ -8762,8 +8762,8 @@ container.innerHTML = html;
           }
         },
         scales: isPie ? {} : {
-          x: { ticks: { color: 'rgba(255,255,255,0.5)', autoSkip: false, maxRotation: 45, minRotation: 45 }, grid: { display: false } },
-          y: { ticks: { color: 'rgba(255,255,255,0.5)' }, grid: { color: 'rgba(255,255,255,0.05)' }, beginAtZero: true }
+          x: { ticks: { color: '#475569', autoSkip: false, maxRotation: 45, minRotation: 45 }, grid: { display: false } },
+          y: { ticks: { color: '#475569' }, grid: { color: '#E2E8F0' }, beginAtZero: true }
         }
       }
     };
