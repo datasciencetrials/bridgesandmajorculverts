@@ -213,3 +213,13 @@ h1 {
   -webkit-text-fill-color: #0F172A !important;
 }
 
+
+/* Modal component ratings wrap cleanly without overlap */
+#mComponentRatings, .modal-card-value {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px 8px !important;
+  align-items: center !important;
+  line-height: 1.7 !important;
+  word-break: break-word !important;
+}

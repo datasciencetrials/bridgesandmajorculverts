@@ -7,7 +7,7 @@ function canonicalSurfaceType(value) {
   const surface = String(value ?? '').trim().toLowerCase();
   if (/unpaved|unsealed|gravel|earth|murram|dirt/.test(surface)) return 'Unpaved';
   if (/paved|bituminous|asphalt|concrete/.test(surface)) return 'Paved';
-  return 'Not supplied';
+  return 'Not recorded';
 }
 
 // The governed public baseline contains 552 authoritative bridges from the 1 Oct 2026 register.
@@ -4517,7 +4517,7 @@ function buildVehicleClassAdt(siteId) {
     [fmt(breakdown.motorcycleAdt, 0), 'Motorcycle ADT'],
     [(breakdown.motorcycleShare * 100).toFixed(1) + '%', 'Motorcycle Share'],
     [fmt(heavyAdt, 0), 'Bus + Heavy Goods ADT'],
-    [fmt(breakdown.totalCount, 0), 'Classified Count Records']
+    [fmt(breakdown.totalCount, 0), 'Classified Traffic Counts']
   ].map(([v,l]) => `<div class="traffic-metric"><strong>${v}</strong><span>${l}</span></div>`).join('');
 
   const rows = breakdown.rows.slice().sort((a, b) => b.adt - a.adt);
