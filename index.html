@@ -7,9 +7,9 @@
 <title>Bridge Traffic and Network Analytics | Ministry of Works and Transport</title>
 <meta name="description" content="Personal Ministry of Works and Transport learning site for Uganda bridges and major culverts. Not an official government product.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23060913'/%3E%3Cpath d='M5 18h22' stroke='%2300e5ff' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M8 13h14l4 5H4z' fill='%235474ff' opacity='.8'/%3E%3C/svg%3E">
-<link rel="preload" href="structures_data.js?v=20261118-v108" as="script">
-<link rel="preload" href="bridge_data.js?v=20261118-v108" as="script">
-<link rel="preload" href="app.js?v=20261118-v108" as="script">
+<link rel="preload" href="structures_data.js?v=20261118-v111" as="script">
+<link rel="preload" href="bridge_data.js?v=20261118-v111" as="script">
+<link rel="preload" href="app.js?v=20261118-v111" as="script">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -112,7 +112,7 @@ h1 {
 header p {
   font-size: 12.5px;
   color: var(--text-secondary);
-  max-width: 1120px;
+  max-width: 100%;
   margin: 0 auto;
   line-height: 1.65;
 }
@@ -331,7 +331,7 @@ header p {
   gap: 12px;
 }
 
-@media (max-width: 960px) { .chart-row { grid-template-columns: 1fr; } }
+@media (max-width: 100%) { .chart-row { grid-template-columns: 1fr; } }
 
 /* TABLE */
 .table-wrap {
@@ -1552,7 +1552,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   margin-top: 12px;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 100%) {
   .map-workspace { grid-template-columns: 1fr; }
   .map-side-pane { height: auto; min-height: 0; }
 }
@@ -1919,7 +1919,7 @@ header h1 {
   min-width: 320px;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 100%) {
   .map-stage {
     height: calc(100vh - 190px);
     min-height: 520px;
@@ -2425,16 +2425,30 @@ header h1 {
     }
     header, .top-header, .app-header, .header-bar, body > div:first-child { background: #FFFFFF !important; color: #0F172A !important; border-bottom: 1px solid #E2E8F0 !important; }
     </style>
-  <script src="structures_data.js?v=20261118-v108" defer></script>
-  <script src="bridge_data.js?v=20261118-v108" defer></script>
-  <script src="road_network_data.js?v=20261118-v108" defer></script>
-  <script src="water_data.js?v=20261118-v108" defer></script>
-  <script src="bridge_works_data.js?v=20261118-v108" defer></script>
-  <script src="photos_data.js?v=20261118-v108" defer></script>
+  <script src="structures_data.js?v=20261118-v111" defer></script>
+  <script src="bridge_data.js?v=20261118-v111" defer></script>
+  <script src="road_network_data.js?v=20261118-v111" defer></script>
+  <script src="water_data.js?v=20261118-v111" defer></script>
+  <script src="bridge_works_data.js?v=20261118-v111" defer></script>
+  <script src="photos_data.js?v=20261118-v111" defer></script>
   <script src="chart.umd.js" defer></script>
-  <script src="extensions.js?v=20261118-v108" defer></script>
-  <script src="app.js?v=20261118-v108" defer></script>
-  <link rel="stylesheet" href="./apple-system.css?v=20261118-v108">
+  <script src="extensions.js?v=20261118-v111" defer></script>
+  <script src="app.js?v=20261118-v111" defer></script>
+  <link rel="stylesheet" href="./apple-system.css?v=20261118-v111">
+<style>
+/* v111: No wide margins - full-width responsive layout */
+body > .container, body > .wrapper, body > main, .page-shell, .app-container,
+.main-content, .content-wrapper, .hero-inner, .portal-shell, .explorer-shell,
+.shell, .layout-container, #app > .container, #root > div > main {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  box-sizing: border-box !important;
+}
+</style>
 </head>
 <body>
 
