@@ -215,7 +215,7 @@ h1 {
 
 
 /* Modal component ratings wrap cleanly without overlap */
-#mComponentRatings, .modal-card-value {
+#mComponentRatings {
   display: flex !important;
   flex-wrap: wrap !important;
   gap: 6px 8px !important;
@@ -223,3 +223,5 @@ h1 {
   line-height: 1.7 !important;
   word-break: break-word !important;
 }
+
+#mRating, #mRating span, .rating-pill, .rating-badge { white-space: nowrap !important; display: inline-flex !important; align-items: center !important; }
