@@ -217,7 +217,7 @@ header p {
   background: rgba(255,255,255,0.05);
 }
 
-.toolbar select option { background: #111111; color: #ffffff; }
+.toolbar select option { background: #FFFFFF; color: #0F172A; }
 
 .btn-group { display: flex; gap: 8px; margin-left: auto; }
 
@@ -762,7 +762,7 @@ table {
 thead th {
   position: sticky;
   top: 0;
-  background: #0d1426;
+  background: #F8FAFC;
   padding: 9px 10px;
   text-align: left;
   font-weight: 700;
@@ -1066,7 +1066,7 @@ tbody td.highlight-cell {
 .pill-a { background: rgba(84,116,255,0.12); color: #7390ff; border: 1px solid rgba(84,116,255,0.2); }
 .pill-b { background: rgba(181,95,230,0.12); color: #cb84fc; border: 1px solid rgba(181,95,230,0.2); }
 .pill-c { background: rgba(2,132,199,0.12); color: #4bf0ff; border: 1px solid rgba(2,132,199,0.2); }
-.pill-m { background: rgba(168,85,247,0.14); color: #c084fc; border: 1px solid rgba(168,85,247,0.28); }
+.pill-m { background: rgba(124,58,237,0.10); color: #7C3AED; border: 1px solid rgba(124,58,237,0.25); }
 
 footer {
   text-align: center;
@@ -1829,8 +1829,8 @@ header h1 {
 }
 
 .map-bridge-filter-strip select option {
-  background: #111111;
-  color: #ffffff;
+  background: #FFFFFF;
+  color: #0F172A;
 }
 
 .pane-chart-card {
@@ -2224,7 +2224,7 @@ header h1 {
       padding-top: 75%; /* 4:3 Aspect Ratio */
       position: relative;
       overflow: hidden;
-      background: #0f172a;
+      background: #F1F5F9;
     }
     .photo-card img {
       position: absolute;
@@ -2291,7 +2291,7 @@ header h1 {
     }
     .filmstrip-thumb:hover, .filmstrip-thumb.active {
       opacity: 1;
-      border-color: #38bdf8;
+      border-color: #0071E3;
     }
 
     /* ==========================================================================
@@ -2425,16 +2425,16 @@ header h1 {
     }
     header, .top-header, .app-header, .header-bar, body > div:first-child { background: #FFFFFF !important; color: #0F172A !important; border-bottom: 1px solid #E2E8F0 !important; }
     </style>
-  <script src="structures_data.js?v=20261118-v111" defer></script>
-  <script src="bridge_data.js?v=20261118-v111" defer></script>
-  <script src="road_network_data.js?v=20261118-v111" defer></script>
-  <script src="water_data.js?v=20261118-v111" defer></script>
-  <script src="bridge_works_data.js?v=20261118-v111" defer></script>
-  <script src="photos_data.js?v=20261118-v111" defer></script>
+  <script src="structures_data.js?v=20261119-v112" defer></script>
+  <script src="bridge_data.js?v=20261119-v112" defer></script>
+  <script src="road_network_data.js?v=20261119-v112" defer></script>
+  <script src="water_data.js?v=20261119-v112" defer></script>
+  <script src="bridge_works_data.js?v=20261119-v112" defer></script>
+  <script src="photos_data.js?v=20261119-v112" defer></script>
   <script src="chart.umd.js" defer></script>
-  <script src="extensions.js?v=20261118-v111" defer></script>
-  <script src="app.js?v=20261118-v111" defer></script>
-  <link rel="stylesheet" href="./apple-system.css?v=20261118-v111">
+  <script src="extensions.js?v=20261119-v112" defer></script>
+  <script src="app.js?v=20261119-v112" defer></script>
+  <link rel="stylesheet" href="./apple-system.css?v=20261119-v112">
 <style>
 /* v111: No wide margins - full-width responsive layout */
 body > .container, body > .wrapper, body > main, .page-shell, .app-container,
@@ -2498,8 +2498,10 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
 <button class="tab" data-tab="od-matrix" role="tab">Origin-Destination Matrix</button>
     <button class="tab" data-tab="photos" role="tab">Photos</button>
     <button class="tab" data-tab="statistics" role="tab">Statistics &amp; Summary</button>
+    <button class="tab" data-tab="platform-docs" role="tab">Platform Documentation</button>
+    <button class="tab" data-tab="mind-map" role="tab">Mind Map</button>
     <div style="margin-left: auto; display: flex; align-items: center; padding-right: 4px;">
-      <button class="btn btn-outline" id="btnClearFiltersSort" title="Clear all filters and reset sorting" style="padding: 4px 10px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-color: rgba(255, 60, 60, 0.4); color: #ff6b6b; height: 26px; line-height: 1;">Clear Filters &amp; Sort</button>
+      <button class="btn btn-outline" id="btnClearFiltersSort" title="Clear all filters and reset sorting" style="padding: 4px 10px; font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; border-color: rgba(220, 38, 38, 0.35); background: rgba(220, 38, 38, 0.06); color: #DC2626; height: 26px; line-height: 1;">Clear Filters &amp; Sort</button>
     </div>
   </div>
 
@@ -2727,26 +2729,26 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
 
 
   <!-- PHOTOS PANEL -->
-  <div class="panel" id="panel-photos" style="padding: 0; height: 100vh; overflow: hidden;">
+  <div class="panel" id="panel-photos" style="padding: 0; height: 100vh; overflow: hidden; background: #F5F5F7;">
 
     <!-- Top Filter Bar -->
-    <div style="background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(255,255,255,0.1); padding: 16px 24px; position: sticky; top: 0; z-index: 10;">
+    <div style="background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(12px); border-bottom: 1px solid #E2E8F0; padding: 16px 24px; position: sticky; top: 0; z-index: 10;">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
         <div>
-          <h2 style="margin: 0; font-size: 24px; font-weight: 600; color: white;">Structure Photo Gallery</h2>
+          <h2 style="margin: 0; font-size: 22px; font-weight: 700; color: #0F172A;">Official Inspection Photo Gallery</h2>
         </div>
 
         <!-- Search and Quick Filters -->
         <div style="display: flex; gap: 12px; align-items: center;">
-          <input type="text" id="photoGallerySearch" placeholder="Search ID, Road, or District..." style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 8px 16px; border-radius: 20px; outline: none; width: 250px;">
+          <input type="text" id="photoGallerySearch" placeholder="Search ID, Road, or District..." style="background: #FFFFFF; border: 1px solid #CBD5E1; color: #0F172A; padding: 8px 16px; border-radius: 20px; outline: none; width: 250px;">
 
-          <select id="photoFilterType" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 8px 16px; border-radius: 20px; outline: none;">
+          <select id="photoFilterType" style="background: #FFFFFF; border: 1px solid #CBD5E1; color: #0F172A; padding: 8px 16px; border-radius: 20px; outline: none;">
             <option value="all">All Structures</option>
             <option value="bridges">Bridges</option>
             <option value="culverts">Major Culverts</option>
           </select>
 
-          <select id="photoFilterCondition" style="background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: white; padding: 8px 16px; border-radius: 20px; outline: none;">
+          <select id="photoFilterCondition" style="background: #FFFFFF; border: 1px solid #CBD5E1; color: #0F172A; padding: 8px 16px; border-radius: 20px; outline: none;">
             <option value="all">Any Condition</option>
             <option value="critical">Critical / Poor</option>
             <option value="fair">Fair</option>
@@ -2756,17 +2758,17 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
       </div>
 
       <!-- Condition Heatmap Strip -->
-      <div id="photoHeatmap" style="height: 4px; width: 100%; border-radius: 2px; display: flex; overflow: hidden; background: #333;">
+      <div id="photoHeatmap" style="height: 4px; width: 100%; border-radius: 2px; display: flex; overflow: hidden; background: #E2E8F0;">
         <!-- Filled dynamically -->
       </div>
     </div>
 
     <!-- Masonry Grid Container -->
-    <div id="photoMasonryContainer" style="padding: 24px; height: calc(100vh - 110px); overflow-y: auto;">
+    <div id="photoMasonryContainer" style="padding: 24px; height: calc(100vh - 110px); overflow-y: auto; background: #F5F5F7;">
 
         <!-- Pinned Critical Section (Optional, injected via JS if active) -->
         <div id="photoPinnedCritical" style="display: none; margin-bottom: 32px;">
-            <h3 style="color: #ef4444; border-bottom: 1px solid rgba(239, 68, 68, 0.3); padding-bottom: 8px; margin-bottom: 16px;">Critical Structures</h3>
+            <h3 style="color: #DC2626; border-bottom: 1px solid rgba(220, 38, 38, 0.25); padding-bottom: 8px; margin-bottom: 16px;">Critical Structures</h3>
             <div id="photoPinnedGrid" class="masonry-grid"></div>
         </div>
 
@@ -2776,66 +2778,66 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
     </div>
 
     <!-- Fullscreen Lightbox -->
-    <div id="photoLightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.95); z-index: 9999; backdrop-filter: blur(5px); flex-direction: row;">
+    <div id="photoLightbox" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(245, 245, 247, 0.98); z-index: 9999; backdrop-filter: blur(8px); flex-direction: row;">
 
       <!-- Left: Image Viewer -->
-      <div style="flex-grow: 1; position: relative; display: flex; flex-direction: column;">
-        <button id="lightboxClose" style="position: absolute; top: 20px; right: 20px; background: none; border: none; color: white; font-size: 32px; cursor: pointer; z-index: 10;">&times;</button>
+      <div style="flex-grow: 1; position: relative; display: flex; flex-direction: column; background: #F5F5F7;">
+        <button id="lightboxClose" style="position: absolute; top: 20px; right: 20px; background: #FFFFFF; border: 1px solid #E2E8F0; color: #0F172A; width: 40px; height: 40px; border-radius: 50%; font-size: 24px; cursor: pointer; z-index: 10; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">&times;</button>
 
         <div style="flex-grow: 1; display: flex; align-items: center; justify-content: center; position: relative;">
-          <button id="lightboxPrev" style="position: absolute; left: 20px; background: rgba(255,255,255,0.1); border: none; color: white; padding: 16px; border-radius: 50%; cursor: pointer; transition: 0.2s;">&#10094;</button>
+          <button id="lightboxPrev" style="position: absolute; left: 20px; background: #FFFFFF; border: 1px solid #E2E8F0; color: #0F172A; padding: 14px 18px; border-radius: 50%; cursor: pointer; transition: 0.2s; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">&#10094;</button>
 
-          <img id="lightboxImage" src="" style="max-width: 90%; max-height: 80vh; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.5); transition: transform 0.3s ease;">
+          <img id="lightboxImage" src="" style="max-width: 90%; max-height: 80vh; object-fit: contain; border-radius: 8px; box-shadow: 0 12px 32px rgba(15,23,42,0.14); transition: transform 0.3s ease;">
 
-          <button id="lightboxNext" style="position: absolute; right: 20px; background: rgba(255,255,255,0.1); border: none; color: white; padding: 16px; border-radius: 50%; cursor: pointer; transition: 0.2s;">&#10095;</button>
+          <button id="lightboxNext" style="position: absolute; right: 20px; background: #FFFFFF; border: 1px solid #E2E8F0; color: #0F172A; padding: 14px 18px; border-radius: 50%; cursor: pointer; transition: 0.2s; box-shadow: 0 2px 8px rgba(0,0,0,0.08);">&#10095;</button>
         </div>
 
         <!-- Filmstrip -->
-        <div id="lightboxFilmstrip" style="height: 100px; background: rgba(0,0,0,0.5); display: flex; gap: 8px; padding: 12px; overflow-x: auto; align-items: center; justify-content: center;">
+        <div id="lightboxFilmstrip" style="height: 100px; background: #FFFFFF; border-top: 1px solid #E2E8F0; display: flex; gap: 8px; padding: 12px; overflow-x: auto; align-items: center; justify-content: center;">
           <!-- Thumbs injected here -->
         </div>
       </div>
 
       <!-- Right: Metadata Panel -->
-      <div style="width: 380px; background: #0f172a; border-left: 1px solid rgba(255,255,255,0.1); display: flex; flex-direction: column; overflow-y: auto;">
+      <div style="width: 380px; background: #FFFFFF; border-left: 1px solid #E2E8F0; display: flex; flex-direction: column; overflow-y: auto;">
         <div style="padding: 24px;">
           <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px;">
-            <h2 id="lightboxTitle" style="margin: 0; color: white; font-size: 24px;">Bridge Name</h2>
-            <div id="lightboxConditionRing" style="width: 40px; height: 40px; border-radius: 50%; border: 3px solid #10b981; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 14px;">1</div>
+            <h2 id="lightboxTitle" style="margin: 0; color: #0F172A; font-size: 22px;">Bridge Name</h2>
+            <div id="lightboxConditionRing" style="width: 40px; height: 40px; border-radius: 50%; border: 3px solid #16A34A; display: flex; align-items: center; justify-content: center; color: #0F172A; font-weight: bold; font-size: 14px;">1</div>
           </div>
 
-          <div id="lightboxSubtitle" style="color: #94a3b8; font-size: 14px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.1);">B001 • Kampala District</div>
+          <div id="lightboxSubtitle" style="color: #64748B; font-size: 14px; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #E2E8F0;">B001 • Kampala District</div>
 
           <!-- Attributes Grid -->
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 24px;">
             <div>
-              <div style="color: #64748b; font-size: 11px; text-transform: uppercase;">Span / Diameter</div>
-              <div id="lightboxSpan" style="color: white; font-size: 14px; font-weight: 500;">-</div>
+              <div style="color: #64748B; font-size: 11px; text-transform: uppercase;">Span / Diameter</div>
+              <div id="lightboxSpan" style="color: #0F172A; font-size: 14px; font-weight: 600;">-</div>
             </div>
             <div>
-              <div style="color: #64748b; font-size: 11px; text-transform: uppercase;">Material</div>
-              <div id="lightboxMaterial" style="color: white; font-size: 14px; font-weight: 500;">-</div>
+              <div style="color: #64748B; font-size: 11px; text-transform: uppercase;">Material</div>
+              <div id="lightboxMaterial" style="color: #0F172A; font-size: 14px; font-weight: 600;">-</div>
             </div>
             <div>
-              <div style="color: #64748b; font-size: 11px; text-transform: uppercase;">Year Built</div>
-              <div id="lightboxYear" style="color: white; font-size: 14px; font-weight: 500;">-</div>
+              <div style="color: #64748B; font-size: 11px; text-transform: uppercase;">Year Built</div>
+              <div id="lightboxYear" style="color: #0F172A; font-size: 14px; font-weight: 600;">-</div>
             </div>
             <div>
-              <div style="color: #64748b; font-size: 11px; text-transform: uppercase;">ADT</div>
-              <div id="lightboxADT" style="color: white; font-size: 14px; font-weight: 500;">-</div>
+              <div style="color: #64748B; font-size: 11px; text-transform: uppercase;">ADT</div>
+              <div id="lightboxADT" style="color: #0F172A; font-size: 14px; font-weight: 600;">-</div>
             </div>
           </div>
 
           <!-- Defect Notes -->
           <div style="margin-bottom: 24px;">
-            <div style="color: #64748b; font-size: 11px; text-transform: uppercase; margin-bottom: 8px;">Condition Notes</div>
-            <div id="lightboxNotes" style="color: #cbd5e1; font-size: 13px; line-height: 1.5; background: rgba(255,255,255,0.03); padding: 12px; border-radius: 6px;">-</div>
+            <div style="color: #64748B; font-size: 11px; text-transform: uppercase; margin-bottom: 8px;">Condition Notes</div>
+            <div id="lightboxNotes" style="color: #0F172A; font-size: 13px; line-height: 1.5; background: #F8FAFC; border: 1px solid #E2E8F0; padding: 12px; border-radius: 6px;">-</div>
           </div>
 
           <!-- Cross-tab Action Buttons -->
           <div style="display: flex; flex-direction: column; gap: 12px; margin-top: auto;">
-            <button id="btnLightboxMap" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); padding: 10px; border-radius: 6px; cursor: pointer; font-weight: 500; transition: 0.2s;">📍 View on Map</button>
-            <button id="btnLightboxPDF" style="background: rgba(244, 63, 94, 0.15); color: #f43f5e; border: 1px solid rgba(244, 63, 94, 0.3); padding: 10px; border-radius: 6px; cursor: pointer; font-weight: 500; transition: 0.2s;">📄 Print Inspection Report</button>
+            <button id="btnLightboxMap" style="background: rgba(0, 113, 227, 0.10); color: #0071E3; border: 1px solid rgba(0, 113, 227, 0.28); padding: 10px; border-radius: 8px; cursor: pointer; font-weight: 600; transition: 0.2s;">View on Map</button>
+            <button id="btnLightboxPDF" style="background: rgba(220, 38, 38, 0.08); color: #DC2626; border: 1px solid rgba(220, 38, 38, 0.25); padding: 10px; border-radius: 8px; cursor: pointer; font-weight: 600; transition: 0.2s;">Print Inspection Report</button>
           </div>
 
         </div>
@@ -3177,45 +3179,85 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
   </div>
 
 
-<div class="panel" id="panel-major-culverts">
-  <div class="card" style="margin-bottom:0">
-    <div class="card-title">Major Culverts Inventory</div>
-    <div class="card-subtitle">Showing major culverts extracted from 2026 registry.</div>
-    <div class="table-wrap bridge-inventory-scroll" style="height:min(72vh, 720px);">
-      <table id="culvertTable">
-        <thead>
-          <tr id="culvertTableHeadRow">
-            <th data-sort="culvert_no" style="cursor:pointer">Culvert No</th>
-            <th data-sort="type_culvert" style="cursor:pointer">Type</th>
-            <th data-sort="road_name" style="cursor:pointer">Road Name</th>
-            <th data-sort="link_name" style="cursor:pointer">Link Name</th>
-            <th data-sort="chainage" style="cursor:pointer">Chainage</th>
-            <th data-sort="map_x" style="cursor:pointer">Map X</th>
-            <th data-sort="map_y" style="cursor:pointer">Map Y</th>
-            <th data-sort="region" style="cursor:pointer">Region</th>
-            <th data-sort="station" style="cursor:pointer">Station</th>
-            <th data-sort="span_diameter" style="cursor:pointer">Span/Diameter</th>
-            <th data-sort="waterway_cond" style="cursor:pointer">Waterway</th>
-            <th data-sort="inlet_outlet_cond" style="cursor:pointer">Inlet/Outlet</th>
-            <th data-sort="structure_cond" style="cursor:pointer">Structure</th>
-            <th data-sort="roadway_cond" style="cursor:pointer">Roadway</th>
-            <th data-sort="overall_cond" style="cursor:pointer">Overall Condition</th>
-            <th data-sort="overall_rating" style="cursor:pointer">Overall Rating</th>
-          </tr>
-        </thead>
-        <tbody id="culvertTableBody"></tbody>
-      </table>
-    </div>
-    <div class="inventory-pager">
-      <button id="culvertTablePrev" disabled>&lt; Prev</button>
-      <span id="culvertTablePageInfo">Page 1 / 1</span>
-      <button id="culvertTableNext" disabled>Next &gt;</button>
-    </div>
-    <div id="culvertEmptyState" class="empty-state" style="display:none">
-      <p>No culverts matched your filters.</p>
+  <!-- PLATFORM DOCUMENTATION PANEL -->
+  <div class="panel" id="panel-platform-docs">
+    <div class="card" style="width: 100%; max-width: 100%; min-width: 0; background: #FFFFFF; border: 1px solid #E2E8F0;">
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px; padding-bottom:16px; border-bottom:1px solid #E2E8F0;">
+        <div>
+          <div class="card-title" style="color:#0F172A; font-size:20px;">Platform Documentation</div>
+          <div class="card-subtitle" style="color:#64748B;">Ministry of Works and Transport (MoWT), Department of National Roads &middot; Division of Design and Network Engineering &middot; View-Only Technical Reference</div>
+        </div>
+        <span style="background:rgba(0,113,227,0.10); color:#0071E3; border:1px solid rgba(0,113,227,0.25); padding:6px 12px; border-radius:999px; font-size:11px; font-weight:700;">FY 2026/27 &middot; Vision 2040</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:16px; margin-top:20px;">
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#0071E3; letter-spacing:0.6px;">1. Statutory Network Baseline</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            The National Road Network spans <strong>21,284.02 km</strong> (Paved: <strong>6,406.69 km</strong>, Unpaved: <strong>14,877.33 km</strong>), comprising Expressways (<strong>144.56 km</strong>), International Trunk Roads (<strong>2,604.65 km</strong>), National Trunk Roads (<strong>2,845.27 km</strong>), and Primary Roads (<strong>15,689.54 km</strong>) across 6 Maintenance Regions and 23 Maintenance Stations.
+          </div>
+        </div>
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#16A34A; letter-spacing:0.6px;">2. Bridges Stock (552)</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            Reported strictly separately from major culverts: <strong>552</strong> bridges in total &mdash; Good: <strong>247</strong>, Satisfactory: <strong>71</strong>, Marginal: <strong>162</strong>, Poor: <strong>52</strong>, Critical: <strong>13</strong>, and Under Construction: <strong>7</strong> (1 October 2026 register).
+          </div>
+        </div>
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#D97706; letter-spacing:0.6px;">3. Major Culverts Stock (452)</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            Reported strictly separately from bridges: <strong>452</strong> major culverts in total &mdash; Good: <strong>403</strong>, Satisfactory: <strong>39</strong>, Marginal: <strong>4</strong>, Poor: <strong>1</strong>, Critical: <strong>4</strong>, and Under Construction: <strong>1</strong> (1 October 2026 register).
+          </div>
+        </div>
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#7C3AED; letter-spacing:0.6px;">4. Survey &amp; Rating Standards</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            Condition assessments integrate <strong>MOBICAP(Road condition assesment tool)</strong> and <strong>ROMDAS(Roughness and rutting machine based testing)</strong> with the MoWT Bridge Management System 0 to 9 component rating scale. All dates use <strong>dd/mm/yyyy</strong>, measurements use metric units (km, m, mm, T, km/h), and coordinates use decimal degrees.
+          </div>
+        </div>
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#0D9488; letter-spacing:0.6px;">5. Visualisation &amp; Schematics Policy</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            Geospatial views render over <strong>Esri World Imagery + Hybrid Labels</strong>. Structure detail views provide <strong>2D engineering dimensioned schematics</strong>, elevation/plan profiles, and official inspection photographs only. Traffic analytics project historic baselines through <strong>2040 (Vision 2040)</strong>.
+          </div>
+        </div>
+        <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#DC2626; letter-spacing:0.6px;">6. Governance &amp; View-Only Access</div>
+          <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
+            This platform is strictly view-only with public anonymous governance. No firm, contractor, consultant, or inspector names are exposed. All registers, charts, and geospatial layers are downloadable in CSV, KML, SHP, PDF, PNG, and XLSX formats.
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-</div>
+
+  <!-- INTERACTIVE MIND MAP PANEL -->
+  <div class="panel" id="panel-mind-map">
+    <div class="card" style="width: 100%; max-width: 100%; min-width: 0; background: #FFFFFF; border: 1px solid #E2E8F0;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; padding-bottom:14px; border-bottom:1px solid #E2E8F0;">
+        <div>
+          <div class="card-title" style="color:#0F172A; font-size:20px;">Interactive System Mind Map</div>
+          <div class="card-subtitle" style="color:#64748B;">Click any node to inspect its scope, authoritative metrics, and platform modules (view-only).</div>
+        </div>
+        <div style="display:flex; gap:8px; align-items:center;">
+          <button class="btn" id="btnMindMapExpandAll" style="font-size:11px; padding:6px 12px;">Expand All</button>
+          <button class="btn" id="btnMindMapCollapseAll" style="font-size:11px; padding:6px 12px;">Collapse Branches</button>
+          <button class="btn btn-primary" id="btnMindMapReset" style="font-size:11px; padding:6px 12px;">Reset View</button>
+        </div>
+      </div>
+      <div style="display:grid; grid-template-columns: 1fr 320px; gap:16px; margin-top:16px; min-height:520px;">
+        <div id="mindMapCanvasWrap" style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; position:relative; overflow:hidden; min-height:520px;">
+          <svg id="mindMapSvg" viewBox="0 0 1100 620" style="width:100%; height:100%; min-height:520px; display:block; cursor:grab;"></svg>
+        </div>
+        <div id="mindMapInspector" style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:10px;">
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.6px; color:#0071E3;">Node Inspector</div>
+          <div id="mindMapNodeTitle" style="font-size:16px; font-weight:700; color:#0F172A;">MoWT Bridges &amp; Major Culverts</div>
+          <div id="mindMapNodeDesc" style="font-size:13px; color:#334155; line-height:1.55;">Select any branch or child node in the mind map to view authoritative metrics, survey standards, and dashboard navigation links.</div>
+          <div id="mindMapNodeMetrics" style="display:flex; flex-direction:column; gap:6px; margin-top:4px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <div id="panel-od-matrix" class="panel">

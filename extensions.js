@@ -147,7 +147,7 @@ function initStatisticsTab() {
               datasets: [{
                   data,
                   backgroundColor: ['#f43f5e', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#06b6d4', '#64748b'],
-                  borderColor: '#080d1c',
+                  borderColor: '#FFFFFF',
                   borderWidth: 2
               }]
           },

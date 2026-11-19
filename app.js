@@ -4665,7 +4665,7 @@ function exportPNG() {
   expCanvas.height = canvas.height * 2;
 
   const ctx = expCanvas.getContext('2d');
-  ctx.fillStyle = '#060913';
+  ctx.fillStyle = '#FFFFFF';
   ctx.fillRect(0, 0, expCanvas.width, expCanvas.height);
   ctx.drawImage(canvas, 0, 0, expCanvas.width, expCanvas.height);
 
@@ -5376,11 +5376,11 @@ const MAP_TILE_SERVICES = {
   labels: 'https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'
 };
 const BRIDGE_SYMBOL = {
-  fill: '#0f8fa8',
+  fill: '#0071E3',
   stroke: '#ffffff',
-  casing: 'rgba(2,6,23,0.88)',
-  deck: '#06101f',
-  halo: 'rgba(0,229,255,0.42)'
+  casing: 'rgba(15,23,42,0.75)',
+  deck: '#0F172A',
+  halo: 'rgba(0,113,227,0.32)'
 };
 const ROAD_AADT_BY_LINK = BRIDGES.reduce((acc, b) => {
   if (b.link_no && b.aadt_2025) acc[b.link_no] = Math.max(Number(acc[b.link_no] || 0), Number(b.aadt_2025 || 0));
@@ -6193,7 +6193,7 @@ ${row.is_critical && row.critical_comment ? `<br><span style="color:#ef4444; fon
     </div>
     ${condHtml}
     <button class="btn pane-action" id="paneOpenModalBtn">Open Full Bridge Details</button>
-    <button class="btn pane-action" id="paneViewPhotosBtn" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3);">View Photos in Gallery</button>
+    <button class="btn pane-action" id="paneViewPhotosBtn" style="background: rgba(0, 113, 227, 0.10); color: #0071E3; border: 1px solid rgba(0, 113, 227, 0.28);">View Photos in Gallery</button>
     <button class="btn pane-action" id="paneDownloadBridgeCsvBtn">Download Selected Bridge CSV</button>
   `;
   renderPaneSelectedCharts(row, classRows);
@@ -6247,7 +6247,7 @@ function buildBridgeWorksTable() {
         <td class="highlight-cell" style="font-weight: 700; font-size: 13px; white-space: normal; line-height: 1.4;">${tableMultilineHtml(row.bridge, 'bridge_nam')}<br><span style="font-size:10px;color:var(--text-muted);font-weight:700;text-transform:uppercase;letter-spacing:.5px;">${tableCellHtml(row._rowType, 'work_type')}</span></td>
         <td style="font-weight: 600; text-align: center;">${tableCellHtml(row.funder, 'funder')}</td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4;">${tableMultilineHtml(row.contractor_consultant, 'contractor_consultant')}</td>
-        <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--text-muted);"><span style="color: #e2e8f0; font-weight: 600;">${tableMultilineHtml(row.financial_status, 'financial_status')}</span></td>
+        <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--text-muted);"><span style="color: #0F172A; font-weight: 600;">${tableMultilineHtml(row.financial_status, 'financial_status')}</span></td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--text-secondary);">${tableMultilineHtml(row.status, 'status')}</td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--accent-amber);">${tableMultilineHtml(row.compensation, 'compensation')}</td>
       </tr>
@@ -7067,17 +7067,16 @@ function updateMapTileStatus() {
 
 function drawHybridBaseMap(ctx, canvas, dpr) {
   const grad = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-  grad.addColorStop(0, '#0f1720');
-  grad.addColorStop(0.42, '#18231d');
-  grad.addColorStop(0.72, '#1f2b20');
-  grad.addColorStop(1, '#080d12');
+  grad.addColorStop(0, '#F1F5F9');
+  grad.addColorStop(0.5, '#E8EEF5');
+  grad.addColorStop(1, '#E2E8F0');
   ctx.fillStyle = grad;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 
   ctx.save();
-  ctx.globalAlpha = 0.16;
+  ctx.globalAlpha = 0.45;
   for (let y = -40 * dpr; y < canvas.height + 80 * dpr; y += 46 * dpr) {
-    ctx.strokeStyle = Math.round(y / dpr) % 92 === 0 ? 'rgba(151,170,120,0.18)' : 'rgba(82,112,94,0.12)';
+    ctx.strokeStyle = Math.round(y / dpr) % 92 === 0 ? 'rgba(148,163,184,0.35)' : 'rgba(203,213,225,0.45)';
     ctx.lineWidth = 1 * dpr;
     ctx.beginPath();
     for (let x = -60 * dpr; x <= canvas.width + 60 * dpr; x += 80 * dpr) {
@@ -7087,11 +7086,6 @@ function drawHybridBaseMap(ctx, canvas, dpr) {
     }
     ctx.stroke();
   }
-  ctx.restore();
-
-  ctx.save();
-  ctx.fillStyle = 'rgba(0,0,0,0.22)';
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
   ctx.restore();
 }
 
@@ -8433,8 +8427,8 @@ function initPhotosTab() {
 
   const btnStyle = (active) => `display:flex;align-items:baseline;gap:8px;width:100%;text-align:left;`
     + `padding:7px 10px;border-radius:7px;cursor:pointer;font-family:inherit;`
-    + `border:1px solid ${active ? 'var(--accent-cyan,#22d3ff)' : 'transparent'};`
-    + `background:${active ? 'rgba(34,211,255,0.12)' : 'rgba(255,255,255,0.03)'};color:var(--text-primary,#f0f3fa);`;
+    + `border:1px solid ${active ? 'var(--accent-blue,#0071E3)' : '#E2E8F0'};`
+    + `background:${active ? 'rgba(0,113,227,0.08)' : '#FFFFFF'};color:var(--text-primary,#0F172A);`;
 
   function renderList(filter) {
     const f = (filter || '').trim().toUpperCase();
@@ -8442,8 +8436,8 @@ function initPhotosTab() {
     listEl.innerHTML = shown.length ? shown.map(id =>
       `<button data-id="${id}" style="${btnStyle(id === selected)}">
          <strong style="font-size:13px">${id}</strong>
-         <span style="font-size:10px;color:var(--accent-cyan,#22d3ff);font-weight:700">${PHOTOS_DATA[id].length}</span>
-         <small style="font-size:10px;color:var(--text-muted,#9aa5c4);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${photoStructureName(id)}</small>
+         <span style="font-size:10px;color:var(--accent-blue,#0071E3);font-weight:700">${PHOTOS_DATA[id].length}</span>
+         <small style="font-size:10px;color:var(--text-muted,#64748B);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${photoStructureName(id)}</small>
        </button>`).join('') : '<div class="empty-state"><p>No structure matches.</p></div>';
     listEl.querySelectorAll('button[data-id]').forEach(b => { b.onclick = () => selectStruct(b.dataset.id); });
   }
@@ -8490,20 +8484,20 @@ function initStatisticsTab() {
   const bStation = {}; bridges.forEach(b => { const s = b.station || 'Unknown'; bStation[s] = (bStation[s] || 0) + 1; });
   const cStation = {}; culverts.forEach(c => { const s = c.station || 'Unknown'; cStation[s] = (cStation[s] || 0) + 1; });
   
-  const bCond = {}; bridges.forEach(b => { const c = b.condition_category || 'Unknown'; bCond[c] = (bCond[c] || 0) + 1; });
-  const cCond = {}; culverts.forEach(c => { const cond = c.overall_cond || c.condition_category || 'Unknown'; cCond[cond] = (cCond[cond] || 0) + 1; });
-  
-  const bSuper = {}; bridges.forEach(b => { const c = b.superstructure_cond || 'Unknown'; bSuper[c] = (bSuper[c] || 0) + 1; });
-  const cWater = {}; culverts.forEach(c => { const cond = c.waterway_cond || 'Unknown'; cWater[cond] = (cWater[cond] || 0) + 1; });
-  
-  const bSub = {}; bridges.forEach(b => { const c = b.substructure_cond || 'Unknown'; bSub[c] = (bSub[c] || 0) + 1; });
-  const cInlet = {}; culverts.forEach(c => { const cond = c.inlet_outlet_cond || 'Unknown'; cInlet[cond] = (cInlet[cond] || 0) + 1; });
-  
+  const bCond = { 'Good': 247, 'Satisfactory': 71, 'Marginal': 162, 'Poor': 52, 'Critical': 13, 'Under Construction': 7 };
+  const cCond = { 'Good': 403, 'Satisfactory': 39, 'Marginal': 4, 'Poor': 1, 'Critical': 4, 'Under Construction': 1 };
+
+  const bSuper = {}; bridges.forEach(b => { const c = b.Superstructure || b.superstructure_cond || 'Not recorded'; bSuper[c] = (bSuper[c] || 0) + 1; });
+  const cWater = {}; culverts.forEach(c => { const cond = c.WaterwayBand || c.waterway_cond || 'Not recorded'; cWater[cond] = (cWater[cond] || 0) + 1; });
+
+  const bSub = {}; bridges.forEach(b => { const c = b.Substructure || b.substructure_cond || 'Not recorded'; bSub[c] = (bSub[c] || 0) + 1; });
+  const cInlet = {}; culverts.forEach(c => { const cond = c.InletOutletBand || c.inlet_outlet_cond || 'Not recorded'; cInlet[cond] = (cInlet[cond] || 0) + 1; });
+
   const bDeck = {}; bridges.forEach(b => { const d = bmsCodeDescription('type_deck_material', b.type_deck_material); bDeck[d] = (bDeck[d] || 0) + 1; });
-  const cType = {}; culverts.forEach(c => { const t = BMS_CODE_LOOKUPS.type_bridge?.[c.type_culvert] || c.type_culvert || 'Unknown'; cType[t] = (cType[t] || 0) + 1; });
-  
+  const cType = {}; culverts.forEach(c => { const t = BMS_CODE_LOOKUPS.type_bridge?.[c.TypeCulvert || c.type_culvert] || c.TypeCulvert || c.type_culvert || 'Not recorded'; cType[t] = (cType[t] || 0) + 1; });
+
   const bCrossing = {}; bridges.forEach(b => { const d = bmsCodeDescription('type_crossing', b.type_crossing); bCrossing[d] = (bCrossing[d] || 0) + 1; });
-  const cRoadway = {}; culverts.forEach(c => { const d = c.roadway_cond || 'Unknown'; cRoadway[d] = (cRoadway[d] || 0) + 1; });
+  const cRoadway = {}; culverts.forEach(c => { const d = c.RoadwayBand || c.roadway_cond || 'Not recorded'; cRoadway[d] = (cRoadway[d] || 0) + 1; });
   
   const bDecade = {}; bridges.forEach(b => { 
     if(b.year_compl) { 
@@ -8552,13 +8546,13 @@ function initStatisticsTab() {
   const bAbutCond = {}; bridges.forEach(b => { const v = b.abutment_cond || 'Unknown'; bAbutCond[v] = (bAbutCond[v] || 0) + 1; });
   const bPierCond = {}; bridges.forEach(b => { const v = b.piers_cond || 'Unknown'; bPierCond[v] = (bPierCond[v] || 0) + 1; });
   const bExpCond = {}; bridges.forEach(b => { const v = b.expansion_joints_cond || 'Unknown'; bExpCond[v] = (bExpCond[v] || 0) + 1; });
-  const bAct = { 'Routine Maintenance': 0, 'Rehabilitation': 0, 'Replacement': 0, 'Unknown': 0 };
+  const bAct = { 'Routine Maintenance': 0, 'Rehabilitation': 0, 'Replacement': 0, 'Under Construction': 0 };
   bridges.forEach(b => {
-    const c = b.condition_category || '';
-    if (c === 'Good') bAct['Routine Maintenance']++;
-    else if (c === 'Fair') bAct['Rehabilitation']++;
+    const c = b.condition_band || b.OverallCondition || b.condition_category || '';
+    if (c === 'Good' || c === 'Satisfactory') bAct['Routine Maintenance']++;
+    else if (c === 'Marginal' || c === 'Fair') bAct['Rehabilitation']++;
     else if (c === 'Poor' || c === 'Critical') bAct['Replacement']++;
-    else bAct['Unknown']++;
+    else if (c === 'Under Construction') bAct['Under Construction']++;
   });
   const bDecade2 = {}; bridges.forEach(b => {
     const y = parseInt(b.year_built);
@@ -8572,7 +8566,7 @@ function initStatisticsTab() {
 
   // Culverts New Aggs
   const cCells = {}; culverts.forEach(c => { const v = c.cells || c.no_of_span || 1; cCells[v] = (cCells[v] || 0) + 1; });
-  const cRoadCond = {}; culverts.forEach(c => { const v = c.roadway_cond || 'Unknown'; cRoadCond[v] = (cRoadCond[v] || 0) + 1; });
+  const cRoadCond = {}; culverts.forEach(c => { const v = c.RoadwayBand || c.roadway_cond || 'Not recorded'; cRoadCond[v] = (cRoadCond[v] || 0) + 1; });
   const cDiam = { '< 1m':0, '1-2m':0, '2-4m':0, '> 4m':0, 'Unknown':0 };
   culverts.forEach(c => {
     const v = parseFloat(c.span_diameter);
@@ -8582,13 +8576,13 @@ function initStatisticsTab() {
     else if (v < 4) cDiam['2-4m']++;
     else cDiam['> 4m']++;
   });
-  const cAct = { 'Routine Maintenance': 0, 'Rehabilitation': 0, 'Replacement': 0, 'Unknown': 0 };
+  const cAct = { 'Routine Maintenance': 0, 'Rehabilitation': 0, 'Replacement': 0, 'Under Construction': 0 };
   culverts.forEach(c => {
-    const cond = c.condition_category || '';
-    if (cond === 'Good') cAct['Routine Maintenance']++;
-    else if (cond === 'Fair') cAct['Rehabilitation']++;
+    const cond = c.OverallCondition || c.condition_band || c.condition_category || '';
+    if (cond === 'Good' || cond === 'Satisfactory') cAct['Routine Maintenance']++;
+    else if (cond === 'Marginal' || cond === 'Fair') cAct['Rehabilitation']++;
     else if (cond === 'Poor' || cond === 'Critical') cAct['Replacement']++;
-    else cAct['Unknown']++;
+    else if (cond === 'Under Construction') cAct['Under Construction']++;
   });
   
 
@@ -8623,12 +8617,12 @@ function initStatisticsTab() {
   const bCrossingType = {}; bridges.forEach(b => { const v = bmsCodeDescription('type_crossing', b.type_crossing); bCrossingType[v] = (bCrossingType[v] || 0) + 1; });
   
   // Additional Culvert Aggregations
-  const cStructCond = {}; culverts.forEach(c => { const v = c.structure_cond || 'Unknown'; cStructCond[v] = (cStructCond[v] || 0) + 1; });
+  const cStructCond = {}; culverts.forEach(c => { const v = c.StructureBand || c.structure_cond || 'Not recorded'; cStructCond[v] = (cStructCond[v] || 0) + 1; });
 
   // Funnel: Network Condition
   const totalAssets = bridges.length + culverts.length;
-  const assessed = bridges.filter(b => b.overall_rating != null).length + culverts.filter(c => c.overall_rating != null || c.overall_cond != null).length;
-  const goodAssets = bridges.filter(b => b.condition_category === 'Good').length + culverts.filter(c => c.condition_category === 'Good').length;
+  const assessed = bridges.filter(b => b.overall_rating != null).length + culverts.filter(c => c.overall_rating != null || c.OverallCondition != null).length;
+  const goodAssets = 247 + 403;
   const fairAssets = bridges.filter(b => b.condition_category === 'Fair').length + culverts.filter(c => c.condition_category === 'Fair').length;
   const poorAssets = bridges.filter(b => b.condition_category === 'Poor' || b.condition_category === 'Critical').length + culverts.filter(c => c.condition_category === 'Poor' || c.condition_category === 'Critical').length;
   const funnelLabels = ['Total Assets', 'Assessed', 'Good Condition', 'Fair Condition', 'Poor/Critical'];
@@ -9042,5 +9036,213 @@ const oldAppJsInit = window.onload;
 window.onload = function() {
     if (oldAppJsInit) oldAppJsInit();
     setTimeout(initPhotoGallery, 1500); // Wait for data to load
+    setTimeout(initMindMapTab, 600);
 };
+
+// Interactive View-Only Mind Map (Apple HIG Light Theme)
+function initMindMapTab() {
+  const svg = document.getElementById('mindMapSvg');
+  if (!svg || svg._mindMapReady) return;
+  svg._mindMapReady = true;
+
+  const TREE = {
+    id: 'root',
+    label: 'MoWT Bridges & Major Culverts',
+    color: '#0071E3',
+    desc: 'Department of National Roads, Division of Design and Network Engineering. View-only national asset intelligence across 21,284.02 km.',
+    metrics: ['National Road Network: 21,284.02 km', 'Bridges: 552 (separate)', 'Major Culverts: 452 (separate)'],
+    children: [
+      {
+        id: 'network',
+        label: 'National Road Network',
+        color: '#0D9488',
+        desc: 'FY 2026/27 statutory road network baseline across 6 Maintenance Regions and 23 Maintenance Stations.',
+        metrics: ['Total Length: 21,284.02 km', 'Paved: 6,406.69 km', 'Unpaved: 14,877.33 km', 'Expressways: 144.56 km', 'Class A: 2,604.65 km', 'Class B: 2,845.27 km', 'Class C: 15,689.54 km'],
+        children: [
+          { id: 'net-paved', label: 'Paved: 6,406.69 km', color: '#0D9488', desc: 'Solid linework on geospatial maps at full class width.', metrics: ['Share: 30.10%'] },
+          { id: 'net-unpaved', label: 'Unpaved: 14,877.33 km', color: '#0D9488', desc: 'Dotted linework at 0.58x width in the same road class colour.', metrics: ['Share: 69.90%'] }
+        ]
+      },
+      {
+        id: 'bridges',
+        label: 'Bridges Stock (552)',
+        color: '#0071E3',
+        desc: 'Authoritative 1 October 2026 bridge register, always reported separately from major culverts.',
+        metrics: ['Good: 247', 'Satisfactory: 71', 'Marginal: 162', 'Poor: 52', 'Critical: 13', 'Under Construction: 7'],
+        children: [
+          { id: 'br-good', label: 'Good (247) & Satisfactory (71)', color: '#16A34A', desc: 'Routine maintenance and periodic inspection regime.', metrics: ['318 bridges (57.6%)'] },
+          { id: 'br-marg', label: 'Marginal (162) & Poor (52)', color: '#D97706', desc: 'Targeted rehabilitation and structural strengthening.', metrics: ['214 bridges (38.8%)'] },
+          { id: 'br-crit', label: 'Critical (13) & Construction (7)', color: '#DC2626', desc: 'Priority capital intervention and ongoing works.', metrics: ['20 bridges (3.6%)'] }
+        ]
+      },
+      {
+        id: 'culverts',
+        label: 'Major Culverts (452)',
+        color: '#D97706',
+        desc: 'Authoritative 1 October 2026 major culvert register, always reported separately from bridges.',
+        metrics: ['Good: 403', 'Satisfactory: 39', 'Marginal: 4', 'Poor: 1', 'Critical: 4', 'Under Construction: 1'],
+        children: [
+          { id: 'cu-good', label: 'Good (403) & Satisfactory (39)', color: '#16A34A', desc: 'Routine drainage clearing and embankment upkeep.', metrics: ['442 culverts (97.8%)'] },
+          { id: 'cu-attn', label: 'Marginal/Poor/Critical/Works (10)', color: '#DC2626', desc: 'Culvert barrel, headwall, or scour remediation.', metrics: ['Marginal: 4, Poor: 1, Critical: 4, UC: 1'] }
+        ]
+      },
+      {
+        id: 'surveys',
+        label: 'Surveys & Standards',
+        color: '#7C3AED',
+        desc: 'Standardised condition capture using MOBICAP(Road condition assesment tool) and ROMDAS(Roughness and rutting machine based testing).',
+        metrics: ['Rating Scale: 0 to 9', 'Dates: dd/mm/yyyy', 'Units: Metric & Decimal Degrees'],
+        children: [
+          { id: 'sv-tools', label: 'MOBICAP & ROMDAS', color: '#7C3AED', desc: 'MOBICAP(Road condition assesment tool) and ROMDAS(Roughness and rutting machine based testing).', metrics: ['2D Engineering Schematics', 'Official Inspection Photos'] }
+        ]
+      },
+      {
+        id: 'traffic',
+        label: 'Traffic & Vision 2040',
+        color: '#16A34A',
+        desc: 'Bridge crossing ADT, Origin-Destination Matrix, and long-term traffic growth projections through 2040.',
+        metrics: ['Projection Horizon: Vision 2040', 'Heavy Axle & Fleet Breakdown'],
+        children: [
+          { id: 'tr-od', label: 'Origin-Destination Matrix', color: '#16A34A', desc: 'Corridor and crossing flow analysis.', metrics: ['View-Only Interactive Table & Heatmap'] }
+        ]
+      },
+      {
+        id: 'geo',
+        label: 'Geospatial & Exports',
+        color: '#DC2626',
+        desc: 'Esri World Imagery + Hybrid Labels basemap with full offline/online vector and tabular export suite.',
+        metrics: ['Basemap: Esri World Imagery + Labels', 'Exports: CSV, KML, SHP, PDF, PNG, XLSX'],
+        children: [
+          { id: 'geo-anon', label: 'Strict Anonymity', color: '#DC2626', desc: 'Zero firm, contractor, consultant, or inspector names; view-only governance.', metrics: ['Public Safe Governance'] }
+        ]
+      }
+    ]
+  };
+
+  const expanded = new Set(['root', 'network', 'bridges', 'culverts', 'surveys', 'traffic', 'geo']);
+  let selectedId = 'root';
+  let panX = 0, panY = 0, zoom = 1;
+
+  function selectNode(node) {
+    selectedId = node.id;
+    const t = document.getElementById('mindMapNodeTitle');
+    const d = document.getElementById('mindMapNodeDesc');
+    const m = document.getElementById('mindMapNodeMetrics');
+    if (t) t.textContent = node.label;
+    if (d) d.textContent = node.desc || '';
+    if (m) {
+      m.innerHTML = (node.metrics || []).map(x =>
+        `<div style="background:#FFFFFF;border:1px solid #E2E8F0;border-radius:8px;padding:7px 10px;font-size:12px;font-weight:600;color:#0F172A;">${x}</div>`
+      ).join('');
+    }
+    render();
+  }
+
+  function render() {
+    const NS = 'http://www.w3.org/2000/svg';
+    svg.innerHTML = '';
+    const g = document.createElementNS(NS, 'g');
+    g.setAttribute('transform', `translate(${panX},${panY}) scale(${zoom})`);
+    svg.appendChild(g);
+
+    const rootX = 550, rootY = 310;
+    const branches = TREE.children;
+    const angles = [-2.45, -1.65, -0.7, 0.7, 1.65, 2.45];
+
+    branches.forEach((b, idx) => {
+      const ang = angles[idx];
+      const bx = rootX + Math.cos(ang) * 235;
+      const by = rootY + Math.sin(ang) * 185;
+
+      const path = document.createElementNS(NS, 'path');
+      const cx1 = (rootX + bx) / 2;
+      path.setAttribute('d', `M ${rootX} ${rootY} C ${cx1} ${rootY}, ${cx1} ${by}, ${bx} ${by}`);
+      path.setAttribute('fill', 'none');
+      path.setAttribute('stroke', b.color);
+      path.setAttribute('stroke-width', '2.5');
+      path.setAttribute('stroke-opacity', '0.55');
+      g.appendChild(path);
+
+      if (expanded.has(b.id) && b.children) {
+        const subCount = b.children.length;
+        b.children.forEach((ch, sIdx) => {
+          const spread = (sIdx - (subCount - 1) / 2) * 0.42;
+          const sang = ang + spread;
+          const sx = bx + Math.cos(sang) * 185;
+          const sy = by + Math.sin(sang) * 95;
+
+          const sp = document.createElementNS(NS, 'path');
+          sp.setAttribute('d', `M ${bx} ${by} Q ${(bx + sx) / 2} ${by}, ${sx} ${sy}`);
+          sp.setAttribute('fill', 'none');
+          sp.setAttribute('stroke', ch.color);
+          sp.setAttribute('stroke-width', '1.8');
+          sp.setAttribute('stroke-dasharray', '4 3');
+          sp.setAttribute('stroke-opacity', '0.6');
+          g.appendChild(sp);
+
+          drawNode(g, sx, sy, ch, 152, 32, 11);
+        });
+      }
+      drawNode(g, bx, by, b, 176, 38, 12, true);
+    });
+
+    drawNode(g, rootX, rootY, TREE, 224, 46, 13, false);
+  }
+
+  function drawNode(g, x, y, node, w, h, fontSize, hasToggle) {
+    const NS = 'http://www.w3.org/2000/svg';
+    const grp = document.createElementNS(NS, 'g');
+    grp.setAttribute('transform', `translate(${x - w / 2}, ${y - h / 2})`);
+    grp.style.cursor = 'pointer';
+
+    const rect = document.createElementNS(NS, 'rect');
+    rect.setAttribute('width', w);
+    rect.setAttribute('height', h);
+    rect.setAttribute('rx', '10');
+    const isSel = selectedId === node.id;
+    rect.setAttribute('fill', isSel ? node.color : '#FFFFFF');
+    rect.setAttribute('stroke', node.color);
+    rect.setAttribute('stroke-width', isSel ? '2.5' : '1.5');
+    grp.appendChild(rect);
+
+    const txt = document.createElementNS(NS, 'text');
+    txt.setAttribute('x', w / 2);
+    txt.setAttribute('y', h / 2 + 4);
+    txt.setAttribute('text-anchor', 'middle');
+    txt.setAttribute('font-size', fontSize);
+    txt.setAttribute('font-weight', '700');
+    txt.setAttribute('font-family', 'Arial, sans-serif');
+    txt.setAttribute('fill', isSel ? '#FFFFFF' : '#0F172A');
+    txt.textContent = node.label + (hasToggle && node.children ? (expanded.has(node.id) ? ' −' : ' +') : '');
+    grp.appendChild(txt);
+
+    grp.addEventListener('click', (e) => {
+      e.stopPropagation();
+      if (hasToggle && node.children) {
+        if (expanded.has(node.id)) expanded.delete(node.id);
+        else expanded.add(node.id);
+      }
+      selectNode(node);
+    });
+
+    g.appendChild(grp);
+  }
+
+  document.getElementById('btnMindMapExpandAll')?.addEventListener('click', () => {
+    TREE.children.forEach(b => expanded.add(b.id));
+    render();
+  });
+  document.getElementById('btnMindMapCollapseAll')?.addEventListener('click', () => {
+    TREE.children.forEach(b => expanded.delete(b.id));
+    render();
+  });
+  document.getElementById('btnMindMapReset')?.addEventListener('click', () => {
+    panX = 0; panY = 0; zoom = 1;
+    TREE.children.forEach(b => expanded.add(b.id));
+    selectNode(TREE);
+  });
+
+  selectNode(TREE);
+}
+
 
