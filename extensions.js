@@ -27,13 +27,13 @@ function initPhotosTab() {
           btn.style.width = '100%';
           btn.style.textAlign = 'left';
           btn.style.marginBottom = '4px';
-          btn.style.borderColor = 'rgba(255,255,255,0.1)';
-          btn.style.color = '#fff';
+          btn.style.borderColor = '#CBD5E1';
+          btn.style.color = '#0F172A';
           btn.innerText = 'Structure ' + id;
           btn.onclick = () => {
               // Highlight selected
-              Array.from(listContainer.children).forEach(c => c.style.borderColor = 'rgba(255,255,255,0.1)');
-              btn.style.borderColor = 'var(--accent-cyan)';
+              Array.from(listContainer.children).forEach(c => c.style.borderColor = '#CBD5E1');
+              btn.style.borderColor = '#0071E3';
               
               // Render photos
               galleryContainer.innerHTML = '';
@@ -43,10 +43,10 @@ function initPhotosTab() {
               } else {
                  photos.forEach(path => {
                      const imgContainer = document.createElement('div');
-                     imgContainer.style.background = '#000';
+                     imgContainer.style.background = '#FFFFFF';
                      imgContainer.style.borderRadius = '8px';
                      imgContainer.style.overflow = 'hidden';
-                     imgContainer.style.border = '1px solid rgba(255,255,255,0.1)';
+                     imgContainer.style.border = '1px solid #E2E8F0';
                      
                      const img = document.createElement('img');
                      img.src = path;
@@ -60,8 +60,8 @@ function initPhotosTab() {
                      p.style.margin = '0';
                      p.style.padding = '8px';
                      p.style.fontSize = '12px';
-                     p.style.color = 'rgba(255,255,255,0.7)';
-                     p.style.background = 'rgba(0,0,0,0.5)';
+                     p.style.color = '#334155';
+                     p.style.background = '#F8FAFC';
                      p.style.wordBreak = 'break-all';
                      const filename = path.split('/').pop();
                      p.innerText = filename;
@@ -76,7 +76,7 @@ function initPhotosTab() {
       });
       
       if (filtered.length === 0) {
-         listContainer.innerHTML = '<p style="color: rgba(255,255,255,0.5); font-size: 12px; padding: 8px;">No structures found.</p>';
+         listContainer.innerHTML = '<p style="color: #64748B; font-size: 12px; padding: 8px;">No structures found.</p>';
       }
   }
   
@@ -127,10 +127,6 @@ function initStatisticsTab() {
           <div class="kpi-label">Total Major Culverts</div>
           <div class="kpi-value highlight">${culverts.length}</div>
         </div>
-        <div class="kpi-card">
-          <div class="kpi-label">Total Structures</div>
-          <div class="kpi-value highlight">${bridges.length + culverts.length}</div>
-        </div>
       `;
   }
   
@@ -146,7 +142,7 @@ function initStatisticsTab() {
               labels,
               datasets: [{
                   data,
-                  backgroundColor: ['#f43f5e', '#3b82f6', '#10b981', '#f59e0b', '#8b5cf6', '#06b6d4', '#64748b'],
+                  backgroundColor: ['#DC2626', '#0071E3', '#16A34A', '#D97706', '#7C3AED', '#0284C7', '#64748B'],
                   borderColor: '#FFFFFF',
                   borderWidth: 2
               }]
@@ -154,7 +150,7 @@ function initStatisticsTab() {
           options: {
               responsive: true,
               maintainAspectRatio: false,
-              plugins: { legend: { position: 'right', labels: { color: '#a0aec0', font: {family: 'Plus Jakarta Sans'} } } }
+              plugins: { legend: { position: 'right', labels: { color: '#334155', font: {family: 'Arial, sans-serif'} } } }
           }
       });
   }

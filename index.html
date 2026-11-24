@@ -6,10 +6,10 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Bridge Traffic and Network Analytics | NATIONAL TRANSPORT GIS ENTERPRISE</title>
 <meta name="description" content="Personal NATIONAL TRANSPORT GIS ENTERPRISE learning site for Uganda bridges and major culverts. Not an official government product.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23060913'/%3E%3Cpath d='M5 18h22' stroke='%2300e5ff' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M8 13h14l4 5H4z' fill='%235474ff' opacity='.8'/%3E%3C/svg%3E">
-<link rel="preload" href="structures_data.js?v=20261118-v111" as="script">
-<link rel="preload" href="bridge_data.js?v=20261118-v111" as="script">
-<link rel="preload" href="app.js?v=20261118-v111" as="script">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23F5F5F7' stroke='%23CBD5E1'/%3E%3Cpath d='M5 18h22' stroke='%230071E3' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M8 13h14l4 5H4z' fill='%230284C7' opacity='.85'/%3E%3C/svg%3E">
+<link rel="preload" href="structures_data.js?v=20261124-v113" as="script">
+<link rel="preload" href="bridge_data.js?v=20261124-v113" as="script">
+<link rel="preload" href="app.js?v=20261124-v113" as="script">
 <style>
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -398,7 +398,7 @@ header p {
   border-radius: 999px;
   background: #F8FAFC;
   border: 1px solid var(--border);
-  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.46);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
 }
 
 .inventory-scroll-proxy > div {
@@ -410,8 +410,8 @@ header p {
 }
 
 .inventory-scroll-proxy::-webkit-scrollbar-thumb {
-  background: rgba(190, 198, 211, 0.72);
-  border: 4px solid rgba(8, 13, 29, 0.96);
+  background: rgba(148, 163, 184, 0.72);
+  border: 4px solid #F8FAFC;
   border-radius: 999px;
 }
 
@@ -424,7 +424,7 @@ header p {
 #bridgeTable td {
   min-width: 120px;
   color: var(--text-secondary);
-  border-bottom: 1px solid rgba(84, 116, 255, 0.10);
+  border-bottom: 1px solid #E2E8F0;
   white-space: normal;
   vertical-align: middle;
 }
@@ -433,15 +433,15 @@ header p {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: linear-gradient(180deg, rgba(14, 20, 39, 0.98), rgba(9, 14, 30, 0.98));
-  color: var(--accent-cyan) !important;
+  background: #F1F5F9;
+  color: #0F172A !important;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: .65px;
   text-transform: uppercase;
-  border-bottom: 0;
-  border-right: 1px solid rgba(84, 116, 255, 0.13);
-  box-shadow: 0 1px 0 rgba(95, 232, 255, 0.16);
+  border-bottom: 2px solid #E2E8F0;
+  border-right: 1px solid #E2E8F0;
+  box-shadow: 0 1px 0 #E2E8F0;
 }
 
 #bridgeTable tbody td {
@@ -457,11 +457,11 @@ header p {
 }
 
 #bridgeTable tbody tr:nth-child(even) {
-  background: rgba(8, 13, 29, 0.86);
+  background: #F8FAFC;
 }
 
 #bridgeTable tbody tr:hover {
-  background: rgba(84, 116, 255, 0.14);
+  background: #EFF6FF;
 }
 
 #bridgeTable .highlight-cell {
@@ -471,8 +471,8 @@ header p {
 
 #bridgeTable .pill,
 #bridgeTable .rating-badge {
-  box-shadow: var(--shadow-glow);
-  border-color: rgba(95, 232, 255, 0.16);
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+  border-color: #CBD5E1;
 }
 
 .analytics-grid-scroll {
@@ -505,7 +505,7 @@ header p {
 #bridgeTrafficTable td {
   min-width: 118px;
   color: var(--text-secondary);
-  border-bottom: 1px solid rgba(84, 116, 255, 0.10);
+  border-bottom: 1px solid #E2E8F0;
   white-space: normal;
   vertical-align: middle;
 }
@@ -514,15 +514,15 @@ header p {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: linear-gradient(180deg, rgba(14, 20, 39, 0.98), rgba(9, 14, 30, 0.98));
-  color: var(--accent-cyan) !important;
+  background: #F1F5F9;
+  color: #0F172A !important;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: .65px;
   text-transform: uppercase;
-  border-bottom: 0;
-  border-right: 1px solid rgba(84, 116, 255, 0.13);
-  box-shadow: 0 1px 0 rgba(95, 232, 255, 0.16);
+  border-bottom: 2px solid #E2E8F0;
+  border-right: 1px solid #E2E8F0;
+  box-shadow: 0 1px 0 #E2E8F0;
 }
 
 #bridgeTrafficTable tbody td {
@@ -538,11 +538,11 @@ header p {
 }
 
 #bridgeTrafficTable tbody tr:nth-child(even) {
-  background: rgba(8, 13, 29, 0.86);
+  background: #F8FAFC;
 }
 
 #bridgeTrafficTable tbody tr:hover {
-  background: rgba(84, 116, 255, 0.14);
+  background: #EFF6FF;
 }
 
 #bridgeTrafficTable .highlight-cell {
@@ -559,7 +559,6 @@ header p {
   background: #FFFFFF; box-shadow: 0 2px 10px rgba(0,0,0,0.04);
   border: 1px solid var(--border);
   border-radius: 8px;
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.025);
 }
 
 #panel-bridge-traffic .card-title {
@@ -607,8 +606,8 @@ header p {
 
 #panel-bridge-traffic .table-wrap::-webkit-scrollbar-thumb,
 .analytics-grid-scroll::-webkit-scrollbar-thumb {
-  background: linear-gradient(90deg, rgba(36, 121, 148, 0.9), rgba(95, 232, 255, 0.48));
-  border: 3px solid rgba(4, 8, 20, 0.98);
+  background: #CBD5E1;
+  border: 3px solid #F1F5F9;
   border-radius: 999px;
 }
 
@@ -644,7 +643,7 @@ header p {
 #bridgeSeasonalFactorsTable td {
   min-width: 118px;
   color: var(--text-secondary);
-  border-bottom: 1px solid rgba(84, 116, 255, 0.10);
+  border-bottom: 1px solid #E2E8F0;
   white-space: normal;
   vertical-align: middle;
 }
@@ -656,15 +655,15 @@ header p {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: linear-gradient(180deg, rgba(14, 20, 39, 0.98), rgba(9, 14, 30, 0.98));
-  color: var(--accent-cyan) !important;
+  background: #F1F5F9;
+  color: #0F172A !important;
   font-size: 10px;
   font-weight: 800;
   letter-spacing: .65px;
   text-transform: uppercase;
-  border-bottom: 0;
-  border-right: 1px solid rgba(84, 116, 255, 0.13);
-  box-shadow: 0 1px 0 rgba(95, 232, 255, 0.16);
+  border-bottom: 2px solid #E2E8F0;
+  border-right: 1px solid #E2E8F0;
+  box-shadow: 0 1px 0 #E2E8F0;
 }
 
 #bridgeVehicleClassTable tbody td,
@@ -689,14 +688,14 @@ header p {
 #bridgeLoadingTable tbody tr:nth-child(even),
 #bridgeOdFlowTable tbody tr:nth-child(even),
 #bridgeSeasonalFactorsTable tbody tr:nth-child(even) {
-  background: rgba(8, 13, 29, 0.86);
+  background: #F8FAFC;
 }
 
 #bridgeVehicleClassTable tbody tr:hover,
 #bridgeLoadingTable tbody tr:hover,
 #bridgeOdFlowTable tbody tr:hover,
 #bridgeSeasonalFactorsTable tbody tr:hover {
-  background: rgba(84, 116, 255, 0.14);
+  background: #EFF6FF;
 }
 
 #bridgeVehicleClassTable .highlight-cell,
@@ -875,8 +874,8 @@ tbody td.highlight-cell {
 .modal-overlay {
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(15, 23, 42, 0.45);
-  backdrop-filter: blur(8px);
+  background: rgba(245, 245, 247, 0.72);
+  backdrop-filter: blur(12px);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -892,9 +891,8 @@ tbody td.highlight-cell {
 }
 
 .modal-content {
-  background: #FFFFFF; color: #0F172A; border: 1px solid #E2E8F0; box-shadow: 0 20px 40px rgba(0,0,0,0.12);
-  border: 1px solid rgba(84, 116, 255, 0.25);
-  box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 50px rgba(84,116,255,0.08);
+  background: #FFFFFF; color: #0F172A; border: 1px solid #E2E8F0;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.14);
   border-radius: 24px;
   width: 90%;
   max-width: 980px;
@@ -920,10 +918,7 @@ tbody td.highlight-cell {
 .modal-header h3 {
   font-size: 20px;
   font-weight: 800;
-  background: linear-gradient(135deg, #fff 0%, #5474ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: #0F172A;
-  background-clip: text;
+  color: #0F172A;
   letter-spacing: -0.3px;
 }
 
@@ -1063,10 +1058,10 @@ tbody td.highlight-cell {
   text-transform: uppercase;
 }
 
-.pill-a { background: rgba(84,116,255,0.12); color: #7390ff; border: 1px solid rgba(84,116,255,0.2); }
-.pill-b { background: rgba(181,95,230,0.12); color: #cb84fc; border: 1px solid rgba(181,95,230,0.2); }
-.pill-c { background: rgba(2,132,199,0.12); color: #4bf0ff; border: 1px solid rgba(2,132,199,0.2); }
-.pill-m { background: rgba(124,58,237,0.10); color: #7C3AED; border: 1px solid rgba(124,58,237,0.25); }
+.pill-a { background: rgba(0,113,227,0.10); color: #0071E3; border: 1px solid rgba(0,113,227,0.22); }
+.pill-b { background: rgba(124,58,237,0.10); color: #7C3AED; border: 1px solid rgba(124,58,237,0.22); }
+.pill-c { background: rgba(2,132,199,0.10); color: #0284C7; border: 1px solid rgba(2,132,199,0.22); }
+.pill-m { background: rgba(13,148,136,0.10); color: #0D9488; border: 1px solid rgba(13,148,136,0.22); }
 
 footer {
   text-align: center;
@@ -1075,7 +1070,7 @@ footer {
   color: var(--text-muted);
   border-top: 1px solid var(--border);
   margin-top: 18px;
-  background: rgba(4,7,16,0.3);
+  background: #FFFFFF;
 }
 
 footer a { color: var(--accent-blue); text-decoration: none; font-weight: 600; }
@@ -1177,7 +1172,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 
 .calendar-months {
   padding: 40px 0 10px;
-  border-right: 1px solid rgba(255,255,255,0.08);
+  border-right: 1px solid #E2E8F0;
   background: #F8FAFC;
 }
 
@@ -1187,7 +1182,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   border-radius: 0;
   padding: 5px 12px;
   background: transparent;
-  color: rgba(226,232,240,0.66);
+  color: #475569;
   font-size: 9px;
   font-weight: 900;
   letter-spacing: 1.4px;
@@ -1196,9 +1191,9 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .calendar-month-btn.active {
-  background: rgba(56,189,248,0.14);
-  color: var(--accent-cyan);
-  border-left: 3px solid var(--accent-cyan);
+  background: rgba(0,113,227,0.10);
+  color: #0071E3;
+  border-left: 3px solid #0071E3;
 }
 
 .calendar-main {
@@ -1217,7 +1212,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   display: flex;
   align-items: center;
   gap: 7px;
-  color: #65caff;
+  color: #0071E3;
   font-size: 15px;
   font-weight: 900;
   letter-spacing: 2px;
@@ -1227,7 +1222,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 .calendar-close {
   border: 0;
   background: transparent;
-  color: #65caff;
+  color: #0071E3;
   font-size: 18px;
   font-weight: 800;
   cursor: pointer;
@@ -1235,12 +1230,12 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 }
 
 .calendar-close {
-  color: rgba(226,232,240,0.62);
+  color: #64748B;
   font-size: 18px;
 }
 
 .calendar-month-heading {
-  color: var(--accent-cyan);
+  color: #0071E3;
   font-size: 14px;
   font-weight: 900;
   letter-spacing: 4px;
@@ -1250,7 +1245,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 
 .calendar-year-small {
   margin-top: 5px;
-  color: rgba(226,232,240,0.78);
+  color: #475569;
   font-size: 8px;
   font-weight: 900;
   letter-spacing: 3px;
@@ -1266,7 +1261,7 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
 
 .calendar-weekdays {
   margin-bottom: 6px;
-  color: rgba(226,232,240,0.62);
+  color: #64748B;
   font-size: 9px;
   font-weight: 900;
   text-align: center;
@@ -1276,31 +1271,31 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   aspect-ratio: 1 / 1;
   border: 1px solid transparent;
   border-radius: 999px;
-  background: rgba(56,189,248,0.10);
-  color: rgba(226,232,240,0.82);
+  background: #F1F5F9;
+  color: #0F172A;
   font-size: 11px;
   font-weight: 800;
   cursor: pointer;
 }
 
 .calendar-day.adjacent {
-  opacity: 0.28;
+  opacity: 0.35;
 }
 
 .calendar-day.active {
-  border-color: rgba(255,255,255,0.86);
-  box-shadow: 0 0 0 3px rgba(255,255,255,0.1);
-  color: #ffffff;
+  border-color: #0071E3;
+  background: #0071E3;
+  color: #FFFFFF;
 }
 
 .calendar-day.today {
-  background: rgba(56,189,248,0.26);
+  background: rgba(0,113,227,0.16);
 }
 
 .calendar-today {
   margin: 5px 0 6px;
   text-align: center;
-  color: rgba(226,232,240,0.74);
+  color: #475569;
   font-size: 9px;
   font-weight: 900;
 }
@@ -1310,18 +1305,18 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   justify-content: center;
   gap: 4px;
   padding-top: 6px;
-  border-top: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid #E2E8F0;
 }
 
 .calendar-dot {
   width: 6px;
   height: 6px;
   border-radius: 999px;
-  background: rgba(226,232,240,0.28);
+  background: #CBD5E1;
 }
 
 .calendar-dot.active {
-  background: var(--accent-cyan);
+  background: #0071E3;
 }
 
 .timeline-panel {
@@ -1330,13 +1325,13 @@ footer a:hover { text-decoration: underline; color: var(--accent-cyan); }
   bottom: 18px;
   transform: translateX(-50%);
   width: min(520px, calc(100% - 32px));
-  background: #FFFFFF; box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  background: #FFFFFF;
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 18px 22px 16px;
   z-index: 999;
   backdrop-filter: blur(16px);
-  box-shadow: 0 14px 40px rgba(0,0,0,0.35);
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
 }
 
 .timeline-head {
@@ -1574,7 +1569,7 @@ header {
   margin: 0 0px 6px -8px;
   padding: 7px 10px;
   text-align: left;
-  background: rgba(6, 9, 19, 0.88);
+  background: rgba(255, 255, 255, 0.94);
   border-bottom: 1px solid var(--border);
   backdrop-filter: blur(18px);
 }
@@ -2027,7 +2022,7 @@ header h1 {
   border-color: var(--accent-cyan);
   box-shadow: 0 0 0 2px rgba(2,132,199,0.18);
 }
-.od-controls-bar select option { background: #111; color: #fff; }
+.od-controls-bar select option { background: #FFFFFF; color: #0F172A; }
 .od-controls-bar .od-search-input { flex: 1 1 200px; min-width: 160px; }
 .od-view-toggle {
   display: flex;
@@ -2144,26 +2139,26 @@ header h1 {
   font-weight: 700; text-align: left; border-right: 2px solid var(--border);
   color: var(--text-primary); font-size: 10px;
 }
-.od-heat-0 { color: rgba(255,255,255,0.15); }
-.od-heat-1 { background: rgba(56,189,248,0.08); color: rgba(255,255,255,0.6); }
-.od-heat-2 { background: rgba(56,189,248,0.16); color: rgba(255,255,255,0.8); }
-.od-heat-3 { background: rgba(99,102,241,0.25); color: #fff; }
-.od-heat-4 { background: rgba(99,102,241,0.4); color: #fff; font-weight: 600; }
-.od-heat-5 { background: rgba(99,102,241,0.6); color: #fff; font-weight: 700; }
-.od-heat-6 { background: rgba(139,92,246,0.75); color: #fff; font-weight: 800; }
-.od-heat-7 { background: rgba(168,85,247,0.85); color: #fff; font-weight: 800; text-shadow: 0 1px 4px rgba(0,0,0,0.4); }
+.od-heat-0 { color: #94A3B8; background: #F8FAFC; }
+.od-heat-1 { background: rgba(0, 113, 227, 0.08); color: #0F172A; }
+.od-heat-2 { background: rgba(0, 113, 227, 0.16); color: #0F172A; }
+.od-heat-3 { background: rgba(0, 113, 227, 0.28); color: #0F172A; font-weight: 600; }
+.od-heat-4 { background: rgba(0, 113, 227, 0.45); color: #0F172A; font-weight: 600; }
+.od-heat-5 { background: rgba(0, 113, 227, 0.65); color: #FFFFFF; font-weight: 700; }
+.od-heat-6 { background: rgba(79, 70, 229, 0.80); color: #FFFFFF; font-weight: 800; }
+.od-heat-7 { background: rgba(124, 58, 237, 0.90); color: #FFFFFF; font-weight: 800; }
 .od-pagination {
   display: flex; align-items: center; justify-content: space-between;
   padding: 10px 14px; font-size: 11px; color: var(--text-muted);
 }
 .od-pagination button {
-  padding: 5px 14px; background: rgba(84,116,255,0.15);
-  border: 1px solid rgba(84,116,255,0.3); border-radius: 6px;
+  padding: 5px 14px; background: rgba(0,113,227,0.10);
+  border: 1px solid rgba(0,113,227,0.28); border-radius: 6px;
   color: var(--text-primary); font-family: inherit; font-size: 11px;
   font-weight: 700; cursor: pointer; transition: all .15s;
 }
 .od-pagination button:disabled { opacity: 0.3; cursor: default; }
-.od-pagination button:not(:disabled):hover { background: rgba(84,116,255,0.3); }
+.od-pagination button:not(:disabled):hover { background: rgba(0,113,227,0.20); }
 .od-empty-state {
   display: flex; flex-direction: column; align-items: center; justify-content: center;
   padding: 60px 20px; color: var(--text-muted); text-align: center; gap: 12px;
@@ -2176,14 +2171,13 @@ header h1 {
   cursor: pointer;
   margin-right: 8px;
   font-weight: 700;
-  transition: color 0.15s ease, text-shadow 0.15s ease;
+  transition: color 0.15s ease;
 }
 .od-bridge-link:hover {
-  color: #fff !important;
-  text-shadow: 0 0 6px var(--accent-cyan);
+  color: #0071E3 !important;
 }
 
-    /* Photo Album Masonry & Neon Glow Styles */
+    /* Photo Album Masonry & Apple Card Elevation Styles */
     .masonry-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -2191,32 +2185,33 @@ header h1 {
       align-items: start;
     }
     .photo-card {
-      background: rgba(30, 41, 59, 0.7);
+      background: #FFFFFF;
       border-radius: 12px;
       overflow: hidden;
       cursor: pointer;
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
       position: relative;
-      border: 1px solid rgba(255,255,255,0.05);
+      border: 1px solid #E2E8F0;
+      box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);
     }
     .photo-card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 15px 30px rgba(0,0,0,0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(15, 23, 42, 0.10);
       z-index: 2;
     }
 
-    /* Condition Neon Glows */
+    /* Condition Accent Borders */
     .photo-card[data-condition="good"]:hover {
-      box-shadow: 0 15px 30px rgba(0,0,0,0.4), 0 0 20px rgba(16, 185, 129, 0.4);
-      border-color: rgba(16, 185, 129, 0.5);
+      box-shadow: 0 12px 24px rgba(22, 163, 74, 0.14);
+      border-color: rgba(22, 163, 74, 0.45);
     }
     .photo-card[data-condition="fair"]:hover {
-      box-shadow: 0 15px 30px rgba(0,0,0,0.4), 0 0 20px rgba(245, 158, 11, 0.4);
-      border-color: rgba(245, 158, 11, 0.5);
+      box-shadow: 0 12px 24px rgba(217, 119, 6, 0.14);
+      border-color: rgba(217, 119, 6, 0.45);
     }
     .photo-card[data-condition="critical"]:hover {
-      box-shadow: 0 15px 30px rgba(0,0,0,0.4), 0 0 20px rgba(239, 68, 68, 0.4);
-      border-color: rgba(239, 68, 68, 0.5);
+      box-shadow: 0 12px 24px rgba(220, 38, 38, 0.14);
+      border-color: rgba(220, 38, 38, 0.45);
     }
 
     .photo-card-img-container {
@@ -2241,7 +2236,7 @@ header h1 {
     }
     .photo-card-title {
       font-weight: 600;
-      color: white;
+      color: #0F172A;
       font-size: 16px;
       margin-bottom: 4px;
       display: flex;
@@ -2249,7 +2244,7 @@ header h1 {
       align-items: center;
     }
     .photo-card-subtitle {
-      color: #94a3b8;
+      color: #475569;
       font-size: 13px;
       white-space: nowrap;
       overflow: hidden;
@@ -2261,7 +2256,7 @@ header h1 {
       overflow: hidden;
       transition: all 0.3s ease;
       font-size: 12px;
-      color: #cbd5e1;
+      color: #334155;
       margin-top: 0;
     }
     .photo-card:hover .photo-card-hover-details {
@@ -2269,15 +2264,15 @@ header h1 {
       opacity: 1;
       margin-top: 12px;
       padding-top: 12px;
-      border-top: 1px solid rgba(255,255,255,0.1);
+      border-top: 1px solid #E2E8F0;
     }
     .condition-ring {
       width: 10px; height: 10px; border-radius: 50%;
     }
-    .ring-good { background: #10b981; box-shadow: 0 0 8px #10b981; }
-    .ring-fair { background: #f59e0b; box-shadow: 0 0 8px #f59e0b; }
-    .ring-critical { background: #ef4444; box-shadow: 0 0 8px #ef4444; }
-    .ring-unknown { background: #64748b; }
+    .ring-good { background: #16A34A; }
+    .ring-fair { background: #D97706; }
+    .ring-critical { background: #DC2626; }
+    .ring-unknown { background: #64748B; }
 
     .filmstrip-thumb {
       height: 60px;
@@ -2425,16 +2420,16 @@ header h1 {
     }
     header, .top-header, .app-header, .header-bar, body > div:first-child { background: #FFFFFF !important; color: #0F172A !important; border-bottom: 1px solid #E2E8F0 !important; }
     </style>
-  <script src="structures_data.js?v=20261119-v112" defer></script>
-  <script src="bridge_data.js?v=20261119-v112" defer></script>
-  <script src="road_network_data.js?v=20261119-v112" defer></script>
-  <script src="water_data.js?v=20261119-v112" defer></script>
-  <script src="bridge_works_data.js?v=20261119-v112" defer></script>
-  <script src="photos_data.js?v=20261119-v112" defer></script>
+  <script src="structures_data.js?v=20261124-v113" defer></script>
+  <script src="bridge_data.js?v=20261124-v113" defer></script>
+  <script src="road_network_data.js?v=20261124-v113" defer></script>
+  <script src="water_data.js?v=20261124-v113" defer></script>
+  <script src="bridge_works_data.js?v=20261124-v113" defer></script>
+  <script src="photos_data.js?v=20261124-v113" defer></script>
   <script src="chart.umd.js" defer></script>
-  <script src="extensions.js?v=20261119-v112" defer></script>
-  <script src="app.js?v=20261119-v112" defer></script>
-  <link rel="stylesheet" href="./apple-system.css?v=20261119-v112">
+  <script src="extensions.js?v=20261124-v113" defer></script>
+  <script src="app.js?v=20261124-v113" defer></script>
+  <link rel="stylesheet" href="./apple-system.css?v=20261124-v113">
 <style>
 /* v111: No wide margins - full-width responsive layout */
 body > .container, body > .wrapper, body > main, .page-shell, .app-container,
@@ -2631,8 +2626,8 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
         </div>
 
         <!-- Float Tooltip -->
-        <div id="mapTooltip" style="position: absolute; pointer-events: none; background: #FFFFFF; color: #0F172A; box-shadow: 0 4px 16px rgba(0,0,0,0.12); border: 1px solid var(--border-glow); border-radius: 12px; padding: 12px 16px; color: var(--text-primary); font-family: inherit; font-size: 11px; z-index: 20; display: none; min-width: 200px; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-          <div id="mTooltipTitle" style="font-weight: 800; color: #fff; margin-bottom: 4px; font-size: 12px;">-</div>
+        <div id="mapTooltip" style="position: absolute; pointer-events: none; background: #FFFFFF; color: #0F172A; box-shadow: 0 8px 24px rgba(15,23,42,0.14); border: 1px solid var(--border-glow); border-radius: 12px; padding: 12px 16px; font-family: inherit; font-size: 11px; z-index: 20; display: none; min-width: 200px;">
+          <div id="mTooltipTitle" style="font-weight: 800; color: #0F172A; margin-bottom: 4px; font-size: 12px;">-</div>
           <div style="display:flex; justify-content:space-between; margin-bottom: 2px;"><span style="color:var(--text-muted)">Region:</span> <span id="mTooltipRegion" style="font-weight:600">-</span></div>
           <div style="display:flex; justify-content:space-between; margin-bottom: 2px;"><span style="color:var(--text-muted)">River:</span> <span id="mTooltipRiver" style="font-weight:600">-</span></div>
           <div style="display:flex; justify-content:space-between;"><span style="color:var(--text-muted)">Road Class:</span> <span id="mTooltipClass" style="font-weight:600">-</span></div>
@@ -3224,7 +3219,7 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
         <div style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px;">
           <div style="font-size:11px; font-weight:700; text-transform:uppercase; color:#DC2626; letter-spacing:0.6px;">6. Governance &amp; View-Only Access</div>
           <div style="font-size:13px; color:#0F172A; line-height:1.6; margin-top:8px;">
-            This platform is strictly view-only with public anonymous governance. No firm, contractor, consultant, or inspector names are exposed. All registers, charts, and geospatial layers are downloadable in CSV, KML, SHP, PDF, PNG, and XLSX formats.
+            This platform is strictly view-only with public anonymous governance. Zero institutional, commercial, third-party, or personnel identifiers are exposed. All registers, charts, and geospatial layers are downloadable in CSV, KML, SHP, PDF, PNG, and XLSX formats.
           </div>
         </div>
       </div>
@@ -3250,7 +3245,7 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
           <svg id="mindMapSvg" viewBox="0 0 1100 620" style="width:100%; height:100%; min-height:520px; display:block; cursor:grab;"></svg>
         </div>
         <div id="mindMapInspector" style="background:#F8FAFC; border:1px solid #E2E8F0; border-radius:12px; padding:16px; display:flex; flex-direction:column; gap:10px;">
-          <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.6px; color:#0071E3;">Node Inspector</div>
+          <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.6px; color:#0071E3;">Node Details</div>
           <div id="mindMapNodeTitle" style="font-size:16px; font-weight:700; color:#0F172A;">National Road Network Bridges &amp; Major Culverts</div>
           <div id="mindMapNodeDesc" style="font-size:13px; color:#334155; line-height:1.55;">Select any branch or child node in the mind map to view authoritative metrics, survey standards, and dashboard navigation links.</div>
           <div id="mindMapNodeMetrics" style="display:flex; flex-direction:column; gap:6px; margin-top:4px;"></div>
@@ -3290,9 +3285,14 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
       </div>
       <div id="odHeatmapView" style="display:none">
         <div class="od-heatmap-wrap" id="odHeatmapWrap">
-          <table class="od-heatmap" id="odHeatmapTable"></table>
+          <table class="od-heatmap" id="odHeatmapTable">
+            <thead id="odHeatmapHead"></thead>
+            <tbody id="odHeatmapBody"></tbody>
+          </table>
         </div>
       </div>
+    </div>
+  </div>
 
 <!-- DETAILED BRIDGE MODAL -->
 <div class="modal-overlay" id="bridgeModal">
@@ -3356,7 +3356,7 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
             <span class="modal-card-value" id="mLinkPaveAge">-</span>
           </div>
           <div class="modal-card">
-            <span class="modal-card-label">Priority Status / DNR Station</span>
+            <span class="modal-card-label">Priority Status / Maintenance Station</span>
             <span class="modal-card-value" id="mStationInfo">-</span>
           </div>
         </div>
@@ -3374,7 +3374,7 @@ body > .container, body > .wrapper, body > main, .page-shell, .app-container,
             <span class="modal-card-value highlight" id="mAnnualGrowthRate">-</span>
           </div>
           <div class="modal-card">
-            <span class="modal-card-label">DNR Maintenance Region</span>
+            <span class="modal-card-label">Maintenance Region</span>
             <span class="modal-card-value" id="mRegion">-</span>
           </div>
           <div class="modal-card">
