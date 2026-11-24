@@ -77,20 +77,22 @@ const chartDefaults = () => ({
   responsive: true,
   maintainAspectRatio: false,
   plugins: {
-    legend: { labels: { color: '#334155', font: { family: 'Plus Jakarta Sans', size: 11, weight: 500 }, padding: 14 } },
+    legend: { labels: { color: '#334155', font: { family: '-apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif', size: 11, weight: 500 }, padding: 14 } },
     tooltip: {
-      backgroundColor: 'rgba(6, 9, 19, 0.96)',
-      titleFont: { family: 'Plus Jakarta Sans', size: 12, weight: 700 },
-      bodyFont: { family: 'Plus Jakarta Sans', size: 11, weight: 500 },
-      borderColor: 'rgba(84, 116, 255, 0.25)',
+      backgroundColor: '#FFFFFF',
+      titleColor: '#0F172A',
+      bodyColor: '#334155',
+      titleFont: { family: '-apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif', size: 12, weight: 700 },
+      bodyFont: { family: '-apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif', size: 11, weight: 500 },
+      borderColor: '#E2E8F0',
       borderWidth: 1,
       padding: 12,
       cornerRadius: 12
     }
   },
   scales: {
-    x: { ticks: { color: '#475569', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 } }, grid: { color: 'rgba(84, 116, 255, 0.05)' } },
-    y: { ticks: { color: '#475569', font: { family: 'Plus Jakarta Sans', size: 10, weight: 600 }, callback: compactAxisValue }, grid: { color: 'rgba(84, 116, 255, 0.05)' } }
+    x: { ticks: { color: '#475569', font: { family: '-apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif', size: 10, weight: 600 } }, grid: { color: 'rgba(15, 23, 42, 0.06)' } },
+    y: { ticks: { color: '#475569', font: { family: '-apple-system, "SF Pro Text", "Segoe UI", Arial, sans-serif', size: 10, weight: 600 }, callback: compactAxisValue }, grid: { color: 'rgba(15, 23, 42, 0.06)' } }
   }
 });
 
@@ -419,7 +421,11 @@ function scheduleBridgeTrafficCompanionTables(rows) {
   setBridgeTrafficCompanionLoadingState();
   runWhenIdle(() => {
     if (token !== bridgeTrafficCompanionBuildToken || !isTrafficPanelActive()) return;
-    buildBridgeVehicleClassFocus(resolveCompanionRows());
+    const compRows = resolveCompanionRows();
+    buildBridgeVehicleClassFocus(compRows);
+    try { buildBridgeTrafficCharts(compRows); } catch (e) {}
+    try { buildBridgeTrafficSummaryPanel(); } catch (e) {}
+    try { buildBridgeLoadingPanel(); } catch (e) {}
   }, 80);
   runWhenIdle(() => {
     if (token !== bridgeTrafficCompanionBuildToken || !isTrafficPanelActive()) return;
@@ -488,7 +494,7 @@ const TABLE_CASE_ACRONYMS = {
   'rc': 'RC',
   'rhs': 'RHS',
   'sqlbot': 'SQLBot',
-  'authority': 'MoWT Department of National Roads',
+  'authority': 'National Road Network NATIONAL ROAD NETWORK ADMINISTRATION',
   '4wd': '4WD'
 };
 
@@ -1297,7 +1303,7 @@ const BMS_CODE_LOOKUPS = {
     '09': 'Agricultural underpass', '10': 'Road over water pipes', '11': 'Road over conveyer belt',
     '12': 'Conveyer belt over road', '13': 'Other', '?': 'Unknown'
   },
-  owner: { '01': 'MoWT Department of National Roads', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
+  owner: { '01': 'National Road Network NATIONAL ROAD NETWORK ADMINISTRATION', '06': 'Municipal / Local Government', '07': 'Private', '08': 'Other', '?': 'Unknown' },
   type_bridge: {
     '01': 'Simply supported span', '02': 'Continuous span', '03': 'Double cantilevered span', '04': 'Single cantilevered span',
     '05': 'Single suspended simply supported span', '06': 'Suspended span', '07': 'Portal frame', '08': 'Cantilevered construction',
@@ -1399,20 +1405,35 @@ function cleanBmsDescription(description) {
     .trim() || 'Unknown';
 }
 
+function roadClassFullLabel(cls) {
+  const c = canonicalRoadClass(cls);
+  if (c === 'M') return 'Expressway';
+  if (c === 'A') return 'International Trunk Road';
+  if (c === 'B') return 'National Trunk Road';
+  return 'Primary Road';
+}
+
 function bmsCodeDescription(field, value) {
-  if (value === undefined || value === null || value === '') return 'N/A';
-  const code = normalizedBmsCode(value);
-  if (code === '00' || code === '0' || code === '?' || code === 'UNKNOWN') return 'N/A';
+  if (value === undefined || value === null || value === '') return 'Not recorded';
+  const raw = String(value).trim();
+  if (!raw || raw === '-' || raw === '?' || raw.toUpperCase() === 'N/A' || raw.toUpperCase() === 'UNKNOWN' || raw.toUpperCase() === 'NONE') return 'Not recorded';
+  const code = normalizedBmsCode(raw);
+  if (code === '00' || code === '0') return 'Not recorded';
   const direct = BMS_CODE_LOOKUPS[field]?.[code] || BMS_CODE_LOOKUPS[field]?.[String(parseInt(code, 10))];
-  return cleanBmsDescription(direct || 'N/A');
+  if (direct) return cleanBmsDescription(direct);
+  if (!/^\d+(\.0+)?$/.test(raw)) return cleanBmsDescription(raw);
+  return 'Not recorded';
 }
 
 function bmsYesNoUnknown(value) {
-  if (value === undefined || value === null || value === '') return 'N/A';
-  const raw = String(value).trim().toUpperCase();
+  if (value === undefined || value === null || value === '') return 'Not recorded';
+  const rawStr = String(value).trim();
+  if (!rawStr || rawStr === '-' || rawStr === '?' || rawStr.toUpperCase() === 'N/A' || rawStr.toUpperCase() === 'UNKNOWN') return 'Not recorded';
+  const raw = rawStr.toUpperCase();
   const key = /^\d+(\.0+)?$/.test(raw) ? String(parseInt(raw, 10)) : raw;
   const desc = BMS_CODE_LOOKUPS.yes_no_unknown[key];
-  return cleanBmsDescription(desc || 'Unknown');
+  if (desc) return cleanBmsDescription(desc);
+  return cleanBmsDescription(rawStr);
 }
 
 function isRoadOverRiverBridge(b) {
@@ -1512,7 +1533,7 @@ const BMS_BRIDGE_INVENTORY_COLUMNS = [
   { key: 'road_no', label: 'Road Number', value: b => b.road_no },
   { key: 'link_no', label: 'Link ID', value: b => b.link_no },
   { key: 'link_name', label: 'Road Link Name', value: b => b.link_name },
-  { key: 'road_class', label: 'Road Class', value: b => canonicalRoadClass(b.road_class), render: b => `<span class="pill pill-${canonicalRoadClass(b.road_class).toLowerCase()}">${canonicalRoadClass(b.road_class)}</span>` },
+  { key: 'road_class', label: 'Road Class', value: b => `Class ${canonicalRoadClass(b.road_class)} (${roadClassFullLabel(b.road_class)})`, render: b => `<span class="pill pill-${canonicalRoadClass(b.road_class).toLowerCase()}">${roadClassFullLabel(b.road_class)}</span>` },
   { key: 'surface_link', label: 'Surface Type', value: b => canonicalSurfaceType(b.surface_link || b.surface_ty) },
   { key: 'station', label: 'Maintenance Station', value: b => b.station || b.maintenanc },
   { key: 'region', label: 'Maintenance Region', value: b => b.region },
@@ -1561,8 +1582,6 @@ const BMS_BRIDGE_INVENTORY_COLUMNS = [
   { key: 'product', label: 'BMS Product', value: b => b.product },
   { key: 'weight', label: 'BMS Weight', value: b => b.weight },
   { key: 'overall_rating', label: 'Overall Rating', value: b => bridgeInventoryRatingLabel(b.overall_rating), tooltip: b => bridgeConditionRatingTooltip(b.overall_rating, 'overall'), render: b => bridgeInventoryRatingCell(b.overall_rating, 'overall') },
-  { key: 'comment', label: 'Inspection Comment', value: b => b.comment || b.remarks },
-  { key: 'additional_remarks', label: 'Additional Remarks', value: b => b.remarks || b.reference_attributes?.additional_remarks },
   { key: 'annual_traffic_growth_rate', label: 'Annual Weighted Growth Rate', value: b => cachedBridgeAnnualWeightedGrowthModel(b).rate, render: b => formatGrowthPercent(cachedBridgeAnnualWeightedGrowthModel(b).rate) },
   { key: 'current_predicted_aadt', label: 'Current Predicted AADT', value: b => bridgeCurrentPredictedAadt(b), render: b => fmt(bridgeCurrentPredictedAadt(b), 0) }
 ];
@@ -1575,7 +1594,7 @@ const BMS_CULVERT_INVENTORY_COLUMNS = [
   { key: 'link_no', label: 'Link ID', value: c => c.link_no },
   { key: 'road_name', label: 'Road Name', value: c => c.road_name },
   { key: 'link_name', label: 'Road Link Name', value: c => c.link_name },
-  { key: 'road_class', label: 'Road Class', value: c => canonicalRoadClass(c.road_class), render: c => `<span class="pill pill-${canonicalRoadClass(c.road_class).toLowerCase()}">${canonicalRoadClass(c.road_class)}</span>` },
+  { key: 'road_class', label: 'Road Class', value: c => `Class ${canonicalRoadClass(c.road_class)} (${roadClassFullLabel(c.road_class)})`, render: c => `<span class="pill pill-${canonicalRoadClass(c.road_class).toLowerCase()}">${roadClassFullLabel(c.road_class)}</span>` },
   { key: 'region', label: 'Maintenance Region', value: c => c.region },
   { key: 'station', label: 'Maintenance Station', value: c => c.station },
   { key: 'chainage', label: 'Chainage (km)', value: c => c.chainage },
@@ -1594,8 +1613,7 @@ const BMS_CULVERT_INVENTORY_COLUMNS = [
   { key: 'structure_cond', label: 'Structure Condition', value: c => c.structure_cond, render: c => bridgeInventoryRatingCell(c.structure_cond, 'structural'), tooltip: c => bridgeConditionRatingTooltip(c.structure_cond, 'structural') },
   { key: 'roadway_cond', label: 'Roadway Condition', value: c => c.roadway_cond, render: c => bridgeInventoryRatingCell(c.roadway_cond, 'approaches'), tooltip: c => bridgeConditionRatingTooltip(c.roadway_cond, 'approaches') },
   { key: 'overall_cond', label: 'Overall Condition', value: c => c.overall_cond || c.condition_category, render: c => bridgeInventoryRatingCell(c.overall_cond || c.condition_category, 'overall'), tooltip: c => bridgeConditionRatingTooltip(c.overall_cond || c.condition_category, 'overall') },
-  { key: 'overall_rating', label: 'Overall Rating', value: c => c.overall_rating, render: c => bridgeInventoryRatingCell(c.overall_rating, 'overall'), tooltip: c => bridgeConditionRatingTooltip(c.overall_rating, 'overall') },
-  { key: 'comment', label: 'Inspection Comment', value: c => c.comment || c.remarks },
+  { key: 'overall_rating', label: 'Overall Rating', value: c => c.overall_rating, render: c => bridgeInventoryRatingCell(c.overall_rating, 'overall'), tooltip: c => bridgeConditionRatingTooltip(c.overall_rating, 'overall') }
 ];
 
 function effectiveBridgeNumber(b) {
@@ -3807,7 +3825,7 @@ function buildBridgeTrafficSummaryPanel() {
   const heavyAdt = rows.reduce((s, r) => s + Number(r.bus_adt || 0) + Number(r.heavy_goods_adt || 0), 0);
 
   kpiEl.innerHTML = [
-    [fmt(rows.length), 'Bridge crossings analyzed'],
+    [fmt(rows.length), 'Bridge crossings analysed'],
     [fmt(totalAdt, 0), 'Assigned ADT incl. motorcycles'],
     [fmt(avgAdt, 0), 'Average assigned ADT'],
     [fmt(heavyAdt, 0), 'Bus + heavy goods ADT'],
@@ -3815,7 +3833,7 @@ function buildBridgeTrafficSummaryPanel() {
     [fmt(avgEvidence, 0) + ' / 100', 'Average count evidence']
   ].map(([v, l]) => `<div class="traffic-metric"><strong>${v}</strong><span>${l}</span></div>`).join('');
 
-  const basis = aggregateRows(rows, r => `Class ${canonicalRoadClass(r.road_class)}`, () => 1);
+  const basis = aggregateRows(rows, r => roadClassFullLabel(r.road_class), () => 1);
   destroyChart('bridgeSummaryBasis');
   chartInstances.bridgeSummaryBasis = new Chart(document.getElementById('chartBridgeSummaryBasis'), {
     type: 'bar',
@@ -3848,7 +3866,7 @@ function buildBridgeTrafficSummaryPanel() {
   chartInstances.bridgeSummaryClassAdt = new Chart(document.getElementById('chartBridgeSummaryClassAdt'), {
     type: 'bar',
     data: {
-      labels: roadClasses,
+      labels: roadClasses.map(roadClassFullLabel),
       datasets: [
         {
           label: 'Average ADT incl. motorcycles',
@@ -4366,61 +4384,95 @@ function openBridgeModal(target) {
   if (!b) return;
 
   document.getElementById('modalBridgeName').textContent = b.bridge_nam;
-  document.getElementById('mBridgeNo').textContent = b.bridge_no || 'N/A';
+  document.getElementById('mBridgeNo').textContent = b.bridge_no || 'Not recorded';
   document.getElementById('mRiver').textContent = bridgeRiverName(b);
-  document.getElementById('mLength').textContent = b.bridge_len ? fmt(b.bridge_len, 1) + ' m' : 'N/A';
-  document.getElementById('mWidth').textContent = b.bridge_wid ? fmt(b.bridge_wid, 1) + ' m' : 'N/A';
-  document.getElementById('mSpansPiersLanes').textContent = `Spans: ${b.no_of_span ?? '-'} | Piers: ${b.no_of_pier ?? '-'} | Lanes: ${b.no_of_lane ?? '-'}`;
+  document.getElementById('mLength').textContent = b.bridge_len ? fmt(b.bridge_len, 1) + ' m' : 'Not recorded';
+  document.getElementById('mWidth').textContent = b.bridge_wid ? fmt(b.bridge_wid, 1) + ' m' : 'Not recorded';
+  document.getElementById('mSpansPiersLanes').textContent = `Spans: ${b.no_of_span ?? 'Not recorded'} | Piers: ${b.no_of_pier ?? 'Not recorded'} | Lanes: ${b.no_of_lane ?? 'Not recorded'}`;
 
   const modalRatingBadge = (value, scope) => {
-    if (value === undefined || value === null || value === '') return '<span style="color:var(--text-muted)">Not Surveyed</span>';
+    if (value === undefined || value === null || value === '') return '<span style="color:var(--text-muted)">Not recorded</span>';
     return bridgeInventoryRatingCell(value, scope);
   };
   document.getElementById('mRating').innerHTML = modalRatingBadge(b.overall_rating, 'overall');
 
   // Link corridor Info
-  document.getElementById('mLinkNo').textContent = b.link_no || 'N/A';
-  document.getElementById('mLinkName').textContent = b.link_name || 'N/A';
-  document.getElementById('mLinkLengthClass').textContent = `Length: ${b.link_len_km ? fmt(b.link_len_km, 1) + ' km' : 'N/A'} | Class: ${canonicalRoadClass(b.road_class)}`;
+  document.getElementById('mLinkNo').textContent = b.link_no || 'Not recorded';
+  document.getElementById('mLinkName').textContent = b.link_name || 'Not recorded';
+  document.getElementById('mLinkLengthClass').textContent = `Length: ${b.link_len_km ? fmt(b.link_len_km, 1) + ' km' : 'Not recorded'} | Class: ${roadClassFullLabel(b.road_class)}`;
   document.getElementById('mLinkSurface').textContent = canonicalSurfaceType(b.surface_link || b.surface_ty);
 
   const paveAgeText = b.pave_age != null
     ? `${b.pave_year} (${b.pave_age} years old)`
-    : b.pave_year ? `${b.pave_year}` : 'N/A';
+    : b.pave_year ? `${b.pave_year}` : 'Not recorded';
   document.getElementById('mLinkPaveAge').textContent = paveAgeText;
-  document.getElementById('mStationInfo').textContent = `Station: ${b.station || 'N/A'}`;
+  document.getElementById('mStationInfo').textContent = `Station: ${b.station || 'Not recorded'}`;
 
   // Traffic / Coordinates Info
   const trafficRow = bridgeTrafficRowForBridge(b);
-  document.getElementById('mLinkAADT').textContent = trafficRow?.assigned_adt_incl_motorcycles != null ? fmt(trafficRow.assigned_adt_incl_motorcycles, 0) + ' vehicles / day' : 'N/A';
+  document.getElementById('mLinkAADT').textContent = trafficRow?.assigned_adt_incl_motorcycles != null ? fmt(trafficRow.assigned_adt_incl_motorcycles, 0) + ' vehicles / day' : 'Not recorded';
   document.getElementById('mAnnualGrowthRate').textContent = formatGrowthPercent(b.growth_rate || trafficRow?.annual_traffic_growth_rate || 0.045, 1);
-  document.getElementById('mRegion').textContent = b.region || 'N/A';
+  document.getElementById('mRegion').textContent = b.region || 'Not recorded';
 
   if (b.x_new && b.y_new) {
-    const correctedText = `Corrected: ${Number(b.y_new).toFixed(6)}, ${Number(b.x_new).toFixed(6)}`;
-    const moveText = b.location_correction_distance_km != null ? `Moved: ${fmt(b.location_correction_distance_km, 3)} km` : 'Moved: -';
-    document.getElementById('mCoordinates').textContent = `${correctedText} | ${moveText} | ${b.location_correction_method || 'N/A'}`;
+    const correctedText = `${Number(b.y_new).toFixed(6)}, ${Number(b.x_new).toFixed(6)}`;
+    document.getElementById('mCoordinates').textContent = correctedText;
+  } else if (b.Lat != null && b.Lon != null) {
+    document.getElementById('mCoordinates').textContent = `${Number(b.Lat).toFixed(6)}, ${Number(b.Lon).toFixed(6)}`;
   } else {
-    document.getElementById('mCoordinates').textContent = '-';
+    document.getElementById('mCoordinates').textContent = 'Not recorded';
   }
 
-  const refText = (...vals) => vals.filter(v => v != null && String(v).trim() !== '').join(' | ') || 'N/A';
+  const refText = (...vals) => vals.filter(v => v != null && String(v).trim() !== '').join(' | ') || 'Not recorded';
   const componentRatings = [
-    ['Approaches', b.approaches_rating, 'approaches'],
-    ['Roadway', b.roadway_rating, 'roadway'],
-    ['Substructure', b.substructure_rating, 'structural'],
-    ['Superstructure', b.superstructure_rating, 'structural'],
-    ['Waterway', b.waterway_rating, 'waterway']
+    ['Approaches', b.Approaches || b.approaches_rating, 'approaches'],
+    ['Roadway', b.DeckRoadway || b.roadway_rating, 'roadway'],
+    ['Substructure', b.Substructure || b.substructure_rating, 'structural'],
+    ['Superstructure', b.Superstructure || b.superstructure_rating, 'structural'],
+    ['Waterway', b.Waterway || b.waterway_rating, 'waterway']
   ].map(([label, value, scope]) => {
     return `<span title="${htmlEscape(bridgeConditionRatingTooltip(value, scope))}">${htmlEscape(label)}: ${modalRatingBadge(value, scope)}</span>`;
   }).join(' <span style="color:var(--border)">|</span> ');
-  document.getElementById('mReferenceNumbers').textContent = refText(`Original: ${b.original_bridge_no || 'N/A'}`, `New: ${b.new_bridge_no || 'N/A'}`);
-  document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${decodeBmsCode('type_bridge', b.type_bridge)}`, `Deck: ${decodeBmsCode('type_deck', b.type_deck)}`, `Crossing: ${decodeBmsCode('type_crossing', b.type_crossing)}`);
-  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${decodeBmsCode('type_deck_material', b.type_deck_material)}`, `Wearing: ${decodeBmsCode('type_wearing_surface', b.type_wearing_surface)}`, `Surface: ${b.surface_link || b.surface_ty || 'Bituminous (Paved)'}`);
-  document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk === 'Active Scour Risk' || b.scour_risk === 'Y' ? 'Active Scour Risk' : 'No Scour Risk'}`, `Protection: ${decodeBmsCode('scour_protection', b.scour_protection)}`);
+  document.getElementById('mReferenceNumbers').textContent = refText(`Original: ${b.original_bridge_no || 'Not recorded'}`, `New: ${b.new_bridge_no || 'Not recorded'}`);
+  document.getElementById('mBridgeTypes').textContent = refText(`Bridge: ${bmsCodeDescription('type_bridge', b.type_bridge)}`, `Deck: ${bmsCodeDescription('type_deck', b.type_deck)}`, `Crossing: ${bmsCodeDescription('type_crossing', b.type_crossing)}`);
+  document.getElementById('mDeckMaterial').textContent = refText(`Material: ${bmsCodeDescription('type_deck_material', b.type_deck_material)}`, `Wearing: ${bmsCodeDescription('type_wearing_surface', b.type_wearing_surface)}`, `Surface: ${canonicalSurfaceType(b.surface_link || b.surface_ty)}`);
+  document.getElementById('mWaterwayScour').textContent = refText(`Scour risk: ${b.scour_risk === 'Active Scour Risk' || b.scour_risk === 'Y' ? 'Active Scour Risk' : 'No Scour Risk'}`, `Protection: ${bmsCodeDescription('scour_protection', b.scour_protection)}`);
   document.getElementById('mComponentRatings').innerHTML = componentRatings;
   document.getElementById('mTownEndpoints').textContent = refText(b.town_left, b.town_right);
-  document.getElementById('mReferenceComment').textContent = b.comment || b.remarks || 'N/A';
+
+  const schEl = document.getElementById('mSchematic2D');
+  if (schEl) {
+    const L = Number(b.bridge_len || b.TotalLength || 0);
+    const W = Number(b.bridge_wid || b.MinClearWidth || 0);
+    const spans = Math.max(1, Math.min(8, Number(b.no_of_span) || 1));
+    const piers = Math.max(0, Math.min(7, b.no_of_pier != null ? Number(b.no_of_pier) : Math.max(0, spans - 1)));
+    const deckX1 = 80, deckX2 = 620, deckW = deckX2 - deckX1;
+    let pierSvg = '';
+    for (let i = 1; i <= piers; i++) {
+      const px = deckX1 + (deckW * i) / (piers + 1);
+      pierSvg += `<rect x="${(px - 6).toFixed(1)}" y="74" width="12" height="58" fill="#CBD5E1" stroke="#334155" stroke-width="1.2"/>`;
+      pierSvg += `<rect x="${(px - 14).toFixed(1)}" y="132" width="28" height="10" fill="#94A3B8" stroke="#334155" stroke-width="1.2"/>`;
+    }
+    schEl.innerHTML = `
+      <svg viewBox="0 0 700 185" style="width:100%;max-height:185px;display:block;background:#FFFFFF;font-family:Arial,sans-serif;">
+        <text x="14" y="18" font-size="11" font-weight="700" fill="#0F172A">2D ELEVATION SCHEMATIC (METRIC DIMENSIONS)</text>
+        <text x="686" y="18" font-size="10" font-weight="600" fill="#475569" text-anchor="end">${htmlEscape(b.bridge_no || '')} | ${spans} Span(s) | ${piers} Pier(s)</text>
+        <line x1="${deckX1}" y1="36" x2="${deckX2}" y2="36" stroke="#0071E3" stroke-width="1.2"/>
+        <line x1="${deckX1}" y1="30" x2="${deckX1}" y2="42" stroke="#0071E3" stroke-width="1.2"/>
+        <line x1="${deckX2}" y1="30" x2="${deckX2}" y2="42" stroke="#0071E3" stroke-width="1.2"/>
+        <text x="${(deckX1 + deckX2) / 2}" y="31" font-size="11" font-weight="700" fill="#0071E3" text-anchor="middle">Overall Length: ${L ? fmt(L, 1) + ' m' : 'Not recorded'}</text>
+        <rect x="24" y="60" width="56" height="82" fill="#E2E8F0" stroke="#334155" stroke-width="1.3"/>
+        <rect x="620" y="60" width="56" height="82" fill="#E2E8F0" stroke="#334155" stroke-width="1.3"/>
+        <rect x="${deckX1}" y="60" width="${deckW}" height="14" fill="#0071E3" fill-opacity="0.18" stroke="#0F172A" stroke-width="1.5"/>
+        ${pierSvg}
+        <line x1="80" y1="126" x2="620" y2="126" stroke="#0D9488" stroke-width="1.5" stroke-dasharray="6,4"/>
+        <text x="350" y="121" font-size="10" font-weight="600" fill="#0D9488" text-anchor="middle">Waterway / Crossing: ${htmlEscape(bridgeRiverName(b))}</text>
+        <line x1="20" y1="142" x2="680" y2="142" stroke="#334155" stroke-width="1.5"/>
+        <text x="52" y="162" font-size="10" fill="#475569" text-anchor="middle">Abutment L</text>
+        <text x="648" y="162" font-size="10" fill="#475569" text-anchor="middle">Abutment R</text>
+        <text x="350" y="174" font-size="11" font-weight="700" fill="#0F172A" text-anchor="middle">Clear Carriageway Width: ${W ? fmt(W, 1) + ' m' : 'Not recorded'} | Lanes: ${b.no_of_lane ?? 'Not recorded'} | Condition: ${htmlEscape(b.OverallCondition || 'Not recorded')}</text>
+      </svg>`;
+  }
 
   const _bm = document.getElementById('bridgeModal'); if (_bm) { if (_bm.parentElement !== document.body) document.body.appendChild(_bm); _bm.classList.add('active'); }
 }
@@ -4766,17 +4818,17 @@ function exportCSV() {
     ].join(',')).join('\n');
     filename = 'uganda_bridge_vehicle_class_loading.csv';
   } else if (activeTab === 'bridge-works') {
-    csv = 'Record Type,S/N,Bridge or Project,Bridge No,Link ID,Link Name,Funder,Contractor / Consultant,Financial Status,Construction Status,Compensation / Land,Chainage Km\n';
+    csv = 'Record Type,S/N,Bridge or Project,Bridge No,Link ID,Link Name,Financial Status,Construction Status,Compensation / Land,Chainage Km\n';
     if (typeof BRIDGE_WORKS_DATA !== 'undefined') {
       csv += BRIDGE_WORKS_DATA.map((row, i) => [
-        'Active Package', row.sn || (i + 1), escapeCSV(row.bridge), '', '', '', escapeCSV(row.funder), escapeCSV(row.contractor_consultant),
+        'Active Package', row.sn || (i + 1), escapeCSV(row.bridge), '', '', '',
         escapeCSV(row.financial_status), escapeCSV(row.status), escapeCSV(row.compensation), ''
       ].join(',')).join('\n');
     }
     if (typeof ONGOING_BRIDGE_WORKS !== 'undefined') {
       csv += (csv.endsWith('\n') ? '' : '\n') + ONGOING_BRIDGE_WORKS.map(row => [
         'Candidate Bridge Work', row.sn, escapeCSV(row.bridge_name), escapeCSV(row.bridge_no), escapeCSV(row.link_id), escapeCSV(row.link_name),
-        'Candidate', 'Road link candidate list', 'Not available in candidate list', escapeCSV(row.status), '', row.chainage_km ?? ''
+        'Not recorded', escapeCSV(row.status), '', row.chainage_km ?? ''
       ].join(',')).join('\n');
     }
     filename = 'uganda_bridge_works_inventory.csv';
@@ -6230,11 +6282,9 @@ function buildBridgeWorksTable() {
   const candidateRows = (typeof ONGOING_BRIDGE_WORKS === 'undefined' ? [] : ONGOING_BRIDGE_WORKS).map(row => ({
     sn: `C${row.sn}`,
     bridge: `${row.bridge_no} - ${row.bridge_name}`,
-    funder: 'Candidate',
-    contractor_consultant: `Road link: ${row.link_id}\n${row.link_name || ''}`,
-    financial_status: 'Not available in candidate list',
-    status: `${row.status}\nChainage: ${row.chainage_km == null ? 'N/A' : `${row.chainage_km} km`}`,
-    compensation: 'N/A',
+    financial_status: 'Not recorded',
+    status: `${row.status}\nChainage: ${row.chainage_km == null ? 'Not recorded' : `${row.chainage_km} km`}`,
+    compensation: 'Not recorded',
     _rowType: 'Candidate bridge work'
   }));
   const rows = [...detailedRows, ...candidateRows];
@@ -6245,8 +6295,6 @@ function buildBridgeWorksTable() {
       <tr>
         <td style="font-weight: 700; color: var(--accent-cyan); text-align: center;">${tableCellHtml(sn, 'sn')}</td>
         <td class="highlight-cell" style="font-weight: 700; font-size: 13px; white-space: normal; line-height: 1.4;">${tableMultilineHtml(row.bridge, 'bridge_nam')}<br><span style="font-size:10px;color:var(--text-muted);font-weight:700;text-transform:uppercase;letter-spacing:.5px;">${tableCellHtml(row._rowType, 'work_type')}</span></td>
-        <td style="font-weight: 600; text-align: center;">${tableCellHtml(row.funder, 'funder')}</td>
-        <td style="white-space: normal; font-size: 11px; line-height: 1.4;">${tableMultilineHtml(row.contractor_consultant, 'contractor_consultant')}</td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--text-muted);"><span style="color: #0F172A; font-weight: 600;">${tableMultilineHtml(row.financial_status, 'financial_status')}</span></td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--text-secondary);">${tableMultilineHtml(row.status, 'status')}</td>
         <td style="white-space: normal; font-size: 11px; line-height: 1.4; color: var(--accent-amber);">${tableMultilineHtml(row.compensation, 'compensation')}</td>
@@ -7993,7 +8041,7 @@ function drawMap() {
         } else if (col.key === 'origin' || col.key === 'destination') {
           td.textContent = tableDisplayText(r[col.key], col.key);
         } else {
-          td.textContent = r[col.key] || 'N/A';
+          td.textContent = r[col.key] || 'Not recorded';
         }
         tr.appendChild(td);
       }
@@ -8006,7 +8054,7 @@ function drawMap() {
     if (pagination) {
       pagination.innerHTML =
         '<button id="odPrev"' + (odPage === 0 ? ' disabled' : '') + '>&#9664; Prev</button>' +
-        '<span>Page ' + (odPage + 1) + ' of ' + totalPages + ' &middot; ' + fmt(odFilteredData.length) + ' rows</span>' +
+        '<span>Page ' + (odPage + 1) + ' of ' + totalPages + '</span>' +
         '<button id="odNext"' + (odPage >= totalPages - 1 ? ' disabled' : '') + '>Next &#9654;</button>';
       var prevBtn = document.getElementById('odPrev');
       var nextBtn = document.getElementById('odNext');
@@ -9047,9 +9095,9 @@ function initMindMapTab() {
 
   const TREE = {
     id: 'root',
-    label: 'MoWT Bridges & Major Culverts',
+    label: 'National Road Network Bridges & Major Culverts',
     color: '#0071E3',
-    desc: 'Department of National Roads, Division of Design and Network Engineering. View-only national asset intelligence across 21,284.02 km.',
+    desc: 'NATIONAL ROAD NETWORK ADMINISTRATION, NETWORK ENGINEERING AND PLANNING DIVISION. View-only national asset intelligence across 21,284.02 km.',
     metrics: ['National Road Network: 21,284.02 km', 'Bridges: 552 (separate)', 'Major Culverts: 452 (separate)'],
     children: [
       {
