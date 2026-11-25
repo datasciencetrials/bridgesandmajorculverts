@@ -9226,7 +9226,7 @@ function initMindMapTab() {
         desc: 'Standardised condition capture using MOBICAP(Road condition assesment tool) and ROMDAS(Roughness and rutting machine based testing).',
         metrics: ['Rating Scale: 0 to 9', 'Dates: dd/mm/yyyy', 'Units: Metric & Decimal Degrees'],
         children: [
-          { id: 'sv-tools', label: 'MOBICAP & ROMDAS', color: '#7C3AED', desc: 'MOBICAP(Road condition assesment tool) and ROMDAS(Roughness and rutting machine based testing).', metrics: ['2D Engineering Schematics', 'Official Inspection Photos'] }
+          { id: 'sv-tools', label: 'MOBICAP(Road condition assesment tool) & ROMDAS(Roughness and rutting machine based testing)', color: '#7C3AED', desc: 'MOBICAP(Road condition assesment tool) and ROMDAS(Roughness and rutting machine based testing).', metrics: ['2D Engineering Schematics', 'Official Inspection Photos'] }
         ]
       },
       {
